@@ -1,0 +1,1 @@
+The core problem was document shape. Dense PDFs are difficult to reason over directly, and a single prompt would hide too much of the logic. The workflow needed a structured path from redacted source document to a normalized output someone could actually review.

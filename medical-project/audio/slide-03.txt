@@ -1,0 +1,1 @@
+This system used staged orchestration instead of one opaque pass. The document moved through intake, extraction, reasoning, and packaging as separate steps, which made the workflow easier to validate and easier to trust.

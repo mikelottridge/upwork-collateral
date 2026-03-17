@@ -1,0 +1,1 @@
+The operational win is easiest to see as a before and after. Before, someone had to read and reinterpret each PDF manually. After, the workflow produced structured intermediate states and a cleaner handoff into review.

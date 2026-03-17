@@ -1,0 +1,1 @@
+This project started with a simple problem. Raw assessment data was being captured, but that data did not yet become something a practitioner or patient could really use. The important work was turning repeated measurements into trend views, readable summaries, and finished reports instead of leaving the value trapped in tables.

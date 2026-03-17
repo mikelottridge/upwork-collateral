@@ -1,0 +1,1 @@
+One of the biggest gains came from making change over time visible. Instead of isolated scores, the workflow produced trajectories that were easier to interpret and easier to explain. That kind of longitudinal view is where analysis starts becoming more useful in real clinical communication and decision-making.

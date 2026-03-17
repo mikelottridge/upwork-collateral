@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Collateral Workspace</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 48px 24px;
+        font-family: Georgia, "Times New Roman", serif;
+        background: linear-gradient(180deg, #f7f2ea 0%, #efe7dc 100%);
+        color: #1f1a15;
+      }
+      main {
+        max-width: 980px;
+        margin: 0 auto;
+      }
+      h1 {
+        font-size: clamp(2.4rem, 5vw, 4rem);
+        line-height: 0.98;
+        margin: 0 0 14px;
+      }
+      p {
+        color: #5f564d;
+        font-size: 1.08rem;
+        line-height: 1.7;
+        max-width: 65ch;
+      }
+      .grid {
+        margin-top: 30px;
+        display: grid;
+        gap: 18px;
+      }
+      .card {
+        display: block;
+        text-decoration: none;
+        color: inherit;
+        padding: 22px 24px;
+        border-radius: 22px;
+        background: rgba(255, 250, 243, 0.88);
+        border: 1px solid rgba(31, 26, 21, 0.12);
+        box-shadow: 0 18px 50px rgba(45, 30, 18, 0.08);
+      }
+      .card small {
+        display: block;
+        margin-bottom: 8px;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        color: #9b3d2f;
+        font: 700 12px/1.2 "Trebuchet MS", sans-serif;
+      }
+      .card strong {
+        display: block;
+        margin-bottom: 8px;
+        font-size: 1.35rem;
+      }
+      .card span {
+        color: #5f564d;
+        line-height: 1.6;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <small style="text-transform:uppercase;letter-spacing:.14em;color:#9b3d2f;font:700 12px/1.2 'Trebuchet MS',sans-serif;">Collateral workspace</small>
+      <h1>Project case studies built for Upwork-safe sharing.</h1>
+      <p>
+        These pages are static, self-running-ready case study decks. They are written to stay usable inside a portfolio context, with no contact information and no client-sensitive data.
+      </p>
+      <section class="grid">
+        <a class="card" href="./medical-project/site/index.html">
+          <small>Healthcare document workflow</small>
+          <strong>Python/Flask AI System for Lab Report PDF Analysis</strong>
+          <span>Staged AI orchestration, PDF processing, structured review outputs, and deployment-oriented implementation.</span>
+        </a>
+        <a class="card" href="./psychologist-project/site/index.html">
+          <small>Assessment data workflow</small>
+          <strong>Python/Flask System for Psychological Test Data Processing</strong>
+          <span>Longitudinal analysis, chart generation, multilingual patient-facing outputs, and report-ready workflow design.</span>
+        </a>
+      </section>
+    </main>
+  </body>
+</html>

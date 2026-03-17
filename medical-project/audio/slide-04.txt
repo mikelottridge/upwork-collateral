@@ -1,0 +1,1 @@
+The extraction layer is where the PDF becomes workable. Once sections, values, notes, and review status are placed into a structured grid, the downstream AI stages have cleaner inputs and the workflow becomes much less fragile.

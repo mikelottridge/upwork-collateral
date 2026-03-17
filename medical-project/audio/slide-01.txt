@@ -1,0 +1,1 @@
+This case study covers a sixty-hour engagement building a Python and Flask system for lab report processing. The project turned dense medical PDFs into structured findings, staged AI analysis, and review-ready outputs inside a usable application shell.
