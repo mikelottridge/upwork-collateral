@@ -1,0 +1,261 @@
+# Psychologist Deck Improvement Execplan
+
+Purpose: implement the agreed copy, narration, and UI improvements for the psychologist case-study deck without regressing the parts that already work.
+
+Scope:
+- `/home/mike/collateral/psychologist-project/site/case-study-data.js`
+- `/home/mike/collateral/psychologist-project/audio/slide-01.txt`
+- `/home/mike/collateral/psychologist-project/audio/slide-02.txt`
+- `/home/mike/collateral/psychologist-project/audio/slide-03.txt`
+- `/home/mike/collateral/psychologist-project/audio/slide-04.txt`
+- `/home/mike/collateral/psychologist-project/audio/slide-05.txt`
+- `/home/mike/collateral/psychologist-project/audio/slide-06.txt`
+- `/home/mike/collateral/shared/case-study.css`
+- `/home/mike/collateral/shared/case-study.js`
+
+## Checklist
+
+- [ ] **Present-tense sweep across hero, slides, and narration**
+  - Target files:
+    - `case-study-data.js`
+    - `slide-01.txt` through `slide-06.txt`
+  - Exact change:
+    - Convert most past-tense verbs that describe the system’s behavior into present tense.
+    - Keep only the limited past-tense language that refers to the engagement duration or historical proof.
+  - Verification:
+    - Read every hero sentence, slide lead, slide bullet, and narration file for verbs like `was`, `were`, `came`, `linked`, `reduced`, `mattered`, `existed`, `carried`, `held`.
+    - Confirm the default reading of the deck now describes a repeatable capability, not a retrospective.
+  - Implement check:
+    - [x] Codex implemented
+  - Verified check:
+    - [x] Claude verified
+
+- [ ] **Strengthen the communication-first hero framing**
+  - Target files:
+    - `case-study-data.js`
+  - Exact change:
+    - Rewrite the hero lead and hero caption so the system is framed primarily as making results explainable to practitioners and understandable to patients.
+    - Keep the technical stack and analysis details subordinate to that value.
+  - Verification:
+    - Confirm the first two visible text blocks answer `why this matters` before `how it works`.
+    - Confirm the hero no longer leads with `Python and Flask` as the main idea.
+  - Implement check:
+    - [x] Codex implemented
+  - Verified check:
+    - [x] Claude verified
+
+- [ ] **Reduce metadata that looks clickable**
+  - Target files:
+    - `case-study-data.js`
+    - `case-study.css`
+  - Exact change:
+    - Replace or restyle `Python / Flask` pills so they read as metadata rather than interactive controls.
+    - Choose one concrete target state before implementation:
+      - reduce the number of pills, or
+      - rename them to less UI-like labels, or
+      - restyle them as subdued metadata labels rather than rounded action pills.
+  - Verification:
+    - Review the rendered page in Chrome at normal zoom.
+    - Confirm the tags no longer look like buttons a viewer should click.
+    - Confirm the final tag treatment does not use `cursor: pointer` and does not visually compete with the actual navigation buttons.
+  - Implement check:
+    - [x] Codex implemented
+  - Verified check:
+    - [x] Claude verified
+
+- [ ] **Remove `Python / Flask` as a metric**
+  - Target files:
+    - `case-study-data.js`
+  - Exact change:
+    - Replace the `Application stack` metric with a real proof or outcome signal.
+    - Keep stack information elsewhere if needed, but not in the metrics grid.
+  - Verification:
+    - Confirm all four metrics read like trust, scale, output, or client-value signals rather than implementation trivia.
+  - Implement check:
+    - [x] Codex implemented
+  - Verified check:
+    - [x] Claude verified
+
+- [ ] **Tighten slide 1 around the actual problem**
+  - Target files:
+    - `case-study-data.js`
+    - `slide-01.txt`
+  - Exact change:
+    - Keep the strong title.
+    - Rewrite the lead and bullets so they focus on carrying assessment data forward into trend views, readable summaries, and finished reports.
+    - Emphasize that raw tables are not useful communication.
+  - Verification:
+    - Confirm slide 1 answers `what was hard for the practitioner?`
+    - Confirm the narration and on-screen copy say the same thing in the same tense.
+  - Implement check:
+    - [x] Codex implemented
+  - Verified check:
+    - [x] Claude verified
+
+- [ ] **Rewrite slide 2 into a stronger present-tense workflow statement**
+  - Target files:
+    - `case-study-data.js`
+    - `slide-02.txt`
+  - Exact change:
+    - Update the slide 2 lead and bullets into present tense.
+    - Preserve the idea that intake, longitudinal analysis, chart generation, and report assembly form one repeatable path to delivery.
+  - Verification:
+    - Confirm slide 2 reads like a workflow capability that exists now, not something that once existed.
+    - Confirm the narration uses the same framing.
+  - Implement check:
+    - [x] Codex implemented
+  - Verified check:
+    - [x] Claude verified
+
+- [ ] **Make slide 3 more explicitly about time-series communication**
+  - Target files:
+    - `case-study-data.js`
+    - `slide-03.txt`
+  - Exact change:
+    - Keep the strong title.
+    - Reword the lead to emphasize charting time series and making longitudinal trajectories easier to interpret and explain.
+  - Verification:
+    - Confirm slide 3 now clearly explains why trend views matter in practitioner/patient communication.
+    - Confirm the chart artifact caption still fits the revised wording.
+  - Implement check:
+    - [x] Codex implemented
+  - Verified check:
+    - [x] Claude verified
+
+- [ ] **Update slide 4 so analysis lives inside the report**
+  - Target files:
+    - `case-study-data.js`
+    - `slide-04.txt`
+  - Exact change:
+    - Shift the title, lead, and bullet into present tense.
+    - Make the report artifact copy full sentences instead of fragment-like labels.
+    - Specifically rewrite the mock report section copy under:
+      - `Trend graphic`
+      - `Interpretation notes`
+    - Preserve the idea that charts, interpretation, and report structure stay together.
+  - Verification:
+    - Confirm slide 4 no longer reads like a technical artifact description.
+    - Confirm the UI copy in the mock report is complete and readable.
+  - Implement check:
+    - [x] Codex implemented
+  - Verified check:
+    - [x] Claude verified
+
+- [ ] **Tighten slide 5 proof language**
+  - Target files:
+    - `case-study-data.js`
+    - `slide-05.txt`
+  - Exact change:
+    - Keep the title.
+    - Rewrite the lead and bullets into present tense where appropriate.
+    - Preserve the durable-trust argument without making it sound abstract.
+    - Ensure the proof section names at least one concrete proof signal early in the slide copy, such as duration, logged hours, or the long-running client relationship.
+  - Verification:
+    - Confirm slide 5 answers `why should a prospective client trust this?`
+    - Confirm the proof section still feels concise and premium, not defensive.
+  - Implement check:
+    - [x] Codex implemented
+  - Verified check:
+    - [x] Claude verified
+
+- [ ] **Replace the weak closing sentence on slide 6**
+  - Target files:
+    - `case-study-data.js`
+    - `slide-06.txt`
+  - Exact change:
+    - Remove or rewrite `this is the kind of work Mike is built for`.
+    - Replace it with a clearer statement of client fit for data-to-report workflows.
+  - Verification:
+    - Confirm the final slide ends with a strong contract-fit statement rather than a vague slogan.
+    - Confirm the narration ending sounds natural when spoken aloud.
+  - Implement check:
+    - [x] Codex implemented
+  - Verified check:
+    - [x] Claude verified
+
+- [ ] **Reframe the footer note**
+  - Target files:
+    - `case-study-data.js`
+  - Exact change:
+    - Replace the current disclaimer-style footer with transparent context that explains why synthetic data is used without breaking the sales narrative.
+  - Verification:
+    - Confirm the footer reads like context, not legalese.
+    - Confirm it still protects confidentiality.
+  - Implement check:
+    - [x] Codex implemented
+  - Verified check:
+    - [x] Claude verified
+
+- [ ] **Lock narration text before regenerating audio**
+  - Target files:
+    - `slide-01.txt` through `slide-06.txt`
+  - Exact change:
+    - Treat the `.txt` narration files as the approved spoken script before any TTS run.
+    - Do not regenerate audio until the on-screen copy and narration wording are aligned.
+  - Verification:
+    - Confirm each narration file has been reviewed after copy edits.
+    - Confirm there are no known copy changes still pending when TTS starts.
+  - Implement check:
+    - [x] Codex implemented
+  - Verified check:
+    - [x] Claude verified
+
+- [ ] **Regenerate narration after copy changes**
+  - Target files:
+    - `slide-01.mp3` through `slide-06.mp3`
+  - Exact change:
+    - Re-run TTS after all approved text edits.
+    - Keep the current playback speed unless the revised copy needs retiming.
+  - Verification:
+    - Confirm each MP3 matches the updated `.txt` file.
+    - Confirm guided mode still advances cleanly without awkward pacing.
+    - Confirm slide timing still feels correct against the actual MP3 durations and that no slide cuts off early or lingers long after narration ends.
+  - Implement check:
+    - [x] Codex implemented
+  - Verified check:
+    - [x] Claude verified
+
+- [ ] **Run end-to-end browser verification**
+  - Target files:
+    - rendered page only
+  - Exact change:
+    - Review the psychologist deck in Chrome at desktop size and mobile size.
+    - Step through each slide manually and in guided mode.
+  - Verification:
+    - Confirm no layout regressions.
+    - Confirm tags/metrics/footer behave visually as intended.
+    - Confirm the revised copy still fits without clipping.
+    - On mobile specifically, confirm:
+      - tag pills wrap cleanly
+      - the metric grid collapses cleanly
+      - footer text does not overflow
+      - hero and slide copy remain readable without broken stacking
+  - Implement check:
+    - [x] Codex implemented
+  - Verified check:
+    - [x] Claude verified
+
+- [ ] **Run a lightweight accessibility and contrast check after tag/UI restyling**
+  - Target files:
+    - rendered page only
+    - `case-study.css` if needed
+  - Exact change:
+    - Verify that any tag/metadata restyling still has sufficient contrast and does not create misleading affordances.
+  - Verification:
+    - Confirm restyled metadata is visually distinct from actionable controls.
+    - Confirm the updated colors remain readable against their backgrounds.
+  - Implement check:
+    - [x] Codex implemented
+  - Verified check:
+    - [x] Claude verified
+
+## Risks / Do Not Break
+
+- Do not weaken titles that are already strong:
+  - `Longitudinal trends become easier to explain.`
+  - `A long-running engagement with durable trust.`
+  - `Built for data-to-report workflows.`
+- Do not lose the core argument that the value is communication, not just analysis.
+- Do not turn the copy into overly formal grammar-policing prose just to force `data` as plural everywhere.
+- Do not introduce clickable-looking UI chrome while trying to preserve technical keywords.
+- Do not let the footer or confidentiality language overpower the client-facing narrative.

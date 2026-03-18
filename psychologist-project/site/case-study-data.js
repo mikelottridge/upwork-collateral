@@ -22,32 +22,31 @@ window.CASE_STUDY = {
   },
   title: "From Assessment Data to Patient-Ready Reports",
   lead:
-    "A long-running Python and Flask system for longitudinal analysis, automated chart generation, multilingual patient summaries, and delivery-ready clinical reporting.",
+    "The system helps practitioners explain complex assessment results and helps patients understand them. It turns repeated measurements into longitudinal views, multilingual summaries, and delivery-ready reports.",
   heroVisual: {
     src: "../screenshots/upwork-thumbnail-final.png",
     alt: "Psychologist explaining a report to a patient at a table.",
     caption:
-      "The value of the system was not just analysis. It was making results clear enough that a practitioner could explain them and a patient could understand them.",
+      "The value of the system is not just analysis. It makes results clear enough that a practitioner can explain them and a patient can understand them.",
   },
   quote: {
     text: "\"I can highly recommend Michael for your software development needs. Michael has been consistent in delivering quality work.\"",
     attribution: "Verified Upwork client review",
   },
   tags: [
-    "Python / Flask",
     "Longitudinal analysis",
-    "Report generation",
-    "Multilingual output",
+    "Patient-ready reports",
+    "Multilingual summaries",
   ],
   signals: ["Expert-Vetted", "100% Job Success", "1,900+ Upwork hours"],
   metrics: [
     { value: "470 hrs", label: "Long-running engagement" },
     { value: "5.0 / 5.0", label: "Client rating" },
-    { value: "Python / Flask", label: "Application stack" },
+    { value: "End-to-end", label: "Intake to report" },
     { value: "Report-ready", label: "Final output" },
   ],
   footerNote:
-    "Built with synthetic data for public use. The emphasis is workflow value, reporting shape, and application structure rather than confidential client content.",
+    "Demonstrated with synthetic data. The focus is workflow structure and reporting output, not confidential client content.",
   defaultDurationMs: 7200,
   audioRate: 1.1,
   slides: [
@@ -55,11 +54,11 @@ window.CASE_STUDY = {
       eyebrow: "The challenge",
       title: "Raw assessment data does not explain itself.",
       lead:
-        "The core problem was not capturing assessment data. It was carrying that data forward into something a practitioner and patient could actually use: trend views, readable summaries, and finished reports.",
+        "The core problem is not capturing assessment data. It is carrying that data forward into something a practitioner and patient can meaningfully use and discuss: trend views, readable summaries, and finished reports.",
       audio: "../audio/slide-01.mp3",
       bullets: [
-        "Large volumes of repeated assessments were hard to interpret when they stayed in raw tables.",
-        "The value came from turning analysis into communication, not from analysis alone.",
+        "Large volumes of repeated assessments are hard to interpret when they are in raw tables.",
+        "The value comes not from analysis alone, but from turning that analysis into communication a patient can understand.",
       ],
       artifact: {
         type: "table",
@@ -78,11 +77,11 @@ window.CASE_STUDY = {
       eyebrow: "Workflow",
       title: "One path from intake to delivery.",
       lead:
-        "The system linked intake, longitudinal analysis, chart generation, and report assembly into one repeatable workflow. That reduced manual handoffs and made the reporting process usable in practice.",
+        "The system links intake, longitudinal analysis, chart generation, and report assembly into one repeatable workflow. That reduces manual handoffs and makes the reporting process usable in practice.",
       audio: "../audio/slide-02.mp3",
       bullets: [
-        "The workflow mattered as much as the calculations inside it.",
-        "Each stage existed to move the client closer to a finished deliverable.",
+        "The workflow matters as much as the calculations inside it.",
+        "Each stage exists to move the client closer to a finished deliverable.",
       ],
       artifact: {
         type: "pipeline",
@@ -99,11 +98,11 @@ window.CASE_STUDY = {
       eyebrow: "Analysis",
       title: "Longitudinal trends become easier to explain.",
       lead:
-        "One of the biggest gains came from making change over time visible. The workflow turned repeated measurements into chartable trajectories that were easier to interpret and easier to communicate.",
+        "One of the biggest gains comes from charting time series. The workflow turns repeated measurements into chartable trajectories that are easier to interpret and easier to communicate.",
       audio: "../audio/slide-03.mp3",
       bullets: [
-        "The system emphasized trajectory and comparison instead of isolated scores.",
-        "That made the output more useful in real clinical conversations.",
+        "The system emphasizes trajectory and comparison instead of isolated scores.",
+        "That makes the output more useful in real clinical conversations.",
       ],
       artifact: {
         type: "line-chart",
@@ -116,12 +115,12 @@ window.CASE_STUDY = {
     },
     {
       eyebrow: "Report output",
-      title: "Analysis lived inside the report.",
+      title: "Analysis lives inside the report.",
       lead:
-        "The system did not stop at charts. It carried those outputs into structured, patient-facing reports that could be used directly in communication.",
+        "The system does not stop at charts. It carries those outputs into structured, patient-facing reports that can be used directly in communication.",
       audio: "../audio/slide-04.mp3",
       bullets: [
-        "Charts, interpretation, and report structure stayed together in one output path.",
+        "Charts, interpretation, and report structure stay together in one output path.",
       ],
       artifact: {
         type: "document",
@@ -131,8 +130,8 @@ window.CASE_STUDY = {
             label: "Report page",
             title: "Clinician-ready review",
             sections: [
-              { title: "Trend graphic", copy: "Visual trajectory embedded directly in the report instead of exported as a separate artifact.", lines: ["", "short"] },
-              { title: "Interpretation notes", copy: "Readable context beside the chart so the output can be used immediately.", lines: ["", "mid"] },
+              { title: "Trend graphic", copy: "The visual trajectory is embedded directly in the report instead of being exported as a separate artifact.", lines: ["", "short"] },
+              { title: "Interpretation notes", copy: "Readable context is placed beside the chart so the output can be used immediately.", lines: ["", "mid"] },
             ],
           },
         ],
@@ -143,11 +142,11 @@ window.CASE_STUDY = {
       tone: "dark",
       title: "A long-running engagement with durable trust.",
       lead:
-        "The strongest proof here is not a flashy demo. It is that the work was useful enough to sustain a long-running client relationship around a high-trust, document-heavy workflow.",
+        "The strongest proof here is a long-running engagement with a five-star rating and hundreds of logged hours around a high-trust, document-heavy workflow.",
       audio: "../audio/slide-05.mp3",
       bullets: [
-        "This project combined analytics, reporting, and workflow design in one operational system.",
-        "The engagement itself is evidence that the work held up in real use.",
+        "This project combines analytics, reporting, and workflow design in one operational system.",
+        "The engagement itself is evidence that the work holds up in real use.",
       ],
       artifact: {
         type: "metrics",
@@ -165,7 +164,7 @@ window.CASE_STUDY = {
       tone: "dark",
       title: "Built for data-to-report workflows.",
       lead:
-        "If your project involves data that has to become something a client, patient, or stakeholder can actually read and use, this is the kind of work Mike is built for.",
+        "If your project involves data that has to become something a client, patient, or stakeholder can actually read and use, Mike is a strong fit for that kind of data-to-report workflow.",
       audio: "../audio/slide-06.mp3",
       bullets: [
         "Strongest where document output matters as much as the underlying logic.",
@@ -176,7 +175,7 @@ window.CASE_STUDY = {
         label: "Client signal",
         text: "I can highly recommend Michael for your software development needs. Michael has been consistent in delivering quality work.",
         attribution: "Verified Upwork client review",
-        pills: ["Python / Flask", "Report generation", "Longitudinal analysis"],
+        pills: ["Code-first system", "Report generation", "Longitudinal analysis"],
       },
     },
   ],
