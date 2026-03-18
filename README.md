@@ -8,6 +8,14 @@ This workspace holds public-facing project collateral for Mike's portfolio use, 
 
 The main goal is to help a prospective client decide whether Mike is worth hiring for a contract engagement. These pages are not internal engineering docs and should not drift in that direction.
 
+## Style Guide
+
+The canonical presentation style guide now lives at:
+
+- `style-guide.md`
+
+Read that alongside this README before making cross-project design, copy, narration, or verification changes.
+
 ## Audience
 
 Primary audience:
