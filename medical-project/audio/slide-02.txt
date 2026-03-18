@@ -1,1 +1,1 @@
-The core problem was document shape. Dense PDFs are difficult to reason over directly, and a single prompt would hide too much of the logic. The workflow needed a structured path from redacted source document to a normalized output someone could actually review.
+The physician’s problem was building the patient-level picture across many lab reports, including reports from major providers such as Labcorp. The workflow had to normalize those documents, preserve clinical context, and make abnormal patterns visible quickly enough to guide physician attention.

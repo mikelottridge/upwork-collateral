@@ -1,1 +1,1 @@
-The application layer mattered too. This was not just prompt wiring. The Flask app wrapped the workflow with document intake, workflow state, review checkpoints, and a deployable surface that could function as a real tool.
+The strongest differentiator was the physician-editable decision tree. The Flask app supported follow-up research and clarification through chat, and it allowed Mike and the physician to define, revise, and reuse treatment logic so the treatment plan could be regenerated as the physician adjusted the decision path.

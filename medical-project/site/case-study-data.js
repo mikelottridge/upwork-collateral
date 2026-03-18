@@ -6,30 +6,36 @@ window.CASE_STUDY = {
     "accent-2": "#246a73",
     "accent-2-soft": "rgba(36, 106, 115, 0.12)",
   },
-  title: "Turning Lab Report PDFs Into Structured, Reviewable Data",
+  title: "From PDF Lab Reports to a Physician-Controlled Treatment Plan",
   lead:
-    "A code-first healthcare workflow for turning dense lab-report PDFs into structured findings, staged AI analysis, and review-ready outputs inside a usable application shell.",
+    "A physician working across multiple PDF lab reports needed more than extraction. The workflow had to surface what mattered, support differential diagnosis research, and let the physician revise the treatment logic before a patient-ready report was delivered.",
+  heroVisual: {
+    src: "../screenshots/hero-image.png",
+    alt: "Clinician reviewing structured findings from PDF lab reports beside a monitor showing charts and organized results.",
+    caption:
+      "The system turned scattered lab reports into a patient-level view, a physician heads-up, an editable decision tree, and a revisable treatment plan inside one application.",
+  },
   about:
-    "Mike is an Expert-Vetted Upwork freelancer with 1,900+ hours, a 100% Job Success Score, and an MSEE from Georgia Tech. His strongest fit is document-heavy, high-trust workflow work where technical implementation and practical delivery both matter.",
+    "This case study shows Mike’s fit for high-trust, document-heavy healthcare workflows where AI output must stay reviewable and physician-controlled before it reaches a patient.",
   approach:
-    "Clients usually bring Mike in when a workflow is partly working but too brittle to trust. He scopes tightly, makes intermediate states visible, improves reliability, and delivers something a team can actually operate.",
+    "The implementation kept extraction, differential research, treatment logic, and final drafting visible instead of hiding everything inside one opaque prompt.",
   quote: {
-    text: "\"Mike provided a solution that worked with our constraints.\"",
-    attribution: "Upwork client review",
+    text: "\"Michael is very skilled and easy to work with.\"",
+    attribution: "Verified Upwork client review for the lab PDF analysis project",
   },
   tags: [
     "Python",
     "Flask",
-    "Healthcare workflows",
-    "PDF extraction",
-    "AI orchestration",
+    "PDF lab reports",
+    "Differential diagnosis support",
+    "Decision-tree UI",
   ],
-  signals: ["Deployable app", "Review-oriented outputs", "Synthetic visuals"],
+  signals: ["Patient-level view", "Physician heads-up", "Editable decision tree"],
   metrics: [
-    { value: "60 hrs", label: "Upwork engagement" },
-    { value: "4.9 / 5", label: "Client rating" },
-    { value: "4 stages", label: "Processing flow" },
-    { value: "Structured", label: "Review-ready output" },
+    { value: "Patient-level view", label: "Across many reports" },
+    { value: "Differential research", label: "Before final drafting" },
+    { value: "Editable treatment logic", label: "Physician controlled" },
+    { value: "Dual output", label: "Physician + patient" },
   ],
   footerNote:
     "Built with synthetic data for public use. The emphasis is workflow design, application structure, and review-ready output.",
@@ -38,55 +44,55 @@ window.CASE_STUDY = {
   slides: [
     {
       eyebrow: "Overview",
-      title: "A contract-ready workflow for medical PDFs.",
+      title: "One patient story from many lab reports.",
       lead:
-        "This engagement produced a Python and Flask system that moved beyond prompt experiments into a usable, staged document-processing workflow.",
+        "This engagement produced a Python and Flask application that turned many lab reports for one patient into a physician heads-up, targeted differential research, an editable treatment plan, and a patient-ready report.",
       audio: "../audio/slide-01.mp3",
       bullets: [
-        "The client needed a dependable workflow for high-trust, document-heavy processing.",
-        "The result combined extraction, orchestration, and review-oriented output packaging inside a real application.",
+        "The physician needed to see what looked clinically important before spending more time on manual review.",
+        "The result combined extraction, differential research, physician chat, and treatment-plan revision inside one application.",
       ],
       artifact: {
         type: "metrics",
-        label: "What this project delivered",
+        label: "What changed for the physician",
         items: [
-          { label: "Typical fit", value: "Document-heavy client workflows" },
-          { label: "Delivery mode", value: "Python + Flask application" },
-          { label: "Approach", value: "Staged AI processing" },
-          { label: "Use case", value: "Healthcare PDF handling" },
+          { label: "Starting point", value: "Scattered reports across providers" },
+          { label: "New view", value: "One patient-level picture" },
+          { label: "Clinical support", value: "Heads-up + differential research" },
+          { label: "Final delivery", value: "Treatment plan + patient report" },
         ],
       },
     },
     {
       eyebrow: "Problem",
-      title: "Messy PDFs become structured, reviewable data.",
+      title: "The physician needed the patient-level picture, not one report at a time.",
       lead:
-        "The hard part was not generating text. It was turning inconsistent source documents into something structured enough to inspect, debug, and use downstream.",
+        "The challenge was combining multiple lab reports for one patient, normalizing different provider layouts, and spotting clinically meaningful clusters fast enough to guide physician attention.",
       audio: "../audio/slide-02.mp3",
       bullets: [
-        "Manual review consumed time before useful reasoning could even start.",
-        "A single-prompt pass would have hidden too much of the intermediate logic.",
+        "Manual review consumed physician time before useful reasoning could even start.",
+        "When abnormal patterns spanned more than one report, a one-shot prompt would have hidden too much of the logic to trust.",
       ],
       artifact: {
         type: "document",
         label: "From source document to structured target",
         pages: [
           {
-            label: "Source PDF",
-            title: "Redacted lab report",
+            label: "Source PDFs",
+            title: "Separate PDF lab reports",
             sections: [
-              { title: "Mixed layout", copy: "Sections, ranges, notes, and flags appear in formats that work for manual reading but not for direct automation.", lines: ["", "mid"] },
-              { title: "Values + notes", copy: "Important findings are mixed with layout noise and document-specific formatting.", lines: ["", "short"] },
-              { title: "Unstructured narrative", copy: "Narrative commentary still needs to be preserved for downstream review.", lines: ["mid"] },
+              { title: "Provider variation", copy: "PDF lab reports from major providers such as Labcorp are readable to a human but still need normalization before useful automation can happen.", lines: ["", "mid"] },
+              { title: "Cross-report context", copy: "Meaningful abnormalities may only become obvious when results are viewed together across reports.", lines: ["", "short"] },
+              { title: "Clinical narrative", copy: "Notes and context still need to survive the workflow for downstream physician review.", lines: ["mid"] },
             ],
           },
           {
             label: "Target state",
-            title: "Structured review output",
+            title: "Unified patient review output",
             sections: [
-              { title: "Normalized findings", copy: "Section names, values, and notes land in stable slots instead of raw page layout.", lines: ["", "short"] },
-              { title: "Flags and ranges", copy: "Outliers and context stay visible to the reviewer.", lines: ["mid"] },
-              { title: "Review summary", copy: "The output is shaped for the next workflow step instead of a one-off read.", lines: ["short"] },
+              { title: "Normalized findings", copy: "Values from multiple PDF lab reports land in stable slots instead of staying trapped in page layout.", lines: ["", "short"] },
+              { title: "Abnormal clusters", copy: "Outliers and related findings stay visible as patterns instead of isolated numbers.", lines: ["mid"] },
+              { title: "Heads-up summary", copy: "The output is shaped to direct physician attention before the final report is prepared.", lines: ["short"] },
             ],
           },
         ],
@@ -94,98 +100,120 @@ window.CASE_STUDY = {
     },
     {
       eyebrow: "Workflow",
-      title: "Every processing step is inspectable and debuggable.",
+      title: "Five narrow stages kept the clinical reasoning visible at every step.",
       lead:
-        "Each stage had a narrow job: ingest the document, extract structure, reason over the normalized content, and package the result for review.",
+        "The workflow separated ingestion, patient-level aggregation, differential research, physician review, and final drafting so the reasoning stayed reviewable instead of disappearing into one opaque pass.",
       audio: "../audio/slide-03.mp3",
       bullets: [
-        "Intermediate states made the workflow easier to validate.",
-        "Separating stages reduced the chance of losing context too early.",
+        "Each stage answered a specific question and preserved the context needed for the next one.",
+        "That made it easier for the physician to trust the workflow and redirect it when needed.",
       ],
       artifact: {
         type: "pipeline",
         label: "Processing flow",
         steps: [
-          { icon: "1", title: "Intake", copy: "Accept and stage a PDF for processing." },
-          { icon: "2", title: "Extract", copy: "Pull sections, rows, and notes into a normalized shape." },
-          { icon: "3", title: "Reason", copy: "Apply staged AI logic to the structured data." },
-          { icon: "4", title: "Package", copy: "Deliver a review-ready output instead of a raw response." },
+          { icon: "1", title: "Ingest", copy: "Load multiple PDF lab reports for one patient." },
+          { icon: "2", title: "Aggregate", copy: "Normalize and combine results into one patient-level view." },
+          { icon: "3", title: "Investigate", copy: "Research abnormal clusters and likely differentials." },
+          { icon: "4", title: "Review", copy: "Give the physician a heads-up plus chat-based follow-up." },
+          { icon: "5", title: "Prepare", copy: "Generate and revise the final patient-ready report and treatment plan." },
         ],
       },
     },
     {
       eyebrow: "Extraction",
-      title: "Structured extraction makes the analysis usable.",
+      title: "Result clusters could be linked to targeted differential research.",
       lead:
-        "The key intermediate asset was a structured view of the document. That made downstream analysis more inspectable and less fragile.",
+        "The key intermediate asset was a patient-level view that grouped related findings together. Once those clusters were visible, the workflow could attach targeted differential research and produce a useful physician heads-up.",
       audio: "../audio/slide-04.mp3",
       bullets: [
-        "Useful extraction preserves section context, value meaning, and review status.",
-        "This is the layer that turns an opaque document into a tractable workflow input.",
+        "The point was not raw extraction alone. It was making abnormal clusters legible enough to support differential diagnosis research.",
+        "That gave the physician a better starting point for review than disconnected report pages.",
       ],
       artifact: {
-        type: "table",
-        label: "Synthetic extraction grid",
-        toolbar: "Normalized extraction output",
-        columns: ["Section", "Extracted value", "Status"],
-        rows: [
-          ["CBC Panel", "WNL marker preserved", { type: "status", value: "verified" }],
-          ["Lipid Summary", "Flagged range captured", { type: "status", value: "review" }],
-          ["Clinician Notes", "Narrative attached", { type: "status", value: "linked" }],
-          ["Follow-up", "Suggested context retained", { type: "status", value: "queued" }],
+        type: "cluster-map",
+        label: "From lab-result clusters to physician heads-up",
+        leftLabel: "Abnormal clusters",
+        middleTitle: "Pattern review",
+        middleCopy: "Grouped findings are compared across reports, then routed into targeted research instead of treated as isolated values.",
+        rightLabel: "Differential research",
+        clusters: [
+          { title: "Inflammation cluster", items: ["Neutrophil shift preserved", "CBC context retained", "Repeat abnormality visible"] },
+          { title: "Metabolic / liver cluster", items: ["CMP outlier retained", "Cross-report comparison", "Medication-review cue"] },
+          { title: "Follow-up cluster", items: ["Prior trend comparison", "Risk signal stays linked", "Research question queued"] },
         ],
+        differentials: [
+          { title: "Targeted differential review", copy: "Research the most plausible concerns rather than searching from scratch." },
+          { title: "Physician heads-up", copy: "Surface what deserves attention before the physician drafts the final response." },
+          { title: "Documented support", copy: "Keep the supporting findings attached to each concern for later review." },
+        ],
+        summary: {
+          title: "Why this matters",
+          copy: "The physician gets a reasoned starting point: which clusters matter, what they may point to, and what deserves follow-up before treatment planning begins.",
+        },
       },
     },
     {
       eyebrow: "Application",
-      title: "A deployable application, not a notebook experiment.",
+      title: "A physician-editable decision tree drove the treatment plan and could be revised at any time.",
       lead:
-        "The system needed a usable surface around the AI workflow: file intake, workflow state, review checkpoints, and deployable app structure.",
+        "The strongest differentiator was not extraction. It was a physician-controlled decision tree that shaped the treatment plan, plus a flexible interface for revising that logic and regenerating the output when needed.",
       audio: "../audio/slide-05.mp3",
       bullets: [
-        "The app design matters because real users need progression, not just output text.",
-        "Deployment and review state were part of the deliverable, not afterthoughts.",
+        "Mike and the physician defined the decision tree together so the treatment logic matched real clinical judgment.",
+        "The physician could adjust the tree, request more research through chat, and regenerate the treatment plan without rebuilding the workflow.",
       ],
       artifact: {
-        type: "wireframe",
-        label: "Synthetic app flow",
-        panels: [
+        type: "decision-tree",
+        label: "Physician-editable treatment logic",
+        root: {
+          title: "Patient case review",
+          copy: "Structured findings, cluster-based research, and physician questions feed one visible treatment-planning path.",
+        },
+        branches: [
           {
-            label: "Upload",
-            title: "Document intake",
-            blocks: [
-              { title: "Upload zone", copy: "Accept a new PDF and attach lightweight workflow metadata before processing begins.", lines: [0.86, 0.74], pill: 48 },
-              { title: "Job metadata", copy: "Give the workflow a visible starting state instead of treating it like a one-shot prompt.", lines: [0.92, 0.61], pill: 48 },
+            label: "Clarify",
+            title: "Need more research?",
+            copy: "The physician can ask follow-up questions before committing to treatment logic.",
+            children: [
+              { title: "Request deeper research", copy: "Use chat to investigate an abnormal cluster or differential in more detail." },
+              { title: "Refine interpretation", copy: "Clarify what the current findings do and do not support." },
             ],
           },
           {
-            label: "Process",
-            title: "Workflow status",
-            blocks: [
-              { title: "Stage tracker", copy: "Track intake, extraction, reasoning, and packaging as separate visible stages.", lines: [0.84, 0.67], pill: 40 },
-              { title: "Extraction preview", copy: "Let a reviewer inspect structured intermediate output before it becomes the final package.", lines: [0.92, 0.56] },
+            label: "Decide",
+            title: "Adjust decision-tree logic",
+            copy: "The treatment plan follows physician-defined branches instead of an opaque one-shot answer.",
+            children: [
+              { title: "Edit branch conditions", copy: "Mike and the physician shaped the logic together and updated it as needed." },
+              { title: "Regenerate plan", copy: "The plan updates when the physician revises the decision tree." },
             ],
           },
           {
-            label: "Review",
-            title: "Output packaging",
-            blocks: [
-              { title: "Summary panel", copy: "Package findings into a review-ready summary instead of returning a raw block of generated text.", lines: [0.9, 0.72], pill: 34 },
-              { title: "Download + handoff", copy: "Create a cleaner handoff into the next clinical or operational step.", lines: [0.76, 0.63] },
+            label: "Deliver",
+            title: "Prepare final report",
+            copy: "Once the physician is satisfied, the workflow produces a patient-ready explanation.",
+            children: [
+              { title: "Revise patient language", copy: "Adjust the final report through the same interface before delivery." },
+              { title: "Preserve auditability", copy: "Keep the visible path from findings to treatment recommendation." },
             ],
           },
         ],
+        footer: {
+          title: "Clinical governance value",
+          copy: "The physician stays in control of the treatment logic. AI supports the decision path, but the clinician can inspect it, change it, and approve the final result.",
+        },
       },
     },
     {
       eyebrow: "Transformation",
-      title: "Manual document triage becomes a staged workflow.",
+      title: "Manual lab review becomes an adaptive clinical workflow.",
       lead:
-        "The value is easiest to see as a workflow change: less manual document parsing, more structured review, and a much cleaner handoff into the next step.",
+        "The outcome was not just faster processing. It was a more usable workflow: less manual cross-report triage, more structured differential research, and a cleaner physician-controlled path into the treatment plan and final report.",
       audio: "../audio/slide-06.mp3",
       bullets: [
-        "This is the shift from brittle manual reading to repeatable workflow execution.",
-        "The bigger win is operational clarity, not just faster output.",
+        "This is the shift from manual cross-report review to a structured workflow with physician sign-off.",
+        "The bigger win is clinical clarity and control, not just faster output.",
       ],
       artifact: {
         type: "compare",
@@ -194,21 +222,21 @@ window.CASE_STUDY = {
           {
             tone: "bad",
             title: "Before",
-            stat: "manual triage",
+            stat: "Manual cross-report review",
             lines: [
-              "Read every PDF by hand and interpret layout inconsistencies on the fly.",
-              "Rewrite findings into ad hoc notes before anyone can review them.",
-              "Little visibility into where errors or omissions entered the process.",
+              "Read separate lab reports one by one and mentally combine the patient story.",
+              "Do ad hoc follow-up research before a useful differential begins to form.",
+              "Rewrite findings and treatment thinking manually with little process visibility.",
             ],
           },
           {
             tone: "good",
             title: "After",
-            stat: "staged pipeline",
+            stat: "Structured workflow with physician sign-off",
             lines: [
-              "Normalize structure first, then run separated AI stages against cleaner inputs.",
-              "Preserve intermediate states so outputs are easier to check and trust.",
-              "Hand off a review-ready result instead of a single opaque text block.",
+              "Normalize many reports into one patient-level view before reasoning starts.",
+              "Surface an immediate physician heads-up plus chat-driven research and clarification.",
+              "Let the physician revise the decision tree, treatment plan, and final patient report in one interface.",
             ],
           },
         ],
@@ -216,34 +244,34 @@ window.CASE_STUDY = {
     },
     {
       eyebrow: "Outputs",
-      title: "Review-ready outputs replace raw generated text.",
+      title: "The system produced both a physician heads-up and a final patient report.",
       lead:
-        "The deliverable is shaped for review: structured findings, visible workflow context, and a summary that can move cleanly into the next step.",
+        "The deliverable was shaped for two audiences: an immediate physician-facing heads-up on what looked important, and a final patient-facing report that could be revised before delivery.",
       audio: "../audio/slide-07.mp3",
       bullets: [
-        "Review-oriented output is more useful than a generic model response in a high-trust workflow.",
-        "The output is easier for a team to inspect, trust, and use in the next step.",
+        "The physician could request additional research or clarification before the final report was generated.",
+        "The treatment plan and patient report stayed editable through the same application workflow.",
       ],
       artifact: {
         type: "document",
         label: "Synthetic output mockups",
         pages: [
           {
-            label: "Findings page",
-            title: "Extracted findings",
+            label: "Physician page",
+            title: "Clinical heads-up summary",
             sections: [
-              { title: "Key values", copy: "Core findings appear in stable sections rather than being buried in free-form text.", lines: ["", "short"] },
-              { title: "Flags and ranges", copy: "A reviewer can see what needs attention without re-reading the entire source document.", lines: ["", "mid"] },
-              { title: "Linked notes", copy: "Document context is still available when the summary is consumed downstream.", lines: ["mid"] },
+              { title: "Abnormal clusters", copy: "Key patterns are summarized first so the physician gets an immediate heads-up on what may require attention.", lines: ["", "short"] },
+              { title: "Differential research", copy: "Candidate concerns and supporting research are attached to the case before treatment planning begins.", lines: ["", "mid"] },
+              { title: "Decision tree inputs", copy: "The physician can see what logic will shape the treatment plan and adjust it if needed.", lines: ["mid"] },
             ],
           },
           {
-            label: "Summary page",
-            title: "Review package",
+            label: "Patient page",
+            title: "Final patient-ready report",
             sections: [
-              { title: "Workflow notes", copy: "Intermediate reasoning state is preserved where it helps with auditability and trust.", lines: ["", "short"] },
-              { title: "Decision-support summary", copy: "The result is concise enough to review and structured enough to maintain.", lines: ["", "mid"] },
-              { title: "Next-step handoff", copy: "The output is ready to move into the next human or system workflow.", lines: ["mid"] },
+              { title: "Treatment plan", copy: "The final treatment plan is generated from the adjustable decision tree rather than locked into one opaque pass.", lines: ["", "short"] },
+              { title: "Patient explanation", copy: "The report is shaped for customer delivery, not just internal clinician review.", lines: ["", "mid"] },
+              { title: "Revision loop", copy: "The physician can revise the report through chat before final delivery.", lines: ["mid"] },
             ],
           },
         ],
@@ -251,23 +279,23 @@ window.CASE_STUDY = {
     },
     {
       eyebrow: "Value",
-      title: "The kind of project this work is built for.",
+      title: "Built for physician-in-the-loop healthcare workflows that cannot rely on one-shot AI.",
       lead:
-        "If your team is drowning in manual document review or relying on brittle AI output, this is the kind of engagement where Mike is a strong fit: document-heavy inputs, a real application surface, and outputs a team can trust enough to use.",
+        "If your workflow involves structured documents, staged AI reasoning, physician review, and a treatment plan that must remain editable before delivery, this is the kind of contract work Mike is a strong fit for.",
       audio: "../audio/slide-08.mp3",
       bullets: [
-        "The domain is healthcare, but the broader pattern is document-heavy workflow automation.",
-        "The deliverable is designed to be operated by a team, not admired as a demo.",
+        "The domain here is healthcare, but the broader pattern is document-heavy, human-in-the-loop workflow automation.",
+        "If you found this case study through Upwork or LinkedIn and your workflow looks similar, Mike is the person to contact there.",
       ],
-      tags: ["Code-first", "Deployable", "Review-oriented", "Document-heavy"],
+      tags: ["Code-first", "Physician-in-the-loop", "Decision tree", "Treatment plan"],
       artifact: {
         type: "metrics",
-        label: "Why a client hires for this kind of work",
+        label: "Why this pattern matters",
         items: [
-          { label: "Best fit", value: "Document-heavy workflows" },
-          { label: "Implementation", value: "Python / Flask application" },
-          { label: "Operating model", value: "Inspectable AI stages" },
-          { label: "Outcome", value: "Structured review output" },
+          { label: "Document load", value: "Many reports, one patient view" },
+          { label: "AI role", value: "Support research, not replace judgment" },
+          { label: "Control model", value: "Physician-guided decision tree" },
+          { label: "Final output", value: "Treatment plan + patient report" },
         ],
       },
     },

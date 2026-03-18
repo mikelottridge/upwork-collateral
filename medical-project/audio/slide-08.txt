@@ -1,1 +1,1 @@
-This project is a strong proof point because it combines document processing, staged AI orchestration, Python and Flask application work, and deployable workflow design in one high-trust use case.
+This project is a strong proof point because it combines structured document processing, staged AI reasoning, differential diagnosis research, a physician-guided decision tree, Python and Flask application work, and a real revision workflow in one high-trust healthcare use case. If your team needs that pattern, Mike is a strong fit for the work.

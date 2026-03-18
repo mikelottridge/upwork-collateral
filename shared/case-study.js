@@ -290,6 +290,95 @@
     return frame;
   }
 
+  function renderClusterMap(artifact) {
+    const frame = el("div", "artifact-cluster-map");
+    frame.append(el("div", "artifact-label", artifact.label || "Cluster review"));
+
+    const shell = el("div", "cluster-shell");
+
+    const left = el("div", "cluster-column");
+    left.append(el("div", "cluster-column-label", artifact.leftLabel || "Result clusters"));
+    (artifact.clusters || []).forEach((cluster) => {
+      const card = el("div", "cluster-card");
+      card.append(el("strong", "", cluster.title));
+      const list = el("ul", "cluster-list");
+      (cluster.items || []).forEach((item) => list.append(el("li", "", item)));
+      card.append(list);
+      left.append(card);
+    });
+
+    const middle = el("div", "cluster-middle");
+    const middleCard = el("div", "cluster-middle-card");
+    middleCard.append(el("strong", "", artifact.middleTitle || "Clinical review"));
+    middleCard.append(el("div", "", artifact.middleCopy || "Patterns are compared, contextualized, and queued for targeted research."));
+    middle.append(middleCard);
+    middle.append(el("div", "cluster-arrow", "\u2192"));
+
+    const right = el("div", "cluster-column");
+    right.append(el("div", "cluster-column-label", artifact.rightLabel || "Differential research"));
+    (artifact.differentials || []).forEach((item) => {
+      const card = el("div", "cluster-card cluster-card--result");
+      card.append(el("strong", "", item.title));
+      card.append(el("div", "", item.copy));
+      right.append(card);
+    });
+
+    shell.append(left, middle, right);
+    frame.append(shell);
+
+    if (artifact.summary) {
+      const summary = el("div", "cluster-summary");
+      summary.append(el("strong", "", artifact.summary.title));
+      summary.append(el("div", "", artifact.summary.copy));
+      frame.append(summary);
+    }
+
+    return frame;
+  }
+
+  function renderDecisionTree(artifact) {
+    const frame = el("div", "artifact-decision-tree");
+    frame.append(el("div", "artifact-label", artifact.label || "Decision tree"));
+
+    const shell = el("div", "decision-tree-shell");
+    const root = el("div", "decision-root");
+    root.append(el("strong", "", artifact.root?.title || "Case review"));
+    root.append(el("div", "", artifact.root?.copy || ""));
+    shell.append(root);
+
+    const branches = el("div", "decision-branches");
+    (artifact.branches || []).forEach((branch) => {
+      const branchNode = el("div", "decision-branch");
+      const stem = el("div", "decision-node decision-node--branch");
+      stem.append(el("small", "", branch.label || "Branch"));
+      stem.append(el("strong", "", branch.title || ""));
+      if (branch.copy) stem.append(el("div", "", branch.copy));
+      branchNode.append(stem);
+
+      const children = el("div", "decision-children");
+      (branch.children || []).forEach((child) => {
+        const childNode = el("div", "decision-node");
+        childNode.append(el("strong", "", child.title));
+        childNode.append(el("div", "", child.copy));
+        children.append(childNode);
+      });
+      branchNode.append(children);
+      branches.append(branchNode);
+    });
+
+    shell.append(branches);
+
+    if (artifact.footer) {
+      const footer = el("div", "decision-footer");
+      footer.append(el("strong", "", artifact.footer.title));
+      footer.append(el("div", "", artifact.footer.copy));
+      shell.append(footer);
+    }
+
+    frame.append(shell);
+    return frame;
+  }
+
   function renderChart(artifact) {
     const frame = el("div", "artifact-chart");
     frame.append(el("div", "artifact-label", artifact.label || "Trend Snapshot"));
@@ -542,6 +631,8 @@
     else if (artifact.type === "pipeline") content = renderPipeline(artifact);
     else if (artifact.type === "report") content = renderReport(artifact);
     else if (artifact.type === "table") content = renderTable(artifact);
+    else if (artifact.type === "cluster-map") content = renderClusterMap(artifact);
+    else if (artifact.type === "decision-tree") content = renderDecisionTree(artifact);
     else if (artifact.type === "chart") content = renderChart(artifact);
     else if (artifact.type === "line-chart") content = renderLineChart(artifact);
     else if (artifact.type === "stack") content = renderStack(artifact);
