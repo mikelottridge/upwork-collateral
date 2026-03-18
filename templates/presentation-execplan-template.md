@@ -69,6 +69,84 @@ If the current item fails Claude verification:
 
 ---
 
+## Purpose / Big Picture
+
+Explain what a prospective client or future reviewer gains after this deck exists or after this revision lands. State the user-visible behavior, hiring value, or presentation-quality improvement this execplan is meant to enable.
+
+## Progress
+
+Use timestamped checkboxes to summarize granular progress. Every stopping point must be reflected here, even if it requires splitting a partially completed task into `done` and `remaining`.
+
+- [ ] (`YYYY-MM-DD HH:MMZ`) Example incomplete step.
+- [ ] (`YYYY-MM-DD HH:MMZ`) Example partially completed step. Completed: X. Remaining: Y.
+
+This section must always reflect the actual current state of the work.
+
+## Surprises & Discoveries
+
+Record unexpected behaviors, layout issues, browser quirks, tool problems, or design findings with short evidence.
+
+- Observation:
+  - Evidence:
+
+## Decision Log
+
+Record meaningful decisions made during the run.
+
+- Decision:
+  - Rationale:
+  - Date/Author:
+
+## Outcomes & Retrospective
+
+Summarize what was achieved, what remains, and any lessons learned at major milestones or on completion.
+
+## Context and Orientation
+
+Describe the current state as if the reader knows nothing. Name the key files by full path. Define any non-obvious term you will use. Do not assume prior plan context.
+
+## Plan of Work
+
+Describe, in prose, the expected sequence of edits, reviews, and validations. For each significant change, name the file and the kind of change being made. Keep it concrete and minimal.
+
+## Concrete Steps
+
+State the exact commands to run and where to run them. When a command should produce an observable result, note what success looks like. Update this section as work proceeds.
+
+## Validation and Acceptance
+
+Describe how to verify the result beyond static inspection. Include the exact commands, previews, or browser checks to run and what success looks like.
+
+For collateral work, validation normally includes:
+
+- local preview
+- actual Chrome review
+- mobile-sized review
+- narration sync review when audio is present
+- final Claude verification for the current checklist item
+
+## Idempotence and Recovery
+
+State which steps are safe to repeat and what to do if a step fails halfway. If modifying an existing deck, record the rollback point and the checkpoint commit here.
+
+## Artifacts and Notes
+
+Keep the most important snippets, short diffs, screenshots, command outputs, or links to generated artifacts here.
+
+## Interfaces and Dependencies
+
+Name the files, scripts, services, libraries, and external systems this execplan depends on. Be explicit about paths and expected interfaces.
+
+For HTML collateral work, commonly relevant dependencies include:
+
+- `/home/mike/collateral/shared/case-study.css`
+- `/home/mike/collateral/shared/case-study.js`
+- `/home/mike/collateral/scripts/openai_tts_batch.py`
+- local Chrome or Windows Chrome path
+- GitHub Pages repo and publish path when applicable
+
+---
+
 ## Phase 0: Preflight and Project Setup
 
 ### 0.1 Confirm or create the project folder
@@ -444,3 +522,7 @@ Open risks / notes:
 - 
 - 
 - 
+
+## Revision Note
+
+When revising this execplan, add a short note describing what changed and why so the plan remains restartable from the file alone.
