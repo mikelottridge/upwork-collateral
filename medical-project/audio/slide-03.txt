@@ -1,1 +1,1 @@
-This system used staged orchestration instead of one opaque pass. It ingested the reports, built the patient-level view, investigated abnormal clusters, gave the physician an immediate heads-up, and then packaged the result for revision and final delivery.
+This system uses staged orchestration instead of one opaque pass. It ingests the reports, builds the patient-level view, investigates abnormal clusters, gives the physician an immediate heads-up, and then packages the result for revision and final delivery.

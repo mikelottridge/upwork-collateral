@@ -1,0 +1,23 @@
+Project: /home/mike/collateral/medical-project
+Slides found: 8
+Model: gpt-4o-mini-tts
+Voice: sage
+Format: mp3
+- slide-01.txt -> slide-01.mp3 [overwrite]
+- slide-02.txt -> slide-02.mp3 [overwrite]
+- slide-03.txt -> slide-03.mp3 [overwrite]
+- slide-04.txt -> slide-04.mp3 [overwrite]
+- slide-05.txt -> slide-05.mp3 [overwrite]
+- slide-06.txt -> slide-06.mp3 [overwrite]
+- slide-07.txt -> slide-07.mp3 [overwrite]
+- slide-08.txt -> slide-08.mp3 [overwrite]
+- will wire audio paths into site/case-study-data.js
+Wrote /home/mike/collateral/medical-project/audio/slide-01.mp3
+Wrote /home/mike/collateral/medical-project/audio/slide-02.mp3
+Wrote /home/mike/collateral/medical-project/audio/slide-03.mp3
+Wrote /home/mike/collateral/medical-project/audio/slide-04.mp3
+Wrote /home/mike/collateral/medical-project/audio/slide-05.mp3
+Wrote /home/mike/collateral/medical-project/audio/slide-06.mp3
+Wrote /home/mike/collateral/medical-project/audio/slide-07.mp3
+Wrote /home/mike/collateral/medical-project/audio/slide-08.mp3
+Updated /home/mike/collateral/medical-project/site/case-study-data.js

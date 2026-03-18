@@ -1,1 +1,1 @@
-The extraction layer mattered because it made cross-report clusters visible. Once related findings were grouped into a patient-level view, the workflow could connect those clusters to targeted differential research and give the physician a much better starting point for review.
+The extraction layer matters because it makes cross-report clusters visible. Once related findings are grouped into a patient-level view, the workflow can connect those clusters to targeted differential research and give the physician a much better starting point for review.

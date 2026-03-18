@@ -8,24 +8,24 @@ window.CASE_STUDY = {
   },
   title: "From PDF Lab Reports to a Physician-Controlled Treatment Plan",
   lead:
-    "A physician working across multiple PDF lab reports needed more than extraction. The workflow had to surface what mattered, support differential diagnosis research, and let the physician revise the treatment logic before a patient-ready report was delivered.",
+    "A physician working across multiple PDF lab reports needs more than extraction. The workflow must surface what matters, support differential diagnosis research, and let the physician revise the treatment logic before a patient-ready report is delivered.",
   heroVisual: {
     src: "../screenshots/hero-image.png",
     alt: "Clinician reviewing structured findings from PDF lab reports beside a monitor showing charts and organized results.",
     caption:
-      "The system turned scattered lab reports into a patient-level view, a physician heads-up, an editable decision tree, and a revisable treatment plan inside one application.",
+      "The system turns scattered lab reports into a patient-level view, a physician heads-up, an editable decision tree, and a revisable treatment plan inside one application.",
   },
   about:
     "This case study shows Mike’s fit for high-trust, document-heavy healthcare workflows where AI output must stay reviewable and physician-controlled before it reaches a patient.",
   approach:
-    "The implementation kept extraction, differential research, treatment logic, and final drafting visible instead of hiding everything inside one opaque prompt.",
+    "The workflow keeps extraction, differential research, treatment logic, and final drafting visible instead of hiding everything inside one opaque prompt.",
   quote: {
     text: "\"Michael is very skilled and easy to work with.\"",
     attribution: "Verified Upwork client review for the lab PDF analysis project",
   },
   tags: [
-    "Python",
-    "Flask",
+    "Physician-in-the-loop",
+    "Document workflow",
     "PDF lab reports",
     "Differential diagnosis support",
     "Decision-tree UI",
@@ -46,11 +46,11 @@ window.CASE_STUDY = {
       eyebrow: "Overview",
       title: "One patient story from many lab reports.",
       lead:
-        "This engagement produced a Python and Flask application that turned many lab reports for one patient into a physician heads-up, targeted differential research, an editable treatment plan, and a patient-ready report.",
+        "A physician working across many lab reports for one patient needs a patient-level view, targeted differential research, an editable treatment plan, and a patient-ready report before the workflow is truly useful.",
       audio: "../audio/slide-01.mp3",
       bullets: [
-        "The physician needed to see what looked clinically important before spending more time on manual review.",
-        "The result combined extraction, differential research, physician chat, and treatment-plan revision inside one application.",
+        "The physician needs to see what looks clinically important before spending more time on manual review.",
+        "The workflow combines extraction, differential research, physician chat, and treatment-plan revision inside one application.",
       ],
       artifact: {
         type: "metrics",
@@ -67,11 +67,11 @@ window.CASE_STUDY = {
       eyebrow: "Problem",
       title: "The physician needed the patient-level picture, not one report at a time.",
       lead:
-        "The challenge was combining multiple lab reports for one patient, normalizing different provider layouts, and spotting clinically meaningful clusters fast enough to guide physician attention.",
+        "The challenge is combining multiple lab reports for one patient, normalizing different provider layouts, and spotting clinically meaningful clusters fast enough to guide physician attention.",
       audio: "../audio/slide-02.mp3",
       bullets: [
-        "Manual review consumed physician time before useful reasoning could even start.",
-        "When abnormal patterns spanned more than one report, a one-shot prompt would have hidden too much of the logic to trust.",
+        "Manual review consumes physician time before useful reasoning can even start.",
+        "When abnormal patterns span more than one report, a one-shot prompt hides too much of the logic to trust.",
       ],
       artifact: {
         type: "document",
@@ -100,13 +100,13 @@ window.CASE_STUDY = {
     },
     {
       eyebrow: "Workflow",
-      title: "Five narrow stages kept the clinical reasoning visible at every step.",
+      title: "Five narrow stages keep the clinical reasoning visible at every step.",
       lead:
-        "The workflow separated ingestion, patient-level aggregation, differential research, physician review, and final drafting so the reasoning stayed reviewable instead of disappearing into one opaque pass.",
+        "The workflow separates ingestion, patient-level aggregation, differential research, physician review, and final drafting so the reasoning stays reviewable instead of disappearing into one opaque pass.",
       audio: "../audio/slide-03.mp3",
       bullets: [
-        "Each stage answered a specific question and preserved the context needed for the next one.",
-        "That made it easier for the physician to trust the workflow and redirect it when needed.",
+        "Each stage answers a specific question and preserves the context needed for the next one.",
+        "That makes it easier for the physician to trust the workflow and redirect it when needed.",
       ],
       artifact: {
         type: "pipeline",
@@ -122,13 +122,13 @@ window.CASE_STUDY = {
     },
     {
       eyebrow: "Extraction",
-      title: "Result clusters could be linked to targeted differential research.",
+      title: "Result clusters can be linked to targeted differential research.",
       lead:
-        "The key intermediate asset was a patient-level view that grouped related findings together. Once those clusters were visible, the workflow could attach targeted differential research and produce a useful physician heads-up.",
+        "The key intermediate asset is a patient-level view that groups related findings together. Once those clusters are visible, the workflow can attach targeted differential research and produce a useful physician heads-up.",
       audio: "../audio/slide-04.mp3",
       bullets: [
-        "The point was not raw extraction alone. It was making abnormal clusters legible enough to support differential diagnosis research.",
-        "That gave the physician a better starting point for review than disconnected report pages.",
+        "The point is not raw extraction alone. It is making abnormal clusters legible enough to support differential diagnosis research.",
+        "That gives the physician a better starting point for review than disconnected report pages.",
       ],
       artifact: {
         type: "cluster-map",
@@ -155,13 +155,13 @@ window.CASE_STUDY = {
     },
     {
       eyebrow: "Application",
-      title: "A physician-editable decision tree drove the treatment plan and could be revised at any time.",
+      title: "A physician-editable decision tree drives the treatment plan and can be revised at any time.",
       lead:
-        "The strongest differentiator was not extraction. It was a physician-controlled decision tree that shaped the treatment plan, plus a flexible interface for revising that logic and regenerating the output when needed.",
+        "The strongest differentiator is not extraction. It is a physician-controlled decision tree that shapes the treatment plan, plus a flexible interface for revising that logic and regenerating the output when needed.",
       audio: "../audio/slide-05.mp3",
       bullets: [
         "Mike and the physician defined the decision tree together so the treatment logic matched real clinical judgment.",
-        "The physician could adjust the tree, request more research through chat, and regenerate the treatment plan without rebuilding the workflow.",
+        "The physician can adjust the tree, request more research through chat, and regenerate the treatment plan without rebuilding the workflow.",
       ],
       artifact: {
         type: "decision-tree",
@@ -209,7 +209,7 @@ window.CASE_STUDY = {
       eyebrow: "Transformation",
       title: "Manual lab review becomes an adaptive clinical workflow.",
       lead:
-        "The outcome was not just faster processing. It was a more usable workflow: less manual cross-report triage, more structured differential research, and a cleaner physician-controlled path into the treatment plan and final report.",
+        "The outcome is not just faster processing. It is a more usable workflow: less manual cross-report triage, more structured differential research, and a cleaner physician-controlled path into the treatment plan and final report.",
       audio: "../audio/slide-06.mp3",
       bullets: [
         "This is the shift from manual cross-report review to a structured workflow with physician sign-off.",
@@ -244,13 +244,13 @@ window.CASE_STUDY = {
     },
     {
       eyebrow: "Outputs",
-      title: "The system produced both a physician heads-up and a final patient report.",
+      title: "The system produces both a physician heads-up and a final patient report.",
       lead:
-        "The deliverable was shaped for two audiences: an immediate physician-facing heads-up on what looked important, and a final patient-facing report that could be revised before delivery.",
+        "The deliverable is shaped for two audiences: an immediate physician-facing heads-up on what looks important, and a final patient-facing report that can be revised before delivery.",
       audio: "../audio/slide-07.mp3",
       bullets: [
-        "The physician could request additional research or clarification before the final report was generated.",
-        "The treatment plan and patient report stayed editable through the same application workflow.",
+        "The physician can request additional research or clarification before the final report is generated.",
+        "The treatment plan and patient report stay editable through the same application workflow.",
       ],
       artifact: {
         type: "document",
@@ -285,9 +285,9 @@ window.CASE_STUDY = {
       audio: "../audio/slide-08.mp3",
       bullets: [
         "The domain here is healthcare, but the broader pattern is document-heavy, human-in-the-loop workflow automation.",
-        "If you found this case study through Upwork or LinkedIn and your workflow looks similar, Mike is the person to contact there.",
+        "If you found this case study through Upwork or LinkedIn and your workflow looks similar, reach out there directly.",
       ],
-      tags: ["Code-first", "Physician-in-the-loop", "Decision tree", "Treatment plan"],
+      tags: ["Auditability", "Physician-in-the-loop", "Decision tree", "Treatment plan"],
       artifact: {
         type: "metrics",
         label: "Why this pattern matters",

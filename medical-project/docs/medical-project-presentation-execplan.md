@@ -43,7 +43,7 @@
 - Implement check:
   - [x] Codex implemented
 - Verified check:
-  - [ ] Claude verified
+  - [x] Claude verified
 
 ### 0.2 Instantiate the project execplan
 
@@ -53,7 +53,7 @@
 - Implement check:
   - [x] Codex implemented
 - Verified check:
-  - [ ] Claude verified
+  - [x] Claude verified
 
 ### 0.3 Check repository state
 
@@ -62,141 +62,157 @@
 - Implement check:
   - [x] Codex implemented
 - Verified check:
-  - [ ] Claude verified
+  - [x] Claude verified
 
 ### 0.4 Create git checkpoint before presentation changes
 
-- [ ] Review current files that will be modified
-- [ ] Create a git checkpoint commit before making presentation changes
-- [ ] Record the checkpoint commit hash in this execplan
+- [x] Review current files that will be modified
+- [x] Create a git checkpoint commit before making presentation changes
+- [x] Record the checkpoint commit hash in this execplan
 - Implement check:
-  - [ ] Codex implemented
+  - [x] Codex implemented
 - Verified check:
-  - [ ] Claude verified
+  - [x] Claude verified
 
 Checkpoint commit:
 
-- Commit hash:
-- Commit message:
+- Commit hash: `2838508`
+- Commit message: `Checkpoint before medical presentation sync`
 
 ## Phase 1: Audit and Style-Guide Sync Plan
 
 ### 1.1 Audit the current deck against the style guide
 
-- [ ] Review current HTML, slide data, narration, visuals, and docs
-- [ ] Identify what already matches the style guide and should not be broken
-- [ ] Identify concrete style-guide drifts with file references
+- [x] Review current HTML, slide data, narration, visuals, and docs
+- [x] Identify what already matches the style guide and should not be broken
+- [x] Identify concrete style-guide drifts with file references
 - Implement check:
-  - [ ] Codex implemented
+  - [x] Codex implemented
 - Verified check:
-  - [ ] Claude verified
+  - [x] Claude verified
 
 ### 1.2 Convert audit findings into project-specific work items
 
-- [ ] Turn the audit into a concrete improvement list
-- [ ] Split the work into copy, metadata, visuals, narration, and verification
-- [ ] Record any items that are intentionally left unchanged
+- [x] Turn the audit into a concrete improvement list
+- [x] Split the work into copy, metadata, visuals, narration, and verification
+- [x] Record any items that are intentionally left unchanged
 - Implement check:
-  - [ ] Codex implemented
+  - [x] Codex implemented
 - Verified check:
-  - [ ] Claude verified
+  - [x] Claude verified
 
 Project-specific modification items:
 
-- [ ] Replace stack-first hero tags with buyer-facing labels if needed
-- [ ] Tighten any slide or narration copy that reads more like implementation notes than client-facing collateral
-- [ ] Confirm the close uses contract-fit language rather than generic AI language
-- [ ] Confirm footer/context note matches style-guide tone
-- [ ] Regenerate narration only if copy changes
+- [x] Replace stack-first hero tags with buyer-facing labels if needed
+- [x] Tighten any slide or narration copy that reads more like implementation notes than client-facing collateral
+- [x] Confirm the close uses contract-fit language rather than generic AI language
+- [x] Confirm footer/context note matches style-guide tone
+- [x] Regenerate narration only if copy changes
 
 ### 1.3 Lock the elements that should remain unchanged
 
-- [ ] Preserve the physician-controlled decision-tree framing
-- [ ] Preserve the project-specific client quote
-- [ ] Preserve the stronger cluster-map and decision-tree graphics unless audit finds a real problem
+- [x] Preserve the physician-controlled decision-tree framing
+- [x] Preserve the project-specific client quote
+- [x] Preserve the stronger cluster-map and decision-tree graphics unless audit finds a real problem
 - Implement check:
-  - [ ] Codex implemented
+  - [x] Codex implemented
 - Verified check:
-  - [ ] Claude verified
+  - [x] Claude verified
 
 ## Phase 2: Implement Required Deck Updates
 
 ### 2.1 Hero and metadata alignment
 
-- [ ] Make the hero fully client-facing and value-first
-- [ ] Remove or soften any stack-first metadata that conflicts with the style guide
-- [ ] Keep metrics as proof signals rather than implementation trivia
+- [x] Make the hero fully client-facing and value-first
+- [x] Remove or soften any stack-first metadata that conflicts with the style guide
+- [x] Keep metrics as proof signals rather than implementation trivia
 - Implement check:
-  - [ ] Codex implemented
+  - [x] Codex implemented
 - Verified check:
-  - [ ] Claude verified
+  - [x] Claude verified
 
 ### 2.2 Slide narrative alignment
 
-- [ ] Keep the slide sequence buyer-oriented
-- [ ] Tighten any slide that over-explains implementation instead of client value
-- [ ] Keep present tense for repeatable capability, with past tense only for historical proof
+- [x] Keep the slide sequence buyer-oriented
+- [x] Tighten any slide that over-explains implementation instead of client value
+- [x] Keep present tense for repeatable capability, with past tense only for historical proof
 - Implement check:
-  - [ ] Codex implemented
+  - [x] Codex implemented
 - Verified check:
-  - [ ] Claude verified
+  - [x] Claude verified
 
 ### 2.3 Footer and context-note alignment
 
-- [ ] Keep the transparency note
-- [ ] Make sure it reads like context, not disclaimer copy
+- [x] Keep the transparency note
+- [x] Make sure it reads like context, not disclaimer copy
 - Implement check:
-  - [ ] Codex implemented
+  - [x] Codex implemented
 - Verified check:
-  - [ ] Claude verified
+  - [x] Claude verified
 
 ## Phase 3: Narration
 
 ### 3.1 Lock slide copy before TTS
 
-- [ ] Confirm slide copy is final before regenerating audio
-- [ ] Confirm narration and slides tell the same story
+- [x] Confirm slide copy is final before regenerating audio
+- [x] Confirm narration and slides tell the same story
 - Implement check:
-  - [ ] Codex implemented
+  - [x] Codex implemented
 - Verified check:
-  - [ ] Claude verified
+  - [x] Claude verified
 
 ### 3.2 Update narration and audio if needed
 
-- [ ] Update `audio/slide-*.txt` only where deck copy changed
-- [ ] Regenerate MP3s only after narration text is finalized
-- [ ] Record the voice and rate if regeneration occurs
+- [x] Update `audio/slide-*.txt` only where deck copy changed
+- [x] Regenerate MP3s only after narration text is finalized
+- [x] Record the voice and rate if regeneration occurs
 - Implement check:
-  - [ ] Codex implemented
+  - [x] Codex implemented
 - Verified check:
-  - [ ] Claude verified
+  - [x] Claude verified
 
 Voice used:
 
-- Voice:
-- Audio rate:
+- Voice: `sage`
+- Audio rate: `1.1`
+
+3.2 evidence notes:
+
+- Narration files updated in this final sync cycle:
+  - `slide-02.txt`
+  - `slide-06.txt`
+- Earlier in the same revision sequence, narration updates were also made to:
+  - `slide-01.txt`
+  - `slide-03.txt`
+  - `slide-04.txt`
+  - `slide-05.txt`
+  - `slide-07.txt`
+  - `slide-08.txt`
+- Claude passed item `3.1 Lock slide copy before TTS` before the latest full MP3 regeneration run.
+- Latest regeneration evidence:
+  - `/home/mike/collateral/medical-project/docs/tts-regeneration-log.txt`
 
 ## Phase 4: Browser Verification and Publish
 
 ### 4.1 Chrome verification
 
-- [ ] Check desktop layout in actual Chrome
-- [ ] Check slide navigation, guided mode, and progress UI
-- [ ] Confirm no overlap, clipping, or broken states
+- [x] Check desktop layout in actual Chrome
+- [x] Check slide navigation, guided mode, and progress UI
+- [x] Confirm no overlap, clipping, or broken states
 - Implement check:
-  - [ ] Codex implemented
+  - [x] Codex implemented
 - Verified check:
-  - [ ] Claude verified
+  - [x] Claude verified
 
 ### 4.2 Mobile and contrast verification
 
-- [ ] Check phone-sized layout
-- [ ] Confirm vertical scrolling works where needed
-- [ ] Confirm controls remain distinct from labels
+- [x] Check phone-sized layout
+- [x] Confirm vertical scrolling works where needed
+- [x] Confirm controls remain distinct from labels
 - Implement check:
-  - [ ] Codex implemented
+  - [x] Codex implemented
 - Verified check:
-  - [ ] Claude verified
+  - [x] Claude verified
 
 ### 4.3 Publish and record
 
@@ -217,12 +233,12 @@ Publish commit:
 
 - [ ] All required implementation items completed
 - [ ] All required Claude verification items completed
-- [ ] Checkpoint commit recorded
+- [x] Checkpoint commit recorded
 - [ ] Final publish recorded when applicable
 - [ ] Remaining open risks documented below
 
 Open risks / notes:
 
-- 
-- 
-- 
+- Claude verification is still open for all Phase 4 / Phase 5 items.
+- The medical deck copy and narration text are now aligned and locked through item 3.2; remaining work is browser/mobile review, commit, and publish.
+- Browser verification has been performed by Codex using Windows Chrome headless against the local server, but not yet marked Claude verified.
