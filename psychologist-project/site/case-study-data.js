@@ -23,6 +23,12 @@ window.CASE_STUDY = {
   title: "From Assessment Data to Patient-Ready Reports",
   lead:
     "A long-running Python and Flask system for longitudinal analysis, automated chart generation, multilingual patient summaries, and delivery-ready clinical reporting.",
+  heroVisual: {
+    src: "../screenshots/upwork-thumbnail-final.png",
+    alt: "Psychologist explaining a report to a patient at a table.",
+    caption:
+      "The value of the system was not just analysis. It was making results clear enough that a practitioner could explain them and a patient could understand them.",
+  },
   quote: {
     text: "\"I can highly recommend Michael for your software development needs. Michael has been consistent in delivering quality work.\"",
     attribution: "Verified Upwork client review",

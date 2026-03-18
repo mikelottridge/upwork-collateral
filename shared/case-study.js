@@ -25,6 +25,9 @@
     projectEyebrow: document.querySelector("[data-project-eyebrow]"),
     projectTitle: document.querySelector("[data-project-title]"),
     projectLead: document.querySelector("[data-project-lead]"),
+    projectHeroVisual: document.querySelector("[data-project-hero-visual]"),
+    projectHeroImage: document.querySelector("[data-project-hero-image]"),
+    projectHeroCaption: document.querySelector("[data-project-hero-caption]"),
     projectTags: document.querySelector("[data-project-tags]"),
     projectSignals: document.querySelector("[data-project-signals]"),
     projectAbout: document.querySelector("[data-project-about]"),
@@ -140,6 +143,17 @@
     els.projectTitle.textContent = deck.title;
     els.projectLead.textContent = deck.lead;
     els.footerNote.textContent = deck.footerNote || "";
+
+    if (els.projectHeroVisual && els.projectHeroImage && deck.heroVisual && deck.heroVisual.src) {
+      els.projectHeroVisual.hidden = false;
+      els.projectHeroImage.src = deck.heroVisual.src;
+      els.projectHeroImage.alt = deck.heroVisual.alt || "";
+      if (els.projectHeroCaption) {
+        els.projectHeroCaption.textContent = deck.heroVisual.caption || "";
+      }
+    } else if (els.projectHeroVisual) {
+      els.projectHeroVisual.hidden = true;
+    }
 
     els.projectTags.innerHTML = "";
     (deck.tags || []).forEach((tag) => els.projectTags.append(el("span", "tag", tag)));
