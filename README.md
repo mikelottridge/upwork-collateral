@@ -16,6 +16,12 @@ The canonical presentation style guide now lives at:
 
 Read that alongside this README before making cross-project design, copy, narration, or verification changes.
 
+The reusable presentation execplan template lives at:
+
+- `templates/presentation-execplan-template.md`
+
+Instantiate a project-specific copy of that template inside the project's `docs/` folder before starting a new deck or making substantial revisions to an existing one.
+
 ## Audience
 
 Primary audience:

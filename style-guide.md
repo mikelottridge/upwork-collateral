@@ -385,3 +385,22 @@ If a decision changes across more than one deck, update this file:
 - `/home/mike/collateral/style-guide.md`
 
 If a decision is specific to only one deck, record it in that project's docs.
+
+## Starting a New Deck or Revising an Existing Deck
+
+Use the execplan template:
+
+- `/home/mike/collateral/templates/presentation-execplan-template.md`
+
+Required workflow:
+
+1. create a project-specific copy inside that project's `docs/` folder
+2. select the correct path in that copy:
+   - create a new presentation
+   - modify an existing presentation
+3. if modifying an existing deck, make a git checkpoint commit in `/home/mike/collateral` before changing the presentation
+4. execute each checklist item with:
+   - Codex implements
+   - Claude verifies
+
+Do not start a serious deck build or revision without instantiating that project-specific execplan first.
