@@ -216,29 +216,29 @@ Voice used:
 
 ### 4.3 Publish and record
 
-- [ ] Commit final deck changes in `/home/mike/collateral/`
-- [ ] Publish to GitHub Pages if deck changed
-- [ ] Record the publish commit hash
+- [x] Commit final deck changes in `/home/mike/collateral/`
+- [x] Publish to GitHub Pages if deck changed
+- [x] Record the publish commit hash
 - Implement check:
-  - [ ] Codex implemented
+  - [x] Codex implemented
 - Verified check:
-  - [ ] Claude verified
+  - [x] Claude verified
 
 Publish commit:
 
-- Commit hash:
-- Commit message:
+- Commit hash: `fb92afc`
+- Commit message: `Sync medical case study deck to style guide`
 
 ## Final Verification Summary
 
-- [ ] All required implementation items completed
-- [ ] All required Claude verification items completed
+- [x] All required implementation items completed
+- [x] All required Claude verification items completed
 - [x] Checkpoint commit recorded
-- [ ] Final publish recorded when applicable
-- [ ] Remaining open risks documented below
+- [x] Final publish recorded when applicable
+- [x] Remaining open risks documented below
 
 Open risks / notes:
 
-- Claude verification is still open for all Phase 4 / Phase 5 items.
-- The medical deck copy and narration text are now aligned and locked through item 3.2; remaining work is browser/mobile review, commit, and publish.
-- Browser verification has been performed by Codex using Windows Chrome headless against the local server, but not yet marked Claude verified.
+- No blocking open risks remain for the medical deck.
+- GitHub Pages may take a short time to reflect the latest pushed commit.
+- The deck itself is finished; any later work should start from a new checkpoint commit.
