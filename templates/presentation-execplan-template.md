@@ -33,16 +33,39 @@ Examples:
 2. Every checklist item must have two explicit subchecks:
    - `Codex implemented`
    - `Claude verified`
-3. Every project must have a unique folder under `/home/mike/collateral/`.
-4. Before modifying an existing presentation, run a git status check and create a checkpoint commit in `/home/mike/collateral/`.
-5. Use these as the style and implementation sources of truth:
+3. Work item by item. Do not advance to the next checklist item until:
+   - Codex has completed the current item
+   - Claude has verified the current item
+   - the execplan checkboxes for that item have been updated immediately
+4. Do not batch multiple unchecked items and verify them later as a group unless the execplan explicitly marks them as one combined item.
+5. If Claude finds a problem, keep the current item open, fix it, and re-run Claude verification before moving on.
+6. Every project must have a unique folder under `/home/mike/collateral/`.
+7. Before modifying an existing presentation, run a git status check and create a checkpoint commit in `/home/mike/collateral/`.
+8. Use these as the style and implementation sources of truth:
    - `/home/mike/collateral/style-guide.md`
    - `/home/mike/collateral/shared/case-study.css`
    - `/home/mike/collateral/shared/case-study.js`
    - `/home/mike/collateral/psychologist-project/site/index.html`
    - `/home/mike/collateral/psychologist-project/site/case-study-data.js`
-6. Do not regenerate narration until slide copy is content-locked.
-7. Do not publish until the deck has been previewed in Chrome and checked against the style guide.
+9. Do not regenerate narration until slide copy is content-locked.
+10. Do not publish until the deck has been previewed in Chrome and checked against the style guide.
+
+## Verification Loop
+
+Use this exact cadence for every checklist item unless the execplan explicitly groups several substeps into one item:
+
+1. Codex implements the current item.
+2. Claude verifies the current item.
+3. Update the two subchecks in the execplan immediately.
+4. Only then move to the next item.
+
+If the current item fails Claude verification:
+
+1. Leave the item open.
+2. Fix only that item.
+3. Re-run Claude verification on that same item.
+4. Update the execplan immediately.
+5. Only then continue.
 
 ---
 

@@ -347,6 +347,18 @@ Every meaningful improvement should follow this loop:
 
 1. Codex implements
 2. Claude verifies
+3. update the execplan immediately
+4. only then move to the next item
+
+Do not batch several unchecked items and then verify them later as a group unless the execplan explicitly defines them as one combined item.
+
+If Claude rejects an item:
+
+1. keep that item open
+2. fix that item only
+3. re-run Claude verification for that same item
+4. update the execplan immediately
+5. only then continue
 
 At minimum, verification should cover:
 
@@ -402,5 +414,6 @@ Required workflow:
 4. execute each checklist item with:
    - Codex implements
    - Claude verifies
+5. update the execplan immediately after each Claude result before moving on
 
 Do not start a serious deck build or revision without instantiating that project-specific execplan first.
