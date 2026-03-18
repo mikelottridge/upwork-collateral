@@ -1,0 +1,13 @@
+[main fb92afc] Sync medical case study deck to style guide
+ 21 files changed, 218 insertions(+), 106 deletions(-)
+ rewrite medical-project/audio/slide-01.mp3 (96%)
+ rewrite medical-project/audio/slide-02.mp3 (94%)
+ rewrite medical-project/audio/slide-03.mp3 (95%)
+ rewrite medical-project/audio/slide-04.mp3 (96%)
+ rewrite medical-project/audio/slide-05.mp3 (95%)
+ rewrite medical-project/audio/slide-06.mp3 (94%)
+ rewrite medical-project/audio/slide-07.mp3 (94%)
+ rewrite medical-project/audio/slide-08.mp3 (95%)
+ create mode 100644 medical-project/docs/chrome-verification-desktop.md
+ create mode 100644 medical-project/docs/chrome-verification-mobile.md
+ create mode 100644 medical-project/docs/tts-regeneration-log.txt
