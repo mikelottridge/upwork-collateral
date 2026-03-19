@@ -381,6 +381,17 @@ a {
   box-shadow: 0 16px 30px rgba(27, 42, 74, 0.26);
 }
 
+.btn-danger {
+  background: linear-gradient(135deg, #a62323 0%, #d64040 100%);
+  border-color: #a62323;
+  color: #fff5f5;
+  box-shadow: 0 12px 24px rgba(166, 35, 35, 0.28);
+}
+
+.btn-danger:hover {
+  box-shadow: 0 16px 30px rgba(166, 35, 35, 0.34);
+}
+
 .guided-flash {
   position: relative;
   z-index: 1;

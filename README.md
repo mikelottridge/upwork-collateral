@@ -162,7 +162,7 @@ Current behavior:
 
 Example:
 
-- `.../medical-project/site/index.html?autoplay=1&rate=1.15`
+- `.../medical-project/site/index.html?rate=1.15`
 
 ## Local Preview
 
@@ -180,8 +180,9 @@ Then open:
 
 Useful test URLs:
 
-- guided mode: `?autoplay=1`
-- faster narration: `?autoplay=1&rate=1.15`
+- guided mode is on by default
+- disable guided mode: `?autoplay=0`
+- faster narration: `?rate=1.15`
 
 ## Resume Checklist
 

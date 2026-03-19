@@ -6,7 +6,7 @@
 
   const state = {
     index: 0,
-    autoplay: false,
+    autoplay: true,
     timer: null,
     audio: null,
   };
@@ -652,9 +652,10 @@
 
   function syncControls() {
     const hasAudio = deck.slides.some((slide) => slide.audio);
-    const onLabel = hasAudio ? "Pause Guided Mode" : "Pause Auto-Advance";
-    const offLabel = hasAudio ? "Start Guided Mode" : "Auto-Advance Slides";
+    const onLabel = hasAudio ? "Stop audio/guided mode" : "Stop auto-advance";
+    const offLabel = hasAudio ? "Start audio/guided mode" : "Auto-advance slides";
     els.autoplayButton.textContent = state.autoplay ? onLabel : offLabel;
+    els.autoplayButton.classList.toggle("btn-danger", state.autoplay);
     els.prevButton.disabled = state.index === 0;
     els.nextButton.disabled = state.index === deck.slides.length - 1;
 
@@ -763,9 +764,8 @@
   renderMetricGrid();
   renderSlideIndex();
   goTo(0);
-  triggerGuidedFlash();
 
-  if (params.get("autoplay") === "1") {
+  if (params.get("autoplay") === "0") {
     toggleAutoplay();
   }
 })();
