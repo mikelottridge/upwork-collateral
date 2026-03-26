@@ -335,6 +335,44 @@ a {
   border: 1px solid rgba(221, 217, 209, 0.92);
 }
 
+.guided-start-banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+  padding: 16px 18px;
+  border: 1px solid rgba(201, 151, 58, 0.26);
+  border-radius: 20px;
+  background:
+    linear-gradient(135deg, rgba(201, 151, 58, 0.10), rgba(74, 155, 142, 0.08)),
+    #fffdf8;
+  box-shadow: var(--shadow-soft);
+}
+
+.guided-start-copy {
+  display: grid;
+  gap: 6px;
+  max-width: 44rem;
+}
+
+.guided-start-copy .eyebrow {
+  color: var(--accent-2);
+}
+
+.guided-start-copy strong {
+  color: var(--ink);
+  font: 700 1.02rem/1.25 var(--font-display);
+}
+
+.guided-start-copy p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
 .controls {
   display: flex;
   flex-wrap: wrap;

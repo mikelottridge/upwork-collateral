@@ -4,14 +4,18 @@
     throw new Error("CASE_STUDY payload missing");
   }
 
+  const params = new URLSearchParams(window.location.search);
+  const hasAudio = deck.slides.some((slide) => slide.audio);
+  const initialAutoplay = params.get("autoplay") !== "0";
+
   const state = {
     index: 0,
-    autoplay: true,
+    autoplay: initialAutoplay,
     timer: null,
     audio: null,
+    audioPromptVisible: false,
   };
 
-  const params = new URLSearchParams(window.location.search);
   const queryRate = Number(params.get("rate"));
   const defaultAudioRate = Number.isFinite(queryRate) && queryRate > 0 ? queryRate : (deck.audioRate || 1);
 
@@ -72,6 +76,38 @@
     stopTimer();
   }
 
+  function isAutoplayBlockedError(error) {
+    if (!error) return false;
+    const name = typeof error.name === "string" ? error.name : "";
+    const message = typeof error.message === "string" ? error.message : "";
+    return name === "NotAllowedError" || /user gesture|interact|not allowed|permission/i.test(message);
+  }
+
+  function showAudioPrompt() {
+    if (!hasAudio) return;
+    state.audioPromptVisible = true;
+  }
+
+  function hideAudioPrompt() {
+    state.audioPromptVisible = false;
+    const prompt = document.querySelector(".guided-start-banner");
+    if (prompt) {
+      prompt.remove();
+    }
+  }
+
+  function startGuidedMode() {
+    clearGuidedFlash();
+    hideAudioPrompt();
+    state.autoplay = true;
+    haltPlayback();
+    syncControls();
+    const current = deck.slides[state.index];
+    if (!trySlideAudio(current)) {
+      queueAdvance(current);
+    }
+  }
+
   function clearGuidedFlash() {
     if (guidedFlashTimer) {
       window.clearTimeout(guidedFlashTimer);
@@ -82,7 +118,7 @@
 
   function triggerGuidedFlash() {
     clearGuidedFlash();
-    if (!deck.slides.some((slide) => slide.audio)) return;
+    if (!hasAudio) return;
     if (state.autoplay) return;
     els.autoplayButton.classList.add("guided-flash");
     guidedFlashTimer = window.setTimeout(() => {
@@ -117,8 +153,15 @@
           syncControls();
         }
       }, { once: true });
-      state.audio.play().catch(() => {
+      state.audio.play().catch((error) => {
         state.audio = null;
+        if (isAutoplayBlockedError(error)) {
+          state.autoplay = false;
+          showAudioPrompt();
+          renderSlide();
+          triggerGuidedFlash();
+          return;
+        }
         queueAdvance(slide);
       });
       return true;
@@ -650,8 +693,25 @@
     return frame;
   }
 
+  function renderAudioPrompt() {
+    const banner = el("div", "guided-start-banner");
+    const copy = el("div", "guided-start-copy");
+    copy.append(el("div", "eyebrow", "Narrated walkthrough"));
+    copy.append(el("strong", "", "Audio is available for this presentation."));
+    copy.append(el("p", "", "Your browser blocked automatic audio. Start once to play narration and advance slides together."));
+
+    const button = el("button", "btn btn-accent", "Start audio + guided tour");
+    button.type = "button";
+    button.addEventListener("click", (event) => {
+      event.preventDefault();
+      startGuidedMode();
+    });
+
+    banner.append(copy, button);
+    return banner;
+  }
+
   function syncControls() {
-    const hasAudio = deck.slides.some((slide) => slide.audio);
     const onLabel = hasAudio ? "Stop audio/guided mode" : "Stop auto-advance";
     const offLabel = hasAudio ? "Start audio/guided mode" : "Auto-advance slides";
     els.autoplayButton.textContent = state.autoplay ? onLabel : offLabel;
@@ -671,6 +731,10 @@
   function renderSlide() {
     const slide = deck.slides[state.index];
     els.slideCanvas.innerHTML = "";
+
+    if (state.audioPromptVisible) {
+      els.slideCanvas.append(renderAudioPrompt());
+    }
 
     const slideNode = el("section", "slide");
     if (slide.tone) {
@@ -731,15 +795,13 @@
 
   function toggleAutoplay() {
     clearGuidedFlash();
-    state.autoplay = !state.autoplay;
-    haltPlayback();
-    syncControls();
     if (state.autoplay) {
-      const current = deck.slides[state.index];
-      if (!trySlideAudio(current)) {
-        queueAdvance(current);
-      }
+      state.autoplay = false;
+      haltPlayback();
+      syncControls();
+      return;
     }
+    startGuidedMode();
   }
 
   els.prevButton.addEventListener("click", prev);
@@ -764,8 +826,4 @@
   renderMetricGrid();
   renderSlideIndex();
   goTo(0);
-
-  if (params.get("autoplay") === "0") {
-    toggleAutoplay();
-  }
 })();

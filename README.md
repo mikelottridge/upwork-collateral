@@ -180,8 +180,9 @@ Then open:
 
 Useful test URLs:
 
-- guided mode is on by default
-- disable guided mode: `?autoplay=0`
+- autoplay is attempted on load when narration exists
+- browsers may require one click to start audio; when blocked, the page now shows a clear start prompt and pauses on slide 1
+- disable the autoplay attempt: `?autoplay=0`
 - faster narration: `?rate=1.15`
 
 ## Resume Checklist
