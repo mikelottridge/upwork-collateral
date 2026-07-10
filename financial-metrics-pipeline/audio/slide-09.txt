@@ -1,0 +1,1 @@
+Unstructured text is handled with schema and source grounding. The model-assisted path asks for a metric, unit, excerpt, and confidence flag. The application does not call the model on page load, and the model does not decide source precedence. It assists extraction while the pipeline preserves reviewable evidence.

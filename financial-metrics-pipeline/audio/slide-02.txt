@@ -1,0 +1,1 @@
+The same metric can move between sources. One quarter may have a clean structured SEC fact. Another may require an earnings exhibit, a PDF, or an investor document. A transcript may be useful, but it should not override stronger evidence. The demo treats this as a reliability system instead of a scrape, with explicit source ranking and review flags.

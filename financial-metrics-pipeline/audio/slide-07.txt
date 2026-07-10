@@ -1,0 +1,1 @@
+The demo already produces populated metric rows, not just a schema. A local run selected eight rows across Netflix and Disney and surfaced four conflicts instead of hiding disagreements. Revenue and operating income come from live SEC companyfacts. Subscriber and ARPU examples demonstrate the lower-precedence transcript layer.

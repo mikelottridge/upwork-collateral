@@ -1,0 +1,1 @@
+The two-company proof is intentionally small, but it is shaped for the requested forty to fifty company scope. Each company adds a CIK, ticker, target metrics, aliases, and source rules. The hardening work is source coverage and validation, not changing the row contract for every company.

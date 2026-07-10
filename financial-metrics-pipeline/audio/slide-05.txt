@@ -1,0 +1,1 @@
+The coverage map is intentionally precise. SEC XBRL refresh, tag aliases, HTML exhibit ingestion, source precedence, and confidence flags are working in the proof. PDF table parsing and transcript provider integration are called out as production hardening steps. That honesty helps the client see what is proven now and what belongs in the next phase.

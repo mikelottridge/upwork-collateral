@@ -1,0 +1,1 @@
+The confidence model is intentionally conservative. Reported exact means a structured fact or directly stated value was found. Extracted table means the evidence came from a table or labeled document callout. Ambiguous chart and missing values are not silently converted into precise numbers. They remain review signals.

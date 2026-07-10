@@ -52,6 +52,7 @@ These pages should stay safe to publish publicly. Any non-Upwork variant with co
 
 - `medical-project/site/index.html`
 - `psychologist-project/site/index.html`
+- `financial-metrics-pipeline/site/index.html`
 - `index.html` for a local landing page
 
 Current stronger reference direction:
@@ -177,6 +178,7 @@ Then open:
 - `http://127.0.0.1:8765/`
 - `http://127.0.0.1:8765/medical-project/site/index.html`
 - `http://127.0.0.1:8765/psychologist-project/site/index.html`
+- `http://127.0.0.1:8765/financial-metrics-pipeline/site/index.html`
 
 Useful test URLs:
 
@@ -225,3 +227,4 @@ High-value next improvements:
 - These pages are hiring collateral, not architecture notes.
 - Avoid meta language about "public-safe emphasis" or "collateral constraints" on the visible page.
 - Visible copy should speak to the prospective client's hiring decision.
+

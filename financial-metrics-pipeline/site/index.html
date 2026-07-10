@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SEC Financial Metrics Pipeline Client Presentation</title>
+    <meta name="description" content="Guided client presentation for a SEC financial metrics pipeline demo with source precedence, audit evidence, confidence flags, and narration.">
+    <link rel="stylesheet" href="../../shared/case-study.css?v=4">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="hero">
+        <article class="hero-panel">
+          <div class="eyebrow" data-project-eyebrow></div>
+          <h1 data-project-title></h1>
+          <p data-project-lead></p>
+          <figure class="hero-visual" data-project-hero-visual hidden>
+            <img data-project-hero-image src="" alt="">
+            <figcaption data-project-hero-caption></figcaption>
+          </figure>
+          <div class="hero-tags" data-project-tags></div>
+        </article>
+        <aside class="meta-panel">
+          <section class="meta-block">
+            <h2>Project signals</h2>
+            <div class="signal-list" data-project-signals></div>
+          </section>
+          <section class="meta-block">
+            <h2>At a glance</h2>
+            <div class="metric-grid" data-metric-grid></div>
+          </section>
+          <section class="meta-block">
+            <h2>Client fit</h2>
+            <div data-project-quote></div>
+          </section>
+        </aside>
+      </section>
+
+      <section class="presentation-shell">
+        <aside class="slide-nav">
+          <h3>Presentation flow</h3>
+          <div class="slide-index" data-slide-index></div>
+        </aside>
+
+        <section class="slide-canvas">
+          <div class="controls">
+            <div class="control-buttons">
+              <button class="btn btn-accent" type="button" data-action="autoplay">Start audio/guided mode</button>
+              <button class="btn" type="button" data-action="prev">Previous</button>
+              <button class="btn" type="button" data-action="next">Next</button>
+            </div>
+            <div class="progress-meta">
+              <div class="progress-rail"><div class="progress-fill" data-progress-fill></div></div>
+              <div class="progress-copy" data-progress-copy></div>
+            </div>
+          </div>
+
+          <div data-slide-canvas></div>
+        </section>
+      </section>
+
+      <footer class="footer-panel">
+        <div><strong>Use case:</strong> SEC-backed financial metrics extraction for proposal discovery</div>
+        <div data-footer-note></div>
+      </footer>
+    </main>
+
+    <script src="./case-study-data.js"></script>
+    <script src="../../shared/case-study.js?v=4"></script>
+  </body>
+</html>
+

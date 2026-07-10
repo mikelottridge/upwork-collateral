@@ -1,0 +1,1 @@
+The recommended engagement starts with the source inventory, then ships the production pipeline in phases. First confirm the metric list, company universe, source hierarchy, and export format. Then run a pilot batch with XBRL and exhibit ingestion. After that, add PDF table parsing, transcript provider integration, conflict reports, and the full company run.
