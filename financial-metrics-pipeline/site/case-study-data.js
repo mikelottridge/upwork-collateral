@@ -10,9 +10,9 @@ window.CASE_STUDY = {
     "hero-bg-3": "#0d1715",
     "nav-bg": "#14201e",
   },
-  title: "One real investor PDF. Zero parsed tables. A reviewable 13-row result for $0.0095.",
+  title: "A real Disney investor-PDF page yielded a source-linked 13-row table for $0.0095.",
   lead:
-    "If a 40 to 50 company pipeline hits an investor deck that breaks deterministic parsing, this demo shows the bounded fallback, source trail, cost, and human-review handoff.",
+    "On page 22, pdfplumber found zero tables. A one-page recovery call, limited to that page and recorded at $0.0095, returned a reviewable table with its source evidence intact.",
   heroVisual: {
     src: "../screenshots/demo-ui.png?v=2",
     alt: "Financial metrics pipeline demo showing SEC source refresh, normalized rows, and confidence flags.",
@@ -24,21 +24,21 @@ window.CASE_STUDY = {
   approach:
     "Start with live SEC facts and official documents. Use deterministic parsing where it works. When a difficult page fails, use a bounded model call that preserves the evidence and cost record.",
   quote: {
-    text: "The important proof is not that an LLM can read a PDF. It is that a real PDF failure has a bounded, source-grounded recovery path before the full batch is funded.",
+    text: "Four conflicts are surfaced instead of silently choosing a number. The PDF recovery keeps every extracted row tied to an official document and human review.",
     attribution: "Mike Lottridge, proposal demo",
   },
   tags: [
-    "Official investor PDF",
-    "0-table parser failure",
-    "$0.0095 bounded recovery",
-    "SEC evidence trail",
-    "Human review flags",
+    "Official Disney PDF",
+    "13 source-linked rows",
+    "$0.0095 one-page recovery",
+    "4 conflicts surfaced",
+    "Human review handoff",
   ],
-  signals: ["Real PDF bakeoff", "Source-grounded output", "No silent guessing"],
+  signals: ["Real PDF proof", "Conflict-aware output", "Human review ready"],
   metrics: [
     { value: "0 tables", label: "Deterministic parser on the selected PDF page" },
-    { value: "13 rows", label: "Structured extraction from the same page" },
-    { value: "$0.0095", label: "Recorded estimated cost for the bounded call" },
+    { value: "13 rows", label: "Reviewable extraction from the same page" },
+    { value: "$0.0095", label: "Recorded estimated cost for one selected page" },
     { value: "4 conflicts", label: "Surfaced for review instead of hidden" },
   ],
   footerNote:
@@ -48,17 +48,17 @@ window.CASE_STUDY = {
   slides: [
     {
       eyebrow: "15-second proof",
-      title: "The hard PDF case is already tested on a real investor deck.",
+      title: "A real Disney investor-PDF page yielded a 13-row, source-linked table for $0.0095.",
       lead:
-        "On Disney's official Q2 FY24 earnings presentation, the deterministic table parser found no grid. A bounded OpenAI extraction returned a structured reconciliation table from that same cached page.",
+        "The selected Disney Q2 FY24 page had zero detectable tables with pdfplumber. A one-page OpenAI recovery returned a structured reconciliation table from that same official document.",
       audio: "../audio/slide-01.mp3",
       bullets: [
-        "The source URL, page number, checksum, model result, token usage, and estimated cost are retained for review.",
-        "This is not a claim that every PDF is easy. It is a concrete recovery path for the failure mode that stalls financial-data automation projects.",
+        "Example output: As reported | pre-tax income/loss $657M | Disney Q2 FY24 deck, page 22 | extracted-table confidence.",
+        "The source URL, page number, checksum, excerpt, token usage, and estimated cost remain attached for review.",
       ],
       artifact: {
         type: "compare",
-        label: "Same official PDF page, two extraction paths",
+        label: "Source-linked output, then recovery proof",
         panels: [
           {
             tone: "bad",
@@ -72,11 +72,11 @@ window.CASE_STUDY = {
           },
           {
             tone: "good",
-            title: "Bounded PDF vision",
-            stat: "13 structured rows",
+            title: "One-page recovery",
+            stat: "13 reviewable rows",
             lines: [
-              "The same page was sent as one high-detail PDF input.",
-              "Rows, cells, source excerpt, and confidence flag were returned.",
+              "The recovery was limited to the selected page, not a black-box batch call.",
+              "Rows, cells, source excerpt, and extracted-table confidence were returned.",
               "Actual recorded call cost: $0.0095.",
             ],
           },
@@ -85,12 +85,12 @@ window.CASE_STUDY = {
     },
     {
       eyebrow: "Why the client should care",
-      title: "The value is not AI reads PDFs. It is a bounded recovery path when ordinary parsing fails.",
+      title: "The proof answers a business question: what happens when an investor PDF breaks the normal batch?",
       lead:
-        "At 40 to 50 companies, one difficult deck can stop a batch. This proof makes the fallback, cost, and review evidence visible before the client funds the full build.",
+        "At 40 to 50 companies, a difficult deck should become a one-page exception with a visible cost and review record - not a reason the whole batch stops.",
       audio: "../audio/slide-02.mp3",
       bullets: [
-        "The model is used only on the selected difficult page, not as a page-load feature or a replacement for source precedence.",
+        "The recovery is limited to one selected page, records its tokens and cost, and never replaces source precedence.",
         "Every extracted value stays tied to the original document, excerpt, period, unit, and confidence state.",
         "A reviewer can see whether the fallback helped, what it cost, and when to escalate instead of guessing.",
       ],
@@ -107,7 +107,7 @@ window.CASE_STUDY = {
     },
     {
       eyebrow: "Working product proof",
-      title: "The PDF fallback sits inside a traceable SEC pipeline, not beside a one-off prompt.",
+      title: "The PDF check is part of a working SEC pipeline, not a one-off prompt.",
       lead:
         "The same app refreshes SEC companyfacts, downloads official exhibits, normalizes results, applies source precedence, and exposes conflicts for review.",
       audio: "../audio/slide-03.mp3",
@@ -121,7 +121,7 @@ window.CASE_STUDY = {
         label: "The reviewable data contract",
         steps: [
           { icon: "1", title: "Ingest", copy: "SEC facts, filing exhibits, investor PDFs, and transcript-shaped sources." },
-          { icon: "2", title: "Extract", copy: "Use structured tags first; use a bounded PDF path only when needed." },
+          { icon: "2", title: "Extract", copy: "Use structured tags first; use a one-page PDF recovery only when needed." },
           { icon: "3", title: "Normalize", copy: "Create one evidence-backed row shape across every source." },
           { icon: "4", title: "Resolve", copy: "Apply precedence, flag conflicts, and queue uncertainty for review." },
         ],
@@ -129,14 +129,14 @@ window.CASE_STUDY = {
     },
     {
       eyebrow: "Actual output",
-      title: "The proof already produces populated financial rows and a conflict queue.",
+      title: "The proof produces financial rows and flags disagreements before export.",
       lead:
-        "The result is not a schema-only mockup. It contains real SEC-backed values for Netflix and Disney, plus lower-precedence transcript-shaped examples that remain visibly qualified.",
+        "The result is not a schema-only mockup. It contains real SEC-backed values for Netflix and Disney, and it surfaces four conflicts before an export can silently hide them.",
       audio: "../audio/slide-04.mp3",
       bullets: [
         "Revenue and operating income are selected from live SEC companyfacts with reported-exact confidence.",
         "The same row shape can feed CSV, Excel, a database table, or a warehouse export.",
-        "Conflicts and missing values stay explicit so the client can set the review policy rather than discover gaps after export.",
+        "Four conflicts are surfaced for review instead of being silently resolved behind the final export.",
       ],
       artifact: {
         type: "table",
@@ -155,9 +155,9 @@ window.CASE_STUDY = {
     },
     {
       eyebrow: "Guardrails",
-      title: "Model output is an extraction aid, never the source authority.",
+      title: "AI assists extraction while official sources and review rules stay in control.",
       lead:
-        "The pipeline does not call the model on page load or use it to decide source precedence. The model returns structured fields that remain tied to a source excerpt and confidence state.",
+        "The model is used for a selected difficult page only. Official source evidence, precedence, and a human-review policy decide what the client accepts.",
       audio: "../audio/slide-05.mp3",
       tone: "dark",
       bullets: [
@@ -178,7 +178,7 @@ window.CASE_STUDY = {
     },
     {
       eyebrow: "Scale path",
-      title: "The 40 to 50 company scope now has a tested strategy for the hard PDF edge case.",
+      title: "A repeatable 40 to 50 company path: evidence contract first, then scale.",
       lead:
         "The proof set is intentionally small. The configuration, row contract, validation hooks, and bounded PDF path are the same components needed for a larger batch pipeline.",
       audio: "../audio/slide-06.mp3",
@@ -200,9 +200,9 @@ window.CASE_STUDY = {
     },
     {
       eyebrow: "Recommended engagement",
-      title: "Start with the client source inventory, then prove the production batch before full scale.",
+      title: "A defined path from source inventory to a scaled client batch.",
       lead:
-        "The first paid milestone turns this generic proof into the client-specific source map and a small audited batch. That removes source and PDF risk before the full 40 to 50 company run.",
+        "The scoping approach is already defined: source inventory, batch proof, then scale. It turns the client request into a measurable delivery plan before full production volume.",
       audio: "../audio/slide-07.mp3",
       bullets: [
         "Milestone 1: confirm metrics, company universe, source hierarchy, PDF page rules, and export format.",
