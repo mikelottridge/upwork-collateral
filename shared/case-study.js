@@ -293,13 +293,13 @@
     return frame;
   }
 
-  function toolbar(label) {
+  function toolbar(label, chip = "evidence") {
     const bar = el("div", "table-toolbar");
     const dots = el("div", "traffic-dots");
     dots.append(el("span"), el("span"), el("span"));
     bar.append(dots);
     bar.append(el("div", "", label || "Synthetic example"));
-    bar.append(el("div", "toolbar-chip", "mock"));
+    bar.append(el("div", "toolbar-chip", chip));
     return bar;
   }
 
@@ -307,7 +307,7 @@
     const frame = el("div", "artifact-table");
     frame.append(el("div", "artifact-label", artifact.label || "Structured view"));
     const shell = el("div", "table-card");
-    shell.append(toolbar(artifact.toolbar || "Structured extraction view"));
+    shell.append(toolbar(artifact.toolbar || "Structured extraction view", artifact.toolbarChip || "evidence"));
 
     const colClass = artifact.columns && artifact.columns.length === 2 ? "table-grid table-2col" : "table-grid";
     const grid = el("div", colClass);
@@ -636,7 +636,7 @@
     frame.append(el("div", "artifact-label", artifact.label || "Client signal"));
 
     const quoteShell = el("div", "quote-shell");
-    const quoteMark = el("div", "quote-mark", "“");
+    const quoteMark = el("div", "quote-mark", "?");
     const quoteText = document.createElement("blockquote");
     quoteText.className = "quote-shell-copy";
     quoteText.textContent = artifact.text || "";
