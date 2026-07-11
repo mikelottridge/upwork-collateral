@@ -53,7 +53,7 @@ window.CASE_STUDY = {
       "label": "Target scale supported by a staged pilot-to-batch delivery path"
     }
   ],
-  "footerNote": "Built by Mike Lottridge. Narration uses the recorded MP3 voiceover assets in this repository. Source data comes from public SEC endpoints, official filing documents, and checked-in demonstration artifacts.",
+  "footerNote": "Built by Mike Lottridge. Narration uses AI-generated Cedar MP3 voiceover assets in this repository. Source data comes from public SEC endpoints, official filing documents, and checked-in demonstration artifacts.",
   "defaultDurationMs": 7200,
   "audioRate": 1,
   "slides": [
