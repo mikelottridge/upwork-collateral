@@ -1,5 +1,5 @@
 window.CASE_STUDY = {
-  eyebrow: "Real investor PDF proof: SEC financial metrics pipeline",
+  eyebrow: "Working product proof: SEC financial metrics pipeline",
   theme: {
     accent: "#176b5f",
     "accent-soft": "rgba(23, 107, 95, 0.12)",
@@ -10,133 +10,135 @@ window.CASE_STUDY = {
     "hero-bg-3": "#0d1715",
     "nav-bg": "#14201e",
   },
-  title: "A real Disney investor-PDF page yielded a source-linked 13-row table for $0.0095.",
+  title: "Turn fragmented financial disclosures into reviewable, source-linked metrics.",
   lead:
-    "On page 22, pdfplumber found zero tables. A one-page recovery call, limited to that page and recorded at $0.0095, returned a reviewable table with its source evidence intact.",
+    "This working pipeline ingests SEC facts, filing exhibits, investor PDFs, and transcript-shaped sources; normalizes them into one data contract; applies source precedence; and exposes conflicts before export.",
   heroVisual: {
     src: "../screenshots/demo-ui.png?v=2",
-    alt: "Financial metrics pipeline demo showing SEC source refresh, normalized rows, and confidence flags.",
+    alt: "Financial metrics pipeline demo showing SEC source refresh, normalized rows, confidence states, and conflict flags.",
     caption:
-      "The working application combines live SEC evidence, normalized financial rows, conflict flags, and a real investor-PDF bakeoff.",
+      "The application combines official evidence, normalized financial rows, declared source precedence, conflict review, and bounded recovery for difficult PDF pages.",
   },
   about:
-    "This is a working proof for financial-data automation where official exhibits, investor PDFs, and conflicting source values have to remain reviewable.",
+    "A working proof for financial-data automation where values from multiple public sources must remain traceable, comparable, and reviewable at scale.",
   approach:
-    "Start with live SEC facts and official documents. Use deterministic parsing where it works. When a difficult page fails, use a bounded model call that preserves the evidence and cost record.",
+    "Use official structured sources first, preserve evidence with every normalized row, make source-selection rules explicit, and route ambiguity to human review instead of hiding it in the export.",
   quote: {
-    text: "Four conflicts are surfaced instead of silently choosing a number. The PDF recovery keeps every extracted row tied to an official document and human review.",
+    text: "The core deliverable is not PDF extraction. It is a dependable financial-metrics pipeline with source lineage, conflict visibility, and a clear path from pilot to scaled batch.",
     attribution: "Mike Lottridge, proposal demo",
   },
   tags: [
-    "Official Disney PDF",
-    "13 source-linked rows",
-    "$0.0095 one-page recovery",
+    "Live SEC evidence",
+    "Normalized metric rows",
+    "Declared source precedence",
     "4 conflicts surfaced",
-    "Human review handoff",
+    "Human-review handoff",
   ],
-  signals: ["Real PDF proof", "Conflict-aware output", "Human review ready"],
+  signals: ["End-to-end pipeline", "Evidence-preserving output", "Scale-ready delivery"],
   metrics: [
-    { value: "0 tables", label: "Deterministic parser on the selected PDF page" },
-    { value: "13 rows", label: "Reviewable extraction from the same page" },
-    { value: "$0.0095", label: "Recorded estimated cost for one selected page" },
-    { value: "4 conflicts", label: "Surfaced for review instead of hidden" },
+    { value: "4 source types", label: "SEC facts, filing exhibits, investor PDFs, and transcript-shaped evidence" },
+    { value: "1 row contract", label: "Metric, period, value, source, confidence, and supporting excerpt" },
+    { value: "4 conflicts", label: "Surfaced for review instead of silently overwritten" },
+    { value: "40–50 firms", label: "Target scale supported by a staged pilot-to-batch delivery path" },
   ],
   footerNote:
-    "Built by Mike Lottridge. Narration is AI-generated. Source data comes from public SEC endpoints, official filing documents, and a checked-in PDF bakeoff artifact.",
-  defaultDurationMs: 6800,
-  audioRate: 1.06,
+    "Built by Mike Lottridge. Source data comes from public SEC endpoints, official filing documents, and checked-in demonstration artifacts.",
+  defaultDurationMs: 7200,
   slides: [
     {
-      eyebrow: "15-second proof",
-      title: "A real Disney investor-PDF page yielded a 13-row, source-linked table for $0.0095.",
+      eyebrow: "The client outcome",
+      title: "A reviewable financial-metrics pipeline, not a pile of disconnected extracts.",
       lead:
-        "The selected Disney Q2 FY24 page had zero detectable tables with pdfplumber. A one-page OpenAI recovery returned a structured reconciliation table from that same official document.",
-      audio: "../audio/slide-01.mp3",
+        "The product turns fragmented disclosures into a consistent output that analysts can trace, compare, validate, and export without losing the underlying evidence.",
+      durationMs: 6500,
       bullets: [
-        "Example output: As reported | pre-tax income/loss $657M | Disney Q2 FY24 deck, page 22 | extracted-table confidence.",
-        "The source URL, page number, checksum, excerpt, token usage, and estimated cost remain attached for review.",
+        "Ingest official structured facts, filing exhibits, investor decks, and transcript-shaped sources.",
+        "Normalize every result into one evidence-backed row format across companies and periods.",
+        "Apply declared source precedence and surface disagreements before they become bad downstream data.",
+      ],
+      artifact: {
+        type: "pipeline",
+        label: "End-to-end value flow",
+        steps: [
+          { icon: "1", title: "Ingest", copy: "Collect official facts and supporting disclosures." },
+          { icon: "2", title: "Normalize", copy: "Create one comparable metric-row contract." },
+          { icon: "3", title: "Resolve", copy: "Apply precedence and expose conflicts." },
+          { icon: "4", title: "Deliver", copy: "Export review-ready data with lineage intact." },
+        ],
+      },
+    },
+    {
+      eyebrow: "The business problem",
+      title: "Financial values disagree because the sources, periods, units, and definitions disagree.",
+      lead:
+        "A reliable batch cannot simply scrape a number and move on. It must preserve enough context to explain why a value was selected and what competing evidence existed.",
+      durationMs: 7200,
+      bullets: [
+        "The same metric may appear in XBRL, an exhibit, an investor deck, and a transcript with different values or labels.",
+        "Quarter, year-to-date, currency, scale, and non-GAAP definitions can make superficially similar values non-comparable.",
+        "Silent overwrites create false confidence and make later audit or correction expensive.",
       ],
       artifact: {
         type: "compare",
-        label: "Source-linked output, then recovery proof",
+        label: "What the pipeline prevents",
         panels: [
           {
             tone: "bad",
-            title: "Deterministic baseline",
-            stat: "0 tables found",
+            title: "Naive extraction",
+            stat: "One number, no explanation",
             lines: [
-              "pdfplumber ran against page 22 of the Disney Q2 FY24 investor deck.",
-              "The selected reconciliation page had no detectable table grid.",
-              "The pipeline records the failure instead of inventing cells.",
+              "Source context is discarded.",
+              "Conflicts disappear into the final file.",
+              "Reviewers cannot reconstruct the decision.",
             ],
           },
           {
             tone: "good",
-            title: "One-page recovery",
-            stat: "13 reviewable rows",
+            title: "Evidence-aware pipeline",
+            stat: "Selected value + visible alternatives",
             lines: [
-              "The recovery was limited to the selected page, not a black-box batch call.",
-              "Rows, cells, source excerpt, and extracted-table confidence were returned.",
-              "Actual recorded call cost: $0.0095.",
+              "Period, unit, source, and excerpt remain attached.",
+              "Selection rules are explicit.",
+              "Ambiguity is queued for review.",
             ],
           },
         ],
       },
     },
     {
-      eyebrow: "Why the client should care",
-      title: "The proof answers a business question: what happens when an investor PDF breaks the normal batch?",
+      eyebrow: "The data contract",
+      title: "Every metric becomes a source-linked row that can survive review and reuse.",
       lead:
-        "At 40 to 50 companies, a difficult deck should become a one-page exception with a visible cost and review record - not a reason the whole batch stops.",
-      audio: "../audio/slide-02.mp3",
+        "The normalized row shape is the core product. It supports comparison across sources while retaining the evidence needed for QA, escalation, and downstream loading.",
+      durationMs: 7600,
       bullets: [
-        "The recovery is limited to one selected page, records its tokens and cost, and never replaces source precedence.",
-        "Every extracted value stays tied to the original document, excerpt, period, unit, and confidence state.",
-        "A reviewer can see whether the fallback helped, what it cost, and when to escalate instead of guessing.",
+        "Each row carries company, metric, period, value, unit, source type, document, confidence, and excerpt.",
+        "The same contract can feed CSV, Excel, a database table, or a warehouse without rebuilding logic per company.",
+        "Confidence and conflict states remain machine-readable instead of being buried in analyst notes.",
       ],
       artifact: {
-        type: "metrics",
-        label: "Recorded bakeoff evidence",
-        items: [
-          { label: "Document", value: "Official Disney Q2 FY24 deck" },
-          { label: "Selected page", value: "22 of 24" },
-          { label: "Bounded call", value: "3,286 input + 1,034 output tokens" },
-          { label: "Audit hook", value: "URL, checksum, excerpt, and flag" },
+        type: "table",
+        label: "Normalized financial row",
+        toolbar: "Evidence-backed output contract",
+        columns: ["Field", "Example", "Why it matters"],
+        rows: [
+          ["Metric + period", "Operating income | CY2026Q1", "Prevents period mismatch"],
+          ["Value + unit", "$3,957M", "Keeps scale explicit"],
+          ["Source + confidence", "SEC companyfacts | reported exact", "Explains trust level"],
+          ["Evidence trail", "URL, document, excerpt", "Supports human verification"],
         ],
       },
     },
     {
-      eyebrow: "Working product proof",
-      title: "The PDF check is part of a working SEC pipeline, not a one-off prompt.",
+      eyebrow: "Working output",
+      title: "The demo already produces real SEC-backed rows across multiple companies and metrics.",
       lead:
-        "The same app refreshes SEC companyfacts, downloads official exhibits, normalizes results, applies source precedence, and exposes conflicts for review.",
-      audio: "../audio/slide-03.mp3",
-      bullets: [
-        "Live SEC companyfacts and official SEC-hosted EX-99 exhibits supply the primary evidence path.",
-        "Every normalized row keeps the metric, period, value, source type, document, confidence flag, and supporting excerpt.",
-        "Four conflicts were surfaced in the proof set instead of being hidden behind a single selected value.",
-      ],
-      artifact: {
-        type: "pipeline",
-        label: "The reviewable data contract",
-        steps: [
-          { icon: "1", title: "Ingest", copy: "SEC facts, filing exhibits, investor PDFs, and transcript-shaped sources." },
-          { icon: "2", title: "Extract", copy: "Use structured tags first; use a one-page PDF recovery only when needed." },
-          { icon: "3", title: "Normalize", copy: "Create one evidence-backed row shape across every source." },
-          { icon: "4", title: "Resolve", copy: "Apply precedence, flag conflicts, and queue uncertainty for review." },
-        ],
-      },
-    },
-    {
-      eyebrow: "Actual output",
-      title: "The proof produces financial rows and flags disagreements before export.",
-      lead:
-        "The result is not a schema-only mockup. It contains real SEC-backed values for Netflix and Disney, and it surfaces four conflicts before an export can silently hide them.",
-      audio: "../audio/slide-04.mp3",
+        "This is not a schema-only mockup. The application refreshes public SEC data, normalizes selected metrics, and displays the evidence and confidence state used for each result.",
+      durationMs: 8000,
       bullets: [
         "Revenue and operating income are selected from live SEC companyfacts with reported-exact confidence.",
-        "The same row shape can feed CSV, Excel, a database table, or a warehouse export.",
-        "Four conflicts are surfaced for review instead of being silently resolved behind the final export.",
+        "Operating and subscriber metrics can share the same row contract even when their source types differ.",
+        "The output remains ready for analyst review before it moves into a client export or warehouse.",
       ],
       artifact: {
         type: "table",
@@ -154,15 +156,15 @@ window.CASE_STUDY = {
       },
     },
     {
-      eyebrow: "Conflict review",
-      title: "A disagreement is surfaced before it becomes a bad export.",
+      eyebrow: "Conflict control",
+      title: "Four disagreements are exposed before export instead of being silently resolved.",
       lead:
-        "The pipeline does not silently pick a winner when sources disagree. It records the candidates, applies declared precedence, and leaves the decision reviewable.",
-      audio: "../audio/slide-05.mp3",
+        "When sources disagree, the pipeline records the candidates, applies declared precedence, and preserves the reason for the selected value so a reviewer can inspect the decision.",
+      durationMs: 7600,
       bullets: [
-        "Example: Netflix revenue, CY2026Q1. Selected: $12,250M from SEC companyfacts with reported-exact confidence.",
-        "The conflict reason is retained: different non-ambiguous values appeared across sources, so XBRL won by declared precedence.",
-        "Four such conflicts are surfaced in the proof set before export.",
+        "Example: Netflix revenue for CY2026Q1 selects $12,250M from SEC companyfacts with reported-exact confidence.",
+        "Lower-precedence alternatives remain visible with the conflict reason and supporting source trail.",
+        "The design supports policy changes because source-selection logic is explicit rather than hard-coded into opaque cleanup steps.",
       ],
       artifact: {
         type: "table",
@@ -177,24 +179,62 @@ window.CASE_STUDY = {
       },
     },
     {
-      eyebrow: "Delivery path",
-      title: "A defined path from source inventory to a scaled client batch.",
+      eyebrow: "Exception handling proof",
+      title: "When a difficult investor-PDF page breaks deterministic parsing, the batch does not have to stop.",
       lead:
-        "The delivery approach is already defined: source inventory, batch proof, then scale. The same evidence contract carries from a pilot run through 40 to 50 companies.",
-      audio: "../audio/slide-06.mp3",
+        "The PDF bakeoff demonstrates one bounded fallback inside the larger pipeline: a single failed page can be recovered with its source, cost, and review record intact.",
+      durationMs: 8200,
       bullets: [
-        "Confirm the company universe, metrics, source hierarchy, PDF page rules, and export format.",
-        "Deliver a client-specific pilot batch with QA exports, source links, and conflict review.",
-        "Expand PDF validation, transcript coverage, and the full company universe without rebuilding the output contract company by company.",
+        "On Disney Q2 FY24 page 22, pdfplumber detected zero tables.",
+        "A one-page recovery returned 13 reviewable rows from that same official document.",
+        "The call remained bounded to one page and recorded its URL, checksum, excerpt, token usage, confidence, and estimated cost of $0.0095.",
+      ],
+      artifact: {
+        type: "compare",
+        label: "Bounded exception path",
+        panels: [
+          {
+            tone: "bad",
+            title: "Deterministic baseline",
+            stat: "0 tables found",
+            lines: [
+              "The selected page had no detectable table grid.",
+              "The failure was recorded instead of fabricating cells.",
+              "The rest of the pipeline remained intact.",
+            ],
+          },
+          {
+            tone: "good",
+            title: "One-page recovery",
+            stat: "13 reviewable rows",
+            lines: [
+              "Recovery was limited to the failed page.",
+              "Evidence and confidence remained attached.",
+              "Recorded estimated cost: $0.0095.",
+            ],
+          },
+        ],
+      },
+    },
+    {
+      eyebrow: "Client delivery",
+      title: "Start with a client-specific pilot, then scale the same evidence contract across the company universe.",
+      lead:
+        "The next step is not a generic demo call. It is a bounded pilot using the client’s companies, metrics, source hierarchy, review rules, and target export.",
+      durationMs: 9200,
+      bullets: [
+        "Define the company universe, metric dictionary, period rules, source precedence, and required output format.",
+        "Run a representative pilot batch with QA exports, source links, conflict flags, and exception-cost reporting.",
+        "Reply on Upwork with the companies and metrics you need covered, and I will propose the smallest useful pilot scope.",
       ],
       artifact: {
         type: "workflow",
-        label: "Defined delivery path",
+        label: "Pilot-to-scale delivery path",
         steps: [
-          { title: "Source inventory", copy: "Map CIKs, filings, metric aliases, investor PDFs, transcripts, and priority rules." },
-          { title: "Batch proof", copy: "Run a client-specific sample through SEC, exhibits, and selected PDF recovery." },
-          { title: "Review policy", copy: "Agree conflict thresholds, validation checks, and escalation rules." },
-          { title: "Scale", copy: "Generate client-ready output across the full company universe." },
+          { title: "Scope", copy: "Confirm companies, metrics, sources, and review policy." },
+          { title: "Pilot", copy: "Run a representative batch with evidence and QA output." },
+          { title: "Calibrate", copy: "Adjust precedence, thresholds, and exception rules." },
+          { title: "Scale", copy: "Expand to the full 40–50 company universe." },
         ],
       },
     },
