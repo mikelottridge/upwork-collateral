@@ -42,14 +42,21 @@ window.CASE_STUDY = {
     { value: "40–50 firms", label: "Target scale supported by a staged pilot-to-batch delivery path" },
   ],
   footerNote:
-    "Built by Mike Lottridge. Source data comes from public SEC endpoints, official filing documents, and checked-in demonstration artifacts.",
+    "Built by Mike Lottridge. Narration uses the viewer's installed browser voice. Source data comes from public SEC endpoints, official filing documents, and checked-in demonstration artifacts.",
   defaultDurationMs: 7200,
+  audioRate: 1,
   slides: [
     {
       eyebrow: "The client outcome",
       title: "A reviewable financial-metrics pipeline, not a pile of disconnected extracts.",
       lead:
         "The product turns fragmented disclosures into a consistent output that analysts can trace, compare, validate, and export without losing the underlying evidence.",
+      audio:
+        "tts:This is a financial metrics pipeline, not a PDF demo. It turns official disclosures into source-linked rows with precedence, confidence, conflicts, and export-ready structure.",
+      narration: {
+        script:
+          "This is a financial metrics pipeline, not a PDF demo. It turns official disclosures into source-linked rows with precedence, confidence, conflicts, and export-ready structure.",
+      },
       durationMs: 6500,
       bullets: [
         "Ingest official structured facts, filing exhibits, investor decks, and transcript-shaped sources.",
@@ -72,6 +79,12 @@ window.CASE_STUDY = {
       title: "Financial values disagree because the sources, periods, units, and definitions disagree.",
       lead:
         "A reliable batch cannot simply scrape a number and move on. It must preserve enough context to explain why a value was selected and what competing evidence existed.",
+      audio:
+        "tts:Financial numbers disagree when sources, periods, units, or definitions differ. The pipeline preserves context so reviewers see the selected value and competing evidence.",
+      narration: {
+        script:
+          "Financial numbers disagree when sources, periods, units, or definitions differ. The pipeline preserves context so reviewers see the selected value and competing evidence.",
+      },
       durationMs: 7200,
       bullets: [
         "The same metric may appear in XBRL, an exhibit, an investor deck, and a transcript with different values or labels.",
@@ -110,6 +123,12 @@ window.CASE_STUDY = {
       title: "Every metric becomes a source-linked row that can survive review and reuse.",
       lead:
         "The normalized row shape is the core product. It supports comparison across sources while retaining the evidence needed for QA, escalation, and downstream loading.",
+      audio:
+        "tts:Every metric becomes one row with company, period, value, unit, source, confidence, and excerpt. That contract supports CSV, Excel, database, or warehouse delivery.",
+      narration: {
+        script:
+          "Every metric becomes one row with company, period, value, unit, source, confidence, and excerpt. That contract supports CSV, Excel, database, or warehouse delivery.",
+      },
       durationMs: 7600,
       bullets: [
         "Each row carries company, metric, period, value, unit, source type, document, confidence, and excerpt.",
@@ -134,6 +153,12 @@ window.CASE_STUDY = {
       title: "The demo already produces real SEC-backed rows across multiple companies and metrics.",
       lead:
         "This is not a schema-only mockup. The application refreshes public SEC data, normalizes selected metrics, and displays the evidence and confidence state used for each result.",
+      audio:
+        "tts:The demo already produces real SEC-backed rows for Netflix and Disney, including revenue and operating income with reported-exact confidence and reviewable source lineage.",
+      narration: {
+        script:
+          "The demo already produces real SEC-backed rows for Netflix and Disney, including revenue and operating income with reported-exact confidence and reviewable source lineage.",
+      },
       durationMs: 8000,
       bullets: [
         "Revenue and operating income are selected from live SEC companyfacts with reported-exact confidence.",
@@ -160,6 +185,12 @@ window.CASE_STUDY = {
       title: "Four disagreements are exposed before export instead of being silently resolved.",
       lead:
         "When sources disagree, the pipeline records the candidates, applies declared precedence, and preserves the reason for the selected value so a reviewer can inspect the decision.",
+      audio:
+        "tts:When sources disagree, the pipeline records candidates, applies declared precedence, and leaves the conflict visible before the value reaches a downstream export.",
+      narration: {
+        script:
+          "When sources disagree, the pipeline records candidates, applies declared precedence, and leaves the conflict visible before the value reaches a downstream export.",
+      },
       durationMs: 7600,
       bullets: [
         "Example: Netflix revenue for CY2026Q1 selects $12,250M from SEC companyfacts with reported-exact confidence.",
@@ -183,6 +214,12 @@ window.CASE_STUDY = {
       title: "When a difficult investor-PDF page breaks deterministic parsing, the batch does not have to stop.",
       lead:
         "The PDF bakeoff demonstrates one bounded fallback inside the larger pipeline: a single failed page can be recovered with its source, cost, and review record intact.",
+      audio:
+        "tts:The Disney PDF recovery is supporting proof. One difficult page produced thirteen reviewable rows after deterministic parsing found zero tables.",
+      narration: {
+        script:
+          "The Disney PDF recovery is supporting proof. One difficult page produced thirteen reviewable rows after deterministic parsing found zero tables.",
+      },
       durationMs: 8200,
       bullets: [
         "On Disney Q2 FY24 page 22, pdfplumber detected zero tables.",
@@ -221,6 +258,12 @@ window.CASE_STUDY = {
       title: "Start with a client-specific pilot, then scale the same evidence contract across the company universe.",
       lead:
         "The next step is not a generic demo call. It is a bounded pilot using the client’s companies, metrics, source hierarchy, review rules, and target export.",
+      audio:
+        "tts:The next step is a bounded pilot: target companies, metrics, source hierarchy, PDF rules, export format, then a sample batch with lineage and conflict review.",
+      narration: {
+        script:
+          "The next step is a bounded pilot: target companies, metrics, source hierarchy, PDF rules, export format, then a sample batch with lineage and conflict review.",
+      },
       durationMs: 9200,
       bullets: [
         "Define the company universe, metric dictionary, period rules, source precedence, and required output format.",
