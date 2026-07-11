@@ -93,11 +93,11 @@ window.CASE_STUDY = {
           }
         ]
       },
-      "audio": "../audio/slide-01.mp3",
+      "audio": "../audio/slide-01.mp3?v=cedar-20260711",
       "narration": {
         "script": "This is a financial metrics pipeline, not a PDF demo. It turns official disclosures into source-linked rows with precedence, confidence, conflicts, and export-ready structure.",
         "sourceType": "recorded-mp3",
-        "asset": "../audio/slide-01.mp3",
+        "asset": "../audio/slide-01.mp3?v=cedar-20260711",
         "durationSeconds": 10.79
       }
     },
@@ -137,11 +137,11 @@ window.CASE_STUDY = {
           }
         ]
       },
-      "audio": "../audio/slide-02.mp3",
+      "audio": "../audio/slide-02.mp3?v=cedar-20260711",
       "narration": {
         "script": "Financial numbers disagree when sources, periods, units, or definitions differ. The pipeline preserves context so reviewers see the selected value and competing evidence.",
         "sourceType": "recorded-mp3",
-        "asset": "../audio/slide-02.mp3",
+        "asset": "../audio/slide-02.mp3?v=cedar-20260711",
         "durationSeconds": 10.5
       }
     },
@@ -187,11 +187,11 @@ window.CASE_STUDY = {
           ]
         ]
       },
-      "audio": "../audio/slide-03.mp3",
+      "audio": "../audio/slide-03.mp3?v=cedar-20260711",
       "narration": {
         "script": "Every metric becomes one row with company, period, value, unit, source, confidence, and excerpt. That contract supports CSV, Excel, database, or warehouse delivery.",
         "sourceType": "recorded-mp3",
-        "asset": "../audio/slide-03.mp3",
+        "asset": "../audio/slide-03.mp3?v=cedar-20260711",
         "durationSeconds": 11.96
       }
     },
@@ -247,11 +247,11 @@ window.CASE_STUDY = {
           ]
         ]
       },
-      "audio": "../audio/slide-04.mp3",
+      "audio": "../audio/slide-04.mp3?v=cedar-20260711",
       "narration": {
         "script": "The demo already produces real SEC-backed rows for Netflix and Disney, including revenue and operating income with reported-exact confidence and reviewable source lineage.",
         "sourceType": "recorded-mp3",
-        "asset": "../audio/slide-04.mp3",
+        "asset": "../audio/slide-04.mp3?v=cedar-20260711",
         "durationSeconds": 9.82
       }
     },
@@ -292,11 +292,11 @@ window.CASE_STUDY = {
           ]
         ]
       },
-      "audio": "../audio/slide-05.mp3",
+      "audio": "../audio/slide-05.mp3?v=cedar-20260711",
       "narration": {
         "script": "When sources disagree, the pipeline records candidates, applies declared precedence, and leaves the conflict visible before the value reaches a downstream export.",
         "sourceType": "recorded-mp3",
-        "asset": "../audio/slide-05.mp3",
+        "asset": "../audio/slide-05.mp3?v=cedar-20260711",
         "durationSeconds": 9.3
       }
     },
@@ -336,11 +336,11 @@ window.CASE_STUDY = {
           }
         ]
       },
-      "audio": "../audio/slide-06.mp3",
+      "audio": "../audio/slide-06.mp3?v=cedar-20260711",
       "narration": {
         "script": "The Disney PDF recovery is supporting proof. One difficult page produced thirteen reviewable rows after deterministic parsing found zero tables.",
         "sourceType": "recorded-mp3",
-        "asset": "../audio/slide-06.mp3",
+        "asset": "../audio/slide-06.mp3?v=cedar-20260711",
         "durationSeconds": 8.49
       }
     },
@@ -376,11 +376,11 @@ window.CASE_STUDY = {
           }
         ]
       },
-      "audio": "../audio/slide-07.mp3",
+      "audio": "../audio/slide-07.mp3?v=cedar-20260711",
       "narration": {
         "script": "The next step is a bounded pilot: target companies, metrics, source hierarchy, PDF rules, export format, then a sample batch with lineage and conflict review.",
         "sourceType": "recorded-mp3",
-        "asset": "../audio/slide-07.mp3",
+        "asset": "../audio/slide-07.mp3?v=cedar-20260711",
         "durationSeconds": 10.45
       }
     }
