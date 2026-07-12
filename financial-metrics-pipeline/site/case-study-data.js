@@ -61,7 +61,7 @@ window.CASE_STUDY = {
       "eyebrow": "The client outcome",
       "title": "A reviewable financial-metrics pipeline, not a pile of disconnected extracts.",
       "lead": "The product turns fragmented disclosures into a consistent output that analysts can trace, compare, validate, and export without losing the underlying evidence.",
-      "durationMs": 6500,
+      "durationMs": 11000,
       "bullets": [
         "Ingest official structured facts, filing exhibits, investor decks, and transcript-shaped sources.",
         "Normalize every result into one evidence-backed row format across companies and periods.",
@@ -105,7 +105,7 @@ window.CASE_STUDY = {
       "eyebrow": "The business problem",
       "title": "Financial values disagree because the sources, periods, units, and definitions disagree.",
       "lead": "A reliable batch cannot simply scrape a number and move on. It must preserve enough context to explain why a value was selected and what competing evidence existed.",
-      "durationMs": 7200,
+      "durationMs": 10600,
       "bullets": [
         "The same metric may appear in XBRL, an exhibit, an investor deck, and a transcript with different values or labels.",
         "Quarter, year-to-date, currency, scale, and non-GAAP definitions can make superficially similar values non-comparable.",
@@ -149,7 +149,7 @@ window.CASE_STUDY = {
       "eyebrow": "The data contract",
       "title": "Every metric becomes a source-linked row that can survive review and reuse.",
       "lead": "The normalized row shape is the core product. It supports comparison across sources while retaining the evidence needed for QA, escalation, and downstream loading.",
-      "durationMs": 7600,
+      "durationMs": 12600,
       "bullets": [
         "Each row carries company, metric, period, value, unit, source type, document, confidence, and excerpt.",
         "The same contract can feed CSV, Excel, a database table, or a warehouse without rebuilding logic per company.",
@@ -199,7 +199,7 @@ window.CASE_STUDY = {
       "eyebrow": "Working output",
       "title": "The demo already produces real SEC-backed rows across multiple companies and metrics.",
       "lead": "This is not a schema-only mockup. The application refreshes public SEC data, normalizes selected metrics, and displays the evidence and confidence state used for each result.",
-      "durationMs": 8000,
+      "durationMs": 11600,
       "bullets": [
         "Revenue and operating income are selected from live SEC companyfacts with reported-exact confidence.",
         "Operating and subscriber metrics can share the same row contract even when their source types differ.",
@@ -259,7 +259,7 @@ window.CASE_STUDY = {
       "eyebrow": "Conflict control",
       "title": "Four disagreements are exposed before export instead of being silently resolved.",
       "lead": "When sources disagree, the pipeline records the candidates, applies declared precedence, and preserves the reason for the selected value so a reviewer can inspect the decision.",
-      "durationMs": 7600,
+      "durationMs": 10000,
       "bullets": [
         "Example: Netflix revenue for CY2026Q1 selects $12,250M from SEC companyfacts with reported-exact confidence.",
         "Lower-precedence alternatives remain visible with the conflict reason and supporting source trail.",
@@ -304,7 +304,7 @@ window.CASE_STUDY = {
       "eyebrow": "Exception handling proof",
       "title": "When a difficult investor-PDF page breaks deterministic parsing, the batch does not have to stop.",
       "lead": "The PDF bakeoff demonstrates one bounded fallback inside the larger pipeline: a single failed page can be recovered with its source, cost, and review record intact.",
-      "durationMs": 8200,
+      "durationMs": 9200,
       "bullets": [
         "On Disney Q2 FY24 page 22, pdfplumber detected zero tables.",
         "A one-page recovery returned 13 reviewable rows from that same official document.",
@@ -348,7 +348,7 @@ window.CASE_STUDY = {
       "eyebrow": "Client delivery",
       "title": "Start with a client-specific pilot, then scale the same evidence contract across the company universe.",
       "lead": "The next step is not a generic demo call. It is a bounded pilot using the client’s companies, metrics, source hierarchy, review rules, and target export.",
-      "durationMs": 9200,
+      "durationMs": 10800,
       "bullets": [
         "Define the company universe, metric dictionary, period rules, source precedence, and required output format.",
         "Run a representative pilot batch with QA exports, source links, conflict flags, and exception-cost reporting.",
