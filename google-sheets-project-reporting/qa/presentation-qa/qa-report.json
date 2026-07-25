@@ -104,6 +104,19 @@
     },
     {
       "evidence": {
+        "code": "copy.body_long",
+        "message": "Body has 32 words; target is 28 or fewer",
+        "slide_id": "slide-09"
+      },
+      "finding_id": "9c00d1c5873c132e",
+      "message": "Body has 32 words; target is 28 or fewer",
+      "rule_id": "copy.body_long",
+      "severity": "warning",
+      "slide_id": "slide-09",
+      "source": "python-validator"
+    },
+    {
+      "evidence": {
         "code": "copy.bullet_long",
         "message": "Bullet has 12 words; target is 10 or fewer",
         "slide_id": "slide-02"
@@ -269,6 +282,19 @@
       "rule_id": "copy.bullet_long",
       "severity": "warning",
       "slide_id": "slide-08",
+      "source": "python-validator"
+    },
+    {
+      "evidence": {
+        "code": "copy.bullet_long",
+        "message": "Bullet has 14 words; target is 10 or fewer",
+        "slide_id": "slide-09"
+      },
+      "finding_id": "095f4e3feedf4503",
+      "message": "Bullet has 14 words; target is 10 or fewer",
+      "rule_id": "copy.bullet_long",
+      "severity": "warning",
+      "slide_id": "slide-09",
       "source": "python-validator"
     },
     {
@@ -504,18 +530,18 @@
     },
     {
       "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-09.mp3",
-      "sha256": "6d9709517f1f931bdf8ff77723fe31a120f8b7192ceabb312d767c76cd4f0415",
-      "size_bytes": 298368
+      "sha256": "66fd66156ecf1c897aa104b47c1723d63d3684f1449f9cfa6e18555cb94d5c95",
+      "size_bytes": 88320
     },
     {
       "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\site\\case-study-data.js",
-      "sha256": "8432a8a5204a98625812c8ac9d6a36a681e0c1ae61898c134e3fbf2d84625fa8",
-      "size_bytes": 19734
+      "sha256": "5940b82548a98d49a97c54ba5289f77d9bb8b9da2c89079daf674d03ae30cf56",
+      "size_bytes": 19748
     },
     {
       "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\site\\index.html",
-      "sha256": "cf2d75d9c249afdb07ac562d44d9c258a482e274bb481de64b6b3353b0955efe",
-      "size_bytes": 4480
+      "sha256": "d95d26ac95fc5bce6306768625a5fcfad720c6b778bb96c7f2ce0fe29810623d",
+      "size_bytes": 4707
     },
     {
       "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\specs\\asset-manifest.yaml",
@@ -529,13 +555,13 @@
     },
     {
       "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\specs\\brief.yaml",
-      "sha256": "d81c55c6c65a8d48ba1173ef21659e0e57684eeaeba269ea77648ca1c8c03bd8",
-      "size_bytes": 4060
+      "sha256": "92cb24cd4ae5fe01c1222fe6d88c0b211ecc6bcb32336c1a8ebf6c86cd8fb50a",
+      "size_bytes": 4088
     },
     {
       "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\specs\\slides.yaml",
-      "sha256": "7b47a3c46e28e15a326611a78546f4659726cf938acd9252097b2a2f776ef35e",
-      "size_bytes": 20219
+      "sha256": "49ddf3d07a87f28c71a4cb93bb90f1256952e51faed62351fd9f61af77bbdd08",
+      "size_bytes": 19817
     }
   ],
   "passed_checks": [
@@ -558,7 +584,7 @@
   "summary": {
     "error_count": 0,
     "info_count": 3,
-    "warning_count": 33
+    "warning_count": 35
   },
   "unstable_findings": [],
   "waivers": [

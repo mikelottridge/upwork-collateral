@@ -1,11 +1,6 @@
 window.CASE_STUDY = {
+  presentationId: "medical",
   eyebrow: "Client project: healthcare document workflow",
-  theme: {
-    accent: "#93412f",
-    "accent-soft": "rgba(147, 65, 47, 0.12)",
-    "accent-2": "#246a73",
-    "accent-2-soft": "rgba(36, 106, 115, 0.12)",
-  },
   title: "From PDF Lab Reports to a Physician-Controlled Treatment Plan",
   lead:
     "A physician working across multiple PDF lab reports needs more than extraction. The workflow must surface what matters, support differential diagnosis research, and let the physician revise the treatment logic before a patient-ready report is delivered.",
@@ -285,7 +280,7 @@ window.CASE_STUDY = {
       audio: "../audio/slide-08.mp3",
       bullets: [
         "The domain here is healthcare, but the broader pattern is document-heavy, human-in-the-loop workflow automation.",
-        "If you found this case study through Upwork or LinkedIn and your workflow looks similar, reach out there directly.",
+        "Use the contact option shown if your workflow follows a similar pattern.",
       ],
       tags: ["Auditability", "Physician-in-the-loop", "Decision tree", "Treatment plan"],
       artifact: {

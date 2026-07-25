@@ -16,3 +16,32 @@ This repository contains concise, public case studies showing how I approach AI-
 - Communicating complex systems clearly to product, operations, and technical stakeholders
 
 The case studies use public-safe, redacted, or reconstructed material and do not include client-confidential information.
+
+## Publishing links
+
+Use `upwork=1` only for links posted on Upwork. It replaces the final-slide email action with Mike's Upwork profile while UTM parameters independently identify where the link was published.
+
+Canonical Upwork links:
+
+- `https://mikelottridge.github.io/upwork-collateral/google-sheets-project-reporting/site/index.html?upwork=1&utm_source=upwork&utm_medium=profile&utm_campaign=portfolio`
+- `https://mikelottridge.github.io/upwork-collateral/medical-project/site/index.html?upwork=1&utm_source=upwork&utm_medium=profile&utm_campaign=portfolio`
+- `https://mikelottridge.github.io/upwork-collateral/financial-metrics-pipeline/site/index.html?upwork=1&utm_source=upwork&utm_medium=profile&utm_campaign=portfolio`
+- `https://mikelottridge.github.io/upwork-collateral/psychologist-project/site/index.html?upwork=1&utm_source=upwork&utm_medium=profile&utm_campaign=portfolio`
+
+Canonical LinkedIn links:
+
+- `https://mikelottridge.github.io/upwork-collateral/google-sheets-project-reporting/site/index.html?utm_source=linkedin&utm_medium=social&utm_campaign=portfolio`
+- `https://mikelottridge.github.io/upwork-collateral/medical-project/site/index.html?utm_source=linkedin&utm_medium=social&utm_campaign=portfolio`
+- `https://mikelottridge.github.io/upwork-collateral/financial-metrics-pipeline/site/index.html?utm_source=linkedin&utm_medium=social&utm_campaign=portfolio`
+- `https://mikelottridge.github.io/upwork-collateral/psychologist-project/site/index.html?utm_source=linkedin&utm_medium=social&utm_campaign=portfolio`
+
+Untagged presentation links are reported as `direct`.
+
+## Anonymous presentation analytics
+
+Each presentation records one visible view after two continuous seconds, one final-slide reach, and one CTA click per browser tab. Events contain the stable presentation ID, an anonymous per-tab UUID, and normalized UTM values. They intentionally omit names, email addresses, referrers, full URLs, cookies, and browser fingerprints.
+
+- Dashboard: `https://productmanagementresources.pro/admin/presentation-activity`
+- CSV: `https://productmanagementresources.pro/admin/presentation-activity.csv`
+
+Both reports require HTTP Basic authentication. Credentials remain in the server environment.

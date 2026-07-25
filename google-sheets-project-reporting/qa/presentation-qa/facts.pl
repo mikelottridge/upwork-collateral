@@ -159,7 +159,7 @@ slide_role("slide-09","cta").
 slide_eyebrow("slide-09","Client delivery").
 slide_headline("slide-09","Bring the Google Sheet your team still turns into reports by hand.").
 slide_point_count("slide-09",3).
-slide_duration_ms("slide-09",19150).
+slide_duration_ms("slide-09",6520).
 slide_artifact_type("slide-09","").
 slide_alt_summary("slide-09","Smallest useful pilot").
 slide_evidence_type("slide-09","none").
@@ -210,4 +210,4 @@ audio_exists("slide-09",true).
 audio_tts_reference("slide-09",false).
 audio_absolute_url("slide-09",false).
 audio_versioned("slide-09",false).
-audio_duration_seconds("slide-09",18.648000).
+audio_duration_seconds("slide-09",5.520000).

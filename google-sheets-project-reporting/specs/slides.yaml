@@ -5,7 +5,7 @@
     "audience_platform": "Upwork",
     "contract_status": "pre-contract",
     "mode": "self-running",
-    "target_total_seconds": 179,
+    "target_total_seconds": 166,
     "timing": {
       "extended_runtime_approved": true,
       "approval_record": "User explicitly approved relaxing the presentation ceiling to three minutes in this task."
@@ -71,7 +71,7 @@
       ],
       "use_scroll_into_view": false,
       "audio_base": "../audio/",
-      "audio_version": "cedar-20260725"
+      "audio_version": "cedar-20260725-neutral-cta"
     }
   },
   "slides": [
@@ -337,13 +337,13 @@
       "id": "slide-09",
       "role": "cta",
       "template": "end-card",
-      "seconds": 19.15,
+      "seconds": 6.52,
       "headline": "Bring the Google Sheet your team still turns into reports by hand.",
       "subhead": "The next step is a bounded pilot around one real reporting decision, the Sheet fields that support it, and the review rules required before anything is shared.",
       "body": [
         "Choose one daily review, workload, or stakeholder-reporting workflow.",
         "Confirm the fields, filters, permissions, provider policy, and acceptance checks.",
-        "Reply on Upwork with the Sheet process you want simplified."
+        "Use the contact option shown to tell me which Sheet process you want simplified."
       ],
       "visual": {
         "asset_ids": [],
@@ -356,16 +356,16 @@
         "redacted": true
       },
       "narration": {
-        "script": "If your team still turns a Google Sheet into reports by hand, start with one bounded workflow. We can define the fields, filters, permissions, provider policy, and acceptance checks, then build and verify the smallest useful Apps Script solution. Reply on Upwork with the Sheet process you want simplified.",
-        "transcript": "If your team still turns a Google Sheet into reports by hand, start with one bounded workflow. We can define the fields, filters, permissions, provider policy, and acceptance checks, then build and verify the smallest useful Apps Script solution. Reply on Upwork with the Sheet process you want simplified.",
+        "script": "Use the contact option shown to tell me which Sheet process you want simplified.",
+        "transcript": "Use the contact option shown to tell me which Sheet process you want simplified.",
         "audio": "audio/slide-09.mp3",
-        "duration_seconds": 18.65
+        "duration_seconds": 5.52
       },
       "notes": [],
       "eyebrow": "Client delivery",
       "cta": {
-        "type": "upwork-message",
-        "label": "Reply on Upwork",
+        "type": "url-selected-contact",
+        "label": "Use the contact option shown",
         "destination": "upwork"
       }
     }

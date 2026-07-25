@@ -1,25 +1,6 @@
 window.CASE_STUDY = {
+  presentationId: "psychologist",
   eyebrow: "Client project: clinical reporting system",
-  theme: {
-    bg: "#f5f4f1",
-    panel: "#ffffff",
-    "panel-subtle": "#f7f8fb",
-    ink: "#2d3142",
-    muted: "#6b7280",
-    line: "#ddd9d1",
-    accent: "#4a9b8e",
-    "accent-soft": "rgba(74, 155, 142, 0.12)",
-    "accent-2": "#c9973a",
-    "accent-2-soft": "rgba(201, 151, 58, 0.12)",
-    "hero-bg": "#1b2a4a",
-    "hero-bg-2": "#243660",
-    "hero-bg-3": "#0d1c33",
-    "hero-muted": "#aabbd4",
-    "nav-bg": "#11233e",
-    "font-display": "\"Trebuchet MS\", \"Avenir Next\", \"Segoe UI\", sans-serif",
-    "font-body": "\"Calibri\", \"Segoe UI\", sans-serif",
-    "font-ui": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
-  },
   title: "From Assessment Data to Patient-Ready Reports",
   lead:
     "The system helps practitioners explain complex assessment results and helps patients understand them. It turns repeated measurements into longitudinal views, multilingual summaries, and delivery-ready reports.",
@@ -168,6 +149,7 @@ window.CASE_STUDY = {
       audio: "../audio/slide-06.mp3",
       bullets: [
         "Strongest where document output matters as much as the underlying logic.",
+        "Use the contact option shown to describe the data-to-report workflow you need.",
       ],
       tags: ["High-trust", "Data to report", "Client-facing output", "Code-first"],
       artifact: {

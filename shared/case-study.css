@@ -1,31 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap");
+
 :root {
-  --bg: #f5f4f1;
-  --panel: #ffffff;
-  --panel-subtle: #f7f8fb;
-  --ink: #2d3142;
-  --muted: #6b7280;
-  --line: #ddd9d1;
-  --accent: #4a9b8e;
-  --accent-soft: rgba(74, 155, 142, 0.12);
-  --accent-2: #c9973a;
-  --accent-2-soft: rgba(201, 151, 58, 0.12);
-  --hero-bg: #1b2a4a;
-  --hero-bg-2: #243660;
-  --hero-bg-3: #0d1c33;
-  --hero-ink: #ffffff;
-  --hero-muted: #aabbd4;
-  --nav-bg: #11233e;
-  --nav-ink: #eef3f9;
-  --nav-muted: rgba(232, 241, 248, 0.72);
-  --shadow: 0 28px 60px rgba(13, 28, 51, 0.10);
-  --shadow-soft: 0 16px 32px rgba(13, 28, 51, 0.08);
-  --radius-xl: 28px;
-  --radius-lg: 20px;
-  --radius-md: 14px;
-  --max: 1280px;
-  --font-display: "Trebuchet MS", "Avenir Next", "Segoe UI", sans-serif;
-  --font-body: "Calibri", "Segoe UI", sans-serif;
-  --font-ui: "Trebuchet MS", "Segoe UI", sans-serif;
+  --bg: #f5f2ec;
+  --panel: #fffdf8;
+  --panel-subtle: #fbf9f3;
+  --ink: #16211d;
+  --muted: #4a544e;
+  --line: rgba(22, 33, 29, 0.12);
+  --accent: #0e6b5c;
+  --accent-soft: rgba(14, 107, 92, 0.10);
+  --accent-2: #9a6b1a;
+  --accent-2-soft: rgba(154, 107, 26, 0.12);
+  --hero-bg: #0f1f1b;
+  --hero-bg-2: #162b25;
+  --hero-bg-3: #0b1613;
+  --hero-ink: #eef0ea;
+  --hero-muted: rgba(238, 240, 234, 0.68);
+  --nav-bg: #0f1f1b;
+  --nav-ink: #eef0ea;
+  --nav-muted: rgba(238, 240, 234, 0.66);
+  --shadow: 0 18px 44px rgba(22, 33, 29, 0.06);
+  --shadow-soft: 0 10px 24px rgba(22, 33, 29, 0.05);
+  --radius-xl: 16px;
+  --radius-lg: 16px;
+  --radius-md: 10px;
+  --max: 1220px;
+  --font-display: "Newsreader", Georgia, serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", sans-serif;
+  --font-ui: "IBM Plex Mono", Consolas, monospace;
 }
 
 * {
@@ -37,10 +39,7 @@ body {
   margin: 0;
   min-height: 100%;
   color: var(--ink);
-  background:
-    radial-gradient(circle at top right, rgba(74, 155, 142, 0.10), transparent 28rem),
-    radial-gradient(circle at top left, rgba(170, 187, 212, 0.20), transparent 24rem),
-    linear-gradient(180deg, #fbfaf7 0%, var(--bg) 100%);
+  background: var(--bg);
   font-family: var(--font-body);
 }
 
@@ -77,11 +76,7 @@ a {
   position: relative;
   overflow: hidden;
   padding: 24px 26px 22px;
-  background:
-    radial-gradient(circle at 105% -10%, rgba(122, 158, 192, 0.22) 0, rgba(122, 158, 192, 0.22) 16%, transparent 17%),
-    radial-gradient(circle at 96% 8%, rgba(36, 54, 96, 0.55) 0, rgba(36, 54, 96, 0.55) 12%, transparent 13%),
-    radial-gradient(circle at -7% 112%, rgba(36, 54, 96, 0.62) 0, rgba(36, 54, 96, 0.62) 11%, transparent 12%),
-    linear-gradient(180deg, var(--hero-bg) 0%, #132646 100%);
+  background: var(--hero-bg);
   color: var(--hero-ink);
 }
 
@@ -90,7 +85,7 @@ a {
   position: absolute;
   inset: auto 0 0 0;
   height: 14px;
-  background: linear-gradient(90deg, var(--hero-bg-3), var(--hero-bg-3));
+  background: var(--hero-bg-3);
   opacity: 0.96;
 }
 
@@ -104,8 +99,8 @@ a {
   display: grid;
   grid-template-columns: 1fr;
   gap: 16px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(247, 248, 251, 0.96));
-  border: 1px solid rgba(221, 217, 209, 0.92);
+  background: var(--panel);
+  border: 1px solid var(--line);
 }
 
 .eyebrow {
@@ -434,7 +429,7 @@ a {
 .guided-flash {
   position: relative;
   z-index: 1;
-  animation: guidedPulse 900ms ease-in-out 4;
+  animation: guidedPulse 1s ease-in-out 5;
 }
 
 .guided-flash::after {
@@ -443,7 +438,7 @@ a {
   inset: -5px;
   border-radius: 999px;
   border: 2px solid rgba(201, 151, 58, 0.55);
-  animation: guidedRing 900ms ease-out 4;
+  animation: guidedRing 1s ease-out 5;
   pointer-events: none;
 }
 
@@ -470,6 +465,40 @@ a {
   100% {
     opacity: 0;
     transform: scale(1.08);
+  }
+}
+
+.presentation-cta {
+  margin-top: 24px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--panel);
+}
+
+.presentation-cta h2 {
+  margin: 6px 0 8px;
+  font-family: var(--font-display);
+  font-size: clamp(1.45rem, 2.2vw, 1.9rem);
+  line-height: 1.15;
+}
+
+.presentation-cta p {
+  margin: 0 0 16px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.presentation-cta-link {
+  display: inline-flex;
+  width: fit-content;
+  text-decoration: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .guided-flash,
+  .guided-flash::after {
+    animation: none !important;
   }
 }
 

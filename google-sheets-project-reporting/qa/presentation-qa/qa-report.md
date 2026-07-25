@@ -3,7 +3,7 @@
 **Status:** `pass_with_warnings`
 **Certifying:** `true`
 
-Errors: 0 · Warnings: 33 · Info: 3
+Errors: 0 · Warnings: 35 · Info: 3
 
 ## Findings
 
@@ -55,6 +55,12 @@ Body has 33 words; target is 28 or fewer
 Body has 49 words; target is 28 or fewer
 
 - Evidence: `{"code": "copy.body_long", "message": "Body has 49 words; target is 28 or fewer", "slide_id": "slide-08"}`
+
+### WARNING — copy.body_long — `slide-09`
+
+Body has 32 words; target is 28 or fewer
+
+- Evidence: `{"code": "copy.body_long", "message": "Body has 32 words; target is 28 or fewer", "slide_id": "slide-09"}`
 
 ### WARNING — copy.bullet_long — `slide-02`
 
@@ -133,6 +139,12 @@ Bullet has 17 words; target is 10 or fewer
 Bullet has 17 words; target is 10 or fewer
 
 - Evidence: `{"code": "copy.bullet_long", "message": "Bullet has 17 words; target is 10 or fewer", "slide_id": "slide-08"}`
+
+### WARNING — copy.bullet_long — `slide-09`
+
+Bullet has 14 words; target is 10 or fewer
+
+- Evidence: `{"code": "copy.bullet_long", "message": "Bullet has 14 words; target is 10 or fewer", "slide_id": "slide-09"}`
 
 ### WARNING — copy.headline_long — `slide-01`
 

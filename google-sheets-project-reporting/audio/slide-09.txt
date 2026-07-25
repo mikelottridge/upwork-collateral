@@ -1,1 +1,1 @@
-If your team still turns a Google Sheet into reports by hand, start with one bounded workflow. We can define the fields, filters, permissions, provider policy, and acceptance checks, then build and verify the smallest useful Apps Script solution. Reply on Upwork with the Sheet process you want simplified.
+Use the contact option shown to tell me which Sheet process you want simplified.

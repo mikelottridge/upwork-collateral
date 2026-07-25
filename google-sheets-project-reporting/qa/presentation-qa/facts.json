@@ -166,17 +166,17 @@
       "bit_rate": 128000,
       "channels": 1,
       "codec": "MPEGInfo",
-      "duration_seconds": 18.648,
+      "duration_seconds": 5.52,
       "exists": true,
       "format_name": "mp3",
-      "git_blob_sha": "65356353e7f28ced0cff4b88c6db3b5505076950",
+      "git_blob_sha": "82199958f8373c031e55792a250d2fd9626aa596",
       "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-09.mp3",
       "probe_engine": "mutagen",
       "probe_error": null,
       "reference": "audio/slide-09.mp3",
       "sample_rate": 24000,
-      "sha256": "6d9709517f1f931bdf8ff77723fe31a120f8b7192ceabb312d767c76cd4f0415",
-      "size_bytes": 298368,
+      "sha256": "66fd66156ecf1c897aa104b47c1723d63d3684f1449f9cfa6e18555cb94d5c95",
+      "size_bytes": 88320,
       "slide_id": "slide-09",
       "tts_reference": false,
       "versioned": false
@@ -243,18 +243,18 @@
     },
     {
       "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-09.mp3",
-      "sha256": "6d9709517f1f931bdf8ff77723fe31a120f8b7192ceabb312d767c76cd4f0415",
-      "size_bytes": 298368
+      "sha256": "66fd66156ecf1c897aa104b47c1723d63d3684f1449f9cfa6e18555cb94d5c95",
+      "size_bytes": 88320
     },
     {
       "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\site\\case-study-data.js",
-      "sha256": "8432a8a5204a98625812c8ac9d6a36a681e0c1ae61898c134e3fbf2d84625fa8",
-      "size_bytes": 19734
+      "sha256": "5940b82548a98d49a97c54ba5289f77d9bb8b9da2c89079daf674d03ae30cf56",
+      "size_bytes": 19748
     },
     {
       "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\site\\index.html",
-      "sha256": "cf2d75d9c249afdb07ac562d44d9c258a482e274bb481de64b6b3353b0955efe",
-      "size_bytes": 4480
+      "sha256": "d95d26ac95fc5bce6306768625a5fcfad720c6b778bb96c7f2ce0fe29810623d",
+      "size_bytes": 4707
     },
     {
       "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\specs\\asset-manifest.yaml",
@@ -268,13 +268,13 @@
     },
     {
       "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\specs\\brief.yaml",
-      "sha256": "d81c55c6c65a8d48ba1173ef21659e0e57684eeaeba269ea77648ca1c8c03bd8",
-      "size_bytes": 4060
+      "sha256": "92cb24cd4ae5fe01c1222fe6d88c0b211ecc6bcb32336c1a8ebf6c86cd8fb50a",
+      "size_bytes": 4088
     },
     {
       "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\specs\\slides.yaml",
-      "sha256": "7b47a3c46e28e15a326611a78546f4659726cf938acd9252097b2a2f776ef35e",
-      "size_bytes": 20219
+      "sha256": "49ddf3d07a87f28c71a4cb93bb90f1256952e51faed62351fd9f61af77bbdd08",
+      "size_bytes": 19817
     }
   ],
   "interaction": {
@@ -282,7 +282,7 @@
     "audio_autoplay_on_load": false,
     "audio_base": "../audio/",
     "audio_failure_fallback": "timed",
-    "audio_version": "cedar-20260725",
+    "audio_version": "cedar-20260725-neutral-cta",
     "manual_navigation": [
       "arrow-left",
       "arrow-right",
@@ -311,13 +311,15 @@
     "index": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\site\\index.html",
     "present": true,
     "scripts": [
-      "../../shared/case-study.js?v=6",
+      "../../shared/case-study.js?v=7",
+      "../../shared/presentation-analytics.js?v=1",
+      "../../shared/presentation-context.js?v=1",
       "./case-study-data.js?v=6"
     ],
     "scroll_into_view": false,
-    "source_hash": "cf2d75d9c249afdb07ac562d44d9c258a482e274bb481de64b6b3353b0955efe",
+    "source_hash": "d95d26ac95fc5bce6306768625a5fcfad720c6b778bb96c7f2ce0fe29810623d",
     "stylesheets": [
-      "../../shared/case-study.css?v=6"
+      "../../shared/case-study.css?v=7"
     ],
     "timed_fallback": true,
     "tts_detected": false
@@ -520,23 +522,23 @@
       "artifact_type": "",
       "audio_reference": "audio/slide-09.mp3",
       "cta_destination": "upwork",
-      "cta_type": "upwork-message",
-      "duration_ms": 19150,
+      "cta_type": "url-selected-contact",
+      "duration_ms": 6520,
       "evidence_source": "",
       "evidence_type": "none",
       "eyebrow": "Client delivery",
       "headline": "Bring the Google Sheet your team still turns into reports by hand.",
       "id": "slide-09",
       "index": 9,
-      "narration_script": "If your team still turns a Google Sheet into reports by hand, start with one bounded workflow. We can define the fields, filters, permissions, provider policy, and acceptance checks, then build and verify the smallest useful Apps Script solution. Reply on Upwork with the Sheet process you want simplified.",
+      "narration_script": "Use the contact option shown to tell me which Sheet process you want simplified.",
       "point_count": 3,
       "points": [
         "Choose one daily review, workload, or stakeholder-reporting workflow.",
         "Confirm the fields, filters, permissions, provider policy, and acceptance checks.",
-        "Reply on Upwork with the Sheet process you want simplified."
+        "Use the contact option shown to tell me which Sheet process you want simplified."
       ],
       "role": "cta",
-      "seconds": 19.15,
+      "seconds": 6.52,
       "subhead": "The next step is a bounded pilot around one real reporting decision, the Sheet fields that support it, and the review rules required before anything is shared."
     }
   ],

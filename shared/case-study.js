@@ -5,6 +5,10 @@
   }
 
   const params = new URLSearchParams(window.location.search);
+  const presentationContext = window.PresentationContext;
+  const analyticsClient = window.PresentationAnalytics && deck.presentationId
+    ? window.PresentationAnalytics.start(deck.presentationId)
+    : { track: function () { return Promise.resolve(false); } };
   const hasAudio = deck.slides.some((slide) => slide.audio);
   const initialAutoplay = params.get("autoplay") !== "0" && deck.startMode !== "idle";
 
@@ -814,6 +818,13 @@
       copyCol.append(tags);
     }
 
+    if (state.index === deck.slides.length - 1 && presentationContext) {
+      presentationContext.renderCta(copyCol, {
+        search: window.location.search,
+        onClick: () => analyticsClient.track("cta_click"),
+      });
+    }
+
     const artifactCol = el("div", "slide-artifact");
     artifactCol.append(renderArtifact(slide.artifact));
 
@@ -827,6 +838,9 @@
     haltPlayback();
     renderSlide();
     const current = deck.slides[state.index];
+    if (state.index === deck.slides.length - 1) {
+      analyticsClient.track("final_slide");
+    }
     if (!trySlideAudio(current)) {
       queueAdvance(current);
     }
@@ -877,4 +891,7 @@
   renderMetricGrid();
   renderSlideIndex();
   goTo(0);
+  if (hasAudio && !state.autoplay && presentationContext) {
+    presentationContext.installNarrationCue(els.autoplayButton);
+  }
 })();

@@ -1,15 +1,6 @@
 window.CASE_STUDY = {
+  "presentationId": "google-sheets",
   "eyebrow": "Working product proof: Google Sheets project reporting",
-  "theme": {
-    "accent": "#178c7e",
-    "accent-soft": "rgba(23, 140, 126, 0.12)",
-    "accent-2": "#d39b36",
-    "accent-2-soft": "rgba(211, 155, 54, 0.14)",
-    "hero-bg": "#102b2a",
-    "hero-bg-2": "#183f3b",
-    "hero-bg-3": "#0a1f1e",
-    "nav-bg": "#102b2a"
-  },
   "title": "Google Sheets + Apps Script automation for daily priorities, workload planning, and AI stakeholder updates",
   "lead": "This working proof turns a structured Google Sheet into three project-management workflows: a daily action review, workload planning by worker or project, and a private stakeholder draft routed to Gemini, Claude, or OpenAI.",
   "about": "A private, end-to-end proof built from a frozen copy of a public Google Sheets project tracker.",
@@ -373,11 +364,11 @@ window.CASE_STUDY = {
       "eyebrow": "Client delivery",
       "title": "Bring the Google Sheet your team still turns into reports by hand.",
       "lead": "The next step is a bounded pilot around one real reporting decision, the Sheet fields that support it, and the review rules required before anything is shared.",
-      "durationMs": 19150,
+      "durationMs": 6520,
       "bullets": [
         "Choose one daily review, workload, or stakeholder-reporting workflow.",
         "Confirm the fields, filters, permissions, provider policy, and acceptance checks.",
-        "Reply on Upwork with the Sheet process you want simplified."
+        "Use the contact option shown to tell me which Sheet process you want simplified."
       ],
       "artifact": {
         "type": "workflow",
@@ -401,11 +392,12 @@ window.CASE_STUDY = {
           }
         ]
       },
-      "audio": "../audio/slide-09.mp3?v=cedar-20260725",
+      "audio": "../audio/slide-09.mp3?v=cedar-20260725-neutral-cta",
       "narration": {
-        "script": "If your team still turns a Google Sheet into reports by hand, start with one bounded workflow. We can define the fields, filters, permissions, provider policy, and acceptance checks, then build and verify the smallest useful Apps Script solution. Reply on Upwork with the Sheet process you want simplified.",
+        "script": "Use the contact option shown to tell me which Sheet process you want simplified.",
         "sourceType": "recorded-mp3",
-        "asset": "../audio/slide-09.mp3?v=cedar-20260725"
+        "asset": "../audio/slide-09.mp3?v=cedar-20260725-neutral-cta",
+        "durationSeconds": 5.52
       }
     }
   ]

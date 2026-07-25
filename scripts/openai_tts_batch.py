@@ -39,6 +39,12 @@ def parse_args() -> argparse.Namespace:
         required=True,
         help="Project directory containing audio/slide-*.txt files.",
     )
+    parser.add_argument(
+        "--slides",
+        nargs="+",
+        metavar="NN",
+        help="Generate only the listed slide numbers, for example --slides 09.",
+    )
     parser.add_argument("--model", default=DEFAULT_MODEL)
     parser.add_argument("--voice", default=DEFAULT_VOICE)
     parser.add_argument("--format", default=DEFAULT_FORMAT, choices=["mp3", "wav", "opus", "aac", "flac", "pcm"])
@@ -65,11 +71,16 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def find_slide_texts(project_dir: Path) -> list[Path]:
+def find_slide_texts(project_dir: Path, selected: list[str] | None = None) -> list[Path]:
     audio_dir = project_dir / "audio"
     if not audio_dir.exists():
         raise SystemExit(f"audio directory not found: {audio_dir}")
     files = sorted(audio_dir.glob("slide-*.txt"))
+    if selected:
+        wanted = {f"{int(value):02d}" for value in selected}
+        files = [path for path in files if path.stem.removeprefix("slide-") in wanted]
+        if not files:
+            raise SystemExit(f"no requested slide narration files found in {audio_dir}")
     if not files:
         raise SystemExit(f"no slide-*.txt files found in {audio_dir}")
     return files
@@ -180,7 +191,7 @@ def main() -> int:
     project_dir = args.project.resolve()
     load_env_file(args.env_file)
     api_key = args.api_key or os.getenv("OPENAI_API_KEY")
-    texts = find_slide_texts(project_dir)
+    texts = find_slide_texts(project_dir, args.slides)
 
     plan = []
     for text_path in texts:

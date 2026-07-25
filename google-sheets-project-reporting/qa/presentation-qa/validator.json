@@ -40,7 +40,7 @@
     "voice_change_approved": true,
     "voice_profile": "cedar"
   },
-  "runtime_seconds": 178.23,
+  "runtime_seconds": 165.6,
   "slide_count": 9,
   "status": "pass_with_warnings",
   "style": {
@@ -56,7 +56,7 @@
   "summary": {
     "error_count": 0,
     "info_count": 3,
-    "warning_count": 32
+    "warning_count": 34
   },
   "ux_change_control": {
     "all_changes_approved": true,
@@ -222,6 +222,16 @@
     {
       "code": "copy.subhead_long",
       "message": "Subhead has 27 words; target is 20 or fewer",
+      "slide_id": "slide-09"
+    },
+    {
+      "code": "copy.body_long",
+      "message": "Body has 32 words; target is 28 or fewer",
+      "slide_id": "slide-09"
+    },
+    {
+      "code": "copy.bullet_long",
+      "message": "Bullet has 14 words; target is 10 or fewer",
       "slide_id": "slide-09"
     }
   ]

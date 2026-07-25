@@ -1,4 +1,5 @@
 window.CASE_STUDY = {
+  "presentationId": "financial",
   "eyebrow": "Working product proof: SEC financial metrics pipeline",
   "theme": {
     "accent": "#176b5f",
@@ -352,7 +353,7 @@ window.CASE_STUDY = {
       "bullets": [
         "Define the company universe, metric dictionary, period rules, source precedence, and required output format.",
         "Run a representative pilot batch with QA exports, source links, conflict flags, and exception-cost reporting.",
-        "Reply on Upwork with the companies and metrics you need covered, and I will propose the smallest useful pilot scope."
+        "Use the contact option shown to share the companies and metrics you need covered."
       ],
       "artifact": {
         "type": "workflow",

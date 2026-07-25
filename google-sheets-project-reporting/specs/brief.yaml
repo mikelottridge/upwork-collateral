@@ -109,8 +109,8 @@
     "offer": "bounded pilot around one reporting decision"
   },
   "cta": {
-    "type": "upwork-message",
-    "label": "Reply on Upwork with the Sheet process you want simplified."
+    "type": "url-selected-contact",
+    "label": "Use the contact option shown to tell me which Sheet process you want simplified."
   },
   "brand": {
     "tokens_file": "brand-tokens.yaml",
