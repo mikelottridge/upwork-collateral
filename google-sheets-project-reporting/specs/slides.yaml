@@ -1,0 +1,389 @@
+{
+  "deck": {
+    "id": "google-sheets-project-reporting",
+    "title": "Google Sheets + Apps Script automation for daily priorities, workload planning, and AI stakeholder updates",
+    "audience_platform": "Upwork",
+    "contract_status": "pre-contract",
+    "mode": "self-running",
+    "target_total_seconds": 179,
+    "timing": {
+      "extended_runtime_approved": true,
+      "approval_record": "User explicitly approved relaxing the presentation ceiling to three minutes in this task."
+    },
+    "pause_control_required": true,
+    "static_alternative_required": true,
+    "narration": {
+      "mode": "audio",
+      "required": true,
+      "parity_required_when_existing": true,
+      "source_type": "recorded_mp3",
+      "prior_source_type": "recorded_mp3",
+      "recorded_audio_required": true,
+      "generation_provider": "openai_api",
+      "generation_endpoint": "/v1/audio/speech",
+      "generation_model": "gpt-4o-mini-tts",
+      "response_format": "mp3",
+      "source_change_approved": true,
+      "voice_profile": "cedar",
+      "prior_voice_profile": "cedar",
+      "voice_change_approved": true,
+      "playback_change_approved": true
+    },
+    "ux_change_control": {
+      "preserve_existing_behavior": true,
+      "material_changes": [
+        {
+          "category": "artifact_rendering",
+          "description": "Added media rendering for public-safe screenshots and muted workflow video.",
+          "approved": true
+        },
+        {
+          "category": "responsive_layout",
+          "description": "Added a portrait mobile security fallback for legibility.",
+          "approved": true
+        }
+      ]
+    },
+    "outputs": [
+      "html",
+      "pdf"
+    ],
+    "deployment": {
+      "live_url": null,
+      "audible_playback_checked": false,
+      "silent_autoadvance_checked": false,
+      "first_transition_checked": false,
+      "asset_resolution_checked": false
+    },
+    "style_profile": "technical-editorial-v1",
+    "interaction": {
+      "start_mode": "idle",
+      "start_button_label": "Start audio/guided mode",
+      "audio_autoplay_on_load": false,
+      "advance_trigger": "audio-ended",
+      "audio_failure_fallback": "timed",
+      "silent_auto_advance": true,
+      "manual_navigation": [
+        "previous-button",
+        "next-button",
+        "arrow-left",
+        "arrow-right"
+      ],
+      "use_scroll_into_view": false,
+      "audio_base": "../audio/",
+      "audio_version": "cedar-20260725"
+    }
+  },
+  "slides": [
+    {
+      "id": "slide-01",
+      "role": "title",
+      "template": "headline-hero",
+      "seconds": 17.8,
+      "headline": "Google Sheets + Apps Script automation for daily priorities, workload planning, and AI stakeholder updates.",
+      "subhead": "A project manager can move from the shared task table to a focused action view or stakeholder draft without rebuilding filters, counts, and summaries by hand.",
+      "body": [
+        "Keep Google Sheets as the familiar operating surface.",
+        "Use Apps Script for repeatable reporting logic and document creation.",
+        "Choose Gemini, Claude, or OpenAI without changing the PM workflow."
+      ],
+      "visual": {
+        "asset_ids": [],
+        "alt_summary": "One source, three project-management outcomes"
+      },
+      "evidence": {
+        "type": "verified",
+        "source": "private proof implementation and public-safe browser render",
+        "permission_verified": true,
+        "redacted": true
+      },
+      "narration": {
+        "script": "This proof uses Google Sheets and Apps Script to turn one project tracker into daily priorities, workload planning, and AI-assisted stakeholder updates. The project manager chooses the report and, when AI is useful, explicitly chooses Gemini, Claude, or OpenAI.",
+        "transcript": "This proof uses Google Sheets and Apps Script to turn one project tracker into daily priorities, workload planning, and AI-assisted stakeholder updates. The project manager chooses the report and, when AI is useful, explicitly chooses Gemini, Claude, or OpenAI.",
+        "audio": "audio/slide-01.mp3",
+        "duration_seconds": 17.3
+      },
+      "notes": [],
+      "eyebrow": "The client outcome"
+    },
+    {
+      "id": "slide-02",
+      "role": "problem",
+      "template": "pain-points",
+      "seconds": 16.7,
+      "headline": "The task table may be current while the management view is already stale.",
+      "subhead": "Project managers often repeat the same filtering, regrouping, and status-writing work because a flexible Sheet does not automatically create every decision view.",
+      "body": [
+        "Daily review needs the right project, worker, priority, status, and due horizon.",
+        "Workload planning needs consistent open, overdue, blocked, and due-soon counts.",
+        "Stakeholder updates need concise language without detaching claims from source tasks."
+      ],
+      "visual": {
+        "asset_ids": [],
+        "alt_summary": "What changes when reporting becomes a workflow"
+      },
+      "evidence": {
+        "type": "verified",
+        "source": "existing public tracker and implemented report workflows",
+        "permission_verified": true,
+        "redacted": true
+      },
+      "narration": {
+        "script": "A task tracker can be current while the management view is stale. Daily review, workload planning, and stakeholder writing each require different filters and summaries. Rebuilding those views manually creates repeated effort and makes it easier for counts and narrative to diverge.",
+        "transcript": "A task tracker can be current while the management view is stale. Daily review, workload planning, and stakeholder writing each require different filters and summaries. Rebuilding those views manually creates repeated effort and makes it easier for counts and narrative to diverge.",
+        "audio": "audio/slide-02.mp3",
+        "duration_seconds": 16.2
+      },
+      "notes": [],
+      "eyebrow": "The reporting problem"
+    },
+    {
+      "id": "slide-03",
+      "role": "proof",
+      "template": "case-study",
+      "seconds": 19.36,
+      "headline": "The Google Sheet supplies controlled task facts, calculated timing, and stable task IDs.",
+      "subhead": "Apps Script reads a frozen owner-only copy of the public tracker. It does not depend on screenshots, free-form notes, or a second database.",
+      "body": [
+        "Project, worker, priority, status, and dates remain normal Sheet fields.",
+        "Timing categories and recommended actions stay deterministic.",
+        "Notes and email addresses are excluded from every AI request in version one."
+      ],
+      "visual": {
+        "asset_ids": [
+          "task-tracker"
+        ],
+        "alt_summary": "Focused Google Sheets task tracker showing task IDs, projects, workers, priorities, statuses, and calculated timing."
+      },
+      "evidence": {
+        "type": "verified",
+        "source": "screenshots/task-tracker-focused-v2.png",
+        "permission_verified": true,
+        "redacted": true
+      },
+      "narration": {
+        "script": "The foundation is still a normal Google Sheet. Projects, workers, priorities, statuses, and dates are controlled fields, while timing categories remain deterministic. Stable task IDs let every report trace back to the source. Notes and email addresses are excluded from AI requests.",
+        "transcript": "The foundation is still a normal Google Sheet. Projects, workers, priorities, statuses, and dates are controlled fields, while timing categories remain deterministic. Stable task IDs let every report trace back to the source. Notes and email addresses are excluded from AI requests.",
+        "audio": "audio/slide-03.mp3",
+        "duration_seconds": 18.86
+      },
+      "notes": [],
+      "eyebrow": "The structured foundation"
+    },
+    {
+      "id": "slide-04",
+      "role": "process",
+      "template": "process-strip",
+      "seconds": 21.45,
+      "headline": "One Apps Script menu turns report choices into validated, repeatable outputs.",
+      "subhead": "The bound script reads the Sheet, validates the request, calculates metrics, refreshes report tabs, and creates a private Google Doc only when the user asks.",
+      "body": [
+        "A document lock prevents overlapping report writes.",
+        "Daily Actions and Workload tabs refresh in place instead of multiplying copies.",
+        "Every stakeholder output records its source timestamp, provider, model, and task IDs."
+      ],
+      "visual": {
+        "asset_ids": [],
+        "alt_summary": "Bound Apps Script execution path"
+      },
+      "evidence": {
+        "type": "verified",
+        "source": "src/apps-script report workflow implementation",
+        "permission_verified": true,
+        "redacted": true
+      },
+      "narration": {
+        "script": "The PM Reports menu launches one Apps Script workflow. It validates the request, computes authoritative metrics, and then refreshes a stable report tab or creates an owner-private Google Doc. A document lock prevents overlapping writes, and every AI output records its source timestamp, provider, model, and source task IDs.",
+        "transcript": "The PM Reports menu launches one Apps Script workflow. It validates the request, computes authoritative metrics, and then refreshes a stable report tab or creates an owner-private Google Doc. A document lock prevents overlapping writes, and every AI output records its source timestamp, provider, model, and source task IDs.",
+        "audio": "audio/slide-04.mp3",
+        "duration_seconds": 20.95
+      },
+      "notes": [],
+      "eyebrow": "The automation flow"
+    },
+    {
+      "id": "slide-05",
+      "role": "proof",
+      "template": "case-study",
+      "seconds": 18.96,
+      "headline": "Daily review reduces the tracker to the work that needs attention now.",
+      "subhead": "The same dialog can combine project, worker, status, priority, and due-horizon filters, then sort the result into an action-ready Sheet tab.",
+      "body": [
+        "Overdue and blocked work remains visible instead of being averaged into a dashboard.",
+        "Task IDs, due dates, timing categories, and recommended actions stay together.",
+        "The output is deterministic and usable even when every AI provider is unavailable."
+      ],
+      "visual": {
+        "asset_ids": [],
+        "alt_summary": "Daily Actions report pattern"
+      },
+      "evidence": {
+        "type": "verified",
+        "source": "implemented deterministic Daily Actions report",
+        "permission_verified": true,
+        "redacted": true
+      },
+      "narration": {
+        "script": "The Daily Actions report reduces the tracker to work that needs attention now. The project manager can combine project, worker, status, priority, and due horizon. Task ID, timing, due date, and recommended action remain together, and the report works even if no AI provider is configured.",
+        "transcript": "The Daily Actions report reduces the tracker to work that needs attention now. The project manager can combine project, worker, status, priority, and due horizon. Task ID, timing, due date, and recommended action remain together, and the report works even if no AI provider is configured.",
+        "audio": "audio/slide-05.mp3",
+        "duration_seconds": 18.46
+      },
+      "notes": [],
+      "eyebrow": "Daily priorities"
+    },
+    {
+      "id": "slide-06",
+      "role": "proof",
+      "template": "case-study",
+      "seconds": 17.25,
+      "headline": "Workload can be grouped by worker or project without inventing utilization percentages.",
+      "subhead": "The report uses counts the Sheet can support: open, overdue, blocked, and due soon. It avoids false precision when hours or capacity data do not exist.",
+      "body": [
+        "Switch grouping between worker and project in the same dialog.",
+        "Compare real task counts and timing risk instead of guessed capacity.",
+        "Refresh the stable Workload tab whenever the source Sheet changes."
+      ],
+      "visual": {
+        "asset_ids": [
+          "workload-report"
+        ],
+        "alt_summary": "Focused Google Sheets dashboard showing open workload counts by owner."
+      },
+      "evidence": {
+        "type": "verified",
+        "source": "screenshots/workload-focused-v3.png",
+        "permission_verified": true,
+        "redacted": true
+      },
+      "narration": {
+        "script": "For workload planning, the user switches between grouping by worker and grouping by project. The report uses facts the Sheet actually contains: open, overdue, blocked, and due-soon counts. It deliberately avoids utilization percentages because this tracker does not contain hours or capacity.",
+        "transcript": "For workload planning, the user switches between grouping by worker and grouping by project. The report uses facts the Sheet actually contains: open, overdue, blocked, and due-soon counts. It deliberately avoids utilization percentages because this tracker does not contain hours or capacity.",
+        "audio": "audio/slide-06.mp3",
+        "duration_seconds": 16.75
+      },
+      "notes": [],
+      "eyebrow": "Workload planning"
+    },
+    {
+      "id": "slide-07",
+      "role": "solution",
+      "template": "solution-map",
+      "seconds": 21.36,
+      "headline": "The dialog makes complex reporting choices usable without exposing implementation details.",
+      "subhead": "One interface supports daily review, workload planning, and stakeholder updates while showing only the controls relevant to the selected report.",
+      "body": [
+        "Show only the controls relevant to the selected report type.",
+        "Require one project and an explicit provider before a stakeholder update can run.",
+        "Keep one interface across daily review, workload, and stakeholder work."
+      ],
+      "visual": {
+        "asset_ids": [
+          "report-dialog"
+        ],
+        "alt_summary": "Live Apps Script PM Report Builder with Stakeholder update, Project Aurora, and Claude selected."
+      },
+      "evidence": {
+        "type": "verified",
+        "source": "screenshots/dialog-stakeholder-v1.png",
+        "permission_verified": true,
+        "redacted": true
+      },
+      "narration": {
+        "script": "The custom Apps Script dialog makes the reporting logic approachable. It reveals only the controls needed for the selected workflow, supports a preview before writes, and requires one project plus an explicit provider for stakeholder updates. Configuration checks stay server-side, so keys and OAuth tokens never return to the dialog.",
+        "transcript": "The custom Apps Script dialog makes the reporting logic approachable. It reveals only the controls needed for the selected workflow, supports a preview before writes, and requires one project plus an explicit provider for stakeholder updates. Configuration checks stay server-side, so keys and OAuth tokens never return to the dialog.",
+        "audio": "audio/slide-07.mp3",
+        "duration_seconds": 20.86
+      },
+      "notes": [],
+      "eyebrow": "Custom Apps Script dialog"
+    },
+    {
+      "id": "slide-08",
+      "role": "differentiator",
+      "template": "case-study",
+      "seconds": 26.2,
+      "headline": "Gemini, Claude, and OpenAI share one validated output contract—not one shared secret path.",
+      "subhead": "The provider is chosen explicitly. Gemini runs on Vertex AI under the owner’s Google authorization; Claude and OpenAI each use their own Secret Manager secret.",
+      "body": [
+        "Only selected-project task facts and deterministic aggregates are sent; Notes and email addresses are excluded.",
+        "The draft is checked against source task IDs and supported figures before it becomes Google Doc text.",
+        "A refusal, malformed response, invented reference, or figure mismatch produces a deterministic Doc marked “AI narrative unavailable.”"
+      ],
+      "visual": {
+        "asset_ids": [
+          "workflow-video",
+          "security-poster",
+          "security-mobile"
+        ],
+        "alt_summary": "Muted workflow recording showing the redacted security architecture, Apps Script provider selection, generation, validated Google Doc, and Secret Manager accessor role."
+      },
+      "evidence": {
+        "type": "verified",
+        "source": "video/workflow-report-proof.webm and redacted security proof",
+        "permission_verified": true,
+        "redacted": true
+      },
+      "narration": {
+        "script": "Gemini uses the owner’s Google authorization; Claude and OpenAI use separate Secret Manager secrets. Only selected-project facts and aggregates are sent—never Notes or emails. Responses must match source task IDs and supported figures. If validation fails, the private Doc keeps verified metrics and marks the AI narrative unavailable. Gemini’s built-in Sheets AI remains a separate playground; this dialog is the governed reporting path.",
+        "transcript": "Gemini uses the owner’s Google authorization; Claude and OpenAI use separate Secret Manager secrets. Only selected-project facts and aggregates are sent—never Notes or emails. Responses must match source task IDs and supported figures. If validation fails, the private Doc keeps verified metrics and marks the AI narrative unavailable. Gemini’s built-in Sheets AI remains a separate playground; this dialog is the governed reporting path.",
+        "audio": "audio/slide-08.mp3",
+        "duration_seconds": 25.7
+      },
+      "notes": [],
+      "eyebrow": "Secure AI-assisted reporting"
+    },
+    {
+      "id": "slide-09",
+      "role": "cta",
+      "template": "end-card",
+      "seconds": 19.15,
+      "headline": "Bring the Google Sheet your team still turns into reports by hand.",
+      "subhead": "The next step is a bounded pilot around one real reporting decision, the Sheet fields that support it, and the review rules required before anything is shared.",
+      "body": [
+        "Choose one daily review, workload, or stakeholder-reporting workflow.",
+        "Confirm the fields, filters, permissions, provider policy, and acceptance checks.",
+        "Reply on Upwork with the Sheet process you want simplified."
+      ],
+      "visual": {
+        "asset_ids": [],
+        "alt_summary": "Smallest useful pilot"
+      },
+      "evidence": {
+        "type": "none",
+        "source": null,
+        "permission_verified": true,
+        "redacted": true
+      },
+      "narration": {
+        "script": "If your team still turns a Google Sheet into reports by hand, start with one bounded workflow. We can define the fields, filters, permissions, provider policy, and acceptance checks, then build and verify the smallest useful Apps Script solution. Reply on Upwork with the Sheet process you want simplified.",
+        "transcript": "If your team still turns a Google Sheet into reports by hand, start with one bounded workflow. We can define the fields, filters, permissions, provider policy, and acceptance checks, then build and verify the smallest useful Apps Script solution. Reply on Upwork with the Sheet process you want simplified.",
+        "audio": "audio/slide-09.mp3",
+        "duration_seconds": 18.65
+      },
+      "notes": [],
+      "eyebrow": "Client delivery",
+      "cta": {
+        "type": "upwork-message",
+        "label": "Reply on Upwork",
+        "destination": "upwork"
+      }
+    }
+  ],
+  "qa": {
+    "profile": "technical-editorial-v1",
+    "deterministic_required": true,
+    "prolog_required": true,
+    "semantic_review": {
+      "enabled": true,
+      "required": false,
+      "mode": "cached_single",
+      "model": "gpt-5.6-luna"
+    },
+    "required_outputs": [
+      "html",
+      "pdf"
+    ],
+    "fail_on_warnings": false
+  }
+}

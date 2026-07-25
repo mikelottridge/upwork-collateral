@@ -1,0 +1,2845 @@
+{
+  "status": "pass",
+  "viewports": [
+    {
+      "clipped": [],
+      "computedTextStyles": [
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "MAIN"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SECTION"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SECTION"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "ARTICLE"
+        },
+        {
+          "color": "rgb(23, 140, 126)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "11px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "\"Trebuchet MS\", \"Avenir Next\", \"Segoe UI\", sans-serif",
+          "fontSize": "36px",
+          "tag": "H1"
+        },
+        {
+          "color": "rgb(170, 187, 212)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "14.4px",
+          "tag": "P"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.84)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.84)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.84)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.84)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.84)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "ASIDE"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SECTION"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "11px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(37, 93, 84)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgb(37, 93, 84)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgb(37, 93, 84)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SECTION"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "11px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "\"Trebuchet MS\", \"Avenir Next\", \"Segoe UI\", sans-serif",
+          "fontSize": "20.48px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "\"Trebuchet MS\", \"Avenir Next\", \"Segoe UI\", sans-serif",
+          "fontSize": "20.48px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "\"Trebuchet MS\", \"Avenir Next\", \"Segoe UI\", sans-serif",
+          "fontSize": "20.48px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "\"Trebuchet MS\", \"Avenir Next\", \"Segoe UI\", sans-serif",
+          "fontSize": "20.48px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SECTION"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "11px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "15.68px",
+          "tag": "BLOCKQUOTE"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SECTION"
+        },
+        {
+          "color": "rgb(238, 243, 249)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "ASIDE"
+        },
+        {
+          "color": "rgb(238, 243, 249)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "15.04px",
+          "tag": "H3"
+        },
+        {
+          "color": "rgb(238, 243, 249)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(238, 243, 249)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.72)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.72)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.72)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.72)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.72)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.72)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.72)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.72)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SECTION"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "12px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "12px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "12px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "11px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SECTION"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(23, 140, 126)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "11px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "\"Trebuchet MS\", \"Avenir Next\", \"Segoe UI\", sans-serif",
+          "fontSize": "28.8px",
+          "tag": "H1"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "14.08px",
+          "tag": "P"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "UL"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "LI"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "LI"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "LI"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(23, 140, 126)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "18px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "STRONG"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "20px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(23, 140, 126)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "18px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "STRONG"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "20px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(23, 140, 126)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "18px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "STRONG"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "15.2px",
+          "tag": "FOOTER"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "15.2px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "15.2px",
+          "tag": "STRONG"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "15.2px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SCRIPT"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SCRIPT"
+        }
+      ],
+      "console_errors": [],
+      "documentScrollWidth": 1440,
+      "failed_requests": [],
+      "height": 1000,
+      "horizontalOverflow": false,
+      "overflow": [],
+      "screenshot": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\qa\\presentation-qa\\renders\\render-1440x1000.png",
+      "viewportWidth": 1440,
+      "width": 1440
+    },
+    {
+      "clipped": [],
+      "computedTextStyles": [
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "MAIN"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SECTION"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SECTION"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "ARTICLE"
+        },
+        {
+          "color": "rgb(23, 140, 126)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "11px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "\"Trebuchet MS\", \"Avenir Next\", \"Segoe UI\", sans-serif",
+          "fontSize": "34.816px",
+          "tag": "H1"
+        },
+        {
+          "color": "rgb(170, 187, 212)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "P"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.84)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.84)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.84)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.84)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.84)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "ASIDE"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SECTION"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "11px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(37, 93, 84)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgb(37, 93, 84)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgb(37, 93, 84)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SECTION"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "11px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "\"Trebuchet MS\", \"Avenir Next\", \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "\"Trebuchet MS\", \"Avenir Next\", \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "\"Trebuchet MS\", \"Avenir Next\", \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "\"Trebuchet MS\", \"Avenir Next\", \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SECTION"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "11px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "15.68px",
+          "tag": "BLOCKQUOTE"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SECTION"
+        },
+        {
+          "color": "rgb(238, 243, 249)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "ASIDE"
+        },
+        {
+          "color": "rgb(238, 243, 249)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "15.04px",
+          "tag": "H3"
+        },
+        {
+          "color": "rgb(238, 243, 249)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(238, 243, 249)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.72)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.72)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.72)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.72)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.72)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.72)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.72)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.72)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SECTION"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "12px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "12px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "12px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "11px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SECTION"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(23, 140, 126)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "11px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "\"Trebuchet MS\", \"Avenir Next\", \"Segoe UI\", sans-serif",
+          "fontSize": "32px",
+          "tag": "H1"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "P"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "UL"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "LI"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "LI"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "LI"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(23, 140, 126)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "18px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "STRONG"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "20px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(23, 140, 126)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "18px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "STRONG"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "20px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(23, 140, 126)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "18px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "STRONG"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "15.2px",
+          "tag": "FOOTER"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "15.2px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "15.2px",
+          "tag": "STRONG"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "15.2px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SCRIPT"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SCRIPT"
+        }
+      ],
+      "console_errors": [],
+      "documentScrollWidth": 1024,
+      "failed_requests": [],
+      "height": 768,
+      "horizontalOverflow": false,
+      "overflow": [],
+      "screenshot": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\qa\\presentation-qa\\renders\\render-1024x768.png",
+      "viewportWidth": 1024,
+      "width": 1024
+    },
+    {
+      "clipped": [],
+      "computedTextStyles": [
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "MAIN"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SECTION"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SECTION"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "ARTICLE"
+        },
+        {
+          "color": "rgb(23, 140, 126)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "11px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "\"Trebuchet MS\", \"Avenir Next\", \"Segoe UI\", sans-serif",
+          "fontSize": "33.6px",
+          "tag": "H1"
+        },
+        {
+          "color": "rgb(170, 187, 212)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "P"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.84)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.84)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.84)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.84)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.84)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "ASIDE"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SECTION"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "11px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(37, 93, 84)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgb(37, 93, 84)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgb(37, 93, 84)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SECTION"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "11px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "\"Trebuchet MS\", \"Avenir Next\", \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "\"Trebuchet MS\", \"Avenir Next\", \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "\"Trebuchet MS\", \"Avenir Next\", \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "\"Trebuchet MS\", \"Avenir Next\", \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SECTION"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "11px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "15.68px",
+          "tag": "BLOCKQUOTE"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SECTION"
+        },
+        {
+          "color": "rgb(238, 243, 249)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "ASIDE"
+        },
+        {
+          "color": "rgb(238, 243, 249)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "15.04px",
+          "tag": "H3"
+        },
+        {
+          "color": "rgb(238, 243, 249)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(238, 243, 249)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.72)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.72)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.72)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.72)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.72)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.72)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.72)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.72)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SECTION"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "12px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "12px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "12px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "11px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SECTION"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(23, 140, 126)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "11px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "\"Trebuchet MS\", \"Avenir Next\", \"Segoe UI\", sans-serif",
+          "fontSize": "32px",
+          "tag": "H1"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "P"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "UL"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "LI"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "LI"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "LI"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(23, 140, 126)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "18px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "STRONG"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "20px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(23, 140, 126)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "18px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "STRONG"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "20px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(23, 140, 126)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "18px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "STRONG"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "15.2px",
+          "tag": "FOOTER"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "15.2px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "15.2px",
+          "tag": "STRONG"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "15.2px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SCRIPT"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SCRIPT"
+        }
+      ],
+      "console_errors": [],
+      "documentScrollWidth": 768,
+      "failed_requests": [],
+      "height": 1024,
+      "horizontalOverflow": false,
+      "overflow": [],
+      "screenshot": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\qa\\presentation-qa\\renders\\render-768x1024.png",
+      "viewportWidth": 768,
+      "width": 768
+    },
+    {
+      "clipped": [],
+      "computedTextStyles": [
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "MAIN"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SECTION"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SECTION"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "ARTICLE"
+        },
+        {
+          "color": "rgb(23, 140, 126)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "11px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "\"Trebuchet MS\", \"Avenir Next\", \"Segoe UI\", sans-serif",
+          "fontSize": "33.6px",
+          "tag": "H1"
+        },
+        {
+          "color": "rgb(170, 187, 212)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "P"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.84)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.84)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.84)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.84)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.84)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "ASIDE"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SECTION"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "11px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(37, 93, 84)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgb(37, 93, 84)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgb(37, 93, 84)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SECTION"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "11px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "\"Trebuchet MS\", \"Avenir Next\", \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "\"Trebuchet MS\", \"Avenir Next\", \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "\"Trebuchet MS\", \"Avenir Next\", \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "\"Trebuchet MS\", \"Avenir Next\", \"Segoe UI\", sans-serif",
+          "fontSize": "24px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SECTION"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "11px",
+          "tag": "H2"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "15.68px",
+          "tag": "BLOCKQUOTE"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SECTION"
+        },
+        {
+          "color": "rgb(238, 243, 249)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "ASIDE"
+        },
+        {
+          "color": "rgb(238, 243, 249)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "15.04px",
+          "tag": "H3"
+        },
+        {
+          "color": "rgb(238, 243, 249)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(238, 243, 249)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.72)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.72)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.72)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.72)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.72)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.72)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.72)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.72)",
+          "fontFamily": "Arial",
+          "fontSize": "13.3333px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgba(232, 241, 248, 0.6)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "SMALL"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SECTION"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "12px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "12px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "12px",
+          "tag": "BUTTON"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "11px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SECTION"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(23, 140, 126)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "11px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "\"Trebuchet MS\", \"Avenir Next\", \"Segoe UI\", sans-serif",
+          "fontSize": "32px",
+          "tag": "H1"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "P"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "UL"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "LI"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "LI"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "LI"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "10px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(23, 140, 126)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "18px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "STRONG"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "20px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(23, 140, 126)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "18px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "STRONG"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "20px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(23, 140, 126)",
+          "fontFamily": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+          "fontSize": "18px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "STRONG"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "15.2px",
+          "tag": "FOOTER"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "15.2px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "15.2px",
+          "tag": "STRONG"
+        },
+        {
+          "color": "rgb(107, 114, 128)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "15.2px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SCRIPT"
+        },
+        {
+          "color": "rgb(45, 49, 66)",
+          "fontFamily": "Calibri, \"Segoe UI\", sans-serif",
+          "fontSize": "16px",
+          "tag": "SCRIPT"
+        }
+      ],
+      "console_errors": [],
+      "documentScrollWidth": 390,
+      "failed_requests": [],
+      "height": 844,
+      "horizontalOverflow": false,
+      "overflow": [],
+      "screenshot": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\qa\\presentation-qa\\renders\\render-390x844.png",
+      "viewportWidth": 390,
+      "width": 390
+    }
+  ]
+}

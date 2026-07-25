@@ -1,0 +1,11 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Redacted security architecture</title><style>html,body{margin:0;min-height:100%;display:grid;place-items:center;background:#0f1f1b}canvas{width:1280px;height:720px}</style></head><body><canvas id="c" width="1280" height="720" aria-label="Redacted Google Sheets and Apps Script AI reporting security architecture"></canvas><script>
+const c=document.getElementById("c"),x=c.getContext("2d");x.fillStyle="#0f1f1b";x.fillRect(0,0,1280,720);x.fillStyle="#63c9b1";x.font="500 18px monospace";x.fillText("REDACTED SECURITY ARCHITECTURE",70,62);x.fillStyle="#eef0ea";x.font="600 38px Arial";x.fillText("Selected facts move through one controlled reporting path.",70,112);x.fillStyle="rgba(238,240,234,.68)";x.font="20px Arial";x.fillText("Provider access stays server-side; every generated Doc is verified owner-private.",70,148);
+const boxes=[
+ {title:"Google Sheet facts",copy:["Selected project only","Notes + email excluded"],tone:"#63c9b1"},
+ {title:"Bound Apps Script",copy:["Deterministic KPIs","Task-ID + figure checks"],tone:"#d8a24a"},
+ {title:"Explicit provider",copy:["Gemini: owner OAuth","Claude/OpenAI: separate secrets"],tone:"#63c9b1"},
+ {title:"Private Google Doc",copy:["shared=false","Owner permission only"],tone:"#d8a24a"}
+];
+boxes.forEach((b,i)=>{const bx=70+i*300,by=225,bw=250,bh=270;x.beginPath();x.roundRect(bx,by,bw,bh,18);x.fillStyle="#fffdf8";x.fill();x.strokeStyle="rgba(238,240,234,.16)";x.stroke();x.fillStyle=b.tone;x.fillRect(bx,by,250,7);x.fillStyle="#0e6b5c";x.font="500 16px monospace";x.fillText(String(i+1).padStart(2,"0"),bx+24,by+46);x.fillStyle="#16211d";x.font="600 24px Arial";x.fillText(b.title,bx+24,by+90);x.fillStyle="#4a544e";x.font="18px Arial";b.copy.forEach((line,j)=>x.fillText(line,bx+24,by+145+j*40));if(i<3){x.fillStyle="#63c9b1";x.font="30px Arial";x.fillText("→",bx+267,by+145)}});
+x.fillStyle="rgba(238,240,234,.58)";x.font="16px monospace";x.fillText("LIVE PROOF: TWO SECRET RESOURCES · SECRET ACCESSOR ROLE · VERIFIED DOC OWNER-ONLY",70,590);x.fillStyle="rgba(238,240,234,.24)";x.fillRect(70,620,1140,1);x.fillStyle="#eef0ea";x.font="18px Arial";x.fillText("No API key, OAuth token, email address, private Sheet ID, or private Script ID is shown.",70,658);
+</script></body></html>

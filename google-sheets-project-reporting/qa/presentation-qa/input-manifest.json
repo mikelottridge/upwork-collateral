@@ -1,0 +1,77 @@
+[
+  {
+    "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-01.mp3",
+    "sha256": "5ffcfcf6c32153013dbf97822112df2a1dabecc345bc31ff40ed1d47890f1851",
+    "size_bytes": 276864
+  },
+  {
+    "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-02.mp3",
+    "sha256": "9f31e780efc4023c5534b946a418611cd69ae640e1cd689d0c7257540d5d26fe",
+    "size_bytes": 259200
+  },
+  {
+    "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-03.mp3",
+    "sha256": "78f31cb3f1226b41f8265cb91b7a2b2b5cdef9d40f74e6c75eb295cfbae73ae0",
+    "size_bytes": 301824
+  },
+  {
+    "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-04.mp3",
+    "sha256": "cb4acc5c430816785c00ae1d6d46c35dd0a6071bc4d334d8eda7528dbd901c13",
+    "size_bytes": 335232
+  },
+  {
+    "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-05.mp3",
+    "sha256": "c4a790dc0afcde7871e2a4e10dcd996c8b568fbd5a3563922727725a1ba5d67f",
+    "size_bytes": 295296
+  },
+  {
+    "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-06.mp3",
+    "sha256": "2cd647507e4c8cfe855d54986ef4377f51ce1180699e63da2bcf1f9fde83161c",
+    "size_bytes": 268032
+  },
+  {
+    "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-07.mp3",
+    "sha256": "41badd6df8f4418781fbe1bac9139eeeae7ce5a40a9742dba0dea5326293d750",
+    "size_bytes": 333696
+  },
+  {
+    "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-08.mp3",
+    "sha256": "6f010f52d24f49147ac5011310c32ad263bf5e29ab72af80f214a0d988324711",
+    "size_bytes": 411264
+  },
+  {
+    "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-09.mp3",
+    "sha256": "6d9709517f1f931bdf8ff77723fe31a120f8b7192ceabb312d767c76cd4f0415",
+    "size_bytes": 298368
+  },
+  {
+    "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\site\\case-study-data.js",
+    "sha256": "8432a8a5204a98625812c8ac9d6a36a681e0c1ae61898c134e3fbf2d84625fa8",
+    "size_bytes": 19734
+  },
+  {
+    "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\site\\index.html",
+    "sha256": "cf2d75d9c249afdb07ac562d44d9c258a482e274bb481de64b6b3353b0955efe",
+    "size_bytes": 4480
+  },
+  {
+    "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\specs\\asset-manifest.yaml",
+    "sha256": "c9bec9e44ec40ffc0f2f8ac4730f9ad23c0e39aa748b1f71c144d12df46fd52d",
+    "size_bytes": 4912
+  },
+  {
+    "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\specs\\brand-tokens.yaml",
+    "sha256": "57ed0a22983bb18aaa09f97cb27d34e19c6f350468626c23ed5a926239da519c",
+    "size_bytes": 3459
+  },
+  {
+    "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\specs\\brief.yaml",
+    "sha256": "d81c55c6c65a8d48ba1173ef21659e0e57684eeaeba269ea77648ca1c8c03bd8",
+    "size_bytes": 4060
+  },
+  {
+    "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\specs\\slides.yaml",
+    "sha256": "7b47a3c46e28e15a326611a78546f4659726cf938acd9252097b2a2f776ef35e",
+    "size_bytes": 20219
+  }
+]

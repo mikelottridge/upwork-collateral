@@ -6,7 +6,7 @@
 
   const params = new URLSearchParams(window.location.search);
   const hasAudio = deck.slides.some((slide) => slide.audio);
-  const initialAutoplay = params.get("autoplay") !== "0";
+  const initialAutoplay = params.get("autoplay") !== "0" && deck.startMode !== "idle";
 
   const state = {
     index: 0,
@@ -531,6 +531,56 @@
     return frame;
   }
 
+  function renderMedia(artifact) {
+    const frame = el("div", artifact.compact ? "artifact-media media-compact" : "artifact-media");
+    frame.append(el("div", "artifact-label", artifact.label || "Working proof"));
+
+    const shell = el("figure", "media-shell");
+    let media;
+    if (artifact.kind === "video") {
+      media = document.createElement("video");
+      media.muted = true;
+      media.autoplay = artifact.autoplay !== false;
+      media.loop = artifact.loop !== false;
+      media.playsInline = true;
+      media.preload = "metadata";
+      media.controls = artifact.controls === true;
+      if (artifact.poster) media.poster = artifact.poster;
+      if (artifact.alt) media.setAttribute("aria-label", artifact.alt);
+    } else {
+      media = document.createElement("img");
+      media.alt = artifact.alt || "";
+      media.loading = "eager";
+    }
+    media.src = artifact.src;
+    media.className = artifact.mobileSrc ? "media-proof media-proof-desktop" : "media-proof";
+    if (artifact.objectPosition) media.style.objectPosition = artifact.objectPosition;
+    if (artifact.objectFit) media.style.objectFit = artifact.objectFit;
+    shell.append(media);
+
+    if (artifact.mobileSrc) {
+      const mobileMedia = document.createElement("img");
+      mobileMedia.src = artifact.mobileSrc;
+      mobileMedia.alt = artifact.mobileAlt || artifact.alt || "";
+      mobileMedia.loading = "eager";
+      mobileMedia.className = "media-proof media-proof-mobile";
+      shell.append(mobileMedia);
+    }
+
+    if (artifact.caption) {
+      shell.append(el("figcaption", "media-caption", artifact.caption));
+    }
+    frame.append(shell);
+
+    if (artifact.pills && artifact.pills.length) {
+      const pills = el("div", "stack-list media-pills");
+      artifact.pills.forEach((pill) => pills.append(el("span", "stack-pill", pill)));
+      frame.append(pills);
+    }
+
+    return frame;
+  }
+
   function renderWireframe(artifact) {
     const frame = el("div", "artifact-wireframe");
     frame.append(el("div", "artifact-label", artifact.label || "Application flow"));
@@ -679,6 +729,7 @@
     else if (artifact.type === "chart") content = renderChart(artifact);
     else if (artifact.type === "line-chart") content = renderLineChart(artifact);
     else if (artifact.type === "stack") content = renderStack(artifact);
+    else if (artifact.type === "media") content = renderMedia(artifact);
     else if (artifact.type === "wireframe") content = renderWireframe(artifact);
     else if (artifact.type === "compare") content = renderCompare(artifact);
     else if (artifact.type === "document") content = renderDocument(artifact);

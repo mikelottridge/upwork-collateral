@@ -4,6 +4,7 @@ This repository contains concise, public case studies showing how I approach AI-
 
 ## Case studies
 
+- [Google Sheets project reporting](./google-sheets-project-reporting/site/index.html) — Apps Script automation for daily priorities, workload planning, and secure AI-assisted stakeholder updates with Gemini, Claude, or OpenAI.
 - [Healthcare document workflow](./medical-project/site/index.html) — a Python/Flask workflow for lab-report PDF analysis, structured review outputs, and deployment-oriented implementation.
 - [Audit-ready financial metrics pipeline](./financial-metrics-pipeline/site/index.html) — a source-grounded SEC data workflow with provenance, confidence flags, and explicit handling of conflicting disclosures.
 - [Assessment data workflow](./psychologist-project/site/index.html) — a Python/Flask system for longitudinal analysis, chart generation, multilingual outputs, and report-ready delivery.

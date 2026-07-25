@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Google Sheets AI reporting workflow storyboard</title>
+  <style>
+    html,body{margin:0;background:#0f1f1b;color:#eef0ea;font-family:Arial,sans-serif;display:grid;place-items:center;min-height:100vh}
+    main{display:grid;gap:12px;justify-items:center}canvas{width:960px;height:540px;max-width:96vw;border:1px solid rgba(238,240,234,.18);border-radius:16px;background:#0f1f1b}
+    #status{font:12px/1.4 monospace;letter-spacing:.12em;text-transform:uppercase;color:#63c9b1}
+  </style>
+</head>
+<body>
+<main><canvas id="stage" width="1280" height="720" aria-label="Muted workflow recording from Apps Script dialog to validated stakeholder report"></canvas><div id="status">Preparing workflow recording</div></main>
+<script>
+const frames=[
+  {src:"../screenshots/security-architecture-redacted-v1.png",eyebrow:"01 CONTROL",title:"Start with the redacted security architecture"},
+  {src:"../screenshots/dialog-stakeholder-v1.png",eyebrow:"02 SELECT",title:"Choose the project and provider"},
+  {src:"../screenshots/dialog-generating-v1.png",eyebrow:"03 GENERATE",title:"Run the bounded report workflow"},
+  {src:"../screenshots/dialog-generated-v1.png",eyebrow:"04 CONFIRM",title:"Receive the owner-private report link"},
+  {src:"../screenshots/stakeholder-doc-narrative-v1.png",eyebrow:"05 REVIEW",title:"Review validated task-linked content"},
+  {src:"../screenshots/secret-manager-iam-redacted-v1.png",eyebrow:"06 VERIFY",title:"Verify separate secrets and the accessor role"}
+];
+const canvas=document.getElementById("stage"),ctx=canvas.getContext("2d"),status=document.getElementById("status");
+const duration=21000,segment=duration/frames.length,fade=420;
+const loaded=Promise.all(frames.map(item=>new Promise((resolve,reject)=>{const image=new Image();image.onload=()=>resolve({...item,image});image.onerror=reject;image.src=item.src;})));
+function roundedRect(x,y,w,h,r){ctx.beginPath();ctx.roundRect(x,y,w,h,r);}
+function drawFrame(item,alpha,index){
+  ctx.save();ctx.globalAlpha=alpha;
+  const x=70,y=118,w=1140,h=520;
+  roundedRect(x,y,w,h,20);ctx.fillStyle="#fffdf8";ctx.fill();ctx.clip();
+  const scale=Math.min(w/item.image.width,h/item.image.height);const dw=item.image.width*scale,dh=item.image.height*scale;
+  ctx.drawImage(item.image,x+(w-dw)/2,y+(h-dh)/2,dw,dh);ctx.restore();
+  ctx.save();ctx.globalAlpha=alpha;ctx.fillStyle="#63c9b1";ctx.font="500 18px monospace";ctx.fillText(item.eyebrow,70,48);
+  ctx.fillStyle="#eef0ea";ctx.font="600 30px Arial";ctx.fillText(item.title,70,88);ctx.restore();
+  frames.forEach((_,i)=>{ctx.fillStyle=i<=index?"#63c9b1":"rgba(238,240,234,.22)";ctx.fillRect(70+i*70,678,52,5);});
+}
+function render(items,elapsed){ctx.fillStyle="#0f1f1b";ctx.fillRect(0,0,canvas.width,canvas.height);const index=Math.min(items.length-1,Math.floor(elapsed/segment));const local=elapsed-index*segment;let alpha=1;if(local<fade&&index>0)alpha=local/fade;drawFrame(items[index],alpha,index);if(local<fade&&index>0)drawFrame(items[index-1],1-alpha,index-1);}
+async function record(){const items=await loaded;render(items,0);const mime=MediaRecorder.isTypeSupported("video/webm;codecs=vp9")?"video/webm;codecs=vp9":"video/webm";const stream=canvas.captureStream(30);const recorder=new MediaRecorder(stream,{mimeType:mime,videoBitsPerSecond:1800000});const chunks=[];recorder.ondataavailable=e=>{if(e.data.size)chunks.push(e.data)};const stopped=new Promise(resolve=>recorder.onstop=resolve);recorder.start(250);status.textContent="RECORDING";const start=Date.now();const timer=setInterval(()=>render(items,Math.min(duration,Date.now()-start)),33);await new Promise(resolve=>setTimeout(resolve,duration));clearInterval(timer);render(items,duration-1);await new Promise(r=>setTimeout(r,250));recorder.stop();await stopped;stream.getTracks().forEach(t=>t.stop());const blob=new Blob(chunks,{type:mime});const reader=new FileReader();reader.onloadend=()=>{status.dataset.video=reader.result.split(",")[1];status.dataset.mime=mime;status.textContent="READY"};reader.readAsDataURL(blob)}
+record().catch(error=>{status.textContent="ERROR: "+error.message});
+</script>
+</body>
+</html>

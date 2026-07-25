@@ -123,7 +123,8 @@ a {
 
 .hero h1 {
   margin: 12px 0 10px;
-  max-width: 13ch;
+  max-width: 22ch;
+  text-wrap: balance;
   font-family: var(--font-display);
   font-size: clamp(2.1rem, 3.4vw, 3.35rem);
   line-height: 1.02;
@@ -532,7 +533,8 @@ a {
 
 .slide-head h1 {
   margin: 10px 0 10px;
-  max-width: 18ch;
+  max-width: 24ch;
+  text-wrap: balance;
   color: var(--ink);
   font-family: var(--font-display);
   font-size: clamp(2rem, 3vw, 2.95rem);
@@ -663,6 +665,62 @@ a {
 .artifact-cluster-map,
 .artifact-decision-tree {
   height: 100%;
+}
+
+.artifact-media {
+  height: 100%;
+  display: grid;
+  align-content: start;
+  gap: 12px;
+}
+
+.media-shell {
+  margin: 0;
+  overflow: hidden;
+  border-radius: 18px;
+  border: 1px solid rgba(221, 217, 209, 0.9);
+  background: #eef2f5;
+  box-shadow: var(--shadow-soft);
+}
+
+.media-proof {
+  display: block;
+  width: 100%;
+  height: clamp(220px, 30vw, 390px);
+  object-fit: cover;
+  object-position: center;
+  background: #eef2f5;
+}
+
+.media-caption {
+  padding: 10px 12px 12px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.38;
+  background: rgba(255, 255, 255, 0.96);
+}
+
+.media-pills {
+  margin-top: 0;
+}
+
+.media-pills .stack-pill {
+  border-color: rgba(21, 63, 74, 0.16);
+  background: rgba(227, 244, 239, 0.92);
+  color: #255d54;
+}
+
+.media-proof-mobile {
+  display: none;
+}
+
+.media-compact {
+  height: auto;
+}
+
+.media-compact .media-proof {
+  height: auto;
+  max-height: 300px;
 }
 
 .workflow-steps {
@@ -1235,7 +1293,7 @@ a {
 
   .hero h1 {
     margin: 8px 0 6px;
-    max-width: 12ch;
+    max-width: 22ch;
     font-size: clamp(1.75rem, 2.5vw, 2.55rem);
   }
 
@@ -1447,5 +1505,16 @@ a {
 
   .pipeline-arrow {
     display: none;
+  }
+
+  .media-proof-desktop {
+    display: none;
+  }
+
+  .media-proof-mobile {
+    display: block;
+    height: auto;
+    max-height: none;
+    object-fit: contain;
   }
 }

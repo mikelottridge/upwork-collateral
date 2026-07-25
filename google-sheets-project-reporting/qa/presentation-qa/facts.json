@@ -1,0 +1,565 @@
+{
+  "asset_count": 6,
+  "audio": [
+    {
+      "absolute_url": false,
+      "bit_rate": 128000,
+      "channels": 1,
+      "codec": "MPEGInfo",
+      "duration_seconds": 17.304,
+      "exists": true,
+      "format_name": "mp3",
+      "git_blob_sha": "0fc2045dab2be381ea09120d809c9741eb371e0e",
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-01.mp3",
+      "probe_engine": "mutagen",
+      "probe_error": null,
+      "reference": "audio/slide-01.mp3",
+      "sample_rate": 24000,
+      "sha256": "5ffcfcf6c32153013dbf97822112df2a1dabecc345bc31ff40ed1d47890f1851",
+      "size_bytes": 276864,
+      "slide_id": "slide-01",
+      "tts_reference": false,
+      "versioned": false
+    },
+    {
+      "absolute_url": false,
+      "bit_rate": 128000,
+      "channels": 1,
+      "codec": "MPEGInfo",
+      "duration_seconds": 16.2,
+      "exists": true,
+      "format_name": "mp3",
+      "git_blob_sha": "a6fb2b1bde43aa7b06acdaa55a8ef171cae2327c",
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-02.mp3",
+      "probe_engine": "mutagen",
+      "probe_error": null,
+      "reference": "audio/slide-02.mp3",
+      "sample_rate": 24000,
+      "sha256": "9f31e780efc4023c5534b946a418611cd69ae640e1cd689d0c7257540d5d26fe",
+      "size_bytes": 259200,
+      "slide_id": "slide-02",
+      "tts_reference": false,
+      "versioned": false
+    },
+    {
+      "absolute_url": false,
+      "bit_rate": 128000,
+      "channels": 1,
+      "codec": "MPEGInfo",
+      "duration_seconds": 18.864,
+      "exists": true,
+      "format_name": "mp3",
+      "git_blob_sha": "4872a90b841e124364987da2075229ed0d41c841",
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-03.mp3",
+      "probe_engine": "mutagen",
+      "probe_error": null,
+      "reference": "audio/slide-03.mp3",
+      "sample_rate": 24000,
+      "sha256": "78f31cb3f1226b41f8265cb91b7a2b2b5cdef9d40f74e6c75eb295cfbae73ae0",
+      "size_bytes": 301824,
+      "slide_id": "slide-03",
+      "tts_reference": false,
+      "versioned": false
+    },
+    {
+      "absolute_url": false,
+      "bit_rate": 128000,
+      "channels": 1,
+      "codec": "MPEGInfo",
+      "duration_seconds": 20.952,
+      "exists": true,
+      "format_name": "mp3",
+      "git_blob_sha": "e29a644fb0d11a1d6aab13ac3344ceacb0f0c7cb",
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-04.mp3",
+      "probe_engine": "mutagen",
+      "probe_error": null,
+      "reference": "audio/slide-04.mp3",
+      "sample_rate": 24000,
+      "sha256": "cb4acc5c430816785c00ae1d6d46c35dd0a6071bc4d334d8eda7528dbd901c13",
+      "size_bytes": 335232,
+      "slide_id": "slide-04",
+      "tts_reference": false,
+      "versioned": false
+    },
+    {
+      "absolute_url": false,
+      "bit_rate": 128000,
+      "channels": 1,
+      "codec": "MPEGInfo",
+      "duration_seconds": 18.456,
+      "exists": true,
+      "format_name": "mp3",
+      "git_blob_sha": "aca4205418f2995e3cb92e839439c765b717a960",
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-05.mp3",
+      "probe_engine": "mutagen",
+      "probe_error": null,
+      "reference": "audio/slide-05.mp3",
+      "sample_rate": 24000,
+      "sha256": "c4a790dc0afcde7871e2a4e10dcd996c8b568fbd5a3563922727725a1ba5d67f",
+      "size_bytes": 295296,
+      "slide_id": "slide-05",
+      "tts_reference": false,
+      "versioned": false
+    },
+    {
+      "absolute_url": false,
+      "bit_rate": 128000,
+      "channels": 1,
+      "codec": "MPEGInfo",
+      "duration_seconds": 16.752,
+      "exists": true,
+      "format_name": "mp3",
+      "git_blob_sha": "730334d4f00317ba55a26d3d0be1e828a3c8740c",
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-06.mp3",
+      "probe_engine": "mutagen",
+      "probe_error": null,
+      "reference": "audio/slide-06.mp3",
+      "sample_rate": 24000,
+      "sha256": "2cd647507e4c8cfe855d54986ef4377f51ce1180699e63da2bcf1f9fde83161c",
+      "size_bytes": 268032,
+      "slide_id": "slide-06",
+      "tts_reference": false,
+      "versioned": false
+    },
+    {
+      "absolute_url": false,
+      "bit_rate": 128000,
+      "channels": 1,
+      "codec": "MPEGInfo",
+      "duration_seconds": 20.856,
+      "exists": true,
+      "format_name": "mp3",
+      "git_blob_sha": "962d37066ba28d265f29c4e1bcca7af2bdff03b4",
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-07.mp3",
+      "probe_engine": "mutagen",
+      "probe_error": null,
+      "reference": "audio/slide-07.mp3",
+      "sample_rate": 24000,
+      "sha256": "41badd6df8f4418781fbe1bac9139eeeae7ce5a40a9742dba0dea5326293d750",
+      "size_bytes": 333696,
+      "slide_id": "slide-07",
+      "tts_reference": false,
+      "versioned": false
+    },
+    {
+      "absolute_url": false,
+      "bit_rate": 128000,
+      "channels": 1,
+      "codec": "MPEGInfo",
+      "duration_seconds": 25.704,
+      "exists": true,
+      "format_name": "mp3",
+      "git_blob_sha": "d86e4c455fd644905a04c3dcd25025dd16ade9f2",
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-08.mp3",
+      "probe_engine": "mutagen",
+      "probe_error": null,
+      "reference": "audio/slide-08.mp3",
+      "sample_rate": 24000,
+      "sha256": "6f010f52d24f49147ac5011310c32ad263bf5e29ab72af80f214a0d988324711",
+      "size_bytes": 411264,
+      "slide_id": "slide-08",
+      "tts_reference": false,
+      "versioned": false
+    },
+    {
+      "absolute_url": false,
+      "bit_rate": 128000,
+      "channels": 1,
+      "codec": "MPEGInfo",
+      "duration_seconds": 18.648,
+      "exists": true,
+      "format_name": "mp3",
+      "git_blob_sha": "65356353e7f28ced0cff4b88c6db3b5505076950",
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-09.mp3",
+      "probe_engine": "mutagen",
+      "probe_error": null,
+      "reference": "audio/slide-09.mp3",
+      "sample_rate": 24000,
+      "sha256": "6d9709517f1f931bdf8ff77723fe31a120f8b7192ceabb312d767c76cd4f0415",
+      "size_bytes": 298368,
+      "slide_id": "slide-09",
+      "tts_reference": false,
+      "versioned": false
+    }
+  ],
+  "deck": {
+    "audio_generation_endpoint": "/v1/audio/speech",
+    "audio_generation_model": "gpt-4o-mini-tts",
+    "audio_generation_provider": "openai_api",
+    "audio_response_format": "mp3",
+    "contract_status": "pre-contract",
+    "id": "google-sheets-project-reporting",
+    "narration_mode": "audio",
+    "narration_source_type": "recorded_mp3",
+    "outputs": [
+      "html",
+      "pdf"
+    ],
+    "recorded_audio_required": true,
+    "slide_count": 9,
+    "style_profile": "technical-editorial-v1"
+  },
+  "fact_version": "1.0",
+  "input_manifest": [
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-01.mp3",
+      "sha256": "5ffcfcf6c32153013dbf97822112df2a1dabecc345bc31ff40ed1d47890f1851",
+      "size_bytes": 276864
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-02.mp3",
+      "sha256": "9f31e780efc4023c5534b946a418611cd69ae640e1cd689d0c7257540d5d26fe",
+      "size_bytes": 259200
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-03.mp3",
+      "sha256": "78f31cb3f1226b41f8265cb91b7a2b2b5cdef9d40f74e6c75eb295cfbae73ae0",
+      "size_bytes": 301824
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-04.mp3",
+      "sha256": "cb4acc5c430816785c00ae1d6d46c35dd0a6071bc4d334d8eda7528dbd901c13",
+      "size_bytes": 335232
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-05.mp3",
+      "sha256": "c4a790dc0afcde7871e2a4e10dcd996c8b568fbd5a3563922727725a1ba5d67f",
+      "size_bytes": 295296
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-06.mp3",
+      "sha256": "2cd647507e4c8cfe855d54986ef4377f51ce1180699e63da2bcf1f9fde83161c",
+      "size_bytes": 268032
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-07.mp3",
+      "sha256": "41badd6df8f4418781fbe1bac9139eeeae7ce5a40a9742dba0dea5326293d750",
+      "size_bytes": 333696
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-08.mp3",
+      "sha256": "6f010f52d24f49147ac5011310c32ad263bf5e29ab72af80f214a0d988324711",
+      "size_bytes": 411264
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-09.mp3",
+      "sha256": "6d9709517f1f931bdf8ff77723fe31a120f8b7192ceabb312d767c76cd4f0415",
+      "size_bytes": 298368
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\site\\case-study-data.js",
+      "sha256": "8432a8a5204a98625812c8ac9d6a36a681e0c1ae61898c134e3fbf2d84625fa8",
+      "size_bytes": 19734
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\site\\index.html",
+      "sha256": "cf2d75d9c249afdb07ac562d44d9c258a482e274bb481de64b6b3353b0955efe",
+      "size_bytes": 4480
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\specs\\asset-manifest.yaml",
+      "sha256": "c9bec9e44ec40ffc0f2f8ac4730f9ad23c0e39aa748b1f71c144d12df46fd52d",
+      "size_bytes": 4912
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\specs\\brand-tokens.yaml",
+      "sha256": "57ed0a22983bb18aaa09f97cb27d34e19c6f350468626c23ed5a926239da519c",
+      "size_bytes": 3459
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\specs\\brief.yaml",
+      "sha256": "d81c55c6c65a8d48ba1173ef21659e0e57684eeaeba269ea77648ca1c8c03bd8",
+      "size_bytes": 4060
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\specs\\slides.yaml",
+      "sha256": "7b47a3c46e28e15a326611a78546f4659726cf938acd9252097b2a2f776ef35e",
+      "size_bytes": 20219
+    }
+  ],
+  "interaction": {
+    "advance_trigger": "audio-ended",
+    "audio_autoplay_on_load": false,
+    "audio_base": "../audio/",
+    "audio_failure_fallback": "timed",
+    "audio_version": "cedar-20260725",
+    "manual_navigation": [
+      "arrow-left",
+      "arrow-right",
+      "next-button",
+      "previous-button"
+    ],
+    "silent_auto_advance": true,
+    "start_mode": "idle",
+    "use_scroll_into_view": false
+  },
+  "outputs": [],
+  "project": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting",
+  "site": {
+    "arrow_navigation": true,
+    "audio_ended_listener": true,
+    "canonical_slide_count": 9,
+    "canonical_slide_titles_missing": [],
+    "css_box_shadow_count": 21,
+    "css_font_families": [
+      "Georgia, serif",
+      "var(--font-body)",
+      "var(--font-display)"
+    ],
+    "css_glow_detected": false,
+    "css_gradient_detected": true,
+    "index": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\site\\index.html",
+    "present": true,
+    "scripts": [
+      "../../shared/case-study.js?v=6",
+      "./case-study-data.js?v=6"
+    ],
+    "scroll_into_view": false,
+    "source_hash": "cf2d75d9c249afdb07ac562d44d9c258a482e274bb481de64b6b3353b0955efe",
+    "stylesheets": [
+      "../../shared/case-study.css?v=6"
+    ],
+    "timed_fallback": true,
+    "tts_detected": false
+  },
+  "slides": [
+    {
+      "alt_summary": "One source, three project-management outcomes",
+      "artifact_type": "",
+      "audio_reference": "audio/slide-01.mp3",
+      "cta_destination": "",
+      "cta_type": "",
+      "duration_ms": 17800,
+      "evidence_source": "private proof implementation and public-safe browser render",
+      "evidence_type": "verified",
+      "eyebrow": "The client outcome",
+      "headline": "Google Sheets + Apps Script automation for daily priorities, workload planning, and AI stakeholder updates.",
+      "id": "slide-01",
+      "index": 1,
+      "narration_script": "This proof uses Google Sheets and Apps Script to turn one project tracker into daily priorities, workload planning, and AI-assisted stakeholder updates. The project manager chooses the report and, when AI is useful, explicitly chooses Gemini, Claude, or OpenAI.",
+      "point_count": 3,
+      "points": [
+        "Keep Google Sheets as the familiar operating surface.",
+        "Use Apps Script for repeatable reporting logic and document creation.",
+        "Choose Gemini, Claude, or OpenAI without changing the PM workflow."
+      ],
+      "role": "title",
+      "seconds": 17.8,
+      "subhead": "A project manager can move from the shared task table to a focused action view or stakeholder draft without rebuilding filters, counts, and summaries by hand."
+    },
+    {
+      "alt_summary": "What changes when reporting becomes a workflow",
+      "artifact_type": "",
+      "audio_reference": "audio/slide-02.mp3",
+      "cta_destination": "",
+      "cta_type": "",
+      "duration_ms": 16700,
+      "evidence_source": "existing public tracker and implemented report workflows",
+      "evidence_type": "verified",
+      "eyebrow": "The reporting problem",
+      "headline": "The task table may be current while the management view is already stale.",
+      "id": "slide-02",
+      "index": 2,
+      "narration_script": "A task tracker can be current while the management view is stale. Daily review, workload planning, and stakeholder writing each require different filters and summaries. Rebuilding those views manually creates repeated effort and makes it easier for counts and narrative to diverge.",
+      "point_count": 3,
+      "points": [
+        "Daily review needs the right project, worker, priority, status, and due horizon.",
+        "Workload planning needs consistent open, overdue, blocked, and due-soon counts.",
+        "Stakeholder updates need concise language without detaching claims from source tasks."
+      ],
+      "role": "problem",
+      "seconds": 16.7,
+      "subhead": "Project managers often repeat the same filtering, regrouping, and status-writing work because a flexible Sheet does not automatically create every decision view."
+    },
+    {
+      "alt_summary": "Focused Google Sheets task tracker showing task IDs, projects, workers, priorities, statuses, and calculated timing.",
+      "artifact_type": "",
+      "audio_reference": "audio/slide-03.mp3",
+      "cta_destination": "",
+      "cta_type": "",
+      "duration_ms": 19360,
+      "evidence_source": "screenshots/task-tracker-focused-v2.png",
+      "evidence_type": "verified",
+      "eyebrow": "The structured foundation",
+      "headline": "The Google Sheet supplies controlled task facts, calculated timing, and stable task IDs.",
+      "id": "slide-03",
+      "index": 3,
+      "narration_script": "The foundation is still a normal Google Sheet. Projects, workers, priorities, statuses, and dates are controlled fields, while timing categories remain deterministic. Stable task IDs let every report trace back to the source. Notes and email addresses are excluded from AI requests.",
+      "point_count": 3,
+      "points": [
+        "Project, worker, priority, status, and dates remain normal Sheet fields.",
+        "Timing categories and recommended actions stay deterministic.",
+        "Notes and email addresses are excluded from every AI request in version one."
+      ],
+      "role": "proof",
+      "seconds": 19.36,
+      "subhead": "Apps Script reads a frozen owner-only copy of the public tracker. It does not depend on screenshots, free-form notes, or a second database."
+    },
+    {
+      "alt_summary": "Bound Apps Script execution path",
+      "artifact_type": "",
+      "audio_reference": "audio/slide-04.mp3",
+      "cta_destination": "",
+      "cta_type": "",
+      "duration_ms": 21450,
+      "evidence_source": "src/apps-script report workflow implementation",
+      "evidence_type": "verified",
+      "eyebrow": "The automation flow",
+      "headline": "One Apps Script menu turns report choices into validated, repeatable outputs.",
+      "id": "slide-04",
+      "index": 4,
+      "narration_script": "The PM Reports menu launches one Apps Script workflow. It validates the request, computes authoritative metrics, and then refreshes a stable report tab or creates an owner-private Google Doc. A document lock prevents overlapping writes, and every AI output records its source timestamp, provider, model, and source task IDs.",
+      "point_count": 3,
+      "points": [
+        "A document lock prevents overlapping report writes.",
+        "Daily Actions and Workload tabs refresh in place instead of multiplying copies.",
+        "Every stakeholder output records its source timestamp, provider, model, and task IDs."
+      ],
+      "role": "process",
+      "seconds": 21.45,
+      "subhead": "The bound script reads the Sheet, validates the request, calculates metrics, refreshes report tabs, and creates a private Google Doc only when the user asks."
+    },
+    {
+      "alt_summary": "Daily Actions report pattern",
+      "artifact_type": "",
+      "audio_reference": "audio/slide-05.mp3",
+      "cta_destination": "",
+      "cta_type": "",
+      "duration_ms": 18960,
+      "evidence_source": "implemented deterministic Daily Actions report",
+      "evidence_type": "verified",
+      "eyebrow": "Daily priorities",
+      "headline": "Daily review reduces the tracker to the work that needs attention now.",
+      "id": "slide-05",
+      "index": 5,
+      "narration_script": "The Daily Actions report reduces the tracker to work that needs attention now. The project manager can combine project, worker, status, priority, and due horizon. Task ID, timing, due date, and recommended action remain together, and the report works even if no AI provider is configured.",
+      "point_count": 3,
+      "points": [
+        "Overdue and blocked work remains visible instead of being averaged into a dashboard.",
+        "Task IDs, due dates, timing categories, and recommended actions stay together.",
+        "The output is deterministic and usable even when every AI provider is unavailable."
+      ],
+      "role": "proof",
+      "seconds": 18.96,
+      "subhead": "The same dialog can combine project, worker, status, priority, and due-horizon filters, then sort the result into an action-ready Sheet tab."
+    },
+    {
+      "alt_summary": "Focused Google Sheets dashboard showing open workload counts by owner.",
+      "artifact_type": "",
+      "audio_reference": "audio/slide-06.mp3",
+      "cta_destination": "",
+      "cta_type": "",
+      "duration_ms": 17250,
+      "evidence_source": "screenshots/workload-focused-v3.png",
+      "evidence_type": "verified",
+      "eyebrow": "Workload planning",
+      "headline": "Workload can be grouped by worker or project without inventing utilization percentages.",
+      "id": "slide-06",
+      "index": 6,
+      "narration_script": "For workload planning, the user switches between grouping by worker and grouping by project. The report uses facts the Sheet actually contains: open, overdue, blocked, and due-soon counts. It deliberately avoids utilization percentages because this tracker does not contain hours or capacity.",
+      "point_count": 3,
+      "points": [
+        "Switch grouping between worker and project in the same dialog.",
+        "Compare real task counts and timing risk instead of guessed capacity.",
+        "Refresh the stable Workload tab whenever the source Sheet changes."
+      ],
+      "role": "proof",
+      "seconds": 17.25,
+      "subhead": "The report uses counts the Sheet can support: open, overdue, blocked, and due soon. It avoids false precision when hours or capacity data do not exist."
+    },
+    {
+      "alt_summary": "Live Apps Script PM Report Builder with Stakeholder update, Project Aurora, and Claude selected.",
+      "artifact_type": "",
+      "audio_reference": "audio/slide-07.mp3",
+      "cta_destination": "",
+      "cta_type": "",
+      "duration_ms": 21360,
+      "evidence_source": "screenshots/dialog-stakeholder-v1.png",
+      "evidence_type": "verified",
+      "eyebrow": "Custom Apps Script dialog",
+      "headline": "The dialog makes complex reporting choices usable without exposing implementation details.",
+      "id": "slide-07",
+      "index": 7,
+      "narration_script": "The custom Apps Script dialog makes the reporting logic approachable. It reveals only the controls needed for the selected workflow, supports a preview before writes, and requires one project plus an explicit provider for stakeholder updates. Configuration checks stay server-side, so keys and OAuth tokens never return to the dialog.",
+      "point_count": 3,
+      "points": [
+        "Show only the controls relevant to the selected report type.",
+        "Require one project and an explicit provider before a stakeholder update can run.",
+        "Keep one interface across daily review, workload, and stakeholder work."
+      ],
+      "role": "solution",
+      "seconds": 21.36,
+      "subhead": "One interface supports daily review, workload planning, and stakeholder updates while showing only the controls relevant to the selected report."
+    },
+    {
+      "alt_summary": "Muted workflow recording showing the redacted security architecture, Apps Script provider selection, generation, validated Google Doc, and Secret Manager accessor role.",
+      "artifact_type": "",
+      "audio_reference": "audio/slide-08.mp3",
+      "cta_destination": "",
+      "cta_type": "",
+      "duration_ms": 26200,
+      "evidence_source": "video/workflow-report-proof.webm and redacted security proof",
+      "evidence_type": "verified",
+      "eyebrow": "Secure AI-assisted reporting",
+      "headline": "Gemini, Claude, and OpenAI share one validated output contract—not one shared secret path.",
+      "id": "slide-08",
+      "index": 8,
+      "narration_script": "Gemini uses the owner’s Google authorization; Claude and OpenAI use separate Secret Manager secrets. Only selected-project facts and aggregates are sent—never Notes or emails. Responses must match source task IDs and supported figures. If validation fails, the private Doc keeps verified metrics and marks the AI narrative unavailable. Gemini’s built-in Sheets AI remains a separate playground; this dialog is the governed reporting path.",
+      "point_count": 3,
+      "points": [
+        "Only selected-project task facts and deterministic aggregates are sent; Notes and email addresses are excluded.",
+        "The draft is checked against source task IDs and supported figures before it becomes Google Doc text.",
+        "A refusal, malformed response, invented reference, or figure mismatch produces a deterministic Doc marked “AI narrative unavailable.”"
+      ],
+      "role": "differentiator",
+      "seconds": 26.2,
+      "subhead": "The provider is chosen explicitly. Gemini runs on Vertex AI under the owner’s Google authorization; Claude and OpenAI each use their own Secret Manager secret."
+    },
+    {
+      "alt_summary": "Smallest useful pilot",
+      "artifact_type": "",
+      "audio_reference": "audio/slide-09.mp3",
+      "cta_destination": "upwork",
+      "cta_type": "upwork-message",
+      "duration_ms": 19150,
+      "evidence_source": "",
+      "evidence_type": "none",
+      "eyebrow": "Client delivery",
+      "headline": "Bring the Google Sheet your team still turns into reports by hand.",
+      "id": "slide-09",
+      "index": 9,
+      "narration_script": "If your team still turns a Google Sheet into reports by hand, start with one bounded workflow. We can define the fields, filters, permissions, provider policy, and acceptance checks, then build and verify the smallest useful Apps Script solution. Reply on Upwork with the Sheet process you want simplified.",
+      "point_count": 3,
+      "points": [
+        "Choose one daily review, workload, or stakeholder-reporting workflow.",
+        "Confirm the fields, filters, permissions, provider policy, and acceptance checks.",
+        "Reply on Upwork with the Sheet process you want simplified."
+      ],
+      "role": "cta",
+      "seconds": 19.15,
+      "subhead": "The next step is a bounded pilot around one real reporting decision, the Sheet fields that support it, and the review rules required before anything is shared."
+    }
+  ],
+  "style": {
+    "artifact_types": [
+      "compare",
+      "steps",
+      "table"
+    ],
+    "fonts": {
+      "editorial_serif": "Newsreader",
+      "fallbacks": "{'serif': ['Georgia', 'serif'], 'sans': ['Arial', 'sans-serif'], 'mono': ['Courier New', 'monospace']}",
+      "mono_label": "IBM Plex Mono",
+      "ui_sans": "IBM Plex Sans"
+    },
+    "profile": "technical-editorial-v1",
+    "restrictions": {
+      "decorative_svg": false,
+      "emoji": false,
+      "glows": false,
+      "gradients": false,
+      "maximum_light_background_tones": 2,
+      "stacked_shadows": false
+    }
+  }
+}

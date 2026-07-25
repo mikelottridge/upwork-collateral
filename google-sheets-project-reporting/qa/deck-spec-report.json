@@ -1,0 +1,228 @@
+{
+  "status": "pass_with_warnings",
+  "slide_count": 9,
+  "runtime_seconds": 178.23,
+  "contract_status": "pre-contract",
+  "style": {
+    "profile": "technical-editorial-v1",
+    "expected_profile": "technical-editorial-v1",
+    "interaction_start_mode": "idle",
+    "artifact_types": [
+      "compare",
+      "steps",
+      "table"
+    ]
+  },
+  "narration": {
+    "required": true,
+    "mode": "audio",
+    "audio_required": true,
+    "scripts": 9,
+    "audio_files": 9,
+    "source_type": "recorded_mp3",
+    "prior_source_type": "recorded_mp3",
+    "recorded_audio_required": true,
+    "generation_provider": "openai_api",
+    "generation_endpoint": "/v1/audio/speech",
+    "generation_model": "gpt-4o-mini-tts",
+    "response_format": "mp3",
+    "source_change_approved": true,
+    "voice_profile": "cedar",
+    "prior_voice_profile": "cedar",
+    "voice_change_approved": true
+  },
+  "ux_change_control": {
+    "material_change_count": 2,
+    "unapproved_material_change_count": 0,
+    "all_changes_approved": true
+  },
+  "deployment": {
+    "live_url": null,
+    "audible_playback_checked": false,
+    "silent_autoadvance_checked": false,
+    "first_transition_checked": false,
+    "asset_resolution_checked": false
+  },
+  "errors": [],
+  "warnings": [
+    {
+      "code": "copy.headline_long",
+      "message": "Headline has 14 words; target is 12 or fewer",
+      "slide_id": "slide-01"
+    },
+    {
+      "code": "copy.subhead_long",
+      "message": "Subhead has 26 words; target is 20 or fewer",
+      "slide_id": "slide-01"
+    },
+    {
+      "code": "copy.headline_long",
+      "message": "Headline has 13 words; target is 12 or fewer",
+      "slide_id": "slide-02"
+    },
+    {
+      "code": "copy.subhead_long",
+      "message": "Subhead has 22 words; target is 20 or fewer",
+      "slide_id": "slide-02"
+    },
+    {
+      "code": "copy.body_long",
+      "message": "Body has 33 words; target is 28 or fewer",
+      "slide_id": "slide-02"
+    },
+    {
+      "code": "copy.bullet_long",
+      "message": "Bullet has 12 words; target is 10 or fewer",
+      "slide_id": "slide-02"
+    },
+    {
+      "code": "copy.bullet_long",
+      "message": "Bullet has 11 words; target is 10 or fewer",
+      "slide_id": "slide-02"
+    },
+    {
+      "code": "copy.headline_long",
+      "message": "Headline has 13 words; target is 12 or fewer",
+      "slide_id": "slide-03"
+    },
+    {
+      "code": "copy.subhead_long",
+      "message": "Subhead has 23 words; target is 20 or fewer",
+      "slide_id": "slide-03"
+    },
+    {
+      "code": "copy.body_long",
+      "message": "Body has 30 words; target is 28 or fewer",
+      "slide_id": "slide-03"
+    },
+    {
+      "code": "copy.bullet_long",
+      "message": "Bullet has 13 words; target is 10 or fewer",
+      "slide_id": "slide-03"
+    },
+    {
+      "code": "copy.subhead_long",
+      "message": "Subhead has 25 words; target is 20 or fewer",
+      "slide_id": "slide-04"
+    },
+    {
+      "code": "copy.body_long",
+      "message": "Body has 31 words; target is 28 or fewer",
+      "slide_id": "slide-04"
+    },
+    {
+      "code": "copy.bullet_long",
+      "message": "Bullet has 12 words; target is 10 or fewer",
+      "slide_id": "slide-04"
+    },
+    {
+      "code": "copy.bullet_long",
+      "message": "Bullet has 12 words; target is 10 or fewer",
+      "slide_id": "slide-04"
+    },
+    {
+      "code": "copy.subhead_long",
+      "message": "Subhead has 21 words; target is 20 or fewer",
+      "slide_id": "slide-05"
+    },
+    {
+      "code": "copy.body_long",
+      "message": "Body has 37 words; target is 28 or fewer",
+      "slide_id": "slide-05"
+    },
+    {
+      "code": "copy.bullet_long",
+      "message": "Bullet has 13 words; target is 10 or fewer",
+      "slide_id": "slide-05"
+    },
+    {
+      "code": "copy.bullet_long",
+      "message": "Bullet has 11 words; target is 10 or fewer",
+      "slide_id": "slide-05"
+    },
+    {
+      "code": "copy.bullet_long",
+      "message": "Bullet has 13 words; target is 10 or fewer",
+      "slide_id": "slide-05"
+    },
+    {
+      "code": "copy.subhead_long",
+      "message": "Subhead has 26 words; target is 20 or fewer",
+      "slide_id": "slide-06"
+    },
+    {
+      "code": "copy.body_long",
+      "message": "Body has 31 words; target is 28 or fewer",
+      "slide_id": "slide-06"
+    },
+    {
+      "code": "copy.bullet_long",
+      "message": "Bullet has 11 words; target is 10 or fewer",
+      "slide_id": "slide-06"
+    },
+    {
+      "code": "copy.body_long",
+      "message": "Body has 33 words; target is 28 or fewer",
+      "slide_id": "slide-07"
+    },
+    {
+      "code": "copy.bullet_long",
+      "message": "Bullet has 13 words; target is 10 or fewer",
+      "slide_id": "slide-07"
+    },
+    {
+      "code": "copy.headline_long",
+      "message": "Headline has 14 words; target is 12 or fewer",
+      "slide_id": "slide-08"
+    },
+    {
+      "code": "copy.subhead_long",
+      "message": "Subhead has 25 words; target is 20 or fewer",
+      "slide_id": "slide-08"
+    },
+    {
+      "code": "copy.body_long",
+      "message": "Body has 49 words; target is 28 or fewer",
+      "slide_id": "slide-08"
+    },
+    {
+      "code": "copy.bullet_long",
+      "message": "Bullet has 15 words; target is 10 or fewer",
+      "slide_id": "slide-08"
+    },
+    {
+      "code": "copy.bullet_long",
+      "message": "Bullet has 17 words; target is 10 or fewer",
+      "slide_id": "slide-08"
+    },
+    {
+      "code": "copy.bullet_long",
+      "message": "Bullet has 17 words; target is 10 or fewer",
+      "slide_id": "slide-08"
+    },
+    {
+      "code": "copy.subhead_long",
+      "message": "Subhead has 27 words; target is 20 or fewer",
+      "slide_id": "slide-09"
+    }
+  ],
+  "info": [
+    {
+      "code": "contrast.pass",
+      "message": "text vs background contrast is 14.81:1"
+    },
+    {
+      "code": "contrast.pass",
+      "message": "muted_text vs background contrast is 7.04:1"
+    },
+    {
+      "code": "contrast.pass",
+      "message": "accent vs background contrast is 5.74:1"
+    }
+  ],
+  "summary": {
+    "error_count": 0,
+    "warning_count": 32,
+    "info_count": 3
+  }
+}

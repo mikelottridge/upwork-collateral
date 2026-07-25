@@ -1,0 +1,121 @@
+{
+  "deck": {
+    "id": "google-sheets-project-reporting",
+    "mode": "create",
+    "purpose": "portfolio-item",
+    "contract_status": "pre-contract",
+    "target_runtime_seconds": 179,
+    "timing": {
+      "extended_runtime_approved": true,
+      "approval_record": "User explicitly approved relaxing the presentation ceiling to three minutes in this task."
+    },
+    "outputs": [
+      "html",
+      "pdf"
+    ]
+  },
+  "audience": {
+    "client_type": "Project managers and operations teams using Google Sheets",
+    "industry": "cross-industry",
+    "funnel_stage": "proposal-review",
+    "job_post_source": "user-approved Google Sheets Demo proof",
+    "client_vocabulary": [
+      "Google Sheets",
+      "Apps Script",
+      "project reporting",
+      "workload planning",
+      "stakeholder updates",
+      "Gemini",
+      "Claude",
+      "OpenAI"
+    ]
+  },
+  "service": {
+    "name": "Google Sheets + Apps Script project reporting automation",
+    "promised_outcome": "Turn a structured tracker into daily priorities, workload views, and review-ready stakeholder drafts.",
+    "mechanism": "Bound Apps Script dialog with deterministic reporting and explicit provider routing.",
+    "deliverables": [
+      "Daily Actions report",
+      "Workload report",
+      "custom report dialog",
+      "validated owner-private stakeholder draft"
+    ],
+    "exclusions": [
+      "public access to the private proof Sheet",
+      "shared API keys",
+      "unsupported utilization percentages",
+      "unreviewed AI output"
+    ]
+  },
+  "problem": {
+    "primary": "The task table can be current while the management report is already stale.",
+    "consequences": [
+      "Repeated manual filtering and counting",
+      "inconsistent stakeholder summaries",
+      "weak traceability from narrative to tasks"
+    ]
+  },
+  "proof": {
+    "items": [
+      {
+        "id": "proof-sheet",
+        "type": "verified",
+        "claim": "Structured task facts and stable task IDs remain visible in Google Sheets.",
+        "source": "screenshots/task-tracker-focused-v2.png",
+        "permission": "public-safe owner-created proof",
+        "redaction_required": true
+      },
+      {
+        "id": "proof-workload",
+        "type": "verified",
+        "claim": "Workload groups supported counts without inventing utilization.",
+        "source": "screenshots/workload-focused-v3.png",
+        "permission": "public-safe owner-created proof",
+        "redaction_required": true
+      },
+      {
+        "id": "proof-dialog",
+        "type": "verified",
+        "claim": "A bound Apps Script dialog requires explicit report, project, and provider choices.",
+        "source": "screenshots/dialog-stakeholder-v1.png",
+        "permission": "public-safe owner-created proof",
+        "redaction_required": true
+      },
+      {
+        "id": "proof-security",
+        "type": "verified",
+        "claim": "Claude and OpenAI use separate Secret Manager secrets while Gemini uses Google authorization.",
+        "source": "screenshots/security-architecture-redacted-v1.png",
+        "permission": "public-safe redacted proof",
+        "redaction_required": true
+      },
+      {
+        "id": "proof-private-doc",
+        "type": "verified",
+        "claim": "Generated stakeholder Docs were verified shared=false with owner-only permission.",
+        "source": "video/workflow-report-proof.webm",
+        "permission": "public-safe browser recording",
+        "redaction_required": true
+      }
+    ]
+  },
+  "positioning": {
+    "differentiators": [
+      "Google Sheets stays the operating surface",
+      "deterministic metrics remain authoritative",
+      "provider choice is explicit",
+      "AI failures remain visible"
+    ],
+    "offer": "bounded pilot around one reporting decision"
+  },
+  "cta": {
+    "type": "upwork-message",
+    "label": "Reply on Upwork with the Sheet process you want simplified."
+  },
+  "brand": {
+    "tokens_file": "brand-tokens.yaml",
+    "logo_asset_id": null,
+    "tone": "specific, factual, client-directed"
+  },
+  "assumptions": []
+}
