@@ -83,7 +83,7 @@ Use timestamped checkboxes to summarize granular progress. Every stopping point 
 - [x] (`2026-07-25 23:35Z`) Nine Cedar tracks measure 173.736 seconds; the silent fallback totals 178.23 seconds, both within the approved 180-second ceiling.
 - [x] (`2026-07-25 23:35Z`) Engineering suite passed 62/62 tests; presentation QA is certifying with zero errors and advisory warnings only.
 - [x] (`2026-07-25 23:58Z`) Final Claude pre-publication review passed; new-scope credential/private-ID scan is clean.
-- [ ] (`2026-07-25 23:58Z`) Remaining: commit/push and published Chrome click-through.
+- [x] (`2026-07-26 00:12Z`) Engineering and public branches pushed; public commit `fb182d6` fast-forwarded to `main`; published Chrome click-through passed with Cedar advance, manual controls, muted stage-8 video, and zero browser errors.
 - [x] (2026-07-25 16:45Z) Claude architecture/copy checkpoint passed after fixing tab scoping, slide-role overlap, provider-auth wording, and the spoken Gemini AI() caveat.
 
 This section must always reflect the actual current state of the work.
@@ -491,54 +491,54 @@ Voice used:
 
 ### 5.1 Local readiness
 
-- [ ] Confirm local preview is stable
-- [ ] Confirm final asset paths are correct
-- [ ] Confirm any external links are Upwork-safe if the deck is for Upwork use
+- [x] Confirm local preview is stable
+- [x] Confirm final asset paths are correct
+- [x] Confirm any external links are Upwork-safe if the deck is for Upwork use
 - Implement check:
-  - [ ] Codex implemented
+  - [x] Codex implemented
 - Verified check:
-  - [ ] Claude verified
+  - [x] Claude verified
 
 ### 5.2 Publish
 
-- [ ] Commit the finished deck changes in `/home/mike/collateral/`
-- [ ] Publish to GitHub Pages if appropriate
-- [ ] Record the publish commit hash
+- [x] Commit the finished deck changes in `/home/mike/collateral/`
+- [x] Publish to GitHub Pages if appropriate
+- [x] Record the publish commit hash
 - Implement check:
-  - [ ] Codex implemented
+  - [x] Codex implemented
 - Verified check:
-  - [ ] Claude verified
+  - [x] Claude verified
 
 Publish commit:
 
-- Commit hash:
-- Commit message:
+- Commit hash: `fb182d6`
+- Commit message: `Publish Google Sheets AI reporting case study`
 
 ### 5.3 Update project records
 
-- [ ] Update the project's supporting docs if the workflow changed
-- [ ] Update `/home/mike/collateral/README.md` or `/home/mike/collateral/style-guide.md` if the change affects cross-project standards
-- [ ] Leave enough context for the next run to resume cleanly
+- [x] Update the project's supporting docs if the workflow changed
+- [x] Update `/home/mike/collateral/README.md` or `/home/mike/collateral/style-guide.md` if the change affects cross-project standards
+- [x] Leave enough context for the next run to resume cleanly
 - Implement check:
-  - [ ] Codex implemented
+  - [x] Codex implemented
 - Verified check:
-  - [ ] Claude verified
+  - [x] Claude verified
 
 ---
 
 ## Final Verification Summary
 
-- [ ] All required implementation items completed
-- [ ] All required Claude verification items completed
-- [ ] Git checkpoint recorded when modifying an existing deck
-- [ ] Final publish recorded when applicable
-- [ ] Remaining open risks documented below
+- [x] All required implementation items completed
+- [x] All required Claude verification items completed
+- [x] Git checkpoint not required because this is Path A, a new presentation
+- [x] Final publish recorded
+- [x] Remaining open risks documented below
 
 Open risks / notes:
 
--
--
--
+- No blocking risks.
+- Presentation QA retains advisory copy-length warnings; certifying status is true with zero errors.
+- The owner-private frozen Sheet remains private; the public source Sheet is unchanged.
 
 ## Revision Note
 
