@@ -874,7 +874,7 @@
   els.autoplayButton.addEventListener("click", toggleAutoplay);
   document.addEventListener("keydown", (event) => {
     const tag = document.activeElement && document.activeElement.tagName;
-    if (tag && /INPUT|TEXTAREA|SELECT/.test(tag)) return;
+    if (tag && /INPUT|TEXTAREA|SELECT|BUTTON|A/.test(tag)) return;
     if (event.key === "ArrowRight") {
       event.preventDefault();
       next();

@@ -11,6 +11,12 @@ LEGACY_CTA = (
     "Reply on Upwork with the companies and metrics you need covered, and I will propose the smallest useful pilot scope."
 )
 NEUTRAL_CTA = "Use the contact option shown to share the companies and metrics you need covered."
+PAGE_TITLE = "SEC Financial Metrics Pipeline Client Presentation"
+PAGE_DESCRIPTION = "A client-ready presentation showing a traceable SEC filing and earnings-data metrics pipeline."
+PAGE_META = f'''  <meta name="description" content="{PAGE_DESCRIPTION}">
+  <meta property="og:title" content="{PAGE_TITLE}">
+  <meta property="og:description" content="{PAGE_DESCRIPTION}">
+'''
 INJECTION = """  <script data-pmr-presentation-adapter="financial" src="../../shared/presentation-context.js?v=1"></script>
   <script src="../../shared/presentation-analytics.js?v=1"></script>
   <script src="../../shared/financial-presentation-adapter.js?v=1"></script>
@@ -20,6 +26,12 @@ INJECTION = """  <script data-pmr-presentation-adapter="financial" src="../../sh
 def patch(path: Path) -> bool:
     html = path.read_text(encoding="utf-8")
     updated = html.replace(LEGACY_CTA, NEUTRAL_CTA)
+    updated = updated.replace("<title>Bundled Page</title>", f"<title>{PAGE_TITLE}</title>")
+    if 'property="og:title"' not in updated:
+        title_tag = f"<title>{PAGE_TITLE}</title>"
+        if title_tag not in updated:
+            raise ValueError(f"{path} has no recognized title tag")
+        updated = updated.replace(title_tag, f"{title_tag}\n{PAGE_META}", 1)
     if MARKER not in updated:
         if "</body>" not in updated:
             raise ValueError(f"{path} has no closing body tag")

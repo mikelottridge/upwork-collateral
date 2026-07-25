@@ -474,6 +474,7 @@ a {
   border: 1px solid var(--line);
   border-radius: 12px;
   background: var(--panel);
+  color: var(--ink);
 }
 
 .presentation-cta h2 {
