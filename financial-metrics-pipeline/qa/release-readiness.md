@@ -1,6 +1,6 @@
 # Financial presentation release readiness
 
-As of 2026-07-28, the approved Reveal.js migration and narration are locally certifying with documented warnings and ready for controlled deployment.
+As of 2026-07-28, the approved Reveal.js migration and narration are deployed and live-verified with documented non-blocking warnings.
 
 ## Approved source contract
 
@@ -71,8 +71,11 @@ As of 2026-07-28, the approved Reveal.js migration and narration are locally cer
 - Eight non-blocking warnings are retained: four renderer false positives on deliberately overflow-hidden metadata or the Reveal ARIA live region, plus four copy-length observations. Prior all-slide desktop/phone inspection found no stage or document overflow; the copy observations do not change meaning or usability.
 - Local channel verification confirmed: `?upwork=1` selects the Upwork CTA, `utm_source=upwork` alone retains the base email CTA, story content remains unchanged, and the console has zero errors or warnings.
 
-## Controlled cutover state
+## Controlled cutover and live verification
 
-- The legacy two-file runtime has been replaced locally by the approved Reveal.js production bundle under `site/`.
+- The legacy two-file runtime was replaced by the approved Reveal.js production bundle under `site/` and deployed from `main` in commit `2826cea`.
+- Live URL: `https://mikelottridge.github.io/upwork-collateral/financial-metrics-pipeline/site/index.html`.
+- Clean-browser verification returned HTTP 200, loaded the current title and bundle, started in narration-idle state, played the recorded narration, and advanced from slide 1 to slide 2 on the audio-ended event.
+- Base mode and `utm_source=upwork` retained the email CTA; `upwork=1` switched only the CTA to Mike's Upwork profile.
+- The first versioned narration asset returned HTTP 200 as `audio/mp3`, matched the local 218,880-byte artifact, and the browser reported no console, page, or request failures.
 - Rollback archive and hash remain unchanged.
-- Production deployment and clean-browser live verification remain pending until the cutover commit is pushed.

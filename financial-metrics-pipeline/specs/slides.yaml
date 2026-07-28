@@ -102,12 +102,12 @@
       "material_changes": []
     },
     "deployment": {
-      "live_url": null,
-      "clean_browser_checked": false,
-      "audible_playback_checked": false,
-      "silent_autoadvance_checked": false,
-      "first_transition_checked": false,
-      "asset_resolution_checked": false
+      "live_url": "https://mikelottridge.github.io/upwork-collateral/financial-metrics-pipeline/site/index.html",
+      "clean_browser_checked": true,
+      "audible_playback_checked": true,
+      "silent_autoadvance_checked": true,
+      "first_transition_checked": true,
+      "asset_resolution_checked": true
     },
     "interaction": {
       "start_mode": "idle",
