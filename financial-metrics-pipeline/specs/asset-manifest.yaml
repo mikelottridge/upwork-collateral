@@ -1,0 +1,31 @@
+{
+  "assets": [
+    {
+      "id": "native-google-sheet",
+      "type": "external-link",
+      "path": "https://docs.google.com/spreadsheets/d/17iLgTFtRTJGNlXX2I28mwz8THpAsdQl23Jeo4F2nE04/edit",
+      "status": "verified",
+      "source_title": "Trustworthy Financial Calculations — Example Model",
+      "permission": "Self-built demonstration using public SEC data; approved for presentation evidence.",
+      "alt_text": "Open the native Google Sheet calculation example."
+    },
+    {
+      "id": "netflix-q1-2026-shareholder-letter",
+      "type": "source",
+      "path": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000137/ex991_q126.htm",
+      "status": "verified",
+      "source_title": "Netflix Q1 2026 Shareholder Letter",
+      "permission": "Public official SEC filing",
+      "alt_text": "Official source for historical financial inputs."
+    },
+    {
+      "id": "netflix-q1-2026-10q",
+      "type": "source",
+      "path": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000138/nflx-20260331.htm",
+      "status": "verified",
+      "source_title": "Netflix Form 10-Q for quarter ended March 31, 2026",
+      "permission": "Public official SEC filing",
+      "alt_text": "Official source for historical financial inputs and context."
+    }
+  ]
+}

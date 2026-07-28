@@ -1,0 +1,1 @@
+Before automating, define the calculation contract: decision, sources, units, definitions, formulas, assumptions, checks, and reviewer. This pattern transfers to pricing, KPIs, reconciliations, and planning.

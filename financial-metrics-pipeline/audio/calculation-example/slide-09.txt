@@ -1,0 +1,1 @@
+The financial model is one example. The contract transfers to pricing, forecasts, reconciliations, KPIs, and capacity plans. Start with one decision, verify it, then automate only accepted logic.

@@ -1,0 +1,804 @@
+{
+  "deck": {
+    "id": "trustworthy-financial-calculations",
+    "title": "Calculations you can explain, check, and reuse",
+    "mode": "revise",
+    "purpose": "portfolio-experience",
+    "target_runtime_seconds": 125,
+    "outputs": [
+      "html",
+      "pdf"
+    ],
+    "canonical_google_sheet": {
+      "title": "Trustworthy Financial Calculations — Example Model",
+      "spreadsheet_id": "17iLgTFtRTJGNlXX2I28mwz8THpAsdQl23Jeo4F2nE04",
+      "url": "https://docs.google.com/spreadsheets/d/17iLgTFtRTJGNlXX2I28mwz8THpAsdQl23Jeo4F2nE04/edit",
+      "boundary": "Native Google Sheet is canonical; local XLSX is import source only."
+    },
+    "narrative_boundary": [
+      "Financial data is the example, not the offer.",
+      "Not client work, investment advice, Netflix guidance, or a Netflix forecast.",
+      "AI may help recover bounded input structure; deterministic formulas own calculations."
+    ],
+    "approval": {
+      "approver": "Mike Lottridge",
+      "date": "2026-07-28",
+      "outline_sha256": "150dbc0662c14772be870c5d9a435a131b1017e15d7b7cac96b427d1982d8411",
+      "scopes": [
+        "canonical-spec",
+        "assets",
+        "audio",
+        "html",
+        "pdf",
+        "deploy"
+      ]
+    },
+    "channels": {
+      "base": "site/index.html",
+      "upwork": "site/index.html?upwork=1",
+      "invariant": "Only contact information changes in Upwork mode; UTM attribution is independent."
+    },
+    "audience_platform": "multi-channel",
+    "contract_status": "pre-contract",
+    "target_total_seconds": 133.032,
+    "timing": {
+      "extended_runtime_approved": true,
+      "approval_record": {
+        "approver": "Mike Lottridge",
+        "date": "2026-07-28",
+        "reason": "Approved outline specifies an approximately 115-135 second narrated example.",
+        "scope": [
+          "deck.timing.total_seconds"
+        ]
+      }
+    },
+    "pause_control_required": true,
+    "static_alternative_required": true,
+    "style_profile": "technical-editorial-v1",
+    "channel_profiles": {
+      "base": {
+        "cta": {
+          "type": "email",
+          "label": "Email Mike Lottridge",
+          "destination": "mailto:mikelottridge@productmanagementresources.pro"
+        },
+        "contact": {
+          "mode": "configured-base"
+        }
+      },
+      "channel_override": {
+        "source_reference": "references/channels/upwork.md",
+        "cta": {
+          "type": "upwork-profile",
+          "label": "View Mike Lottridge on Upwork",
+          "destination": "upwork"
+        },
+        "contact": {
+          "mode": "upwork-pre-contract",
+          "allow_off_platform": false
+        }
+      }
+    },
+    "narration": {
+      "mode": "audio",
+      "required": true,
+      "parity_required_when_existing": true,
+      "source_type": "recorded_mp3",
+      "prior_source_type": "recorded_mp3",
+      "recorded_audio_required": true,
+      "generation_provider": "openai_api",
+      "generation_endpoint": "/v1/audio/speech",
+      "generation_model": "gpt-4o-mini-tts-2025-12-15",
+      "response_format": "mp3",
+      "source_change_approved": true,
+      "voice_profile": "cedar",
+      "prior_voice_profile": "cedar",
+      "voice_change_approved": true,
+      "playback_change_approved": false,
+      "speed": 1.05
+    },
+    "ux_change_control": {
+      "preserve_existing_behavior": true,
+      "material_changes": []
+    },
+    "deployment": {
+      "live_url": null,
+      "clean_browser_checked": false,
+      "audible_playback_checked": false,
+      "silent_autoadvance_checked": false,
+      "first_transition_checked": false,
+      "asset_resolution_checked": false
+    },
+    "interaction": {
+      "start_mode": "idle",
+      "start_button_label": "Start narrated tour",
+      "audio_autoplay_on_load": false,
+      "advance_trigger": "audio-ended",
+      "audio_failure_fallback": "timed",
+      "silent_auto_advance": true,
+      "manual_navigation": [
+        "previous-button",
+        "next-button",
+        "arrow-left",
+        "arrow-right"
+      ],
+      "use_scroll_into_view": false,
+      "audio_base": "https://mikelottridge.github.io/upwork-collateral/financial-metrics-pipeline/audio/calculation-example/",
+      "audio_version": "cedar-20260728-r1"
+    },
+    "review": {
+      "opus": {
+        "state": "completed",
+        "reviewer_or_model": "Claude Opus",
+        "date": "2026-07-28",
+        "reason": "Bounded outline restructuring review reached consensus to proceed.",
+        "input_sha256": "c978412d9b6f73541ccc4b964df567a23e3bd1ac5176924f50295a88163f35cd",
+        "output_sha256": "6e198709877581f601e39a5b8006616d1b56df79780f51ad06b86f5690cc9013"
+      }
+    }
+  },
+  "evidence": {
+    "google_sheet_status": "verified-native",
+    "calculation_status": "PASS",
+    "source_attestation_status": "REVIEW",
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000137/ex991_q126.htm",
+      "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000138/nflx-20260331.htm"
+    ]
+  },
+  "narration": {
+    "voice": "cedar",
+    "disclosure": "AI-generated narration",
+    "external_authorization_status": "authorized",
+    "authorization_record": {
+      "authorized_by": "Mike Lottridge",
+      "date": "2026-07-28",
+      "scope": "nine presentation narration scripts sent to OpenAI Audio API"
+    },
+    "generation_provider": "openai_api",
+    "generation_endpoint": "/v1/audio/speech",
+    "generation_model": "gpt-4o-mini-tts-2025-12-15",
+    "response_format": "mp3",
+    "speed": 1.05,
+    "total_audio_seconds": 125.832,
+    "total_timed_seconds": 133.032
+  },
+  "slides": [
+    {
+      "id": "slide-01",
+      "eyebrow": "The trust problem",
+      "headline": "The arithmetic is usually easy. Trusting the inputs and definitions is harder.",
+      "subhead": "A correct formula can still produce the wrong decision when periods, units, definitions, assumptions, or source values are unclear.",
+      "body": [
+        "Separate typed source values from calculated outputs.",
+        "State units, periods, definitions, and assumptions beside the model.",
+        "Make failures and unresolved review steps visible."
+      ],
+      "seconds": 14.48,
+      "artifact": {
+        "type": "compare",
+        "label": "Illustrative calculation risk",
+        "panels": [
+          {
+            "tone": "bad",
+            "title": "Fragile calculation",
+            "stat": "Number first",
+            "lines": [
+              "Inputs copied into formulas",
+              "Definitions stay implicit",
+              "No closure or source review"
+            ]
+          },
+          {
+            "tone": "good",
+            "title": "Controlled calculation",
+            "stat": "Contract first",
+            "lines": [
+              "Inputs stored once",
+              "Rules and assumptions explicit",
+              "Checks and review status visible"
+            ]
+          }
+        ]
+      },
+      "narration": {
+        "script": "Arithmetic is usually easy. Trust fails when periods, units, definitions, assumptions, or sources are unclear. A controlled model stores inputs once, states rules, and keeps checks and unresolved review visible.",
+        "transcript": "Arithmetic is usually easy. Trust fails when periods, units, definitions, assumptions, or sources are unclear. A controlled model stores inputs once, states rules, and keeps checks and unresolved review visible.",
+        "audio": "audio/calculation-example/slide-01.mp3",
+        "status": "ready",
+        "duration_seconds": 13.68,
+        "output_sha256": "f274222fe778078fed4b54660265e29782435d5a70de7d0e81aa931bb102d665",
+        "generation_provider": "openai_api",
+        "generation_endpoint": "/v1/audio/speech",
+        "generation_model": "gpt-4o-mini-tts-2025-12-15",
+        "voice_profile": "cedar",
+        "response_format": "mp3",
+        "speed": 1.05
+      },
+      "role": "title",
+      "template": "evidence-walkthrough",
+      "audio": "audio/calculation-example/slide-01.mp3",
+      "visual": {
+        "asset_ids": [],
+        "alt_summary": "Comparison of fragile and controlled calculations."
+      },
+      "evidence": {
+        "type": "none",
+        "source": null
+      },
+      "notes": []
+    },
+    {
+      "id": "slide-02",
+      "eyebrow": "Working example",
+      "headline": "One native Google Sheet makes the whole calculation chain inspectable.",
+      "subhead": "The example separates sources, historical formulas, scenario assumptions, checks, and citations so a reviewer can trace every important output.",
+      "body": [
+        "Self-built with public SEC data; not client work.",
+        "Historical values are typed once on Source_Data.",
+        "All other calculations and statuses are formula-driven."
+      ],
+      "seconds": 15.632,
+      "artifact": {
+        "type": "table",
+        "label": "Native Google Sheet structure",
+        "toolbar": "Trustworthy Financial Calculations — Example Model",
+        "columns": [
+          "Sheet",
+          "Role",
+          "Control"
+        ],
+        "rows": [
+          [
+            "Source_Data",
+            "Historical inputs",
+            "Typed once with period, unit, and source ID"
+          ],
+          [
+            "Calculation_Lab",
+            "Growth, margins, bridge",
+            "Formula-driven outputs"
+          ],
+          [
+            "Scenario_Sensitivity",
+            "Illustrative Q1 2027 mechanics",
+            "Assumptions isolated from history"
+          ],
+          [
+            "Checks + Sources",
+            "Closure and evidence",
+            "PASS plus separate human attestation"
+          ]
+        ]
+      },
+      "narration": {
+        "script": "This native Google Sheet is a self-built example using public SEC data, not client work. Values are entered once; formulas calculate growth, margins, bridges, scenarios, and model status. Source attestation remains human review.",
+        "transcript": "This native Google Sheet is a self-built example using public SEC data, not client work. Values are entered once; formulas calculate growth, margins, bridges, scenarios, and model status. Source attestation remains human review.",
+        "audio": "audio/calculation-example/slide-02.mp3",
+        "status": "ready",
+        "duration_seconds": 14.832,
+        "output_sha256": "fcbfac40a285fcbdad4338e7ddd1565a90e4b38d3cd33fdcfca022af366b88dd",
+        "generation_provider": "openai_api",
+        "generation_endpoint": "/v1/audio/speech",
+        "generation_model": "gpt-4o-mini-tts-2025-12-15",
+        "voice_profile": "cedar",
+        "response_format": "mp3",
+        "speed": 1.05
+      },
+      "role": "proof",
+      "template": "evidence-walkthrough",
+      "audio": "audio/calculation-example/slide-02.mp3",
+      "visual": {
+        "asset_ids": [],
+        "alt_summary": "Table showing the native Google Sheet calculation structure."
+      },
+      "evidence": {
+        "type": "verified",
+        "source": "https://docs.google.com/spreadsheets/d/17iLgTFtRTJGNlXX2I28mwz8THpAsdQl23Jeo4F2nE04/edit",
+        "permission_verified": true,
+        "limitations": [
+          "Self-built example using public SEC data; not client work."
+        ]
+      },
+      "notes": []
+    },
+    {
+      "id": "slide-03",
+      "eyebrow": "Calculation contract",
+      "headline": "Define the calculation before automating it.",
+      "subhead": "A calculation contract identifies the decision, source fields, business definitions, formulas, assumptions, checks, and owner of final review.",
+      "body": [
+        "Agree what the result is meant to decide.",
+        "Distinguish source facts from business rules and assumptions.",
+        "Name the checks and the human approval boundary."
+      ],
+      "seconds": 15.056,
+      "artifact": {
+        "type": "table",
+        "label": "Transferable calculation contract",
+        "toolbar": "Useful for pricing, KPI, reconciliation, and planning work",
+        "columns": [
+          "Element",
+          "Example rule",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Inputs",
+            "Q1 2026 vs Q1 2025; USD thousands",
+            "Prevents period and unit mismatch"
+          ],
+          [
+            "Formula",
+            "Operating income ÷ revenue",
+            "Makes the definition reproducible"
+          ],
+          [
+            "Assumption",
+            "Illustrative growth rate",
+            "Keeps scenarios out of history"
+          ],
+          [
+            "Acceptance",
+            "Closure gap = 0; source review named",
+            "Defines what trusted means"
+          ]
+        ]
+      },
+      "narration": {
+        "script": "Before automating, define the calculation contract: decision, sources, units, definitions, formulas, assumptions, checks, and reviewer. This pattern transfers to pricing, KPIs, reconciliations, and planning.",
+        "transcript": "Before automating, define the calculation contract: decision, sources, units, definitions, formulas, assumptions, checks, and reviewer. This pattern transfers to pricing, KPIs, reconciliations, and planning.",
+        "audio": "audio/calculation-example/slide-03.mp3",
+        "status": "ready",
+        "duration_seconds": 14.256,
+        "output_sha256": "f579e656ccca92e64759dba0a23f48313e11592c9a583b18126d61ff396e0bc5",
+        "generation_provider": "openai_api",
+        "generation_endpoint": "/v1/audio/speech",
+        "generation_model": "gpt-4o-mini-tts-2025-12-15",
+        "voice_profile": "cedar",
+        "response_format": "mp3",
+        "speed": 1.05
+      },
+      "role": "solution",
+      "template": "evidence-walkthrough",
+      "audio": "audio/calculation-example/slide-03.mp3",
+      "visual": {
+        "asset_ids": [],
+        "alt_summary": "Table defining the transferable calculation contract."
+      },
+      "evidence": {
+        "type": "source",
+        "source": "revision-outline-calculation-expanded.md"
+      },
+      "notes": []
+    },
+    {
+      "id": "slide-04",
+      "eyebrow": "Historical analysis",
+      "headline": "One source block supports growth, margin, and basis-point analysis.",
+      "subhead": "Because the source block is normalized once, multiple outputs remain consistent and update together.",
+      "body": [
+        "Revenue grew 16.19%; operating income grew 18.23%.",
+        "Operating margin moved from 31.75% to 32.30%.",
+        "The 55.6-basis-point expansion is formula-derived."
+      ],
+      "seconds": 16.208,
+      "artifact": {
+        "type": "table",
+        "label": "Q1 2026 versus Q1 2025",
+        "toolbar": "USD thousands unless noted",
+        "columns": [
+          "Metric",
+          "Q1 2026",
+          "Change"
+        ],
+        "rows": [
+          [
+            "Revenue",
+            "$12,249,757",
+            "+16.19%"
+          ],
+          [
+            "Operating income",
+            "$3,956,997",
+            "+18.23%"
+          ],
+          [
+            "Operating margin",
+            "32.30%",
+            "+55.6 bps"
+          ],
+          [
+            "Incremental margin",
+            "35.74%",
+            "One historical observation"
+          ]
+        ]
+      },
+      "narration": {
+        "script": "One source block supports consistent views. Revenue grew 16.19 percent, operating income 18.23 percent, and operating margin rose from 31.75 to 32.30 percent—a 55.6-basis-point expansion.",
+        "transcript": "One source block supports consistent views. Revenue grew 16.19 percent, operating income 18.23 percent, and operating margin rose from 31.75 to 32.30 percent—a 55.6-basis-point expansion.",
+        "audio": "audio/calculation-example/slide-04.mp3",
+        "status": "ready",
+        "duration_seconds": 15.408,
+        "output_sha256": "acb394f069e0b2e8ea0485f9ef5c32db894be235435f559a859abcdb192bb274",
+        "generation_provider": "openai_api",
+        "generation_endpoint": "/v1/audio/speech",
+        "generation_model": "gpt-4o-mini-tts-2025-12-15",
+        "voice_profile": "cedar",
+        "response_format": "mp3",
+        "speed": 1.05
+      },
+      "role": "proof",
+      "template": "evidence-walkthrough",
+      "audio": "audio/calculation-example/slide-04.mp3",
+      "visual": {
+        "asset_ids": [],
+        "alt_summary": "Table of formula-driven historical growth and margin results."
+      },
+      "evidence": {
+        "type": "verified",
+        "source": "Netflix Q1 2026 SEC filings and the native Google Sheet",
+        "permission_verified": true,
+        "limitations": [
+          "Historical observation, not investment advice."
+        ]
+      },
+      "notes": []
+    },
+    {
+      "id": "slide-05",
+      "eyebrow": "Decomposed bridge",
+      "headline": "Revenue change minus expense change reconciles exactly to operating-income change.",
+      "subhead": "The bridge explains movement instead of merely reporting endpoints, while a closure check proves the pieces reconcile.",
+      "body": [
+        "Revenue change: +$1,706,956 thousand.",
+        "Total expense change: +$1,096,958 thousand.",
+        "Operating-income change: +$609,998 thousand; closure gap: zero."
+      ],
+      "seconds": 13.76,
+      "artifact": {
+        "type": "table",
+        "label": "Operating-income bridge",
+        "toolbar": "Q1 2026 minus Q1 2025; USD thousands",
+        "columns": [
+          "Bridge component",
+          "Change",
+          "Role"
+        ],
+        "rows": [
+          [
+            "Revenue",
+            "+1,706,956",
+            "Starting change"
+          ],
+          [
+            "Cost of revenues",
+            "+625,091",
+            "Largest expense increase"
+          ],
+          [
+            "S&M + T&D + G&A",
+            "+471,867",
+            "Other expense increases"
+          ],
+          [
+            "Operating income",
+            "+609,998",
+            "Revenue change − expense change"
+          ],
+          [
+            "Closure gap",
+            "0",
+            "PASS"
+          ]
+        ]
+      },
+      "narration": {
+        "script": "The bridge explains the change. Revenue rose about 1.7 billion dollars; expenses about 1.1 billion. The roughly 610 million difference equals the operating-income increase, and the bridge closes to zero.",
+        "transcript": "The bridge explains the change. Revenue rose about 1.7 billion dollars; expenses about 1.1 billion. The roughly 610 million difference equals the operating-income increase, and the bridge closes to zero.",
+        "audio": "audio/calculation-example/slide-05.mp3",
+        "status": "ready",
+        "duration_seconds": 12.96,
+        "output_sha256": "24d3d5826b88e567f4ca9b1a142312036e6c6e8c3176ec1a28499a947c71af30",
+        "generation_provider": "openai_api",
+        "generation_endpoint": "/v1/audio/speech",
+        "generation_model": "gpt-4o-mini-tts-2025-12-15",
+        "voice_profile": "cedar",
+        "response_format": "mp3",
+        "speed": 1.05
+      },
+      "role": "proof",
+      "template": "evidence-walkthrough",
+      "audio": "audio/calculation-example/slide-05.mp3",
+      "visual": {
+        "asset_ids": [],
+        "alt_summary": "Table reconciling revenue and expense changes to operating income."
+      },
+      "evidence": {
+        "type": "verified",
+        "source": "Netflix Q1 2026 SEC filings and the native Google Sheet",
+        "permission_verified": true,
+        "limitations": [
+          "Values shown in USD thousands unless noted."
+        ]
+      },
+      "notes": []
+    },
+    {
+      "id": "slide-06",
+      "eyebrow": "Scenario mechanics",
+      "headline": "Assumptions change the mechanics—not pasted outputs.",
+      "subhead": "Illustrative Q1 2027 inputs are isolated from historical facts so sensitivity can be explored without disguising a scenario as a forecast.",
+      "body": [
+        "Base mechanics use an explicit revenue-growth assumption.",
+        "Expense ratios remain visible and editable.",
+        "Outputs recalculate to about $14.23B revenue and 32.78% margin."
+      ],
+      "seconds": 16.328,
+      "artifact": {
+        "type": "table",
+        "label": "Illustrative Q1 2027 mechanics",
+        "toolbar": "Not Netflix guidance or a forecast",
+        "columns": [
+          "Assumption or output",
+          "Base case",
+          "Boundary"
+        ],
+        "rows": [
+          [
+            "Revenue growth",
+            "16.19%",
+            "Illustrative input"
+          ],
+          [
+            "Revenue",
+            "$14,232,993",
+            "Formula output; USD thousands"
+          ],
+          [
+            "Operating income",
+            "$4,665,805",
+            "Formula output; USD thousands"
+          ],
+          [
+            "Operating margin",
+            "32.78%",
+            "Changes with assumptions"
+          ]
+        ]
+      },
+      "narration": {
+        "script": "Scenarios change assumptions, not pasted outputs. These illustrative Q1 2027 mechanics isolate growth and expense ratios, then recalculate revenue, operating income, and margin. This is sensitivity analysis, not Netflix guidance or a forecast.",
+        "transcript": "Scenarios change assumptions, not pasted outputs. These illustrative Q1 2027 mechanics isolate growth and expense ratios, then recalculate revenue, operating income, and margin. This is sensitivity analysis, not Netflix guidance or a forecast.",
+        "audio": "audio/calculation-example/slide-06.mp3",
+        "status": "ready",
+        "duration_seconds": 15.528,
+        "output_sha256": "1d517abe5f5d7c9cf67065014015fcc3ca2e7eaebee462523f82d7f56b730650",
+        "generation_provider": "openai_api",
+        "generation_endpoint": "/v1/audio/speech",
+        "generation_model": "gpt-4o-mini-tts-2025-12-15",
+        "voice_profile": "cedar",
+        "response_format": "mp3",
+        "speed": 1.05
+      },
+      "role": "process",
+      "template": "evidence-walkthrough",
+      "audio": "audio/calculation-example/slide-06.mp3",
+      "visual": {
+        "asset_ids": [],
+        "alt_summary": "Table showing illustrative scenario mechanics and boundaries."
+      },
+      "evidence": {
+        "type": "illustrative",
+        "source": "Native Google Sheet Scenario_Sensitivity tab",
+        "limitations": [
+          "Not Netflix guidance or a forecast."
+        ]
+      },
+      "notes": []
+    },
+    {
+      "id": "slide-07",
+      "eyebrow": "Validation boundary",
+      "headline": "A result is not verified until checks and source attestation pass.",
+      "subhead": "Internal formulas can prove arithmetic consistency, but they cannot independently prove that a human transcribed every source value correctly.",
+      "body": [
+        "Formula-driven model checks currently pass.",
+        "Independent source transcription attestation remains REVIEW.",
+        "The combined status refuses to hide the unresolved step."
+      ],
+      "seconds": 13.664,
+      "artifact": {
+        "type": "compare",
+        "label": "Two different kinds of assurance",
+        "panels": [
+          {
+            "tone": "good",
+            "title": "Calculation status",
+            "stat": "PASS",
+            "lines": [
+              "Bridge closes to zero",
+              "Margins and basis points reconcile",
+              "Scenario outputs remain formula-driven"
+            ]
+          },
+          {
+            "tone": "bad",
+            "title": "Source attestation",
+            "stat": "REVIEW",
+            "lines": [
+              "Verifier and date still required",
+              "Official filing references are recorded",
+              "Human evidence check stays separate"
+            ]
+          }
+        ]
+      },
+      "narration": {
+        "script": "Formula checks prove internal consistency, not source transcription. The model shows calculation status as pass and source attestation as review, keeping the unresolved human step visible.",
+        "transcript": "Formula checks prove internal consistency, not source transcription. The model shows calculation status as pass and source attestation as review, keeping the unresolved human step visible.",
+        "audio": "audio/calculation-example/slide-07.mp3",
+        "status": "ready",
+        "duration_seconds": 12.864,
+        "output_sha256": "0de8437aa5288ae4a60fb4c601b18527ec4fc7922a96b0be7fe7ee27d8b9d294",
+        "generation_provider": "openai_api",
+        "generation_endpoint": "/v1/audio/speech",
+        "generation_model": "gpt-4o-mini-tts-2025-12-15",
+        "voice_profile": "cedar",
+        "response_format": "mp3",
+        "speed": 1.05
+      },
+      "role": "problem",
+      "template": "evidence-walkthrough",
+      "audio": "audio/calculation-example/slide-07.mp3",
+      "visual": {
+        "asset_ids": [],
+        "alt_summary": "Comparison of formula checks with separate source attestation."
+      },
+      "evidence": {
+        "type": "source",
+        "source": "Native Google Sheet Checks and Sources tabs"
+      },
+      "notes": []
+    },
+    {
+      "id": "slide-08",
+      "eyebrow": "Governed AI boundary",
+      "headline": "AI can recover structure. It should not own the math.",
+      "subhead": "AI is useful at bounded input exceptions; deterministic formulas and explicit validation should remain authoritative.",
+      "body": [
+        "A difficult official PDF page produced zero deterministic tables.",
+        "One bounded recovery returned 13 reviewable rows at an estimated $0.0095.",
+        "Recovered structure still requires validation before formulas use it."
+      ],
+      "seconds": 13.712,
+      "artifact": {
+        "type": "compare",
+        "label": "Secondary proof: bounded PDF exception",
+        "panels": [
+          {
+            "tone": "bad",
+            "title": "Deterministic baseline",
+            "stat": "0 tables found",
+            "lines": [
+              "Failure recorded",
+              "No invented cells",
+              "Rest of workflow continues"
+            ]
+          },
+          {
+            "tone": "good",
+            "title": "Bounded AI recovery",
+            "stat": "13 reviewable rows",
+            "lines": [
+              "One official page only",
+              "Source and cost retained",
+              "Deterministic math remains downstream"
+            ]
+          }
+        ]
+      },
+      "narration": {
+        "script": "AI can recover structure, but should not own the math. In this bounded PDF exception, parsing found zero tables; one-page recovery returned 13 reviewable rows with source, cost, and review attached.",
+        "transcript": "AI can recover structure, but should not own the math. In this bounded PDF exception, parsing found zero tables; one-page recovery returned 13 reviewable rows with source, cost, and review attached.",
+        "audio": "audio/calculation-example/slide-08.mp3",
+        "status": "ready",
+        "duration_seconds": 12.912,
+        "output_sha256": "ef47e1315930bfc4d8e31afdcc9b92e417fe04a1c7e837b66e4b470358bb3ea0",
+        "generation_provider": "openai_api",
+        "generation_endpoint": "/v1/audio/speech",
+        "generation_model": "gpt-4o-mini-tts-2025-12-15",
+        "voice_profile": "cedar",
+        "response_format": "mp3",
+        "speed": 1.05
+      },
+      "role": "differentiator",
+      "template": "evidence-walkthrough",
+      "audio": "audio/calculation-example/slide-08.mp3",
+      "visual": {
+        "asset_ids": [],
+        "alt_summary": "Comparison of deterministic parsing with bounded AI recovery."
+      },
+      "evidence": {
+        "type": "representative",
+        "source": "Bounded PDF recovery evidence recorded in the approved outline",
+        "permission_verified": true,
+        "limitations": [
+          "Secondary example; recovered structure still requires validation."
+        ]
+      },
+      "notes": []
+    },
+    {
+      "id": "slide-09",
+      "eyebrow": "The transferable offer",
+      "headline": "The contract transfers; the financial example does not have to.",
+      "subhead": "The same discipline can support pricing, forecasts, reconciliations, KPI models, capacity plans, and spreadsheet-backed workflows.",
+      "body": [
+        "Start with one bounded decision and calculation contract.",
+        "Build the formulas and checks in a reviewable operating surface.",
+        "Automate only the accepted workflow."
+      ],
+      "seconds": 14.192,
+      "artifact": {
+        "type": "steps",
+        "label": "A small, trustworthy engagement",
+        "steps": [
+          {
+            "icon": "1",
+            "title": "Scope",
+            "copy": "Name one decision, its inputs, and definitions."
+          },
+          {
+            "icon": "2",
+            "title": "Model",
+            "copy": "Build explicit formulas and assumptions."
+          },
+          {
+            "icon": "3",
+            "title": "Verify",
+            "copy": "Exercise checks, evidence, and failure paths."
+          },
+          {
+            "icon": "4",
+            "title": "Automate",
+            "copy": "Scale only the reviewed calculation contract."
+          }
+        ]
+      },
+      "narration": {
+        "script": "The financial model is one example. The contract transfers to pricing, forecasts, reconciliations, KPIs, and capacity plans. Start with one decision, verify it, then automate only accepted logic.",
+        "transcript": "The financial model is one example. The contract transfers to pricing, forecasts, reconciliations, KPIs, and capacity plans. Start with one decision, verify it, then automate only accepted logic.",
+        "audio": "audio/calculation-example/slide-09.mp3",
+        "status": "ready",
+        "duration_seconds": 13.392,
+        "output_sha256": "95a22f3974f3fe218ca0981816ba4470ca4ae3c341070dba289c79a7c0e228f2",
+        "generation_provider": "openai_api",
+        "generation_endpoint": "/v1/audio/speech",
+        "generation_model": "gpt-4o-mini-tts-2025-12-15",
+        "voice_profile": "cedar",
+        "response_format": "mp3",
+        "speed": 1.05
+      },
+      "role": "cta",
+      "template": "end-card",
+      "audio": "audio/calculation-example/slide-09.mp3",
+      "visual": {
+        "asset_ids": [],
+        "alt_summary": "Four-step scope, model, verify, and automate engagement."
+      },
+      "evidence": {
+        "type": "none",
+        "source": null
+      },
+      "notes": [],
+      "cta": {
+        "type": "active-channel",
+        "label": "Use the contact option shown",
+        "destination": "active-channel"
+      },
+      "cta_profile": "active-channel"
+    }
+  ]
+}

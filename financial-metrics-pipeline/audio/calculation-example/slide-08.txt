@@ -1,0 +1,1 @@
+AI can recover structure, but should not own the math. In this bounded PDF exception, parsing found zero tables; one-page recovery returned 13 reviewable rows with source, cost, and review attached.

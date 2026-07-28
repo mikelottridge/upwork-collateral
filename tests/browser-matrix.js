@@ -9,7 +9,7 @@ async page => {
     { id: "google-sheets", path: "/google-sheets-project-reporting/site/index.html", final: "Bring the Google Sheet" },
     { id: "medical", path: "/medical-project/site/index.html", final: "Built for physician-in-the-loop" },
     { id: "psychologist", path: "/psychologist-project/site/index.html", final: "Built for data-to-report workflows" },
-    { id: "financial", path: "/financial-metrics-pipeline/site/index.html", final: "07 Client delivery" },
+    { id: "financial", path: "/financial-metrics-pipeline/site/index.html", final: "The contract transfers; the financial example does not have to." },
   ];
   const getField = (value, name) => {
     const match = value.match(new RegExp("(?:^|&)" + name + "=([^&]*)"));

@@ -1,0 +1,155 @@
+{
+  "brand": {
+    "name": "technical-editorial-house",
+    "profile": "technical-editorial-v1",
+    "slide_size": "LAYOUT_WIDE",
+    "fonts": {
+      "editorial_serif": "Newsreader",
+      "ui_sans": "IBM Plex Sans",
+      "mono_label": "IBM Plex Mono",
+      "fallbacks": {
+        "serif": [
+          "Georgia",
+          "serif"
+        ],
+        "sans": [
+          "Arial",
+          "sans-serif"
+        ],
+        "mono": [
+          "Courier New",
+          "monospace"
+        ]
+      }
+    },
+    "colors": {
+      "background": "#f5f2ec",
+      "surface": "#fffdf8",
+      "text": "#16211d",
+      "muted_text": "#4a544e",
+      "accent": "#0e6b5c",
+      "paper": "#f5f2ec",
+      "sand": "#ece8de",
+      "card": "#fffdf8",
+      "card_sub": "#fbf9f3",
+      "header_wash": "#faf7f0",
+      "header_wash_alt": "#f2eee4",
+      "ink": "#16211d",
+      "muted": "#4a544e",
+      "muted_alt": "#5a655e",
+      "faint": "#8a938c",
+      "faint_alt": "#a2aaa3",
+      "hairline": "rgba(22,33,29,0.11)",
+      "ink_bg": "#0f1f1b",
+      "on_dark_text": "#eef0ea",
+      "on_dark_muted": "rgba(238,240,234,0.64)",
+      "on_dark_hairline": "rgba(238,240,234,0.14)",
+      "on_dark_accent": "#63c9b1",
+      "media_frame": "#0b1613",
+      "primary": "#0e6b5c",
+      "primary_hover": "#0a5347",
+      "primary_soft": "rgba(14,107,92,0.09)",
+      "emphasis_dark": "#d8a24a",
+      "emphasis_light": "#9a6b1a",
+      "negative": "#a44a35",
+      "link": "#0e6b5c",
+      "link_hover": "#0a5347"
+    },
+    "layout": {
+      "content_max_width_px": 1220,
+      "horizontal_padding_px": 40,
+      "section_padding_px": [
+        46,
+        68
+      ],
+      "hero_columns": [
+        1.1,
+        0.9
+      ],
+      "hero_gap_px": 56,
+      "walkthrough_nav_px": 284,
+      "walkthrough_gap_px": 36,
+      "stage_body_padding_px": [
+        38,
+        42
+      ]
+    },
+    "spacing": {
+      "base": 8,
+      "scale": [
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        40,
+        46,
+        48,
+        56,
+        64,
+        68
+      ]
+    },
+    "radius": {
+      "card": 16,
+      "inner_min": 9,
+      "inner_max": 12,
+      "tag": 6,
+      "pill": 999
+    },
+    "shadows": {
+      "stage": "0 18px 44px rgba(22,33,29,0.06)",
+      "hero_media": "0 24px 60px rgba(0,0,0,0.35)",
+      "max_shadowed_surfaces": 2
+    },
+    "typography": {
+      "hero_h1_px": 52,
+      "section_h2_px": 34,
+      "content_h3_px": 32,
+      "quote_px": 26,
+      "metric_px": 30,
+      "lead_px": [
+        17,
+        18
+      ],
+      "body_px": [
+        14,
+        14.5
+      ],
+      "control_px": 13.5,
+      "eyebrow_px": [
+        11,
+        12
+      ],
+      "data_value_px": 13,
+      "caption_px": [
+        11,
+        12.5
+      ],
+      "eyebrow_uppercase": true,
+      "eyebrow_tracking_em": [
+        0.14,
+        0.16
+      ]
+    },
+    "artifact_types": [
+      "steps",
+      "compare",
+      "table"
+    ],
+    "restrictions": {
+      "gradients": false,
+      "glows": false,
+      "stacked_shadows": false,
+      "decorative_svg": false,
+      "emoji": false,
+      "maximum_light_background_tones": 2
+    },
+    "accessibility": {
+      "normal_text_min_contrast": 4.5,
+      "large_text_min_contrast": 3,
+      "non_text_min_contrast": 3
+    }
+  }
+}

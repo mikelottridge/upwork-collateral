@@ -1,0 +1,1 @@
+Arithmetic is usually easy. Trust fails when periods, units, definitions, assumptions, or sources are unclear. A controlled model stores inputs once, states rules, and keeps checks and unresolved review visible.

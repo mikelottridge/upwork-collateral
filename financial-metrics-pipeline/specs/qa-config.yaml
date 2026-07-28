@@ -1,0 +1,29 @@
+{
+  "qa": {
+    "profile": "technical-editorial-v1",
+    "as_of": "2026-07-27",
+    "deterministic_required": true,
+    "fail_on_warnings": false
+  },
+  "files": {
+    "slides": "specs/slides.yaml",
+    "brief": "specs/brief.yaml",
+    "brand": "specs/brand-tokens.yaml",
+    "assets": "specs/asset-manifest.yaml",
+    "site_index": "site/index.html"
+  },
+  "prolog": {
+    "mode": "required"
+  },
+  "render_review": {
+    "enabled": true
+  },
+  "semantic_review": {
+    "enabled": true,
+    "required": false,
+    "model": "gpt-5.6-luna",
+    "mode": "cached_single",
+    "timeout_seconds": 180
+  },
+  "waivers": []
+}

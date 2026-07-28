@@ -1,0 +1,1 @@
+This native Google Sheet is a self-built example using public SEC data, not client work. Values are entered once; formulas calculate growth, margins, bridges, scenarios, and model status. Source attestation remains human review.

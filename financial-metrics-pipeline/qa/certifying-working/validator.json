@@ -1,0 +1,88 @@
+{
+  "contract_status": "pre-contract",
+  "deployment": {
+    "asset_resolution_checked": false,
+    "audible_playback_checked": false,
+    "first_transition_checked": false,
+    "live_url": null,
+    "silent_autoadvance_checked": false
+  },
+  "errors": [],
+  "info": [
+    {
+      "code": "contrast.pass",
+      "message": "text vs background contrast is 14.81:1"
+    },
+    {
+      "code": "contrast.pass",
+      "message": "muted_text vs background contrast is 7.04:1"
+    },
+    {
+      "code": "contrast.pass",
+      "message": "accent vs background contrast is 5.74:1"
+    }
+  ],
+  "narration": {
+    "audio_files": 9,
+    "audio_required": true,
+    "generation_endpoint": "/v1/audio/speech",
+    "generation_model": "gpt-4o-mini-tts-2025-12-15",
+    "generation_provider": "openai_api",
+    "mode": "audio",
+    "prior_source_type": "recorded_mp3",
+    "prior_voice_profile": "cedar",
+    "recorded_audio_required": true,
+    "required": true,
+    "response_format": "mp3",
+    "scripts": 9,
+    "source_change_approved": true,
+    "source_type": "recorded_mp3",
+    "voice_change_approved": true,
+    "voice_profile": "cedar"
+  },
+  "runtime_seconds": 133.03,
+  "slide_count": 9,
+  "status": "pass_with_warnings",
+  "style": {
+    "artifact_types": [
+      "compare",
+      "steps",
+      "table"
+    ],
+    "expected_profile": "technical-editorial-v1",
+    "interaction_start_mode": "idle",
+    "profile": "technical-editorial-v1"
+  },
+  "summary": {
+    "error_count": 0,
+    "info_count": 3,
+    "warning_count": 4
+  },
+  "ux_change_control": {
+    "all_changes_approved": true,
+    "material_change_count": 0,
+    "unapproved_material_change_count": 0
+  },
+  "warnings": [
+    {
+      "code": "copy.subhead_long",
+      "message": "Subhead has 21 words; target is 20 or fewer",
+      "slide_id": "slide-06"
+    },
+    {
+      "code": "copy.bullet_long",
+      "message": "Bullet has 11 words; target is 10 or fewer",
+      "slide_id": "slide-06"
+    },
+    {
+      "code": "copy.body_long",
+      "message": "Body has 30 words; target is 28 or fewer",
+      "slide_id": "slide-08"
+    },
+    {
+      "code": "copy.bullet_long",
+      "message": "Bullet has 12 words; target is 10 or fewer",
+      "slide_id": "slide-08"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Formula checks prove internal consistency, not source transcription. The model shows calculation status as pass and source attestation as review, keeping the unresolved human step visible.

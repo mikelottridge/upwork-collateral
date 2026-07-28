@@ -1,0 +1,691 @@
+{
+  "approval": {
+    "approved_scopes": [
+      "assets",
+      "audio",
+      "canonical-spec",
+      "deploy",
+      "html",
+      "pdf"
+    ],
+    "errors": [],
+    "outline_approved": true,
+    "outline_binding_matches": true,
+    "outline_sha256": "150dbc0662c14772be870c5d9a435a131b1017e15d7b7cac96b427d1982d8411",
+    "requested_scopes": [
+      "canonical-spec"
+    ]
+  },
+  "asset_count": 3,
+  "audio": [
+    {
+      "absolute_url": false,
+      "bit_rate": 128000,
+      "channels": 1,
+      "codec": "MPEGInfo",
+      "duration_seconds": 13.68,
+      "exists": true,
+      "format_name": "mp3",
+      "git_blob_sha": "e5f64bfafeeb31a6f76b5e42e9a9ffd46a7d3002",
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\audio\\calculation-example\\slide-01.mp3",
+      "probe_engine": "mutagen",
+      "probe_error": null,
+      "reference": "audio/calculation-example/slide-01.mp3",
+      "sample_rate": 24000,
+      "sha256": "f274222fe778078fed4b54660265e29782435d5a70de7d0e81aa931bb102d665",
+      "size_bytes": 218880,
+      "slide_id": "slide-01",
+      "tts_reference": false,
+      "versioned": false
+    },
+    {
+      "absolute_url": false,
+      "bit_rate": 128000,
+      "channels": 1,
+      "codec": "MPEGInfo",
+      "duration_seconds": 14.832,
+      "exists": true,
+      "format_name": "mp3",
+      "git_blob_sha": "ece3d6fe0f2fe00927a30238638767f97be3c491",
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\audio\\calculation-example\\slide-02.mp3",
+      "probe_engine": "mutagen",
+      "probe_error": null,
+      "reference": "audio/calculation-example/slide-02.mp3",
+      "sample_rate": 24000,
+      "sha256": "fcbfac40a285fcbdad4338e7ddd1565a90e4b38d3cd33fdcfca022af366b88dd",
+      "size_bytes": 237312,
+      "slide_id": "slide-02",
+      "tts_reference": false,
+      "versioned": false
+    },
+    {
+      "absolute_url": false,
+      "bit_rate": 128000,
+      "channels": 1,
+      "codec": "MPEGInfo",
+      "duration_seconds": 14.256,
+      "exists": true,
+      "format_name": "mp3",
+      "git_blob_sha": "babed25dc2b39e746c118e2f37c398d198c18a1d",
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\audio\\calculation-example\\slide-03.mp3",
+      "probe_engine": "mutagen",
+      "probe_error": null,
+      "reference": "audio/calculation-example/slide-03.mp3",
+      "sample_rate": 24000,
+      "sha256": "f579e656ccca92e64759dba0a23f48313e11592c9a583b18126d61ff396e0bc5",
+      "size_bytes": 228096,
+      "slide_id": "slide-03",
+      "tts_reference": false,
+      "versioned": false
+    },
+    {
+      "absolute_url": false,
+      "bit_rate": 128000,
+      "channels": 1,
+      "codec": "MPEGInfo",
+      "duration_seconds": 15.408,
+      "exists": true,
+      "format_name": "mp3",
+      "git_blob_sha": "1f717f71b95f90ce6e24d7d2fca4df5a006d258c",
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\audio\\calculation-example\\slide-04.mp3",
+      "probe_engine": "mutagen",
+      "probe_error": null,
+      "reference": "audio/calculation-example/slide-04.mp3",
+      "sample_rate": 24000,
+      "sha256": "acb394f069e0b2e8ea0485f9ef5c32db894be235435f559a859abcdb192bb274",
+      "size_bytes": 246528,
+      "slide_id": "slide-04",
+      "tts_reference": false,
+      "versioned": false
+    },
+    {
+      "absolute_url": false,
+      "bit_rate": 128000,
+      "channels": 1,
+      "codec": "MPEGInfo",
+      "duration_seconds": 12.96,
+      "exists": true,
+      "format_name": "mp3",
+      "git_blob_sha": "b28476b3cf1d0b11154263011a7bc1b8baf231d7",
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\audio\\calculation-example\\slide-05.mp3",
+      "probe_engine": "mutagen",
+      "probe_error": null,
+      "reference": "audio/calculation-example/slide-05.mp3",
+      "sample_rate": 24000,
+      "sha256": "24d3d5826b88e567f4ca9b1a142312036e6c6e8c3176ec1a28499a947c71af30",
+      "size_bytes": 207360,
+      "slide_id": "slide-05",
+      "tts_reference": false,
+      "versioned": false
+    },
+    {
+      "absolute_url": false,
+      "bit_rate": 128000,
+      "channels": 1,
+      "codec": "MPEGInfo",
+      "duration_seconds": 15.528,
+      "exists": true,
+      "format_name": "mp3",
+      "git_blob_sha": "c1db35dd5ab6b8c1cb798915b0a35317226c014c",
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\audio\\calculation-example\\slide-06.mp3",
+      "probe_engine": "mutagen",
+      "probe_error": null,
+      "reference": "audio/calculation-example/slide-06.mp3",
+      "sample_rate": 24000,
+      "sha256": "1d517abe5f5d7c9cf67065014015fcc3ca2e7eaebee462523f82d7f56b730650",
+      "size_bytes": 248448,
+      "slide_id": "slide-06",
+      "tts_reference": false,
+      "versioned": false
+    },
+    {
+      "absolute_url": false,
+      "bit_rate": 128000,
+      "channels": 1,
+      "codec": "MPEGInfo",
+      "duration_seconds": 12.864,
+      "exists": true,
+      "format_name": "mp3",
+      "git_blob_sha": "d3ccc04a701e47d18601d97e50d5cd3b780563d0",
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\audio\\calculation-example\\slide-07.mp3",
+      "probe_engine": "mutagen",
+      "probe_error": null,
+      "reference": "audio/calculation-example/slide-07.mp3",
+      "sample_rate": 24000,
+      "sha256": "0de8437aa5288ae4a60fb4c601b18527ec4fc7922a96b0be7fe7ee27d8b9d294",
+      "size_bytes": 205824,
+      "slide_id": "slide-07",
+      "tts_reference": false,
+      "versioned": false
+    },
+    {
+      "absolute_url": false,
+      "bit_rate": 128000,
+      "channels": 1,
+      "codec": "MPEGInfo",
+      "duration_seconds": 12.912,
+      "exists": true,
+      "format_name": "mp3",
+      "git_blob_sha": "16f02971016b395e45808767d27b6f2b5c807e7c",
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\audio\\calculation-example\\slide-08.mp3",
+      "probe_engine": "mutagen",
+      "probe_error": null,
+      "reference": "audio/calculation-example/slide-08.mp3",
+      "sample_rate": 24000,
+      "sha256": "ef47e1315930bfc4d8e31afdcc9b92e417fe04a1c7e837b66e4b470358bb3ea0",
+      "size_bytes": 206592,
+      "slide_id": "slide-08",
+      "tts_reference": false,
+      "versioned": false
+    },
+    {
+      "absolute_url": false,
+      "bit_rate": 128000,
+      "channels": 1,
+      "codec": "MPEGInfo",
+      "duration_seconds": 13.392,
+      "exists": true,
+      "format_name": "mp3",
+      "git_blob_sha": "af3fcbd79fadeef716f280a38dfe72136d2aefd3",
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\audio\\calculation-example\\slide-09.mp3",
+      "probe_engine": "mutagen",
+      "probe_error": null,
+      "reference": "audio/calculation-example/slide-09.mp3",
+      "sample_rate": 24000,
+      "sha256": "95a22f3974f3fe218ca0981816ba4470ca4ae3c341070dba289c79a7c0e228f2",
+      "size_bytes": 214272,
+      "slide_id": "slide-09",
+      "tts_reference": false,
+      "versioned": false
+    }
+  ],
+  "channel": {
+    "active_profile": "base",
+    "intended_profiles": [
+      "base",
+      "upwork"
+    ],
+    "runtime_qa": {
+      "active_profile": "base",
+      "checked": true,
+      "intended_profiles": [
+        "base",
+        "upwork"
+      ],
+      "passed": true,
+      "profile_reports": {
+        "base": {
+          "active_profile": "base",
+          "contact_targets": [],
+          "content_hashes": {
+            "evidence": "9bf4884b82a5dac87657480dd990cebf85c02701bb01264147f937befda558e0",
+            "narration": "9bf4884b82a5dac87657480dd990cebf85c02701bb01264147f937befda558e0",
+            "story": "9bf4884b82a5dac87657480dd990cebf85c02701bb01264147f937befda558e0",
+            "visual": "9bf4884b82a5dac87657480dd990cebf85c02701bb01264147f937befda558e0"
+          },
+          "leaks": [],
+          "navigation_edges": [],
+          "passed": true,
+          "profile": "base",
+          "source": "file:///C:/Users/mikel/OneDrive/Documents/Consulting%20Collateral/worktrees/upwork-collateral/financial-metrics-pipeline/site/index.html",
+          "visited_urls": [
+            "file:///C:/Users/mikel/OneDrive/Documents/Consulting%20Collateral/worktrees/upwork-collateral/financial-metrics-pipeline/site/index.html"
+          ]
+        },
+        "upwork": {
+          "active_profile": "upwork",
+          "contact_targets": [],
+          "content_hashes": {
+            "evidence": "9bf4884b82a5dac87657480dd990cebf85c02701bb01264147f937befda558e0",
+            "narration": "9bf4884b82a5dac87657480dd990cebf85c02701bb01264147f937befda558e0",
+            "story": "9bf4884b82a5dac87657480dd990cebf85c02701bb01264147f937befda558e0",
+            "visual": "9bf4884b82a5dac87657480dd990cebf85c02701bb01264147f937befda558e0"
+          },
+          "leaks": [],
+          "navigation_edges": [],
+          "passed": true,
+          "profile": "upwork",
+          "source": "file:///C:/Users/mikel/OneDrive/Documents/Consulting%20Collateral/worktrees/upwork-collateral/financial-metrics-pipeline/site/index.html?upwork=1",
+          "visited_urls": [
+            "file:///C:/Users/mikel/OneDrive/Documents/Consulting%20Collateral/worktrees/upwork-collateral/financial-metrics-pipeline/site/index.html?upwork=1"
+          ]
+        }
+      },
+      "story_evidence_visual_narration_parity": true,
+      "upwork_checked": true,
+      "upwork_leak_count": 0,
+      "upwork_passed": true
+    }
+  },
+  "deck": {
+    "audio_generation_endpoint": "/v1/audio/speech",
+    "audio_generation_model": "gpt-4o-mini-tts-2025-12-15",
+    "audio_generation_provider": "openai_api",
+    "audio_response_format": "mp3",
+    "contract_status": "pre-contract",
+    "extended_runtime_approval_complete": true,
+    "extended_runtime_approved": true,
+    "id": "trustworthy-financial-calculations",
+    "narration_mode": "audio",
+    "narration_source_type": "recorded_mp3",
+    "narration_voice_profile": "cedar",
+    "outputs": [
+      "html",
+      "pdf"
+    ],
+    "recorded_audio_required": true,
+    "runtime_seconds": 133.03199999999998,
+    "slide_count": 9,
+    "style_profile": "technical-editorial-v1"
+  },
+  "fact_version": "1.0",
+  "input_manifest": [
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\audio\\calculation-example\\slide-01.mp3",
+      "sha256": "f274222fe778078fed4b54660265e29782435d5a70de7d0e81aa931bb102d665",
+      "size_bytes": 218880
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\audio\\calculation-example\\slide-02.mp3",
+      "sha256": "fcbfac40a285fcbdad4338e7ddd1565a90e4b38d3cd33fdcfca022af366b88dd",
+      "size_bytes": 237312
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\audio\\calculation-example\\slide-03.mp3",
+      "sha256": "f579e656ccca92e64759dba0a23f48313e11592c9a583b18126d61ff396e0bc5",
+      "size_bytes": 228096
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\audio\\calculation-example\\slide-04.mp3",
+      "sha256": "acb394f069e0b2e8ea0485f9ef5c32db894be235435f559a859abcdb192bb274",
+      "size_bytes": 246528
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\audio\\calculation-example\\slide-05.mp3",
+      "sha256": "24d3d5826b88e567f4ca9b1a142312036e6c6e8c3176ec1a28499a947c71af30",
+      "size_bytes": 207360
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\audio\\calculation-example\\slide-06.mp3",
+      "sha256": "1d517abe5f5d7c9cf67065014015fcc3ca2e7eaebee462523f82d7f56b730650",
+      "size_bytes": 248448
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\audio\\calculation-example\\slide-07.mp3",
+      "sha256": "0de8437aa5288ae4a60fb4c601b18527ec4fc7922a96b0be7fe7ee27d8b9d294",
+      "size_bytes": 205824
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\audio\\calculation-example\\slide-08.mp3",
+      "sha256": "ef47e1315930bfc4d8e31afdcc9b92e417fe04a1c7e837b66e4b470358bb3ea0",
+      "size_bytes": 206592
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\audio\\calculation-example\\slide-09.mp3",
+      "sha256": "95a22f3974f3fe218ca0981816ba4470ca4ae3c341070dba289c79a7c0e228f2",
+      "size_bytes": 214272
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\site\\index.html",
+      "sha256": "4d023b286d62b4716c0fbd73058a42cd65b6b727fbf0eedb9050074f21aabc01",
+      "size_bytes": 4703
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\specs\\asset-manifest.yaml",
+      "sha256": "0d22e9b6494c88ace69ab5a296df331051e005bbdca5a015fe46d78687ab6239",
+      "size_bytes": 1291
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\specs\\brand-tokens.yaml",
+      "sha256": "57ed0a22983bb18aaa09f97cb27d34e19c6f350468626c23ed5a926239da519c",
+      "size_bytes": 3459
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\specs\\brief.yaml",
+      "sha256": "61b842d666b485abc67531ccb7eea0a533c6facfa713b085276b331e0b5c70d4",
+      "size_bytes": 3807
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\specs\\slides.yaml",
+      "sha256": "7694bcd264e84d01493f3e9e6b6806f5cedec461e87b7cb41190618438380098",
+      "size_bytes": 30664
+    }
+  ],
+  "interaction": {
+    "advance_trigger": "audio-ended",
+    "audio_autoplay_on_load": false,
+    "audio_base": "https://mikelottridge.github.io/upwork-collateral/financial-metrics-pipeline/audio/calculation-example/",
+    "audio_failure_fallback": "timed",
+    "audio_version": "cedar-20260728-r1",
+    "manual_navigation": [
+      "arrow-left",
+      "arrow-right",
+      "next-button",
+      "previous-button"
+    ],
+    "silent_auto_advance": true,
+    "start_mode": "idle",
+    "use_scroll_into_view": false
+  },
+  "outputs": [],
+  "project": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline",
+  "qa": {
+    "prolog_engine": "real_swipl"
+  },
+  "site": {
+    "arrow_navigation": true,
+    "audio_ended_listener": false,
+    "canonical_slide_count": 9,
+    "canonical_slide_titles_missing": [],
+    "css_box_shadow_count": 2,
+    "css_font_families": [
+      "Helvetica,sans-serif",
+      "sans-serif",
+      "ui-sans-serif,system-ui,-apple-system,Helvetica,sans-serif",
+      "var(--mono)",
+      "var(--sans)",
+      "var(--serif)"
+    ],
+    "css_glow_detected": false,
+    "css_gradient_detected": false,
+    "index": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\site\\index.html",
+    "present": true,
+    "scripts": [
+      "./assets/index-qByEoTvt.js"
+    ],
+    "scroll_into_view": false,
+    "source_hash": "4d023b286d62b4716c0fbd73058a42cd65b6b727fbf0eedb9050074f21aabc01",
+    "stylesheets": [
+      "./assets/index-CPiJeW-Z.css",
+      "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap"
+    ],
+    "timed_fallback": true,
+    "tts_detected": false
+  },
+  "slides": [
+    {
+      "alt_summary": "Comparison of fragile and controlled calculations.",
+      "artifact_type": "compare",
+      "audio_reference": "audio/calculation-example/slide-01.mp3",
+      "cta_destination": "",
+      "cta_type": "",
+      "duration_ms": 14480,
+      "evidence_source": "",
+      "evidence_type": "none",
+      "eyebrow": "The trust problem",
+      "headline": "The arithmetic is usually easy. Trusting the inputs and definitions is harder.",
+      "id": "slide-01",
+      "index": 1,
+      "narration_audio_reference": "audio/calculation-example/slide-01.mp3",
+      "narration_certification_ready": true,
+      "narration_duration_seconds": 13.68,
+      "narration_output_sha256": "f274222fe778078fed4b54660265e29782435d5a70de7d0e81aa931bb102d665",
+      "narration_script": "Arithmetic is usually easy. Trust fails when periods, units, definitions, assumptions, or sources are unclear. A controlled model stores inputs once, states rules, and keeps checks and unresolved review visible.",
+      "narration_transcript": "Arithmetic is usually easy. Trust fails when periods, units, definitions, assumptions, or sources are unclear. A controlled model stores inputs once, states rules, and keeps checks and unresolved review visible.",
+      "point_count": 3,
+      "points": [
+        "Separate typed source values from calculated outputs.",
+        "State units, periods, definitions, and assumptions beside the model.",
+        "Make failures and unresolved review steps visible."
+      ],
+      "role": "title",
+      "seconds": 14.48,
+      "subhead": "A correct formula can still produce the wrong decision when periods, units, definitions, assumptions, or source values are unclear."
+    },
+    {
+      "alt_summary": "Table showing the native Google Sheet calculation structure.",
+      "artifact_type": "table",
+      "audio_reference": "audio/calculation-example/slide-02.mp3",
+      "cta_destination": "",
+      "cta_type": "",
+      "duration_ms": 15632,
+      "evidence_source": "https://docs.google.com/spreadsheets/d/17iLgTFtRTJGNlXX2I28mwz8THpAsdQl23Jeo4F2nE04/edit",
+      "evidence_type": "verified",
+      "eyebrow": "Working example",
+      "headline": "One native Google Sheet makes the whole calculation chain inspectable.",
+      "id": "slide-02",
+      "index": 2,
+      "narration_audio_reference": "audio/calculation-example/slide-02.mp3",
+      "narration_certification_ready": true,
+      "narration_duration_seconds": 14.832,
+      "narration_output_sha256": "fcbfac40a285fcbdad4338e7ddd1565a90e4b38d3cd33fdcfca022af366b88dd",
+      "narration_script": "This native Google Sheet is a self-built example using public SEC data, not client work. Values are entered once; formulas calculate growth, margins, bridges, scenarios, and model status. Source attestation remains human review.",
+      "narration_transcript": "This native Google Sheet is a self-built example using public SEC data, not client work. Values are entered once; formulas calculate growth, margins, bridges, scenarios, and model status. Source attestation remains human review.",
+      "point_count": 3,
+      "points": [
+        "Self-built with public SEC data; not client work.",
+        "Historical values are typed once on Source_Data.",
+        "All other calculations and statuses are formula-driven."
+      ],
+      "role": "proof",
+      "seconds": 15.632,
+      "subhead": "The example separates sources, historical formulas, scenario assumptions, checks, and citations so a reviewer can trace every important output."
+    },
+    {
+      "alt_summary": "Table defining the transferable calculation contract.",
+      "artifact_type": "table",
+      "audio_reference": "audio/calculation-example/slide-03.mp3",
+      "cta_destination": "",
+      "cta_type": "",
+      "duration_ms": 15056,
+      "evidence_source": "revision-outline-calculation-expanded.md",
+      "evidence_type": "source",
+      "eyebrow": "Calculation contract",
+      "headline": "Define the calculation before automating it.",
+      "id": "slide-03",
+      "index": 3,
+      "narration_audio_reference": "audio/calculation-example/slide-03.mp3",
+      "narration_certification_ready": true,
+      "narration_duration_seconds": 14.256,
+      "narration_output_sha256": "f579e656ccca92e64759dba0a23f48313e11592c9a583b18126d61ff396e0bc5",
+      "narration_script": "Before automating, define the calculation contract: decision, sources, units, definitions, formulas, assumptions, checks, and reviewer. This pattern transfers to pricing, KPIs, reconciliations, and planning.",
+      "narration_transcript": "Before automating, define the calculation contract: decision, sources, units, definitions, formulas, assumptions, checks, and reviewer. This pattern transfers to pricing, KPIs, reconciliations, and planning.",
+      "point_count": 3,
+      "points": [
+        "Agree what the result is meant to decide.",
+        "Distinguish source facts from business rules and assumptions.",
+        "Name the checks and the human approval boundary."
+      ],
+      "role": "solution",
+      "seconds": 15.056,
+      "subhead": "A calculation contract identifies the decision, source fields, business definitions, formulas, assumptions, checks, and owner of final review."
+    },
+    {
+      "alt_summary": "Table of formula-driven historical growth and margin results.",
+      "artifact_type": "table",
+      "audio_reference": "audio/calculation-example/slide-04.mp3",
+      "cta_destination": "",
+      "cta_type": "",
+      "duration_ms": 16208,
+      "evidence_source": "Netflix Q1 2026 SEC filings and the native Google Sheet",
+      "evidence_type": "verified",
+      "eyebrow": "Historical analysis",
+      "headline": "One source block supports growth, margin, and basis-point analysis.",
+      "id": "slide-04",
+      "index": 4,
+      "narration_audio_reference": "audio/calculation-example/slide-04.mp3",
+      "narration_certification_ready": true,
+      "narration_duration_seconds": 15.408,
+      "narration_output_sha256": "acb394f069e0b2e8ea0485f9ef5c32db894be235435f559a859abcdb192bb274",
+      "narration_script": "One source block supports consistent views. Revenue grew 16.19 percent, operating income 18.23 percent, and operating margin rose from 31.75 to 32.30 percent—a 55.6-basis-point expansion.",
+      "narration_transcript": "One source block supports consistent views. Revenue grew 16.19 percent, operating income 18.23 percent, and operating margin rose from 31.75 to 32.30 percent—a 55.6-basis-point expansion.",
+      "point_count": 3,
+      "points": [
+        "Revenue grew 16.19%; operating income grew 18.23%.",
+        "Operating margin moved from 31.75% to 32.30%.",
+        "The 55.6-basis-point expansion is formula-derived."
+      ],
+      "role": "proof",
+      "seconds": 16.208,
+      "subhead": "Because the source block is normalized once, multiple outputs remain consistent and update together."
+    },
+    {
+      "alt_summary": "Table reconciling revenue and expense changes to operating income.",
+      "artifact_type": "table",
+      "audio_reference": "audio/calculation-example/slide-05.mp3",
+      "cta_destination": "",
+      "cta_type": "",
+      "duration_ms": 13760,
+      "evidence_source": "Netflix Q1 2026 SEC filings and the native Google Sheet",
+      "evidence_type": "verified",
+      "eyebrow": "Decomposed bridge",
+      "headline": "Revenue change minus expense change reconciles exactly to operating-income change.",
+      "id": "slide-05",
+      "index": 5,
+      "narration_audio_reference": "audio/calculation-example/slide-05.mp3",
+      "narration_certification_ready": true,
+      "narration_duration_seconds": 12.96,
+      "narration_output_sha256": "24d3d5826b88e567f4ca9b1a142312036e6c6e8c3176ec1a28499a947c71af30",
+      "narration_script": "The bridge explains the change. Revenue rose about 1.7 billion dollars; expenses about 1.1 billion. The roughly 610 million difference equals the operating-income increase, and the bridge closes to zero.",
+      "narration_transcript": "The bridge explains the change. Revenue rose about 1.7 billion dollars; expenses about 1.1 billion. The roughly 610 million difference equals the operating-income increase, and the bridge closes to zero.",
+      "point_count": 3,
+      "points": [
+        "Revenue change: +$1,706,956 thousand.",
+        "Total expense change: +$1,096,958 thousand.",
+        "Operating-income change: +$609,998 thousand; closure gap: zero."
+      ],
+      "role": "proof",
+      "seconds": 13.76,
+      "subhead": "The bridge explains movement instead of merely reporting endpoints, while a closure check proves the pieces reconcile."
+    },
+    {
+      "alt_summary": "Table showing illustrative scenario mechanics and boundaries.",
+      "artifact_type": "table",
+      "audio_reference": "audio/calculation-example/slide-06.mp3",
+      "cta_destination": "",
+      "cta_type": "",
+      "duration_ms": 16328,
+      "evidence_source": "Native Google Sheet Scenario_Sensitivity tab",
+      "evidence_type": "illustrative",
+      "eyebrow": "Scenario mechanics",
+      "headline": "Assumptions change the mechanics—not pasted outputs.",
+      "id": "slide-06",
+      "index": 6,
+      "narration_audio_reference": "audio/calculation-example/slide-06.mp3",
+      "narration_certification_ready": true,
+      "narration_duration_seconds": 15.528,
+      "narration_output_sha256": "1d517abe5f5d7c9cf67065014015fcc3ca2e7eaebee462523f82d7f56b730650",
+      "narration_script": "Scenarios change assumptions, not pasted outputs. These illustrative Q1 2027 mechanics isolate growth and expense ratios, then recalculate revenue, operating income, and margin. This is sensitivity analysis, not Netflix guidance or a forecast.",
+      "narration_transcript": "Scenarios change assumptions, not pasted outputs. These illustrative Q1 2027 mechanics isolate growth and expense ratios, then recalculate revenue, operating income, and margin. This is sensitivity analysis, not Netflix guidance or a forecast.",
+      "point_count": 3,
+      "points": [
+        "Base mechanics use an explicit revenue-growth assumption.",
+        "Expense ratios remain visible and editable.",
+        "Outputs recalculate to about $14.23B revenue and 32.78% margin."
+      ],
+      "role": "process",
+      "seconds": 16.328,
+      "subhead": "Illustrative Q1 2027 inputs are isolated from historical facts so sensitivity can be explored without disguising a scenario as a forecast."
+    },
+    {
+      "alt_summary": "Comparison of formula checks with separate source attestation.",
+      "artifact_type": "compare",
+      "audio_reference": "audio/calculation-example/slide-07.mp3",
+      "cta_destination": "",
+      "cta_type": "",
+      "duration_ms": 13664,
+      "evidence_source": "Native Google Sheet Checks and Sources tabs",
+      "evidence_type": "source",
+      "eyebrow": "Validation boundary",
+      "headline": "A result is not verified until checks and source attestation pass.",
+      "id": "slide-07",
+      "index": 7,
+      "narration_audio_reference": "audio/calculation-example/slide-07.mp3",
+      "narration_certification_ready": true,
+      "narration_duration_seconds": 12.864,
+      "narration_output_sha256": "0de8437aa5288ae4a60fb4c601b18527ec4fc7922a96b0be7fe7ee27d8b9d294",
+      "narration_script": "Formula checks prove internal consistency, not source transcription. The model shows calculation status as pass and source attestation as review, keeping the unresolved human step visible.",
+      "narration_transcript": "Formula checks prove internal consistency, not source transcription. The model shows calculation status as pass and source attestation as review, keeping the unresolved human step visible.",
+      "point_count": 3,
+      "points": [
+        "Formula-driven model checks currently pass.",
+        "Independent source transcription attestation remains REVIEW.",
+        "The combined status refuses to hide the unresolved step."
+      ],
+      "role": "problem",
+      "seconds": 13.664,
+      "subhead": "Internal formulas can prove arithmetic consistency, but they cannot independently prove that a human transcribed every source value correctly."
+    },
+    {
+      "alt_summary": "Comparison of deterministic parsing with bounded AI recovery.",
+      "artifact_type": "compare",
+      "audio_reference": "audio/calculation-example/slide-08.mp3",
+      "cta_destination": "",
+      "cta_type": "",
+      "duration_ms": 13712,
+      "evidence_source": "Bounded PDF recovery evidence recorded in the approved outline",
+      "evidence_type": "representative",
+      "eyebrow": "Governed AI boundary",
+      "headline": "AI can recover structure. It should not own the math.",
+      "id": "slide-08",
+      "index": 8,
+      "narration_audio_reference": "audio/calculation-example/slide-08.mp3",
+      "narration_certification_ready": true,
+      "narration_duration_seconds": 12.912,
+      "narration_output_sha256": "ef47e1315930bfc4d8e31afdcc9b92e417fe04a1c7e837b66e4b470358bb3ea0",
+      "narration_script": "AI can recover structure, but should not own the math. In this bounded PDF exception, parsing found zero tables; one-page recovery returned 13 reviewable rows with source, cost, and review attached.",
+      "narration_transcript": "AI can recover structure, but should not own the math. In this bounded PDF exception, parsing found zero tables; one-page recovery returned 13 reviewable rows with source, cost, and review attached.",
+      "point_count": 3,
+      "points": [
+        "A difficult official PDF page produced zero deterministic tables.",
+        "One bounded recovery returned 13 reviewable rows at an estimated $0.0095.",
+        "Recovered structure still requires validation before formulas use it."
+      ],
+      "role": "differentiator",
+      "seconds": 13.712,
+      "subhead": "AI is useful at bounded input exceptions; deterministic formulas and explicit validation should remain authoritative."
+    },
+    {
+      "alt_summary": "Four-step scope, model, verify, and automate engagement.",
+      "artifact_type": "steps",
+      "audio_reference": "audio/calculation-example/slide-09.mp3",
+      "cta_destination": "active-channel",
+      "cta_type": "active-channel",
+      "duration_ms": 14192,
+      "evidence_source": "",
+      "evidence_type": "none",
+      "eyebrow": "The transferable offer",
+      "headline": "The contract transfers; the financial example does not have to.",
+      "id": "slide-09",
+      "index": 9,
+      "narration_audio_reference": "audio/calculation-example/slide-09.mp3",
+      "narration_certification_ready": true,
+      "narration_duration_seconds": 13.392,
+      "narration_output_sha256": "95a22f3974f3fe218ca0981816ba4470ca4ae3c341070dba289c79a7c0e228f2",
+      "narration_script": "The financial model is one example. The contract transfers to pricing, forecasts, reconciliations, KPIs, and capacity plans. Start with one decision, verify it, then automate only accepted logic.",
+      "narration_transcript": "The financial model is one example. The contract transfers to pricing, forecasts, reconciliations, KPIs, and capacity plans. Start with one decision, verify it, then automate only accepted logic.",
+      "point_count": 3,
+      "points": [
+        "Start with one bounded decision and calculation contract.",
+        "Build the formulas and checks in a reviewable operating surface.",
+        "Automate only the accepted workflow."
+      ],
+      "role": "cta",
+      "seconds": 14.192,
+      "subhead": "The same discipline can support pricing, forecasts, reconciliations, KPI models, capacity plans, and spreadsheet-backed workflows."
+    }
+  ],
+  "style": {
+    "artifact_types": [
+      "compare",
+      "steps",
+      "table"
+    ],
+    "fonts": {
+      "editorial_serif": "Newsreader",
+      "fallbacks": "{'serif': ['Georgia', 'serif'], 'sans': ['Arial', 'sans-serif'], 'mono': ['Courier New', 'monospace']}",
+      "mono_label": "IBM Plex Mono",
+      "ui_sans": "IBM Plex Sans"
+    },
+    "profile": "technical-editorial-v1",
+    "restrictions": {
+      "decorative_svg": false,
+      "emoji": false,
+      "glows": false,
+      "gradients": false,
+      "maximum_light_background_tones": 2,
+      "stacked_shadows": false
+    },
+    "waivers": []
+  }
+}

@@ -1,0 +1,97 @@
+outline_approval:
+  source: revision-outline-calculation-expanded.md
+  sha256: 150dbc0662c14772be870c5d9a435a131b1017e15d7b7cac96b427d1982d8411
+  approval_record:
+    approver: "Mike Lottridge"
+    date: "2026-07-28"
+    scope: [canonical-spec, assets, audio, html, pdf, deploy]
+
+deck:
+  id: trustworthy-financial-calculations
+  mode: revise
+  purpose: portfolio-experience
+  contract_status: pre-contract
+  target_runtime_seconds: 125
+  timing:
+    extended_runtime_approved: true
+    approval_record:
+      approver: "Mike Lottridge"
+      date: "2026-07-28"
+      reason: "Approved outline specifies an approximately 115-135 second narrated example."
+      scope: [deck.timing.total_seconds]
+  outputs: [html, pdf]
+
+audience:
+  client_type: "buyers who need reliable calculations, financial models, spreadsheets, or workflow automation"
+  industry: "cross-industry"
+  funnel_stage: evaluation
+  source: "revision-outline-calculation-expanded.md"
+  client_vocabulary:
+    - "explicit"
+    - "reproducible"
+    - "validated"
+    - "reviewable"
+
+service:
+  name: "Trustworthy calculation and modeling workflows"
+  promised_outcome: "Calculations that stakeholders can explain, check, and reuse."
+  mechanism: "Define inputs, formulas, assumptions, checks, evidence, and human review as one calculation contract."
+  deliverables:
+    - "Native Google Sheet example"
+    - "Calculation design and validation controls"
+    - "Scenario and sensitivity mechanics"
+    - "Optional automation around the reviewed model"
+  exclusions:
+    - "Packaged Netflix or financial-data product"
+    - "Investment advice or a Netflix forecast"
+    - "Claim that AI should perform arithmetic"
+
+problem:
+  primary: "Business calculations become risky when source values, formulas, assumptions, and checks are hidden or disconnected."
+  consequences:
+    - "Reviewers cannot reproduce or explain outputs."
+    - "Changes silently break downstream decisions."
+    - "Automation scales unverified logic."
+
+proof:
+  items:
+    - id: native-google-sheet
+      type: verified
+      claim: "An original native Google Sheet demonstrates formula-driven historical analysis, bridge calculations, sensitivity mechanics, and internal checks using public SEC inputs."
+      source: "https://docs.google.com/spreadsheets/d/17iLgTFtRTJGNlXX2I28mwz8THpAsdQl23Jeo4F2nE04/edit"
+      permission: "Self-built demonstration using public SEC data; approved for linked presentation evidence."
+      redaction_required: false
+      limitations:
+        - "Not client work or investment advice."
+        - "Illustrative Q1 2027 mechanics are not a Netflix forecast."
+    - id: official-sec-sources
+      type: verified
+      claim: "Historical source inputs are traceable to Netflix Q1 2026 SEC-filed materials."
+      source: "revision-outline-calculation-expanded.md"
+      permission: "Public official filings"
+      redaction_required: false
+      limitations:
+        - "Human source transcription attestation remains REVIEW until independently signed."
+
+positioning:
+  differentiators:
+    - "Separates arithmetic, business definitions, source evidence, and human review."
+    - "Makes calculation closure and sensitivity visible before automation."
+    - "Transfers the control pattern beyond the financial example."
+  offer: "Start with one bounded calculation contract, then automate only the reviewed workflow."
+
+channel:
+  active_profile: base
+  intended_profiles: [base, upwork]
+  runtime_profiles:
+    base: site/index.html
+    upwork: site/index.html?upwork=1
+
+brand:
+  tokens_file: brand-tokens.yaml
+  logo_asset_id: null
+  tone: "specific, factual, proof-led"
+
+assumptions:
+  - "Upwork mode changes contact information only; story, proof, claims, and ordering remain identical."
+  - "UTM attribution remains separate from Upwork mode."

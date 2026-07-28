@@ -1,0 +1,352 @@
+{
+  "certification": {
+    "binary": "C:\\Program Files\\swipl\\bin\\swipl.exe",
+    "engine": "swi-prolog",
+    "manifest_complete": true,
+    "rule_entry": "C:\\Users\\mikel\\.codex\\plugins\\cache\\personal\\self-running-presentations\\0.1.1+codex.20260727044814\\scripts\\prolog\\presentation_rules.pl",
+    "rule_manifest": [
+      {
+        "path": "presentation_rules.pl",
+        "sha256": "a125fe7ebe59d9b48498287b0ca073f01d938e2a71336e859fa3869c201fcb78"
+      },
+      {
+        "path": "accessibility_rules.pl",
+        "sha256": "e91d56ad8708d30802e8867543d2834e285f2f89c9f59cfd962a55c8fad1ce96"
+      },
+      {
+        "path": "narration_rules.pl",
+        "sha256": "d217c6757271ec06be36fe65ff7c586cdfc25dc8fc8598ca2aacd34a93b77d54"
+      },
+      {
+        "path": "policy_rules.pl",
+        "sha256": "e55436bdb814905b6c4b655a7e6de573b06bbe8bfb597603b658a6ec3e89fb12"
+      },
+      {
+        "path": "structure_rules.pl",
+        "sha256": "1fcf7335146b5a88b29503817a60f11c340f06ce5021d6df6fc1846bc74ffdd4"
+      },
+      {
+        "path": "style_rules.pl",
+        "sha256": "60b0dece6b1248644fdd50576946f0325bc873f379f581ef8d155807a3f82143"
+      }
+    ],
+    "status": "certifying",
+    "version": "SWI-Prolog version 10.0.2 for x64-win64"
+  },
+  "certifying": true,
+  "findings": [
+    {
+      "evidence": [
+        {
+          "className": "",
+          "clientHeight": 12,
+          "clientWidth": 270,
+          "id": null,
+          "scrollHeight": 12,
+          "scrollWidth": 315,
+          "tag": "SMALL"
+        },
+        {
+          "className": "",
+          "clientHeight": 12,
+          "clientWidth": 270,
+          "id": null,
+          "scrollHeight": 12,
+          "scrollWidth": 365,
+          "tag": "SMALL"
+        },
+        {
+          "className": "aria-status",
+          "clientHeight": 1,
+          "clientWidth": 1,
+          "id": null,
+          "scrollHeight": 2034,
+          "scrollWidth": 96,
+          "tag": "DIV"
+        }
+      ],
+      "finding_id": "4074504944c10f03",
+      "message": "Potential clipped content was detected.",
+      "rule_id": "RENDER_004",
+      "severity": "warning",
+      "slide_id": "1024x768",
+      "source": "python-render"
+    },
+    {
+      "evidence": [
+        {
+          "className": "",
+          "clientHeight": 12,
+          "clientWidth": 266,
+          "id": null,
+          "scrollHeight": 12,
+          "scrollWidth": 315,
+          "tag": "SMALL"
+        },
+        {
+          "className": "",
+          "clientHeight": 12,
+          "clientWidth": 266,
+          "id": null,
+          "scrollHeight": 12,
+          "scrollWidth": 365,
+          "tag": "SMALL"
+        },
+        {
+          "className": "aria-status",
+          "clientHeight": 1,
+          "clientWidth": 1,
+          "id": null,
+          "scrollHeight": 2034,
+          "scrollWidth": 96,
+          "tag": "DIV"
+        }
+      ],
+      "finding_id": "cb9f7ed4f01dd166",
+      "message": "Potential clipped content was detected.",
+      "rule_id": "RENDER_004",
+      "severity": "warning",
+      "slide_id": "1440x1000",
+      "source": "python-render"
+    },
+    {
+      "evidence": [
+        {
+          "className": "",
+          "clientHeight": 12,
+          "clientWidth": 161,
+          "id": null,
+          "scrollHeight": 12,
+          "scrollWidth": 315,
+          "tag": "SMALL"
+        },
+        {
+          "className": "",
+          "clientHeight": 12,
+          "clientWidth": 161,
+          "id": null,
+          "scrollHeight": 12,
+          "scrollWidth": 365,
+          "tag": "SMALL"
+        },
+        {
+          "className": "aria-status",
+          "clientHeight": 1,
+          "clientWidth": 1,
+          "id": null,
+          "scrollHeight": 2034,
+          "scrollWidth": 96,
+          "tag": "DIV"
+        }
+      ],
+      "finding_id": "515982efa1b2d52c",
+      "message": "Potential clipped content was detected.",
+      "rule_id": "RENDER_004",
+      "severity": "warning",
+      "slide_id": "390x844",
+      "source": "python-render"
+    },
+    {
+      "evidence": [
+        {
+          "className": "aria-status",
+          "clientHeight": 1,
+          "clientWidth": 1,
+          "id": null,
+          "scrollHeight": 2034,
+          "scrollWidth": 96,
+          "tag": "DIV"
+        }
+      ],
+      "finding_id": "8473b3174726d42e",
+      "message": "Potential clipped content was detected.",
+      "rule_id": "RENDER_004",
+      "severity": "warning",
+      "slide_id": "768x1024",
+      "source": "python-render"
+    },
+    {
+      "evidence": {
+        "code": "copy.body_long",
+        "message": "Body has 30 words; target is 28 or fewer",
+        "slide_id": "slide-08"
+      },
+      "finding_id": "831c25285b1fa0b3",
+      "message": "Body has 30 words; target is 28 or fewer",
+      "rule_id": "copy.body_long",
+      "severity": "warning",
+      "slide_id": "slide-08",
+      "source": "python-validator"
+    },
+    {
+      "evidence": {
+        "code": "copy.bullet_long",
+        "message": "Bullet has 11 words; target is 10 or fewer",
+        "slide_id": "slide-06"
+      },
+      "finding_id": "706706f3a2f19e83",
+      "message": "Bullet has 11 words; target is 10 or fewer",
+      "rule_id": "copy.bullet_long",
+      "severity": "warning",
+      "slide_id": "slide-06",
+      "source": "python-validator"
+    },
+    {
+      "evidence": {
+        "code": "copy.bullet_long",
+        "message": "Bullet has 12 words; target is 10 or fewer",
+        "slide_id": "slide-08"
+      },
+      "finding_id": "e4e07d1bffa8e84e",
+      "message": "Bullet has 12 words; target is 10 or fewer",
+      "rule_id": "copy.bullet_long",
+      "severity": "warning",
+      "slide_id": "slide-08",
+      "source": "python-validator"
+    },
+    {
+      "evidence": {
+        "code": "copy.subhead_long",
+        "message": "Subhead has 21 words; target is 20 or fewer",
+        "slide_id": "slide-06"
+      },
+      "finding_id": "b6284f2da1f04347",
+      "message": "Subhead has 21 words; target is 20 or fewer",
+      "rule_id": "copy.subhead_long",
+      "severity": "warning",
+      "slide_id": "slide-06",
+      "source": "python-validator"
+    },
+    {
+      "evidence": {
+        "code": "contrast.pass",
+        "message": "muted_text vs background contrast is 7.04:1"
+      },
+      "finding_id": "2cc4ac7b7ded0d78",
+      "message": "muted_text vs background contrast is 7.04:1",
+      "rule_id": "contrast.pass",
+      "severity": "info",
+      "source": "python-validator"
+    },
+    {
+      "evidence": {
+        "code": "contrast.pass",
+        "message": "accent vs background contrast is 5.74:1"
+      },
+      "finding_id": "5f0e444a9b7a517d",
+      "message": "accent vs background contrast is 5.74:1",
+      "rule_id": "contrast.pass",
+      "severity": "info",
+      "source": "python-validator"
+    },
+    {
+      "evidence": {
+        "code": "contrast.pass",
+        "message": "text vs background contrast is 14.81:1"
+      },
+      "finding_id": "6f630c7850f0d366",
+      "message": "text vs background contrast is 14.81:1",
+      "rule_id": "contrast.pass",
+      "severity": "info",
+      "source": "python-validator"
+    }
+  ],
+  "input_manifest": [
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\audio\\calculation-example\\slide-01.mp3",
+      "sha256": "f274222fe778078fed4b54660265e29782435d5a70de7d0e81aa931bb102d665",
+      "size_bytes": 218880
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\audio\\calculation-example\\slide-02.mp3",
+      "sha256": "fcbfac40a285fcbdad4338e7ddd1565a90e4b38d3cd33fdcfca022af366b88dd",
+      "size_bytes": 237312
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\audio\\calculation-example\\slide-03.mp3",
+      "sha256": "f579e656ccca92e64759dba0a23f48313e11592c9a583b18126d61ff396e0bc5",
+      "size_bytes": 228096
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\audio\\calculation-example\\slide-04.mp3",
+      "sha256": "acb394f069e0b2e8ea0485f9ef5c32db894be235435f559a859abcdb192bb274",
+      "size_bytes": 246528
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\audio\\calculation-example\\slide-05.mp3",
+      "sha256": "24d3d5826b88e567f4ca9b1a142312036e6c6e8c3176ec1a28499a947c71af30",
+      "size_bytes": 207360
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\audio\\calculation-example\\slide-06.mp3",
+      "sha256": "1d517abe5f5d7c9cf67065014015fcc3ca2e7eaebee462523f82d7f56b730650",
+      "size_bytes": 248448
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\audio\\calculation-example\\slide-07.mp3",
+      "sha256": "0de8437aa5288ae4a60fb4c601b18527ec4fc7922a96b0be7fe7ee27d8b9d294",
+      "size_bytes": 205824
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\audio\\calculation-example\\slide-08.mp3",
+      "sha256": "ef47e1315930bfc4d8e31afdcc9b92e417fe04a1c7e837b66e4b470358bb3ea0",
+      "size_bytes": 206592
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\audio\\calculation-example\\slide-09.mp3",
+      "sha256": "95a22f3974f3fe218ca0981816ba4470ca4ae3c341070dba289c79a7c0e228f2",
+      "size_bytes": 214272
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\site\\index.html",
+      "sha256": "4d023b286d62b4716c0fbd73058a42cd65b6b727fbf0eedb9050074f21aabc01",
+      "size_bytes": 4703
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\specs\\asset-manifest.yaml",
+      "sha256": "0d22e9b6494c88ace69ab5a296df331051e005bbdca5a015fe46d78687ab6239",
+      "size_bytes": 1291
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\specs\\brand-tokens.yaml",
+      "sha256": "57ed0a22983bb18aaa09f97cb27d34e19c6f350468626c23ed5a926239da519c",
+      "size_bytes": 3459
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\specs\\brief.yaml",
+      "sha256": "61b842d666b485abc67531ccb7eea0a533c6facfa713b085276b331e0b5c70d4",
+      "size_bytes": 3807
+    },
+    {
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\financial-metrics-pipeline\\specs\\slides.yaml",
+      "sha256": "7694bcd264e84d01493f3e9e6b6806f5cedec461e87b7cb41190618438380098",
+      "size_bytes": 30664
+    }
+  ],
+  "passed_checks": [
+    "accessibility",
+    "narration",
+    "policy",
+    "structure",
+    "style"
+  ],
+  "provenance": {
+    "openai_cli": "C:\\Python312\\Scripts\\openai.EXE",
+    "openai_sdk": "2.3.0",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.10",
+    "qa_runner": "1.0",
+    "style_profile": "technical-editorial-v1",
+    "swipl": "C:\\Program Files\\swipl\\bin\\swipl.exe",
+    "swipl_version": "SWI-Prolog version 10.0.2 for x64-win64"
+  },
+  "qa_version": "1.0",
+  "status": "pass_with_warnings",
+  "summary": {
+    "error_count": 0,
+    "info_count": 3,
+    "warning_count": 8
+  },
+  "unstable_findings": [],
+  "waivers": []
+}
