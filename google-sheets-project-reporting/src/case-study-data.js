@@ -26,7 +26,7 @@ window.CASE_STUDY = {
       "eyebrow": "The recurring-work gap",
       "title": "When the spreadsheet works—but the workflow around it does not",
       "lead": "The Sheet may hold the right facts while recurring decisions still depend on manual filtering, counting, and rewriting.",
-      "durationMs": 14000,
+      "durationMs": 14368,
       "bullets": ["The source data can already be current.", "Each decision rebuilds filters, counts, and wording.", "Numbers and narrative gain room to drift."],
       "artifact": {
         "type": "compare",
@@ -43,7 +43,7 @@ window.CASE_STUDY = {
       "eyebrow": "Self-built sample proof",
       "title": "A working example I built: one Sheet, three controlled workflows",
       "lead": "This self-built sample shows the pattern running. It is evidence of the method—not client work or a standalone product.",
-      "durationMs": 18000,
+      "durationMs": 19816,
       "bullets": ["Built by me on a sample tracker.", "One dialog drives three reporting jobs.", "Every run requires explicit choices before writing."],
       "artifact": {
         "type": "media", "kind": "image", "label": "Working Apps Script demonstration",
@@ -60,7 +60,7 @@ window.CASE_STUDY = {
       "eyebrow": "The transferable pattern",
       "title": "The pattern transfers: structured fields, Apps Script logic, governed AI",
       "lead": "The example works because three layers have separate jobs—and the same architecture can support other Sheet-based decisions.",
-      "durationMs": 16000,
+      "durationMs": 16912,
       "bullets": ["Controlled fields keep source facts trustworthy.", "Apps Script owns calculations and writes.", "AI helps with language, never arithmetic."],
       "artifact": {
         "type": "media", "kind": "image", "label": "Structured source fields in the example",
@@ -77,7 +77,7 @@ window.CASE_STUDY = {
       "eyebrow": "How work is scoped",
       "title": "Start with one decision, then map data and acceptance checks",
       "lead": "A bounded build begins with the recurring decision, the fields that support it, and the conditions required for trust.",
-      "durationMs": 14000,
+      "durationMs": 13456,
       "bullets": ["Pick one recurring, high-friction decision.", "Map supporting fields and missing data.", "Agree acceptance checks before any build."],
       "artifact": {
         "type": "pipeline", "label": "A bounded engagement starts before code",
@@ -94,7 +94,7 @@ window.CASE_STUDY = {
       "eyebrow": "Example under scrutiny",
       "title": "Back to the example: useful output without invented precision",
       "lead": "The workload report uses only counts the sample Sheet supports and remains useful with AI completely switched off.",
-      "durationMs": 19000,
+      "durationMs": 16960,
       "bullets": ["Use open, overdue, blocked, and due-soon counts.", "Do not invent utilization without hours.", "Keep deterministic output independent of AI."],
       "artifact": {
         "type": "media", "kind": "image", "compact": true, "label": "Workload evidence from the sample build",
@@ -111,7 +111,7 @@ window.CASE_STUDY = {
       "eyebrow": "Governed AI boundary",
       "title": "AI drafts language. Deterministic logic owns the numbers.",
       "lead": "The boundary is enforced in code: scoped facts go out, supported figures come back, and validation failure stays visible.",
-      "durationMs": 19000,
+      "durationMs": 21016,
       "bullets": ["Send selected facts, never notes or emails.", "Check drafts against source IDs and figures.", "Preserve verified metrics when narrative validation fails."],
       "artifact": {
         "type": "media", "kind": "video", "label": "Governed AI architecture in the sample build",
@@ -131,7 +131,7 @@ window.CASE_STUDY = {
       "eyebrow": "The bounded offer",
       "title": "Build the smallest useful system inside tools you already use",
       "lead": "The offer is one bounded workflow inside Google Workspace, with agreed checks, documentation, and a maintainable handover.",
-      "durationMs": 13000,
+      "durationMs": 13768,
       "bullets": ["One workflow with bounded scope and checks.", "No migration away from Google Workspace.", "Keep a system your team can change."],
       "artifact": {
         "type": "workflow", "label": "Small enough to verify and hand over",

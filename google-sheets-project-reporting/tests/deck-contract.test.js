@@ -44,7 +44,7 @@ test("frozen source deck preserves the eight-stage service story and narration c
   assert.match(deck.footerNote, /AI-generated Cedar narration/);
   assert.equal(deck.startMode, "idle");
 });
-test("staged narration text matches the canonical spec and reused CTA bytes", async () => {
+test("staged narration and every recorded byte match the canonical spec", async () => {
   const spec = JSON.parse(
     await readFile(new URL("../specs/slides.yaml", import.meta.url), "utf8"),
   );
@@ -59,15 +59,16 @@ test("staged narration text matches the canonical spec and reused CTA bytes", as
         "utf8",
       )
     ).trim();
+    const audioUrl =
+      index < 7
+        ? new URL(`../audio/service-reframe/slide-${id}.mp3`, import.meta.url)
+        : new URL("../audio/slide-09.mp3", import.meta.url);
+    const recorded = await readFile(audioUrl);
+    const recordedHash = createHash("sha256").update(recorded).digest("hex");
 
     assert.equal(staged, slide.narration.script);
+    assert.equal(recordedHash, slide.narration.output_sha256);
   }
 
-  const reusedCta = await readFile(
-    new URL("../audio/slide-09.mp3", import.meta.url),
-  );
-  const reusedHash = createHash("sha256").update(reusedCta).digest("hex");
-
   assert.equal(spec.slides[7].narration.audio, "audio/slide-09.mp3");
-  assert.equal(reusedHash, spec.slides[7].narration.output_sha256);
 });

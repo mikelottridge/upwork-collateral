@@ -5,7 +5,7 @@
     "audience_platform": "cross-channel portfolio",
     "contract_status": "approved",
     "mode": "self-running",
-    "target_total_seconds": 120,
+    "target_total_seconds": 123,
     "timing": {
       "extended_runtime_approved": true,
       "approval_record": {
@@ -59,78 +59,78 @@
       "manual_navigation": ["previous-button", "next-button", "arrow-left", "arrow-right"],
       "use_scroll_into_view": false,
       "audio_base": "../audio/service-reframe/",
-      "audio_version": "cedar-20260728-service-reframe"
+      "audio_version": "cedar-20260728"
     }
   },
   "slides": [
     {
-      "id": "slide-01", "role": "title", "template": "headline-hero", "seconds": 14,
+      "id": "slide-01", "role": "title", "template": "headline-hero", "seconds": 14.368,
       "headline": "When the spreadsheet works—but the workflow around it does not",
       "subhead": "The Sheet may hold the right facts while recurring decisions still depend on manual filtering, counting, and rewriting.",
       "body": ["The source data can already be current.", "Each decision rebuilds filters, counts, and wording.", "Numbers and narrative gain room to drift."],
       "visual": {"asset_ids": [], "alt_summary": "Comparison of a repeated manual reporting loop with a controlled Sheet workflow."},
       "evidence": {"type": "none", "source": null, "permission_verified": true, "redacted": true},
-      "narration": {"script": "Your Google Sheet may already hold the right facts. The manual work around it is the bottleneck: rebuilding filters, counts, and explanations for each recurring decision, with more opportunity for the numbers and narrative to drift.", "transcript": "Your Google Sheet may already hold the right facts. The manual work around it is the bottleneck: rebuilding filters, counts, and explanations for each recurring decision, with more opportunity for the numbers and narrative to drift.", "audio": "audio/service-reframe/slide-01.mp3", "duration_seconds": 13, "output_sha256": "pending-openai-audio-generation"},
+      "narration": {"script": "Your Google Sheet may already hold the right facts. The manual work around it is the bottleneck: rebuilding filters, counts, and explanations for each recurring decision, with more opportunity for the numbers and narrative to drift.", "transcript": "Your Google Sheet may already hold the right facts. The manual work around it is the bottleneck: rebuilding filters, counts, and explanations for each recurring decision, with more opportunity for the numbers and narrative to drift.", "audio": "audio/service-reframe/slide-01.mp3", "duration_seconds": 13.368, "output_sha256": "9275315069e4a31b0ccdc384526b15b686c0b0ab99621d90d28d419eab48eddd"},
       "notes": ["Illustrative comparison only; no client result is implied."], "eyebrow": "The recurring-work gap", "audio": "audio/service-reframe/slide-01.mp3"
     },
     {
-      "id": "slide-02", "role": "problem", "template": "case-study", "seconds": 18,
+      "id": "slide-02", "role": "problem", "template": "case-study", "seconds": 19.816,
       "headline": "A working example I built: one Sheet, three controlled workflows",
       "subhead": "This self-built sample shows the pattern running. It is evidence of the method—not client work or a standalone product.",
       "body": ["Built by me on a sample tracker.", "One dialog drives three reporting jobs.", "Every run requires explicit choices before writing."],
       "visual": {"asset_ids": ["report-dialog"], "alt_summary": "Self-built Apps Script report dialog using sample project data with explicit workflow and provider choices."},
       "evidence": {"type": "illustrative", "source": "screenshots/dialog-stakeholder-v1.png", "permission_verified": true, "redacted": true},
-      "narration": {"script": "This is a self-built demonstration using sample data, not client work. One bound Apps Script dialog turns a project tracker into daily review, workload, and stakeholder-reporting workflows. The point is not this product. It is the controlled pattern: explicit choices before the system writes.", "transcript": "This is a self-built demonstration using sample data, not client work. One bound Apps Script dialog turns a project tracker into daily review, workload, and stakeholder-reporting workflows. The point is not this product. It is the controlled pattern: explicit choices before the system writes.", "audio": "audio/service-reframe/slide-02.mp3", "duration_seconds": 17, "output_sha256": "pending-openai-audio-generation"},
+      "narration": {"script": "This is a self-built demonstration using sample data, not client work. One bound Apps Script dialog turns a project tracker into daily review, workload, and stakeholder-reporting workflows. The point is not this product. It is the controlled pattern: explicit choices before the system writes.", "transcript": "This is a self-built demonstration using sample data, not client work. One bound Apps Script dialog turns a project tracker into daily review, workload, and stakeholder-reporting workflows. The point is not this product. It is the controlled pattern: explicit choices before the system writes.", "audio": "audio/service-reframe/slide-02.mp3", "duration_seconds": 18.816, "output_sha256": "ef2d27b04d14f6be0477c40c2115b4ef4211f9424249ebc6282c1b6db0f24e11"},
       "notes": ["Self-built demonstration using sample data; not client work."], "eyebrow": "Self-built sample proof", "audio": "audio/service-reframe/slide-02.mp3"
     },
     {
-      "id": "slide-03", "role": "solution", "template": "process-strip", "seconds": 16,
+      "id": "slide-03", "role": "solution", "template": "process-strip", "seconds": 16.912,
       "headline": "The pattern transfers: structured fields, Apps Script logic, governed AI",
       "subhead": "The example works because three layers have separate jobs—and the same architecture can support other Sheet-based decisions.",
       "body": ["Controlled fields keep source facts trustworthy.", "Apps Script owns calculations and writes.", "AI helps with language, never arithmetic."],
       "visual": {"asset_ids": ["task-tracker"], "alt_summary": "Sample task tracker illustrating controlled fields beneath a transferable three-layer workflow."},
       "evidence": {"type": "illustrative", "source": "screenshots/task-tracker-focused-v2.png", "permission_verified": true, "redacted": true},
-      "narration": {"script": "That pattern transfers to other Sheet-based work. Controlled fields keep the source facts trustworthy. Apps Script owns calculations and writes. AI appears only where language helps. Together, those layers turn a spreadsheet into a maintainable operational system.", "transcript": "That pattern transfers to other Sheet-based work. Controlled fields keep the source facts trustworthy. Apps Script owns calculations and writes. AI appears only where language helps. Together, those layers turn a spreadsheet into a maintainable operational system.", "audio": "audio/service-reframe/slide-03.mp3", "duration_seconds": 15, "output_sha256": "pending-openai-audio-generation"},
+      "narration": {"script": "That pattern transfers to other Sheet-based work. Controlled fields keep the source facts trustworthy. Apps Script owns calculations and writes. AI appears only where language helps. Together, those layers turn a spreadsheet into a maintainable operational system.", "transcript": "That pattern transfers to other Sheet-based work. Controlled fields keep the source facts trustworthy. Apps Script owns calculations and writes. AI appears only where language helps. Together, those layers turn a spreadsheet into a maintainable operational system.", "audio": "audio/service-reframe/slide-03.mp3", "duration_seconds": 15.912, "output_sha256": "02919a3c59de269b1c351004744d97e21f9815ea212be9f3e255aaef0434055f"},
       "notes": [], "eyebrow": "The transferable pattern", "audio": "audio/service-reframe/slide-03.mp3"
     },
     {
-      "id": "slide-04", "role": "process", "template": "process-strip", "seconds": 14,
+      "id": "slide-04", "role": "process", "template": "process-strip", "seconds": 13.456,
       "headline": "Start with one decision, then map data and acceptance checks",
       "subhead": "A bounded build begins with the recurring decision, the fields that support it, and the conditions required for trust.",
       "body": ["Pick one recurring, high-friction decision.", "Map supporting fields and missing data.", "Agree acceptance checks before any build."],
       "visual": {"asset_ids": [], "alt_summary": "Three-step engagement process: choose a decision, map its data, and define acceptance checks."},
       "evidence": {"type": "none", "source": null, "permission_verified": true, "redacted": true},
-      "narration": {"script": "A useful build starts with one recurring decision, not a feature list. We map the fields that support it, identify what the data cannot answer, and agree the acceptance checks before any output is trusted.", "transcript": "A useful build starts with one recurring decision, not a feature list. We map the fields that support it, identify what the data cannot answer, and agree the acceptance checks before any output is trusted.", "audio": "audio/service-reframe/slide-04.mp3", "duration_seconds": 13, "output_sha256": "pending-openai-audio-generation"},
+      "narration": {"script": "A useful build starts with one recurring decision, not a feature list. We map the fields that support it, identify what the data cannot answer, and agree the acceptance checks before any output is trusted.", "transcript": "A useful build starts with one recurring decision, not a feature list. We map the fields that support it, identify what the data cannot answer, and agree the acceptance checks before any output is trusted.", "audio": "audio/service-reframe/slide-04.mp3", "duration_seconds": 12.456, "output_sha256": "f1fb52615d035fb0bfa3c7317d5240ebe91048617c876d206fbc0904d2f1e542"},
       "notes": [], "eyebrow": "How work is scoped", "audio": "audio/service-reframe/slide-04.mp3"
     },
     {
-      "id": "slide-05", "role": "proof", "template": "case-study", "seconds": 19,
+      "id": "slide-05", "role": "proof", "template": "case-study", "seconds": 16.96,
       "headline": "Back to the example: useful output without invented precision",
       "subhead": "The workload report uses only counts the sample Sheet supports and remains useful with AI completely switched off.",
       "body": ["Use open, overdue, blocked, and due-soon counts.", "Do not invent utilization without hours.", "Keep deterministic output independent of AI."],
       "visual": {"asset_ids": ["workload-report"], "alt_summary": "Self-built workload report using supported task counts without an unsupported utilization percentage."},
       "evidence": {"type": "illustrative", "source": "screenshots/workload-focused-v3.png and an illustrative table structure", "permission_verified": true, "redacted": true},
-      "narration": {"script": "Back in the example, the workload report uses counts the Sheet can actually support: open, overdue, blocked, and due soon. It does not invent utilization because the data contains no hours or capacity. The same output still works with every AI provider switched off.", "transcript": "Back in the example, the workload report uses counts the Sheet can actually support: open, overdue, blocked, and due soon. It does not invent utilization because the data contains no hours or capacity. The same output still works with every AI provider switched off.", "audio": "audio/service-reframe/slide-05.mp3", "duration_seconds": 18, "output_sha256": "pending-openai-audio-generation"},
+      "narration": {"script": "Back in the example, the workload report uses counts the Sheet can actually support: open, overdue, blocked, and due soon. It does not invent utilization because the data contains no hours or capacity. The same output still works with every AI provider switched off.", "transcript": "Back in the example, the workload report uses counts the Sheet can actually support: open, overdue, blocked, and due soon. It does not invent utilization because the data contains no hours or capacity. The same output still works with every AI provider switched off.", "audio": "audio/service-reframe/slide-05.mp3", "duration_seconds": 15.96, "output_sha256": "88d139f89b71d888519dce84541170a6baafeecc735196475c2d587d1ed528e5"},
       "notes": ["Any table artifact is an illustration of report structure, not a screenshot."], "eyebrow": "Example under scrutiny", "audio": "audio/service-reframe/slide-05.mp3"
     },
     {
-      "id": "slide-06", "role": "differentiator", "template": "case-study", "seconds": 19,
+      "id": "slide-06", "role": "differentiator", "template": "case-study", "seconds": 21.016,
       "headline": "AI drafts language. Deterministic logic owns the numbers.",
       "subhead": "The boundary is enforced in code: scoped facts go out, supported figures come back, and validation failure stays visible.",
       "body": ["Send selected facts, never notes or emails.", "Check drafts against source IDs and figures.", "Preserve verified metrics when narrative validation fails."],
       "visual": {"asset_ids": ["security-poster", "security-mobile", "workflow-video"], "alt_summary": "Redacted architecture showing selected facts, deterministic metrics, governed AI drafting, and owner-private output."},
       "evidence": {"type": "illustrative", "source": "screenshots/security-architecture-redacted-v1.png and video/workflow-report-proof.webm", "permission_verified": true, "redacted": true},
-      "narration": {"script": "When AI is used, it drafts language; deterministic logic still owns every number. Only selected task facts and computed aggregates are sent, never notes or emails. Drafts are checked against source IDs and supported figures. If validation fails, verified metrics remain and the narrative is marked unavailable.", "transcript": "When AI is used, it drafts language; deterministic logic still owns every number. Only selected task facts and computed aggregates are sent, never notes or emails. Drafts are checked against source IDs and supported figures. If validation fails, verified metrics remain and the narrative is marked unavailable.", "audio": "audio/service-reframe/slide-06.mp3", "duration_seconds": 18, "output_sha256": "pending-openai-audio-generation"},
+      "narration": {"script": "When AI is used, it drafts language; deterministic logic still owns every number. Only selected task facts and computed aggregates are sent, never notes or emails. Drafts are checked against source IDs and supported figures. If validation fails, verified metrics remain and the narrative is marked unavailable.", "transcript": "When AI is used, it drafts language; deterministic logic still owns every number. Only selected task facts and computed aggregates are sent, never notes or emails. Drafts are checked against source IDs and supported figures. If validation fails, verified metrics remain and the narrative is marked unavailable.", "audio": "audio/service-reframe/slide-06.mp3", "duration_seconds": 20.016, "output_sha256": "883bf54e7b9b4898f381585962177b613bd4adc2cec8ac0bcd0e4d3c2291c331"},
       "notes": ["Provider names are implementation evidence, not the offer."], "eyebrow": "Governed AI boundary", "audio": "audio/service-reframe/slide-06.mp3"
     },
     {
-      "id": "slide-07", "role": "offer", "template": "solution-map", "seconds": 13,
+      "id": "slide-07", "role": "offer", "template": "solution-map", "seconds": 13.768,
       "headline": "Build the smallest useful system inside tools you already use",
       "subhead": "The offer is one bounded workflow inside Google Workspace, with agreed checks, documentation, and a maintainable handover.",
       "body": ["One workflow with bounded scope and checks.", "No migration away from Google Workspace.", "Keep a system your team can change."],
       "visual": {"asset_ids": [], "alt_summary": "Bounded pilot from one recurring decision through a documented, maintainable handover."},
       "evidence": {"type": "none", "source": null, "permission_verified": true, "redacted": true},
-      "narration": {"script": "The offer is deliberately small: one workflow, inside the Google Workspace tools you already use, with agreed checks and documentation. Nothing needs to migrate, and your team keeps a system it can understand, operate, and change.", "transcript": "The offer is deliberately small: one workflow, inside the Google Workspace tools you already use, with agreed checks and documentation. Nothing needs to migrate, and your team keeps a system it can understand, operate, and change.", "audio": "audio/service-reframe/slide-07.mp3", "duration_seconds": 12, "output_sha256": "pending-openai-audio-generation"},
+      "narration": {"script": "The offer is deliberately small: one workflow, inside the Google Workspace tools you already use, with agreed checks and documentation. Nothing needs to migrate, and your team keeps a system it can understand, operate, and change.", "transcript": "The offer is deliberately small: one workflow, inside the Google Workspace tools you already use, with agreed checks and documentation. Nothing needs to migrate, and your team keeps a system it can understand, operate, and change.", "audio": "audio/service-reframe/slide-07.mp3", "duration_seconds": 12.768, "output_sha256": "bd8d64b52d921e61bb9a57e00d7a80a0890b377dd87ec134249d5c329666f84d"},
       "notes": [], "eyebrow": "The bounded offer", "audio": "audio/service-reframe/slide-07.mp3"
     },
     {
