@@ -1,0 +1,14 @@
+{
+  "cutover_date": "2026-07-27",
+  "source_commit": "e69330d745f59d23ace4eb5b547c95361126e3fa",
+  "remote_branch": "main",
+  "pre_cutover_commit": "a13f4853e552d9eb83386b4b30c02b9f0457f6d9",
+  "rollback_tag": "google-sheets-pre-reveal-20260727",
+  "pages_run_id": 30329166836,
+  "pages_run_url": "https://github.com/mikelottridge/upwork-collateral/actions/runs/30329166836",
+  "pages_status": "success",
+  "base_url": "https://mikelottridge.github.io/upwork-collateral/google-sheets-project-reporting/site/index.html",
+  "upwork_url": "https://mikelottridge.github.io/upwork-collateral/google-sheets-project-reporting/site/index.html?upwork=1",
+  "live_status": "pass",
+  "audible_quality_verified": false
+}
