@@ -2,7 +2,7 @@
 
 Date: 2026-07-28
 Approved outline SHA-256: `b57a2e085c753521e6f58f1f6583781fb9a2380742482e9de5f34b86236519a2`
-Status: local implementation and certification complete; deployment pending.
+Status: local implementation and certification complete; live deployment verified in `live-qa.md`.
 
 ## Story and advisory review
 
@@ -33,7 +33,7 @@ Status: local implementation and certification complete; deployment pending.
 - All eight clips are 24 kHz mono MP3 at 128 kbps; measured durations and SHA-256 hashes match the canonical spec.
 - Local runtime QA confirms idle-before-gesture, current first-clip playback, audio-ended advancement, current second-clip playback, and successful MP3 requests.
 - Audible subjective quality remains unverified because this environment cannot listen.
-- No incomplete build has been deployed.
+- The certified build was deployed after all local gates passed.
 
 ## Static PDF
 

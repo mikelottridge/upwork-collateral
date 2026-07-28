@@ -1,3 +1,4 @@
+import argparse
 import asyncio
 import json
 from pathlib import Path
@@ -5,8 +6,8 @@ from pathlib import Path
 from playwright.async_api import async_playwright
 
 
-URL = "http://127.0.0.1:4174/site/"
-OUTPUT = Path("qa/reveal-production/local-audio-qa.json")
+DEFAULT_URL = "http://127.0.0.1:4174/site/"
+DEFAULT_OUTPUT = Path("qa/reveal-production/local-audio-qa.json")
 
 
 async def audio_state(page):
@@ -26,7 +27,7 @@ async def audio_state(page):
     )
 
 
-async def main():
+async def main(url, output):
     async with async_playwright() as pw:
         browser = await pw.chromium.launch(headless=True)
         page = await browser.new_page(viewport={"width": 1366, "height": 768})
@@ -55,7 +56,7 @@ async def main():
             ),
         )
 
-        await page.goto(URL, wait_until="domcontentloaded")
+        await page.goto(url, wait_until="domcontentloaded")
         await page.wait_for_timeout(500)
         idle = await audio_state(page)
 
@@ -70,7 +71,7 @@ async def main():
         await browser.close()
 
     result = {
-        "url": URL,
+        "url": url,
         "idle": idle,
         "first_stage": first_stage,
         "second_stage": second_stage,
@@ -92,11 +93,11 @@ async def main():
             ),
             "audio_requests_succeeded": bool(
                 audio_responses
-                and all(item["status"] == 200 for item in audio_responses)
+                and all(item["status"] in {200, 206} for item in audio_responses)
             ),
         },
     }
-    OUTPUT.write_text(json.dumps(result, indent=2), encoding="utf-8")
+    output.write_text(json.dumps(result, indent=2), encoding="utf-8")
     print(json.dumps(result, indent=2))
 
     if not all(result["checks"].values()):
@@ -104,4 +105,8 @@ async def main():
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--url", default=DEFAULT_URL)
+    parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
+    args = parser.parse_args()
+    asyncio.run(main(args.url, args.output))

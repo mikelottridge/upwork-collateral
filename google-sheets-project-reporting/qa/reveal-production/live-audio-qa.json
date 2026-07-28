@@ -1,0 +1,34 @@
+{
+  "url": "https://mikelottridge.github.io/upwork-collateral/google-sheets-project-reporting/site/index.html?qa=6f4504a#/0",
+  "idle": null,
+  "first_stage": {
+    "paused": false,
+    "currentTime": 1.276122,
+    "duration": 13.368,
+    "src": "https://mikelottridge.github.io/upwork-collateral/google-sheets-project-reporting/audio/service-reframe/slide-01.mp3?v=cedar-20260728",
+    "hash": "#/"
+  },
+  "second_stage": {
+    "paused": false,
+    "currentTime": 1.016528,
+    "duration": 18.816,
+    "src": "https://mikelottridge.github.io/upwork-collateral/google-sheets-project-reporting/audio/service-reframe/slide-02.mp3?v=cedar-20260728",
+    "hash": "#/1"
+  },
+  "audio_responses": [
+    {
+      "url": "https://mikelottridge.github.io/upwork-collateral/google-sheets-project-reporting/audio/service-reframe/slide-01.mp3?v=cedar-20260728",
+      "status": 206
+    },
+    {
+      "url": "https://mikelottridge.github.io/upwork-collateral/google-sheets-project-reporting/audio/service-reframe/slide-02.mp3?v=cedar-20260728",
+      "status": 206
+    }
+  ],
+  "checks": {
+    "idle_before_gesture": true,
+    "first_audio_played": true,
+    "advanced_on_audio_end": true,
+    "audio_requests_succeeded": true
+  }
+}

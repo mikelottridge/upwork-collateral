@@ -1,0 +1,177 @@
+{
+  "revision": "6f4504a",
+  "base": {
+    "url": "https://mikelottridge.github.io/upwork-collateral/google-sheets-project-reporting/site/index.html?channel=base&qa=6f4504a#/7",
+    "hero": "Custom Google Sheets systems for work your team still does by hand",
+    "stage_count": 8,
+    "hash": "#/7",
+    "progression_mode": "",
+    "mailto_links": 1,
+    "email_text_count": 1,
+    "upwork_text_count": 0,
+    "console_errors": [],
+    "page_errors": [],
+    "failed_responses": [],
+    "cta_href": "mailto:mikelottridge@productmanagementresources.pro"
+  },
+  "upwork": {
+    "url": "https://mikelottridge.github.io/upwork-collateral/google-sheets-project-reporting/site/index.html?upwork=1&qa=6f4504a#/7",
+    "hero": "Custom Google Sheets systems for work your team still does by hand",
+    "stage_count": 8,
+    "hash": "#/7",
+    "progression_mode": "Manual progression on this screen",
+    "mailto_links": 0,
+    "email_text_count": 0,
+    "upwork_text_count": 1,
+    "console_errors": [],
+    "page_errors": [],
+    "failed_responses": [],
+    "cta_href": "https://www.upwork.com/freelancers/mikelottridge"
+  },
+  "assets": [
+    {
+      "path": "site/index.html",
+      "status": 200,
+      "bytes": 4368,
+      "remote_sha256": "9186e44eac98bdc20f3440955e59b409b077363803c73d4b12e4de9325875e33",
+      "local_sha256": "9186e44eac98bdc20f3440955e59b409b077363803c73d4b12e4de9325875e33",
+      "hash_match": true
+    },
+    {
+      "path": "site/assets/index-BeeD5pJL.js",
+      "status": 200,
+      "bytes": 145995,
+      "remote_sha256": "f69d15e6eb6394c47b4ac44dc129d12861617e99431d28f6fd60fea209901ca1",
+      "local_sha256": "f69d15e6eb6394c47b4ac44dc129d12861617e99431d28f6fd60fea209901ca1",
+      "hash_match": true
+    },
+    {
+      "path": "site/assets/index-8inmnRYR.css",
+      "status": 200,
+      "bytes": 68242,
+      "remote_sha256": "a47811ef6d735c0d51fdd310fc0457cb2299b4e7e201e45b28d13fba99e53f7b",
+      "local_sha256": "a47811ef6d735c0d51fdd310fc0457cb2299b4e7e201e45b28d13fba99e53f7b",
+      "hash_match": true
+    },
+    {
+      "path": "audio/service-reframe/slide-01.mp3",
+      "status": 200,
+      "bytes": 213888,
+      "remote_sha256": "9275315069e4a31b0ccdc384526b15b686c0b0ab99621d90d28d419eab48eddd",
+      "local_sha256": "9275315069e4a31b0ccdc384526b15b686c0b0ab99621d90d28d419eab48eddd",
+      "hash_match": true
+    },
+    {
+      "path": "audio/service-reframe/slide-02.mp3",
+      "status": 200,
+      "bytes": 301056,
+      "remote_sha256": "ef2d27b04d14f6be0477c40c2115b4ef4211f9424249ebc6282c1b6db0f24e11",
+      "local_sha256": "ef2d27b04d14f6be0477c40c2115b4ef4211f9424249ebc6282c1b6db0f24e11",
+      "hash_match": true
+    },
+    {
+      "path": "audio/service-reframe/slide-03.mp3",
+      "status": 200,
+      "bytes": 254592,
+      "remote_sha256": "02919a3c59de269b1c351004744d97e21f9815ea212be9f3e255aaef0434055f",
+      "local_sha256": "02919a3c59de269b1c351004744d97e21f9815ea212be9f3e255aaef0434055f",
+      "hash_match": true
+    },
+    {
+      "path": "audio/service-reframe/slide-04.mp3",
+      "status": 200,
+      "bytes": 199296,
+      "remote_sha256": "f1fb52615d035fb0bfa3c7317d5240ebe91048617c876d206fbc0904d2f1e542",
+      "local_sha256": "f1fb52615d035fb0bfa3c7317d5240ebe91048617c876d206fbc0904d2f1e542",
+      "hash_match": true
+    },
+    {
+      "path": "audio/service-reframe/slide-05.mp3",
+      "status": 200,
+      "bytes": 255360,
+      "remote_sha256": "88d139f89b71d888519dce84541170a6baafeecc735196475c2d587d1ed528e5",
+      "local_sha256": "88d139f89b71d888519dce84541170a6baafeecc735196475c2d587d1ed528e5",
+      "hash_match": true
+    },
+    {
+      "path": "audio/service-reframe/slide-06.mp3",
+      "status": 200,
+      "bytes": 320256,
+      "remote_sha256": "883bf54e7b9b4898f381585962177b613bd4adc2cec8ac0bcd0e4d3c2291c331",
+      "local_sha256": "883bf54e7b9b4898f381585962177b613bd4adc2cec8ac0bcd0e4d3c2291c331",
+      "hash_match": true
+    },
+    {
+      "path": "audio/service-reframe/slide-07.mp3",
+      "status": 200,
+      "bytes": 204288,
+      "remote_sha256": "bd8d64b52d921e61bb9a57e00d7a80a0890b377dd87ec134249d5c329666f84d",
+      "local_sha256": "bd8d64b52d921e61bb9a57e00d7a80a0890b377dd87ec134249d5c329666f84d",
+      "hash_match": true
+    },
+    {
+      "path": "audio/slide-09.mp3",
+      "status": 200,
+      "bytes": 88320,
+      "remote_sha256": "66fd66156ecf1c897aa104b47c1723d63d3684f1449f9cfa6e18555cb94d5c95",
+      "local_sha256": "66fd66156ecf1c897aa104b47c1723d63d3684f1449f9cfa6e18555cb94d5c95",
+      "hash_match": true
+    },
+    {
+      "path": "screenshots/dialog-stakeholder-v1.png",
+      "status": 200,
+      "bytes": 58845,
+      "remote_sha256": "984e8b9d8dcb8fd5709acd89ab737e655d7548f87537fb40480659c147f6919a",
+      "local_sha256": "984e8b9d8dcb8fd5709acd89ab737e655d7548f87537fb40480659c147f6919a",
+      "hash_match": true
+    },
+    {
+      "path": "screenshots/task-tracker-focused-v2.png",
+      "status": 200,
+      "bytes": 56964,
+      "remote_sha256": "73dc591101b8700ed999bd59658e75eec0a79836b2ccb6656b248a0a8dd71ef7",
+      "local_sha256": "73dc591101b8700ed999bd59658e75eec0a79836b2ccb6656b248a0a8dd71ef7",
+      "hash_match": true
+    },
+    {
+      "path": "screenshots/workload-focused-v3.png",
+      "status": 200,
+      "bytes": 105501,
+      "remote_sha256": "8a4a57ef1f8d4863ae8f780acac4e549306ad208353c98d9d97c7bd61e598145",
+      "local_sha256": "8a4a57ef1f8d4863ae8f780acac4e549306ad208353c98d9d97c7bd61e598145",
+      "hash_match": true
+    },
+    {
+      "path": "screenshots/security-architecture-redacted-v1.png",
+      "status": 200,
+      "bytes": 79533,
+      "remote_sha256": "a6328b3a10f8957c68ab18e1394014c1a0a6319939c4b8dcddb0f55578167a0f",
+      "local_sha256": "a6328b3a10f8957c68ab18e1394014c1a0a6319939c4b8dcddb0f55578167a0f",
+      "hash_match": true
+    },
+    {
+      "path": "video/workflow-report-proof.webm",
+      "status": 200,
+      "bytes": 1637344,
+      "remote_sha256": "76929cf760ab28af4ee67ba1656281d127d173b2bd0ddb6365b10d71e78221fb",
+      "local_sha256": "76929cf760ab28af4ee67ba1656281d127d173b2bd0ddb6365b10d71e78221fb",
+      "hash_match": true
+    },
+    {
+      "path": "exports/google-sheets-project-reporting.pdf",
+      "status": 200,
+      "bytes": 1059809,
+      "remote_sha256": "e04f6dffca1743c6930f2e7956c866b9c6a5144091d20dfbf4a83849d50e0266",
+      "local_sha256": "e04f6dffca1743c6930f2e7956c866b9c6a5144091d20dfbf4a83849d50e0266",
+      "hash_match": true
+    }
+  ],
+  "checks": {
+    "current_story": true,
+    "base_contact": true,
+    "upwork_contact_only": true,
+    "phone_manual_mode": true,
+    "no_runtime_errors": true,
+    "all_assets_current": true
+  }
+}
