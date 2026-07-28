@@ -1,8 +1,16 @@
 ---
 outline:
   supplied_by_user: false
-  approved: false
-  approval_record: null
+  approved: true
+  approval_record:
+    approver: Mike Lottridge
+    date: 2026-07-27
+    scope:
+      - canonical-spec
+      - assets
+      - html
+      - pdf
+      - deploy
 ---
 
 # Google Sheets Self-Running Presentation Revision Outline
