@@ -4,144 +4,61 @@
     "mode": "revise",
     "purpose": "portfolio-item",
     "contract_status": "approved",
-    "target_runtime_seconds": 165.6,
+    "target_runtime_seconds": 120,
     "timing": {
       "extended_runtime_approved": true,
-      "approval_record": "User explicitly approved relaxing the presentation ceiling to three minutes in this task."
+      "approval_record": {
+        "approver": "Mike Lottridge",
+        "date": "2026-07-28",
+        "reason": "Allow the self-running service-reframe story enough time to show one working example, the transferable method, and the governed-AI boundary without rushing evidence.",
+        "scope": ["deck.timing.total_seconds"]
+      }
     },
-    "outputs": [
-      "html",
-      "pdf"
-    ]
+    "outputs": ["html", "pdf"]
   },
   "audience": {
-    "client_type": "Project managers and operations teams using Google Sheets",
+    "client_type": "Project managers and operations teams whose recurring work runs on a Google Sheet plus manual effort",
     "industry": "cross-industry",
-    "funnel_stage": "proposal-review",
-    "job_post_source": "user-approved Google Sheets Demo proof",
-    "client_vocabulary": [
-      "Google Sheets",
-      "Apps Script",
-      "project reporting",
-      "workload planning",
-      "stakeholder updates",
-      "Gemini",
-      "Claude",
-      "OpenAI"
-    ]
+    "funnel_stage": "portfolio-evaluation",
+    "job_post_source": "user-approved Google Sheets systems service positioning",
+    "client_vocabulary": ["Google Sheets", "Apps Script", "manual workflow", "acceptance checks", "operational system", "Google Workspace"]
   },
   "service": {
-    "name": "Google Sheets + Apps Script project reporting automation",
-    "promised_outcome": "Turn a structured tracker into daily priorities, workload views, and review-ready stakeholder drafts.",
-    "mechanism": "Bound Apps Script dialog with deterministic reporting and explicit provider routing.",
-    "deliverables": [
-      "Daily Actions report",
-      "Workload report",
-      "custom report dialog",
-      "validated owner-private stakeholder draft"
-    ],
-    "exclusions": [
-      "public access to the private proof Sheet",
-      "shared API keys",
-      "unsupported utilization percentages",
-      "unreviewed AI output"
-    ]
+    "name": "Custom Google Sheets + Apps Script systems for recurring manual work",
+    "promised_outcome": "Replace one recurring manual Sheet workflow with a controlled system that produces the same decision the same way every time.",
+    "mechanism": "Structured Sheet fields, Apps Script logic, and governed AI, scoped to one decision with explicit acceptance checks.",
+    "deliverables": ["one scoped decision and data map", "Apps Script logic bound to the client's own Sheet", "documented acceptance and validation checks", "handover covering operation and future changes"],
+    "exclusions": ["migration off Google Workspace", "invented metrics where source data does not support them", "autonomous AI writes without human review", "shared API keys", "unreviewed AI output"]
   },
   "problem": {
-    "primary": "The task table can be current while the management report is already stale.",
-    "consequences": [
-      "Repeated manual filtering and counting",
-      "inconsistent stakeholder summaries",
-      "weak traceability from narrative to tasks"
-    ]
+    "primary": "The Google Sheet can be current while the recurring decision workflow around it is still manual.",
+    "consequences": ["Repeated filtering, counting, and rewriting", "numbers and narrative drifting apart", "important operating logic remaining undocumented"]
   },
   "proof": {
+    "example_status": "self-built working demonstration using sample data; not client work",
     "items": [
-      {
-        "id": "proof-sheet",
-        "type": "verified",
-        "claim": "Structured task facts and stable task IDs remain visible in Google Sheets.",
-        "source": "screenshots/task-tracker-focused-v2.png",
-        "permission": "public-safe owner-created proof",
-        "redaction_required": true
-      },
-      {
-        "id": "proof-workload",
-        "type": "verified",
-        "claim": "Workload groups supported counts without inventing utilization.",
-        "source": "screenshots/workload-focused-v3.png",
-        "permission": "public-safe owner-created proof",
-        "redaction_required": true
-      },
-      {
-        "id": "proof-dialog",
-        "type": "verified",
-        "claim": "A bound Apps Script dialog requires explicit report, project, and provider choices.",
-        "source": "screenshots/dialog-stakeholder-v1.png",
-        "permission": "public-safe owner-created proof",
-        "redaction_required": true
-      },
-      {
-        "id": "proof-security",
-        "type": "verified",
-        "claim": "Claude and OpenAI use separate Secret Manager secrets while Gemini uses Google authorization.",
-        "source": "screenshots/security-architecture-redacted-v1.png",
-        "permission": "public-safe redacted proof",
-        "redaction_required": true
-      },
-      {
-        "id": "proof-private-doc",
-        "type": "verified",
-        "claim": "Generated stakeholder Docs were verified shared=false with owner-only permission.",
-        "source": "video/workflow-report-proof.webm",
-        "permission": "public-safe browser recording",
-        "redaction_required": true
-      }
+      {"id": "proof-dialog", "type": "illustrative", "claim": "The self-built demonstration requires explicit report, project, and provider choices before it writes.", "source": "screenshots/dialog-stakeholder-v1.png", "permission": "public-safe owner-created demonstration", "redaction_required": true},
+      {"id": "proof-sheet", "type": "illustrative", "claim": "Controlled task fields and stable task IDs make outputs traceable in the working demonstration.", "source": "screenshots/task-tracker-focused-v2.png", "permission": "public-safe owner-created demonstration", "redaction_required": true},
+      {"id": "proof-workload", "type": "illustrative", "claim": "The demonstration uses supported workload counts without inventing utilization.", "source": "screenshots/workload-focused-v3.png", "permission": "public-safe owner-created demonstration", "redaction_required": true},
+      {"id": "proof-security", "type": "illustrative", "claim": "The demonstration separates deterministic metrics from AI drafting and validates AI output.", "source": "screenshots/security-architecture-redacted-v1.png", "permission": "public-safe owner-created redacted demonstration", "redaction_required": true},
+      {"id": "proof-private-doc", "type": "illustrative", "claim": "The working demonstration records an owner-private, task-linked output flow.", "source": "video/workflow-report-proof.webm", "permission": "public-safe owner-created browser recording", "redaction_required": true}
     ]
   },
   "positioning": {
-    "differentiators": [
-      "Google Sheets stays the operating surface",
-      "deterministic metrics remain authoritative",
-      "provider choice is explicit",
-      "AI failures remain visible"
-    ],
-    "offer": "bounded pilot around one reporting decision"
+    "differentiators": ["the client's Google Sheet stays the operating surface", "scope starts with one recurring decision", "deterministic logic remains authoritative", "AI is bounded, validated, and allowed to fail visibly", "the client keeps an understandable and changeable system"],
+    "offer": "bounded pilot around one recurring Sheet-based decision"
   },
-  "cta": {
-    "type": "url-selected-contact",
-    "label": "Use the contact option shown to tell me which Sheet process you want simplified."
-  },
-  "brand": {
-    "tokens_file": "brand-tokens.yaml",
-    "logo_asset_id": null,
-    "tone": "specific, factual, client-directed"
-  },
-  "assumptions": [],
+  "cta": {"type": "url-selected-contact", "label": "Show me the Sheet process you still run by hand."},
+  "brand": {"tokens_file": "brand-tokens.yaml", "logo_asset_id": null, "tone": "specific, factual, client-directed"},
+  "assumptions": ["The project-reporting build is presented only as a self-built working demonstration using sample data.", "No claim implies multiple client deployments or a standalone product."],
   "outline_approval": {
-    "source": "revision-outline.md",
-    "sha256": "9ffe44bb10429e9ebc2e40740d3c1d93a4ed4fdcede71da98fba9272550553b5",
-    "approval_record": {
-      "approver": "Mike Lottridge",
-      "date": "2026-07-27",
-      "scope": [
-        "canonical-spec",
-        "assets",
-        "html",
-        "pdf",
-        "deploy"
-      ]
-    }
+    "source": "revision-outline-service-reframe.md",
+    "sha256": "b57a2e085c753521e6f58f1f6583781fb9a2380742482e9de5f34b86236519a2",
+    "approval_record": {"approver": "Mike Lottridge", "date": "2026-07-28", "scope": ["canonical-spec", "assets", "audio", "html", "pdf", "deploy"]}
   },
   "channel": {
     "active_profile": "base",
-    "intended_profiles": [
-      "base",
-      "upwork"
-    ],
-    "runtime_profiles": {
-      "base": "site/index.html",
-      "upwork": "site/index.html?upwork=1"
-    }
+    "intended_profiles": ["base", "upwork"],
+    "runtime_profiles": {"base": "site/index.html", "upwork": "site/index.html?upwork=1"}
   }
 }

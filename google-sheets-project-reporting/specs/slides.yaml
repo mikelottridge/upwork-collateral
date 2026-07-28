@@ -1,20 +1,18 @@
 {
   "deck": {
     "id": "google-sheets-project-reporting",
-    "title": "Google Sheets + Apps Script automation for daily priorities, workload planning, and AI stakeholder updates",
-    "audience_platform": "Upwork",
+    "title": "Custom Google Sheets systems for recurring manual work",
+    "audience_platform": "cross-channel portfolio",
     "contract_status": "approved",
     "mode": "self-running",
-    "target_total_seconds": 166,
+    "target_total_seconds": 120,
     "timing": {
       "extended_runtime_approved": true,
       "approval_record": {
         "approver": "Mike Lottridge",
-        "date": "2026-07-27",
-        "reason": "Preserve the approved nine-clip Cedar narration at its measured 165.6-second runtime.",
-        "scope": [
-          "deck.timing.total_seconds"
-        ]
+        "date": "2026-07-28",
+        "reason": "Show one working example, the transferable method, and the governed-AI boundary without rushing evidence.",
+        "scope": ["deck.timing.total_seconds"]
       }
     },
     "pause_control_required": true,
@@ -28,407 +26,127 @@
       "recorded_audio_required": true,
       "generation_provider": "openai_api",
       "generation_endpoint": "/v1/audio/speech",
-      "generation_model": "gpt-4o-mini-tts",
+      "generation_model": "gpt-4o-mini-tts-2025-12-15",
       "response_format": "mp3",
       "source_change_approved": true,
       "voice_profile": "cedar",
       "prior_voice_profile": "cedar",
       "voice_change_approved": true,
-      "playback_change_approved": true
+      "playback_change_approved": true,
+      "ai_voice_disclosure_required": true
     },
     "ux_change_control": {
       "preserve_existing_behavior": true,
       "material_changes": [
-        {
-          "category": "artifact_rendering",
-          "description": "Added media rendering for public-safe screenshots and muted workflow video.",
-          "approved": true
-        },
-        {
-          "category": "responsive_layout",
-          "description": "Added a portrait mobile security fallback for legibility.",
-          "approved": true
-        },
-        {
-          "category": "runtime",
-          "description": "Replace the custom slide-state runtime with Reveal.js 6.0.1.",
-          "approved": true
-        },
-        {
-          "category": "visible_copy",
-          "description": "Give the hero and slide one distinct concise decision-making jobs without changing narration.",
-          "approved": true
-        },
-        {
-          "category": "keyboard",
-          "description": "Repair focused ArrowLeft and ArrowRight navigation.",
-          "approved": true
-        },
-        {
-          "category": "responsive_progression",
-          "description": "Use static manual progression on phones when the stage exceeds the viewport.",
-          "approved": true
-        }
+        {"category": "positioning", "description": "Replace the PM-product thesis with a Google Sheets systems service thesis.", "approved": true},
+        {"category": "evidence", "description": "Label the working project-reporting proof as a self-built demonstration using sample data, not client work.", "approved": true},
+        {"category": "sequence", "description": "Replace nine PM-feature stages with an eight-stage buyer decision spine and move proof to stage two.", "approved": true},
+        {"category": "narration", "description": "Regenerate seven Cedar clips for the new story and reuse the neutral final CTA clip.", "approved": true},
+        {"category": "runtime", "description": "Reduce the target runtime to approximately two minutes.", "approved": true},
+        {"category": "pdf", "description": "Regenerate the PDF to match the revised eight-stage story.", "approved": true}
       ]
     },
-    "outputs": [
-      "html",
-      "pdf"
-    ],
-    "deployment": {
-      "live_url": null,
-      "audible_playback_checked": false,
-      "silent_autoadvance_checked": false,
-      "first_transition_checked": false,
-      "asset_resolution_checked": false
-    },
+    "outputs": ["html", "pdf"],
+    "deployment": {"live_url": null, "audible_playback_checked": false, "silent_autoadvance_checked": false, "first_transition_checked": false, "asset_resolution_checked": false},
     "style_profile": "technical-editorial-v1",
     "interaction": {
       "start_mode": "idle",
-      "start_button_label": "Start audio/guided mode",
+      "start_button_label": "Start narrated tour",
       "audio_autoplay_on_load": false,
       "advance_trigger": "audio-ended",
       "audio_failure_fallback": "timed",
       "silent_auto_advance": true,
-      "manual_navigation": [
-        "previous-button",
-        "next-button",
-        "arrow-left",
-        "arrow-right"
-      ],
+      "manual_navigation": ["previous-button", "next-button", "arrow-left", "arrow-right"],
       "use_scroll_into_view": false,
-      "audio_base": "../audio/",
-      "audio_version": "cedar-20260725-neutral-cta"
+      "audio_base": "../audio/service-reframe/",
+      "audio_version": "cedar-20260728-service-reframe"
     }
   },
   "slides": [
     {
-      "id": "slide-01",
-      "role": "title",
-      "template": "headline-hero",
-      "seconds": 18.3,
-      "headline": "One governed workflow produces priorities, workload views, and stakeholder drafts",
-      "subhead": "A project manager can move from the shared task table to a focused action view or stakeholder draft without rebuilding filters, counts, and summaries by hand.",
-      "body": [
-        "Keep Google Sheets as the familiar operating surface.",
-        "Use Apps Script for repeatable reporting logic and document creation.",
-        "Choose Gemini, Claude, or OpenAI without changing the PM workflow."
-      ],
-      "visual": {
-        "asset_ids": [],
-        "alt_summary": "One source, three project-management outcomes"
-      },
-      "evidence": {
-        "type": "verified",
-        "source": "private proof implementation and public-safe browser render",
-        "permission_verified": true,
-        "redacted": true
-      },
-      "narration": {
-        "script": "This proof uses Google Sheets and Apps Script to turn one project tracker into daily priorities, workload planning, and AI-assisted stakeholder updates. The project manager chooses the report and, when AI is useful, explicitly chooses Gemini, Claude, or OpenAI.",
-        "transcript": "This proof uses Google Sheets and Apps Script to turn one project tracker into daily priorities, workload planning, and AI-assisted stakeholder updates. The project manager chooses the report and, when AI is useful, explicitly chooses Gemini, Claude, or OpenAI.",
-        "audio": "audio/slide-01.mp3",
-        "duration_seconds": 17.3,
-        "output_sha256": "5ffcfcf6c32153013dbf97822112df2a1dabecc345bc31ff40ed1d47890f1851"
-      },
-      "notes": [],
-      "eyebrow": "The client outcome",
-      "audio": "audio/slide-01.mp3"
+      "id": "slide-01", "role": "title", "template": "headline-hero", "seconds": 14,
+      "headline": "When the spreadsheet works—but the workflow around it does not",
+      "subhead": "The Sheet may hold the right facts while recurring decisions still depend on manual filtering, counting, and rewriting.",
+      "body": ["The source data can already be current.", "Each decision rebuilds filters, counts, and wording.", "Numbers and narrative gain room to drift."],
+      "visual": {"asset_ids": [], "alt_summary": "Comparison of a repeated manual reporting loop with a controlled Sheet workflow."},
+      "evidence": {"type": "none", "source": null, "permission_verified": true, "redacted": true},
+      "narration": {"script": "Your Google Sheet may already hold the right facts. The manual work around it is the bottleneck: rebuilding filters, counts, and explanations for each recurring decision, with more opportunity for the numbers and narrative to drift.", "transcript": "Your Google Sheet may already hold the right facts. The manual work around it is the bottleneck: rebuilding filters, counts, and explanations for each recurring decision, with more opportunity for the numbers and narrative to drift.", "audio": "audio/service-reframe/slide-01.mp3", "duration_seconds": 13, "output_sha256": "pending-openai-audio-generation"},
+      "notes": ["Illustrative comparison only; no client result is implied."], "eyebrow": "The recurring-work gap", "audio": "audio/service-reframe/slide-01.mp3"
     },
     {
-      "id": "slide-02",
-      "role": "problem",
-      "template": "pain-points",
-      "seconds": 17.2,
-      "headline": "The task table may be current while the management view is already stale.",
-      "subhead": "Project managers often repeat the same filtering, regrouping, and status-writing work because a flexible Sheet does not automatically create every decision view.",
-      "body": [
-        "Daily review needs the right project, worker, priority, status, and due horizon.",
-        "Workload planning needs consistent open, overdue, blocked, and due-soon counts.",
-        "Stakeholder updates need concise language without detaching claims from source tasks."
-      ],
-      "visual": {
-        "asset_ids": [],
-        "alt_summary": "What changes when reporting becomes a workflow"
-      },
-      "evidence": {
-        "type": "verified",
-        "source": "existing public tracker and implemented report workflows",
-        "permission_verified": true,
-        "redacted": true
-      },
-      "narration": {
-        "script": "A task tracker can be current while the management view is stale. Daily review, workload planning, and stakeholder writing each require different filters and summaries. Rebuilding those views manually creates repeated effort and makes it easier for counts and narrative to diverge.",
-        "transcript": "A task tracker can be current while the management view is stale. Daily review, workload planning, and stakeholder writing each require different filters and summaries. Rebuilding those views manually creates repeated effort and makes it easier for counts and narrative to diverge.",
-        "audio": "audio/slide-02.mp3",
-        "duration_seconds": 16.2,
-        "output_sha256": "9f31e780efc4023c5534b946a418611cd69ae640e1cd689d0c7257540d5d26fe"
-      },
-      "notes": [],
-      "eyebrow": "The reporting problem",
-      "audio": "audio/slide-02.mp3"
+      "id": "slide-02", "role": "problem", "template": "case-study", "seconds": 18,
+      "headline": "A working example I built: one Sheet, three controlled workflows",
+      "subhead": "This self-built sample shows the pattern running. It is evidence of the method—not client work or a standalone product.",
+      "body": ["Built by me on a sample tracker.", "One dialog drives three reporting jobs.", "Every run requires explicit choices before writing."],
+      "visual": {"asset_ids": ["report-dialog"], "alt_summary": "Self-built Apps Script report dialog using sample project data with explicit workflow and provider choices."},
+      "evidence": {"type": "illustrative", "source": "screenshots/dialog-stakeholder-v1.png", "permission_verified": true, "redacted": true},
+      "narration": {"script": "This is a self-built demonstration using sample data, not client work. One bound Apps Script dialog turns a project tracker into daily review, workload, and stakeholder-reporting workflows. The point is not this product. It is the controlled pattern: explicit choices before the system writes.", "transcript": "This is a self-built demonstration using sample data, not client work. One bound Apps Script dialog turns a project tracker into daily review, workload, and stakeholder-reporting workflows. The point is not this product. It is the controlled pattern: explicit choices before the system writes.", "audio": "audio/service-reframe/slide-02.mp3", "duration_seconds": 17, "output_sha256": "pending-openai-audio-generation"},
+      "notes": ["Self-built demonstration using sample data; not client work."], "eyebrow": "Self-built sample proof", "audio": "audio/service-reframe/slide-02.mp3"
     },
     {
-      "id": "slide-03",
-      "role": "proof",
-      "template": "case-study",
-      "seconds": 19.86,
-      "headline": "The Google Sheet supplies controlled task facts, calculated timing, and stable task IDs.",
-      "subhead": "Apps Script reads a frozen owner-only copy of the public tracker. It does not depend on screenshots, free-form notes, or a second database.",
-      "body": [
-        "Project, worker, priority, status, and dates remain normal Sheet fields.",
-        "Timing categories and recommended actions stay deterministic.",
-        "Notes and email addresses are excluded from every AI request in version one."
-      ],
-      "visual": {
-        "asset_ids": [
-          "task-tracker"
-        ],
-        "alt_summary": "Focused Google Sheets task tracker showing task IDs, projects, workers, priorities, statuses, and calculated timing."
-      },
-      "evidence": {
-        "type": "verified",
-        "source": "screenshots/task-tracker-focused-v2.png",
-        "permission_verified": true,
-        "redacted": true
-      },
-      "narration": {
-        "script": "The foundation is still a normal Google Sheet. Projects, workers, priorities, statuses, and dates are controlled fields, while timing categories remain deterministic. Stable task IDs let every report trace back to the source. Notes and email addresses are excluded from AI requests.",
-        "transcript": "The foundation is still a normal Google Sheet. Projects, workers, priorities, statuses, and dates are controlled fields, while timing categories remain deterministic. Stable task IDs let every report trace back to the source. Notes and email addresses are excluded from AI requests.",
-        "audio": "audio/slide-03.mp3",
-        "duration_seconds": 18.86,
-        "output_sha256": "78f31cb3f1226b41f8265cb91b7a2b2b5cdef9d40f74e6c75eb295cfbae73ae0"
-      },
-      "notes": [],
-      "eyebrow": "The structured foundation",
-      "audio": "audio/slide-03.mp3"
+      "id": "slide-03", "role": "solution", "template": "process-strip", "seconds": 16,
+      "headline": "The pattern transfers: structured fields, Apps Script logic, governed AI",
+      "subhead": "The example works because three layers have separate jobs—and the same architecture can support other Sheet-based decisions.",
+      "body": ["Controlled fields keep source facts trustworthy.", "Apps Script owns calculations and writes.", "AI helps with language, never arithmetic."],
+      "visual": {"asset_ids": ["task-tracker"], "alt_summary": "Sample task tracker illustrating controlled fields beneath a transferable three-layer workflow."},
+      "evidence": {"type": "illustrative", "source": "screenshots/task-tracker-focused-v2.png", "permission_verified": true, "redacted": true},
+      "narration": {"script": "That pattern transfers to other Sheet-based work. Controlled fields keep the source facts trustworthy. Apps Script owns calculations and writes. AI appears only where language helps. Together, those layers turn a spreadsheet into a maintainable operational system.", "transcript": "That pattern transfers to other Sheet-based work. Controlled fields keep the source facts trustworthy. Apps Script owns calculations and writes. AI appears only where language helps. Together, those layers turn a spreadsheet into a maintainable operational system.", "audio": "audio/service-reframe/slide-03.mp3", "duration_seconds": 15, "output_sha256": "pending-openai-audio-generation"},
+      "notes": [], "eyebrow": "The transferable pattern", "audio": "audio/service-reframe/slide-03.mp3"
     },
     {
-      "id": "slide-04",
-      "role": "process",
-      "template": "process-strip",
-      "seconds": 21.95,
-      "headline": "One Apps Script menu turns report choices into validated, repeatable outputs.",
-      "subhead": "The bound script reads the Sheet, validates the request, calculates metrics, refreshes report tabs, and creates a private Google Doc only when the user asks.",
-      "body": [
-        "A document lock prevents overlapping report writes.",
-        "Daily Actions and Workload tabs refresh in place instead of multiplying copies.",
-        "Every stakeholder output records its source timestamp, provider, model, and task IDs."
-      ],
-      "visual": {
-        "asset_ids": [],
-        "alt_summary": "Bound Apps Script execution path"
-      },
-      "evidence": {
-        "type": "verified",
-        "source": "src/apps-script report workflow implementation",
-        "permission_verified": true,
-        "redacted": true
-      },
-      "narration": {
-        "script": "The PM Reports menu launches one Apps Script workflow. It validates the request, computes authoritative metrics, and then refreshes a stable report tab or creates an owner-private Google Doc. A document lock prevents overlapping writes, and every AI output records its source timestamp, provider, model, and source task IDs.",
-        "transcript": "The PM Reports menu launches one Apps Script workflow. It validates the request, computes authoritative metrics, and then refreshes a stable report tab or creates an owner-private Google Doc. A document lock prevents overlapping writes, and every AI output records its source timestamp, provider, model, and source task IDs.",
-        "audio": "audio/slide-04.mp3",
-        "duration_seconds": 20.95,
-        "output_sha256": "cb4acc5c430816785c00ae1d6d46c35dd0a6071bc4d334d8eda7528dbd901c13"
-      },
-      "notes": [],
-      "eyebrow": "The automation flow",
-      "audio": "audio/slide-04.mp3"
+      "id": "slide-04", "role": "process", "template": "process-strip", "seconds": 14,
+      "headline": "Start with one decision, then map data and acceptance checks",
+      "subhead": "A bounded build begins with the recurring decision, the fields that support it, and the conditions required for trust.",
+      "body": ["Pick one recurring, high-friction decision.", "Map supporting fields and missing data.", "Agree acceptance checks before any build."],
+      "visual": {"asset_ids": [], "alt_summary": "Three-step engagement process: choose a decision, map its data, and define acceptance checks."},
+      "evidence": {"type": "none", "source": null, "permission_verified": true, "redacted": true},
+      "narration": {"script": "A useful build starts with one recurring decision, not a feature list. We map the fields that support it, identify what the data cannot answer, and agree the acceptance checks before any output is trusted.", "transcript": "A useful build starts with one recurring decision, not a feature list. We map the fields that support it, identify what the data cannot answer, and agree the acceptance checks before any output is trusted.", "audio": "audio/service-reframe/slide-04.mp3", "duration_seconds": 13, "output_sha256": "pending-openai-audio-generation"},
+      "notes": [], "eyebrow": "How work is scoped", "audio": "audio/service-reframe/slide-04.mp3"
     },
     {
-      "id": "slide-05",
-      "role": "proof",
-      "template": "case-study",
-      "seconds": 19.46,
-      "headline": "Daily review reduces the tracker to the work that needs attention now.",
-      "subhead": "The same dialog can combine project, worker, status, priority, and due-horizon filters, then sort the result into an action-ready Sheet tab.",
-      "body": [
-        "Overdue and blocked work remains visible instead of being averaged into a dashboard.",
-        "Task IDs, due dates, timing categories, and recommended actions stay together.",
-        "The output is deterministic and usable even when every AI provider is unavailable."
-      ],
-      "visual": {
-        "asset_ids": [],
-        "alt_summary": "Daily Actions report pattern"
-      },
-      "evidence": {
-        "type": "verified",
-        "source": "implemented deterministic Daily Actions report",
-        "permission_verified": true,
-        "redacted": true
-      },
-      "narration": {
-        "script": "The Daily Actions report reduces the tracker to work that needs attention now. The project manager can combine project, worker, status, priority, and due horizon. Task ID, timing, due date, and recommended action remain together, and the report works even if no AI provider is configured.",
-        "transcript": "The Daily Actions report reduces the tracker to work that needs attention now. The project manager can combine project, worker, status, priority, and due horizon. Task ID, timing, due date, and recommended action remain together, and the report works even if no AI provider is configured.",
-        "audio": "audio/slide-05.mp3",
-        "duration_seconds": 18.46,
-        "output_sha256": "c4a790dc0afcde7871e2a4e10dcd996c8b568fbd5a3563922727725a1ba5d67f"
-      },
-      "notes": [],
-      "eyebrow": "Daily priorities",
-      "audio": "audio/slide-05.mp3"
+      "id": "slide-05", "role": "proof", "template": "case-study", "seconds": 19,
+      "headline": "Back to the example: useful output without invented precision",
+      "subhead": "The workload report uses only counts the sample Sheet supports and remains useful with AI completely switched off.",
+      "body": ["Use open, overdue, blocked, and due-soon counts.", "Do not invent utilization without hours.", "Keep deterministic output independent of AI."],
+      "visual": {"asset_ids": ["workload-report"], "alt_summary": "Self-built workload report using supported task counts without an unsupported utilization percentage."},
+      "evidence": {"type": "illustrative", "source": "screenshots/workload-focused-v3.png and an illustrative table structure", "permission_verified": true, "redacted": true},
+      "narration": {"script": "Back in the example, the workload report uses counts the Sheet can actually support: open, overdue, blocked, and due soon. It does not invent utilization because the data contains no hours or capacity. The same output still works with every AI provider switched off.", "transcript": "Back in the example, the workload report uses counts the Sheet can actually support: open, overdue, blocked, and due soon. It does not invent utilization because the data contains no hours or capacity. The same output still works with every AI provider switched off.", "audio": "audio/service-reframe/slide-05.mp3", "duration_seconds": 18, "output_sha256": "pending-openai-audio-generation"},
+      "notes": ["Any table artifact is an illustration of report structure, not a screenshot."], "eyebrow": "Example under scrutiny", "audio": "audio/service-reframe/slide-05.mp3"
     },
     {
-      "id": "slide-06",
-      "role": "proof",
-      "template": "case-study",
-      "seconds": 17.75,
-      "headline": "Workload can be grouped by worker or project without inventing utilization percentages.",
-      "subhead": "The report uses counts the Sheet can support: open, overdue, blocked, and due soon. It avoids false precision when hours or capacity data do not exist.",
-      "body": [
-        "Switch grouping between worker and project in the same dialog.",
-        "Compare real task counts and timing risk instead of guessed capacity.",
-        "Refresh the stable Workload tab whenever the source Sheet changes."
-      ],
-      "visual": {
-        "asset_ids": [
-          "workload-report"
-        ],
-        "alt_summary": "Focused Google Sheets dashboard showing open workload counts by owner."
-      },
-      "evidence": {
-        "type": "verified",
-        "source": "screenshots/workload-focused-v3.png",
-        "permission_verified": true,
-        "redacted": true
-      },
-      "narration": {
-        "script": "For workload planning, the user switches between grouping by worker and grouping by project. The report uses facts the Sheet actually contains: open, overdue, blocked, and due-soon counts. It deliberately avoids utilization percentages because this tracker does not contain hours or capacity.",
-        "transcript": "For workload planning, the user switches between grouping by worker and grouping by project. The report uses facts the Sheet actually contains: open, overdue, blocked, and due-soon counts. It deliberately avoids utilization percentages because this tracker does not contain hours or capacity.",
-        "audio": "audio/slide-06.mp3",
-        "duration_seconds": 16.75,
-        "output_sha256": "2cd647507e4c8cfe855d54986ef4377f51ce1180699e63da2bcf1f9fde83161c"
-      },
-      "notes": [],
-      "eyebrow": "Workload planning",
-      "audio": "audio/slide-06.mp3"
+      "id": "slide-06", "role": "differentiator", "template": "case-study", "seconds": 19,
+      "headline": "AI drafts language. Deterministic logic owns the numbers.",
+      "subhead": "The boundary is enforced in code: scoped facts go out, supported figures come back, and validation failure stays visible.",
+      "body": ["Send selected facts, never notes or emails.", "Check drafts against source IDs and figures.", "Preserve verified metrics when narrative validation fails."],
+      "visual": {"asset_ids": ["security-poster", "security-mobile", "workflow-video"], "alt_summary": "Redacted architecture showing selected facts, deterministic metrics, governed AI drafting, and owner-private output."},
+      "evidence": {"type": "illustrative", "source": "screenshots/security-architecture-redacted-v1.png and video/workflow-report-proof.webm", "permission_verified": true, "redacted": true},
+      "narration": {"script": "When AI is used, it drafts language; deterministic logic still owns every number. Only selected task facts and computed aggregates are sent, never notes or emails. Drafts are checked against source IDs and supported figures. If validation fails, verified metrics remain and the narrative is marked unavailable.", "transcript": "When AI is used, it drafts language; deterministic logic still owns every number. Only selected task facts and computed aggregates are sent, never notes or emails. Drafts are checked against source IDs and supported figures. If validation fails, verified metrics remain and the narrative is marked unavailable.", "audio": "audio/service-reframe/slide-06.mp3", "duration_seconds": 18, "output_sha256": "pending-openai-audio-generation"},
+      "notes": ["Provider names are implementation evidence, not the offer."], "eyebrow": "Governed AI boundary", "audio": "audio/service-reframe/slide-06.mp3"
     },
     {
-      "id": "slide-07",
-      "role": "solution",
-      "template": "solution-map",
-      "seconds": 21.86,
-      "headline": "The dialog makes complex reporting choices usable without exposing implementation details.",
-      "subhead": "One interface supports daily review, workload planning, and stakeholder updates while showing only the controls relevant to the selected report.",
-      "body": [
-        "Show only the controls relevant to the selected report type.",
-        "Require one project and an explicit provider before a stakeholder update can run.",
-        "Keep one interface across daily review, workload, and stakeholder work."
-      ],
-      "visual": {
-        "asset_ids": [
-          "report-dialog"
-        ],
-        "alt_summary": "Live Apps Script PM Report Builder with Stakeholder update, Project Aurora, and Claude selected."
-      },
-      "evidence": {
-        "type": "verified",
-        "source": "screenshots/dialog-stakeholder-v1.png",
-        "permission_verified": true,
-        "redacted": true
-      },
-      "narration": {
-        "script": "The custom Apps Script dialog makes the reporting logic approachable. It reveals only the controls needed for the selected workflow, supports a preview before writes, and requires one project plus an explicit provider for stakeholder updates. Configuration checks stay server-side, so keys and OAuth tokens never return to the dialog.",
-        "transcript": "The custom Apps Script dialog makes the reporting logic approachable. It reveals only the controls needed for the selected workflow, supports a preview before writes, and requires one project plus an explicit provider for stakeholder updates. Configuration checks stay server-side, so keys and OAuth tokens never return to the dialog.",
-        "audio": "audio/slide-07.mp3",
-        "duration_seconds": 20.86,
-        "output_sha256": "41badd6df8f4418781fbe1bac9139eeeae7ce5a40a9742dba0dea5326293d750"
-      },
-      "notes": [],
-      "eyebrow": "Custom Apps Script dialog",
-      "audio": "audio/slide-07.mp3"
+      "id": "slide-07", "role": "offer", "template": "solution-map", "seconds": 13,
+      "headline": "Build the smallest useful system inside tools you already use",
+      "subhead": "The offer is one bounded workflow inside Google Workspace, with agreed checks, documentation, and a maintainable handover.",
+      "body": ["One workflow with bounded scope and checks.", "No migration away from Google Workspace.", "Keep a system your team can change."],
+      "visual": {"asset_ids": [], "alt_summary": "Bounded pilot from one recurring decision through a documented, maintainable handover."},
+      "evidence": {"type": "none", "source": null, "permission_verified": true, "redacted": true},
+      "narration": {"script": "The offer is deliberately small: one workflow, inside the Google Workspace tools you already use, with agreed checks and documentation. Nothing needs to migrate, and your team keeps a system it can understand, operate, and change.", "transcript": "The offer is deliberately small: one workflow, inside the Google Workspace tools you already use, with agreed checks and documentation. Nothing needs to migrate, and your team keeps a system it can understand, operate, and change.", "audio": "audio/service-reframe/slide-07.mp3", "duration_seconds": 12, "output_sha256": "pending-openai-audio-generation"},
+      "notes": [], "eyebrow": "The bounded offer", "audio": "audio/service-reframe/slide-07.mp3"
     },
     {
-      "id": "slide-08",
-      "role": "differentiator",
-      "template": "case-study",
-      "seconds": 26.7,
-      "headline": "Gemini, Claude, and OpenAI share one validated output contract—not one shared secret path.",
-      "subhead": "The provider is chosen explicitly. Gemini runs on Vertex AI under the owner’s Google authorization; Claude and OpenAI each use their own Secret Manager secret.",
-      "body": [
-        "Only selected-project task facts and deterministic aggregates are sent; Notes and email addresses are excluded.",
-        "The draft is checked against source task IDs and supported figures before it becomes Google Doc text.",
-        "A refusal, malformed response, invented reference, or figure mismatch produces a deterministic Doc marked “AI narrative unavailable.”"
-      ],
-      "visual": {
-        "asset_ids": [
-          "workflow-video",
-          "security-poster",
-          "security-mobile"
-        ],
-        "alt_summary": "Muted workflow recording showing the redacted security architecture, Apps Script provider selection, generation, validated Google Doc, and Secret Manager accessor role."
-      },
-      "evidence": {
-        "type": "verified",
-        "source": "video/workflow-report-proof.webm and redacted security proof",
-        "permission_verified": true,
-        "redacted": true
-      },
-      "narration": {
-        "script": "Gemini uses the owner’s Google authorization; Claude and OpenAI use separate Secret Manager secrets. Only selected-project facts and aggregates are sent—never Notes or emails. Responses must match source task IDs and supported figures. If validation fails, the private Doc keeps verified metrics and marks the AI narrative unavailable. Gemini’s built-in Sheets AI remains a separate playground; this dialog is the governed reporting path.",
-        "transcript": "Gemini uses the owner’s Google authorization; Claude and OpenAI use separate Secret Manager secrets. Only selected-project facts and aggregates are sent—never Notes or emails. Responses must match source task IDs and supported figures. If validation fails, the private Doc keeps verified metrics and marks the AI narrative unavailable. Gemini’s built-in Sheets AI remains a separate playground; this dialog is the governed reporting path.",
-        "audio": "audio/slide-08.mp3",
-        "duration_seconds": 25.7,
-        "output_sha256": "6f010f52d24f49147ac5011310c32ad263bf5e29ab72af80f214a0d988324711"
-      },
-      "notes": [],
-      "eyebrow": "Secure AI-assisted reporting",
-      "audio": "audio/slide-08.mp3"
-    },
-    {
-      "id": "slide-09",
-      "role": "cta",
-      "template": "end-card",
-      "seconds": 6.52,
-      "headline": "Bring the Google Sheet your team still turns into reports by hand.",
-      "subhead": "The next step is a bounded pilot around one real reporting decision, the Sheet fields that support it, and the review rules required before anything is shared.",
-      "body": [
-        "Choose one daily review, workload, or stakeholder-reporting workflow.",
-        "Confirm the fields, filters, permissions, provider policy, and acceptance checks.",
-        "Use the contact option shown to tell me which Sheet process you want simplified."
-      ],
-      "visual": {
-        "asset_ids": [],
-        "alt_summary": "Smallest useful pilot"
-      },
-      "evidence": {
-        "type": "none",
-        "source": null,
-        "permission_verified": true,
-        "redacted": true
-      },
-      "narration": {
-        "script": "Use the contact option shown to tell me which Sheet process you want simplified.",
-        "transcript": "Use the contact option shown to tell me which Sheet process you want simplified.",
-        "audio": "audio/slide-09.mp3",
-        "duration_seconds": 5.52,
-        "output_sha256": "66fd66156ecf1c897aa104b47c1723d63d3684f1449f9cfa6e18555cb94d5c95"
-      },
-      "notes": [],
-      "eyebrow": "Client delivery",
-      "cta": {
-        "type": "url-selected-contact",
-        "label": "Use the contact option shown",
-        "destination": "upwork"
-      },
-      "audio": "audio/slide-09.mp3"
+      "id": "slide-08", "role": "cta", "template": "end-card", "seconds": 6.52,
+      "headline": "Show me the Sheet process you still run by hand",
+      "subhead": "The next useful step is naming one recurring process—not scoping an entire platform or project.",
+      "body": ["Name one process you would stop doing manually.", "Bring the Sheet as it is today.", "Use the contact option shown."],
+      "visual": {"asset_ids": [], "alt_summary": "One low-risk next step: identify a recurring manual Sheet process."},
+      "evidence": {"type": "none", "source": null, "permission_verified": true, "redacted": true},
+      "narration": {"script": "Use the contact option shown to tell me which Sheet process you want simplified.", "transcript": "Use the contact option shown to tell me which Sheet process you want simplified.", "audio": "audio/slide-09.mp3", "duration_seconds": 5.52, "output_sha256": "66fd66156ecf1c897aa104b47c1723d63d3684f1449f9cfa6e18555cb94d5c95"},
+      "notes": [], "eyebrow": "Next step", "cta": {"type": "url-selected-contact", "label": "Use the contact option shown", "destination": "upwork"}, "audio": "audio/slide-09.mp3"
     }
   ],
   "qa": {
-    "profile": "technical-editorial-v1",
-    "deterministic_required": true,
-    "prolog_required": true,
-    "semantic_review": {
-      "enabled": true,
-      "required": false,
-      "mode": "cached_single",
-      "model": "gpt-5.6-luna"
-    },
-    "required_outputs": [
-      "html",
-      "pdf"
-    ],
-    "fail_on_warnings": false
+    "profile": "technical-editorial-v1", "deterministic_required": true, "prolog_required": true,
+    "semantic_review": {"enabled": true, "required": false, "mode": "cached_single", "model": "gpt-5.6-luna"},
+    "required_outputs": ["html", "pdf"], "fail_on_warnings": false
   }
 }

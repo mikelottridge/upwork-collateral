@@ -1,0 +1,1 @@
+Back in the example, the workload report uses counts the Sheet can actually support: open, overdue, blocked, and due soon. It does not invent utilization because the data contains no hours or capacity. The same output still works with every AI provider switched off.

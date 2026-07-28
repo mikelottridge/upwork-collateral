@@ -1,0 +1,1 @@
+That pattern transfers to other Sheet-based work. Controlled fields keep the source facts trustworthy. Apps Script owns calculations and writes. AI appears only where language helps. Together, those layers turn a spreadsheet into a maintainable operational system.

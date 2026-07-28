@@ -1,10 +1,11 @@
 {
   "path": "exports/google-sheets-project-reporting.pdf",
-  "sha256": "a233e9c016b422c89537d8945167bf8735aad7ec4ce0c2e4d164e88c01a08913",
-  "pages": 9,
-  "bytes_preserved": true,
+  "sha256": "e04f6dffca1743c6930f2e7956c866b9c6a5144091d20dfbf4a83849d50e0266",
+  "pages": 8,
+  "bytes_preserved": false,
   "visual_status": "pass",
-  "story_parity": "pass_with_approved_opening_headline_difference",
+  "text_searchable": true,
+  "story_parity": "pass",
   "channel": "upwork-safe",
-  "reviewed_on": "2026-07-27"
+  "reviewed_on": "2026-07-28"
 }

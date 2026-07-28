@@ -1,0 +1,1 @@
+A useful build starts with one recurring decision, not a feature list. We map the fields that support it, identify what the data cannot answer, and agree the acceptance checks before any output is trusted.

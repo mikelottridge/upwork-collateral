@@ -8,7 +8,7 @@
           "scrollWidth": 930,
           "clientHeight": 720,
           "scrollHeight": 720,
-          "headline": "One governed workflow produces priorities, workload views, and stakeholder drafts.",
+          "headline": "When the spreadsheet works\u2014but the workflow around it does not",
           "slide": 1,
           "hash": "#/0"
         },
@@ -17,7 +17,7 @@
           "scrollWidth": 930,
           "clientHeight": 720,
           "scrollHeight": 720,
-          "headline": "The task table may be current while the management view is already stale.",
+          "headline": "A working example I built: one Sheet, three controlled workflows",
           "slide": 2,
           "hash": "#/1"
         },
@@ -26,7 +26,7 @@
           "scrollWidth": 930,
           "clientHeight": 720,
           "scrollHeight": 720,
-          "headline": "The Google Sheet supplies controlled task facts, calculated timing, and stable task IDs.",
+          "headline": "The pattern transfers: structured fields, Apps Script logic, governed AI",
           "slide": 3,
           "hash": "#/2"
         },
@@ -35,7 +35,7 @@
           "scrollWidth": 930,
           "clientHeight": 720,
           "scrollHeight": 720,
-          "headline": "One Apps Script menu turns report choices into validated, repeatable outputs.",
+          "headline": "Start with one decision, then map data and acceptance checks",
           "slide": 4,
           "hash": "#/3"
         },
@@ -44,7 +44,7 @@
           "scrollWidth": 930,
           "clientHeight": 720,
           "scrollHeight": 720,
-          "headline": "Daily review reduces the tracker to the work that needs attention now.",
+          "headline": "Back to the example: useful output without invented precision",
           "slide": 5,
           "hash": "#/4"
         },
@@ -53,7 +53,7 @@
           "scrollWidth": 930,
           "clientHeight": 720,
           "scrollHeight": 720,
-          "headline": "Workload can be grouped by worker or project without inventing utilization percentages.",
+          "headline": "AI drafts language. Deterministic logic owns the numbers.",
           "slide": 6,
           "hash": "#/5"
         },
@@ -62,7 +62,7 @@
           "scrollWidth": 930,
           "clientHeight": 720,
           "scrollHeight": 720,
-          "headline": "The dialog makes complex reporting choices usable without exposing implementation details.",
+          "headline": "Build the smallest useful system inside tools you already use",
           "slide": 7,
           "hash": "#/6"
         },
@@ -71,18 +71,9 @@
           "scrollWidth": 930,
           "clientHeight": 720,
           "scrollHeight": 720,
-          "headline": "Gemini, Claude, and OpenAI share one validated output contract\u2014not one shared secret path.",
+          "headline": "Show me the Sheet process you still run by hand",
           "slide": 8,
           "hash": "#/7"
-        },
-        {
-          "clientWidth": 930,
-          "scrollWidth": 930,
-          "clientHeight": 720,
-          "scrollHeight": 720,
-          "headline": "Bring the Google Sheet your team still turns into reports by hand.",
-          "slide": 9,
-          "hash": "#/8"
         }
       ],
       "console_errors": []
@@ -95,7 +86,7 @@
           "scrollWidth": 930,
           "clientHeight": 720,
           "scrollHeight": 720,
-          "headline": "One governed workflow produces priorities, workload views, and stakeholder drafts.",
+          "headline": "When the spreadsheet works\u2014but the workflow around it does not",
           "slide": 1,
           "hash": "#/0"
         },
@@ -104,7 +95,7 @@
           "scrollWidth": 930,
           "clientHeight": 720,
           "scrollHeight": 720,
-          "headline": "The task table may be current while the management view is already stale.",
+          "headline": "A working example I built: one Sheet, three controlled workflows",
           "slide": 2,
           "hash": "#/1"
         },
@@ -113,7 +104,7 @@
           "scrollWidth": 930,
           "clientHeight": 720,
           "scrollHeight": 720,
-          "headline": "The Google Sheet supplies controlled task facts, calculated timing, and stable task IDs.",
+          "headline": "The pattern transfers: structured fields, Apps Script logic, governed AI",
           "slide": 3,
           "hash": "#/2"
         },
@@ -122,7 +113,7 @@
           "scrollWidth": 930,
           "clientHeight": 720,
           "scrollHeight": 720,
-          "headline": "One Apps Script menu turns report choices into validated, repeatable outputs.",
+          "headline": "Start with one decision, then map data and acceptance checks",
           "slide": 4,
           "hash": "#/3"
         },
@@ -131,7 +122,7 @@
           "scrollWidth": 930,
           "clientHeight": 720,
           "scrollHeight": 720,
-          "headline": "Daily review reduces the tracker to the work that needs attention now.",
+          "headline": "Back to the example: useful output without invented precision",
           "slide": 5,
           "hash": "#/4"
         },
@@ -140,7 +131,7 @@
           "scrollWidth": 930,
           "clientHeight": 720,
           "scrollHeight": 720,
-          "headline": "Workload can be grouped by worker or project without inventing utilization percentages.",
+          "headline": "AI drafts language. Deterministic logic owns the numbers.",
           "slide": 6,
           "hash": "#/5"
         },
@@ -149,7 +140,7 @@
           "scrollWidth": 930,
           "clientHeight": 720,
           "scrollHeight": 720,
-          "headline": "The dialog makes complex reporting choices usable without exposing implementation details.",
+          "headline": "Build the smallest useful system inside tools you already use",
           "slide": 7,
           "hash": "#/6"
         },
@@ -158,18 +149,9 @@
           "scrollWidth": 930,
           "clientHeight": 720,
           "scrollHeight": 720,
-          "headline": "Gemini, Claude, and OpenAI share one validated output contract\u2014not one shared secret path.",
+          "headline": "Show me the Sheet process you still run by hand",
           "slide": 8,
           "hash": "#/7"
-        },
-        {
-          "clientWidth": 930,
-          "scrollWidth": 930,
-          "clientHeight": 720,
-          "scrollHeight": 720,
-          "headline": "Bring the Google Sheet your team still turns into reports by hand.",
-          "slide": 9,
-          "hash": "#/8"
         }
       ],
       "console_errors": []
@@ -182,7 +164,7 @@
           "scrollWidth": 942,
           "clientHeight": 720,
           "scrollHeight": 720,
-          "headline": "One governed workflow produces priorities, workload views, and stakeholder drafts.",
+          "headline": "When the spreadsheet works\u2014but the workflow around it does not",
           "slide": 1,
           "hash": "#/0"
         },
@@ -191,7 +173,7 @@
           "scrollWidth": 942,
           "clientHeight": 720,
           "scrollHeight": 720,
-          "headline": "The task table may be current while the management view is already stale.",
+          "headline": "A working example I built: one Sheet, three controlled workflows",
           "slide": 2,
           "hash": "#/1"
         },
@@ -200,7 +182,7 @@
           "scrollWidth": 942,
           "clientHeight": 720,
           "scrollHeight": 720,
-          "headline": "The Google Sheet supplies controlled task facts, calculated timing, and stable task IDs.",
+          "headline": "The pattern transfers: structured fields, Apps Script logic, governed AI",
           "slide": 3,
           "hash": "#/2"
         },
@@ -209,7 +191,7 @@
           "scrollWidth": 942,
           "clientHeight": 720,
           "scrollHeight": 720,
-          "headline": "One Apps Script menu turns report choices into validated, repeatable outputs.",
+          "headline": "Start with one decision, then map data and acceptance checks",
           "slide": 4,
           "hash": "#/3"
         },
@@ -218,7 +200,7 @@
           "scrollWidth": 942,
           "clientHeight": 720,
           "scrollHeight": 720,
-          "headline": "Daily review reduces the tracker to the work that needs attention now.",
+          "headline": "Back to the example: useful output without invented precision",
           "slide": 5,
           "hash": "#/4"
         },
@@ -227,7 +209,7 @@
           "scrollWidth": 942,
           "clientHeight": 720,
           "scrollHeight": 720,
-          "headline": "Workload can be grouped by worker or project without inventing utilization percentages.",
+          "headline": "AI drafts language. Deterministic logic owns the numbers.",
           "slide": 6,
           "hash": "#/5"
         },
@@ -236,7 +218,7 @@
           "scrollWidth": 942,
           "clientHeight": 720,
           "scrollHeight": 720,
-          "headline": "The dialog makes complex reporting choices usable without exposing implementation details.",
+          "headline": "Build the smallest useful system inside tools you already use",
           "slide": 7,
           "hash": "#/6"
         },
@@ -245,18 +227,9 @@
           "scrollWidth": 942,
           "clientHeight": 720,
           "scrollHeight": 720,
-          "headline": "Gemini, Claude, and OpenAI share one validated output contract\u2014not one shared secret path.",
+          "headline": "Show me the Sheet process you still run by hand",
           "slide": 8,
           "hash": "#/7"
-        },
-        {
-          "clientWidth": 942,
-          "scrollWidth": 942,
-          "clientHeight": 720,
-          "scrollHeight": 720,
-          "headline": "Bring the Google Sheet your team still turns into reports by hand.",
-          "slide": 9,
-          "hash": "#/8"
         }
       ],
       "console_errors": []
@@ -269,7 +242,7 @@
           "scrollWidth": 726,
           "clientHeight": 980,
           "scrollHeight": 980,
-          "headline": "One governed workflow produces priorities, workload views, and stakeholder drafts.",
+          "headline": "When the spreadsheet works\u2014but the workflow around it does not",
           "slide": 1,
           "hash": "#/0"
         },
@@ -278,7 +251,7 @@
           "scrollWidth": 726,
           "clientHeight": 980,
           "scrollHeight": 980,
-          "headline": "The task table may be current while the management view is already stale.",
+          "headline": "A working example I built: one Sheet, three controlled workflows",
           "slide": 2,
           "hash": "#/1"
         },
@@ -287,7 +260,7 @@
           "scrollWidth": 726,
           "clientHeight": 980,
           "scrollHeight": 980,
-          "headline": "The Google Sheet supplies controlled task facts, calculated timing, and stable task IDs.",
+          "headline": "The pattern transfers: structured fields, Apps Script logic, governed AI",
           "slide": 3,
           "hash": "#/2"
         },
@@ -296,7 +269,7 @@
           "scrollWidth": 726,
           "clientHeight": 980,
           "scrollHeight": 980,
-          "headline": "One Apps Script menu turns report choices into validated, repeatable outputs.",
+          "headline": "Start with one decision, then map data and acceptance checks",
           "slide": 4,
           "hash": "#/3"
         },
@@ -305,7 +278,7 @@
           "scrollWidth": 726,
           "clientHeight": 980,
           "scrollHeight": 980,
-          "headline": "Daily review reduces the tracker to the work that needs attention now.",
+          "headline": "Back to the example: useful output without invented precision",
           "slide": 5,
           "hash": "#/4"
         },
@@ -314,7 +287,7 @@
           "scrollWidth": 726,
           "clientHeight": 980,
           "scrollHeight": 980,
-          "headline": "Workload can be grouped by worker or project without inventing utilization percentages.",
+          "headline": "AI drafts language. Deterministic logic owns the numbers.",
           "slide": 6,
           "hash": "#/5"
         },
@@ -322,8 +295,8 @@
           "clientWidth": 726,
           "scrollWidth": 726,
           "clientHeight": 980,
-          "scrollHeight": 1010,
-          "headline": "The dialog makes complex reporting choices usable without exposing implementation details.",
+          "scrollHeight": 980,
+          "headline": "Build the smallest useful system inside tools you already use",
           "slide": 7,
           "hash": "#/6"
         },
@@ -332,18 +305,9 @@
           "scrollWidth": 726,
           "clientHeight": 980,
           "scrollHeight": 980,
-          "headline": "Gemini, Claude, and OpenAI share one validated output contract\u2014not one shared secret path.",
+          "headline": "Show me the Sheet process you still run by hand",
           "slide": 8,
           "hash": "#/7"
-        },
-        {
-          "clientWidth": 726,
-          "scrollWidth": 726,
-          "clientHeight": 980,
-          "scrollHeight": 980,
-          "headline": "Bring the Google Sheet your team still turns into reports by hand.",
-          "slide": 9,
-          "hash": "#/8"
         }
       ],
       "console_errors": []
@@ -355,8 +319,8 @@
           "clientWidth": 348,
           "scrollWidth": 348,
           "clientHeight": 980,
-          "scrollHeight": 980,
-          "headline": "One governed workflow produces priorities, workload views, and stakeholder drafts.",
+          "scrollHeight": 1049,
+          "headline": "When the spreadsheet works\u2014but the workflow around it does not",
           "slide": 1,
           "hash": "#/0"
         },
@@ -364,8 +328,8 @@
           "clientWidth": 348,
           "scrollWidth": 348,
           "clientHeight": 980,
-          "scrollHeight": 1104,
-          "headline": "The task table may be current while the management view is already stale.",
+          "scrollHeight": 980,
+          "headline": "A working example I built: one Sheet, three controlled workflows",
           "slide": 2,
           "hash": "#/1"
         },
@@ -373,8 +337,8 @@
           "clientWidth": 348,
           "scrollWidth": 348,
           "clientHeight": 980,
-          "scrollHeight": 1031,
-          "headline": "The Google Sheet supplies controlled task facts, calculated timing, and stable task IDs.",
+          "scrollHeight": 980,
+          "headline": "The pattern transfers: structured fields, Apps Script logic, governed AI",
           "slide": 3,
           "hash": "#/2"
         },
@@ -383,7 +347,7 @@
           "scrollWidth": 348,
           "clientHeight": 980,
           "scrollHeight": 980,
-          "headline": "One Apps Script menu turns report choices into validated, repeatable outputs.",
+          "headline": "Start with one decision, then map data and acceptance checks",
           "slide": 4,
           "hash": "#/3"
         },
@@ -392,7 +356,7 @@
           "scrollWidth": 348,
           "clientHeight": 980,
           "scrollHeight": 980,
-          "headline": "Daily review reduces the tracker to the work that needs attention now.",
+          "headline": "Back to the example: useful output without invented precision",
           "slide": 5,
           "hash": "#/4"
         },
@@ -400,8 +364,8 @@
           "clientWidth": 348,
           "scrollWidth": 348,
           "clientHeight": 980,
-          "scrollHeight": 1064,
-          "headline": "Workload can be grouped by worker or project without inventing utilization percentages.",
+          "scrollHeight": 1029,
+          "headline": "AI drafts language. Deterministic logic owns the numbers.",
           "slide": 6,
           "hash": "#/5"
         },
@@ -409,8 +373,8 @@
           "clientWidth": 348,
           "scrollWidth": 348,
           "clientHeight": 980,
-          "scrollHeight": 1064,
-          "headline": "The dialog makes complex reporting choices usable without exposing implementation details.",
+          "scrollHeight": 980,
+          "headline": "Build the smallest useful system inside tools you already use",
           "slide": 7,
           "hash": "#/6"
         },
@@ -418,19 +382,10 @@
           "clientWidth": 348,
           "scrollWidth": 348,
           "clientHeight": 980,
-          "scrollHeight": 1220,
-          "headline": "Gemini, Claude, and OpenAI share one validated output contract\u2014not one shared secret path.",
+          "scrollHeight": 1004,
+          "headline": "Show me the Sheet process you still run by hand",
           "slide": 8,
           "hash": "#/7"
-        },
-        {
-          "clientWidth": 348,
-          "scrollWidth": 348,
-          "clientHeight": 980,
-          "scrollHeight": 1095,
-          "headline": "Bring the Google Sheet your team still turns into reports by hand.",
-          "slide": 9,
-          "hash": "#/8"
         }
       ],
       "console_errors": []
@@ -439,8 +394,8 @@
   "runtime": {
     "focused_arrow_right_hash": "#/1",
     "previous_button_hash": "#/",
-    "final_slide_hash": "#/8",
-    "hash_after_reload": "#/8",
+    "final_slide_hash": "#/7",
+    "hash_after_reload": "#/7",
     "base_contact_href": "mailto:mikelottridge@productmanagementresources.pro",
     "upwork_contact_href": "https://www.upwork.com/freelancers/mikelottridge",
     "upwork_visible_email_actions": 0,
@@ -455,21 +410,21 @@
         "schema_version": "1",
         "event": "view",
         "presentation": "google-sheets",
-        "session_id": "b641c363-f298-46d7-93b1-1a40ddbe1764",
+        "session_id": "317d901c-a76d-47a5-a676-92dff78c5e0b",
         "source": "qa"
       },
       {
         "schema_version": "1",
         "event": "final_slide",
         "presentation": "google-sheets",
-        "session_id": "b641c363-f298-46d7-93b1-1a40ddbe1764",
+        "session_id": "317d901c-a76d-47a5-a676-92dff78c5e0b",
         "source": "qa"
       },
       {
         "schema_version": "1",
         "event": "cta_click",
         "presentation": "google-sheets",
-        "session_id": "b641c363-f298-46d7-93b1-1a40ddbe1764",
+        "session_id": "317d901c-a76d-47a5-a676-92dff78c5e0b",
         "source": "qa"
       }
     ],

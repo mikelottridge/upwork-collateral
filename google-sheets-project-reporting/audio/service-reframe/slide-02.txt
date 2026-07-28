@@ -1,0 +1,1 @@
+This is a self-built demonstration using sample data, not client work. One bound Apps Script dialog turns a project tracker into daily review, workload, and stakeholder-reporting workflows. The point is not this product. It is the controlled pattern: explicit choices before the system writes.

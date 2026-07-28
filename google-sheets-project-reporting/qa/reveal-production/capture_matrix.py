@@ -22,7 +22,7 @@ async def render_matrix(browser):
         await page.wait_for_selector(".reveal.ready")
         images = []
         slide_records = []
-        for index in range(9):
+        for index in range(8):
             await page.evaluate("index => { window.location.hash = '#/' + index; }", index)
             await page.wait_for_timeout(500)
             stage = page.locator(".presentation-deck")
@@ -59,16 +59,16 @@ async def runtime_checks(browser):
     await page.get_by_role("button", name="Previous").click()
     await page.wait_for_timeout(500)
     previous_index = await page.evaluate("location.hash")
-    await page.get_by_role("button", name="Client delivery").click()
+    await page.get_by_role("button", name="Next step").click()
     await page.wait_for_timeout(500)
     final_hash = await page.evaluate("location.hash")
     base_href = await page.get_by_role("link", name="Email Mike Lottridge").get_attribute("href")
     await page.reload(wait_until="domcontentloaded")
     reload_hash = await page.evaluate("location.hash")
-    await page.goto(f"{BASE}/?upwork=1#/8", wait_until="domcontentloaded")
+    await page.goto(f"{BASE}/?upwork=1#/7", wait_until="domcontentloaded")
     upwork_href = await page.get_by_role("link", name="View Mike Lottridge on Upwork").get_attribute("href")
     upwork_email_count = await page.get_by_text("Email Mike Lottridge", exact=True).count()
-    await page.goto(f"{BASE}/?utm_source=upwork#/8", wait_until="domcontentloaded")
+    await page.goto(f"{BASE}/?utm_source=upwork#/7", wait_until="domcontentloaded")
     utm_base_href = await page.get_by_role("link", name="Email Mike Lottridge").get_attribute("href")
     await context.close()
 
@@ -112,7 +112,7 @@ async def analytics_checks(browser):
     await page.route("https://productmanagementresources.pro/api/presentation-events", capture)
     await page.goto(f"{BASE}/?analytics=1&utm_source=qa#/0", wait_until="domcontentloaded")
     await page.wait_for_timeout(2300)
-    await page.get_by_role("button", name="Client delivery").click()
+    await page.get_by_role("button", name="Next step").click()
     await page.wait_for_timeout(500)
     await page.evaluate("() => { const a = document.querySelector('.presentation-cta-link'); a.addEventListener('click', e => e.preventDefault(), {capture: true}); a.click(); }")
     await page.wait_for_timeout(300)

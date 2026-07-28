@@ -1,7 +1,7 @@
 {
-  "status": "pass_with_warnings",
-  "slide_count": 9,
-  "runtime_seconds": 169.6,
+  "status": "fail",
+  "slide_count": 8,
+  "runtime_seconds": 119.52,
   "contract_status": "approved",
   "style": {
     "profile": "technical-editorial-v1",
@@ -17,14 +17,14 @@
     "required": true,
     "mode": "audio",
     "audio_required": true,
-    "scripts": 9,
-    "audio_files": 9,
+    "scripts": 8,
+    "audio_files": 8,
     "source_type": "recorded_mp3",
     "prior_source_type": "recorded_mp3",
     "recorded_audio_required": true,
     "generation_provider": "openai_api",
     "generation_endpoint": "/v1/audio/speech",
-    "generation_model": "gpt-4o-mini-tts",
+    "generation_model": "gpt-4o-mini-tts-2025-12-15",
     "response_format": "mp3",
     "source_change_approved": true,
     "voice_profile": "cedar",
@@ -43,174 +43,44 @@
     "first_transition_checked": false,
     "asset_resolution_checked": false
   },
-  "errors": [],
-  "warnings": [
+  "errors": [
     {
-      "code": "copy.subhead_long",
-      "message": "Subhead has 26 words; target is 20 or fewer",
+      "code": "narration.output_sha256",
+      "message": "Audio-mode decks require the exact lowercase SHA-256 of each stored output",
       "slide_id": "slide-01"
     },
     {
-      "code": "copy.headline_long",
-      "message": "Headline has 13 words; target is 12 or fewer",
+      "code": "narration.output_sha256",
+      "message": "Audio-mode decks require the exact lowercase SHA-256 of each stored output",
       "slide_id": "slide-02"
     },
     {
-      "code": "copy.subhead_long",
-      "message": "Subhead has 22 words; target is 20 or fewer",
-      "slide_id": "slide-02"
-    },
-    {
-      "code": "copy.body_long",
-      "message": "Body has 33 words; target is 28 or fewer",
-      "slide_id": "slide-02"
-    },
-    {
-      "code": "copy.bullet_long",
-      "message": "Bullet has 12 words; target is 10 or fewer",
-      "slide_id": "slide-02"
-    },
-    {
-      "code": "copy.bullet_long",
-      "message": "Bullet has 11 words; target is 10 or fewer",
-      "slide_id": "slide-02"
-    },
-    {
-      "code": "copy.headline_long",
-      "message": "Headline has 13 words; target is 12 or fewer",
+      "code": "narration.output_sha256",
+      "message": "Audio-mode decks require the exact lowercase SHA-256 of each stored output",
       "slide_id": "slide-03"
     },
     {
-      "code": "copy.subhead_long",
-      "message": "Subhead has 23 words; target is 20 or fewer",
-      "slide_id": "slide-03"
-    },
-    {
-      "code": "copy.body_long",
-      "message": "Body has 30 words; target is 28 or fewer",
-      "slide_id": "slide-03"
-    },
-    {
-      "code": "copy.bullet_long",
-      "message": "Bullet has 13 words; target is 10 or fewer",
-      "slide_id": "slide-03"
-    },
-    {
-      "code": "copy.subhead_long",
-      "message": "Subhead has 25 words; target is 20 or fewer",
+      "code": "narration.output_sha256",
+      "message": "Audio-mode decks require the exact lowercase SHA-256 of each stored output",
       "slide_id": "slide-04"
     },
     {
-      "code": "copy.body_long",
-      "message": "Body has 31 words; target is 28 or fewer",
-      "slide_id": "slide-04"
-    },
-    {
-      "code": "copy.bullet_long",
-      "message": "Bullet has 12 words; target is 10 or fewer",
-      "slide_id": "slide-04"
-    },
-    {
-      "code": "copy.bullet_long",
-      "message": "Bullet has 12 words; target is 10 or fewer",
-      "slide_id": "slide-04"
-    },
-    {
-      "code": "copy.subhead_long",
-      "message": "Subhead has 21 words; target is 20 or fewer",
+      "code": "narration.output_sha256",
+      "message": "Audio-mode decks require the exact lowercase SHA-256 of each stored output",
       "slide_id": "slide-05"
     },
     {
-      "code": "copy.body_long",
-      "message": "Body has 37 words; target is 28 or fewer",
-      "slide_id": "slide-05"
-    },
-    {
-      "code": "copy.bullet_long",
-      "message": "Bullet has 13 words; target is 10 or fewer",
-      "slide_id": "slide-05"
-    },
-    {
-      "code": "copy.bullet_long",
-      "message": "Bullet has 11 words; target is 10 or fewer",
-      "slide_id": "slide-05"
-    },
-    {
-      "code": "copy.bullet_long",
-      "message": "Bullet has 13 words; target is 10 or fewer",
-      "slide_id": "slide-05"
-    },
-    {
-      "code": "copy.subhead_long",
-      "message": "Subhead has 26 words; target is 20 or fewer",
+      "code": "narration.output_sha256",
+      "message": "Audio-mode decks require the exact lowercase SHA-256 of each stored output",
       "slide_id": "slide-06"
     },
     {
-      "code": "copy.body_long",
-      "message": "Body has 31 words; target is 28 or fewer",
-      "slide_id": "slide-06"
-    },
-    {
-      "code": "copy.bullet_long",
-      "message": "Bullet has 11 words; target is 10 or fewer",
-      "slide_id": "slide-06"
-    },
-    {
-      "code": "copy.body_long",
-      "message": "Body has 33 words; target is 28 or fewer",
+      "code": "narration.output_sha256",
+      "message": "Audio-mode decks require the exact lowercase SHA-256 of each stored output",
       "slide_id": "slide-07"
-    },
-    {
-      "code": "copy.bullet_long",
-      "message": "Bullet has 13 words; target is 10 or fewer",
-      "slide_id": "slide-07"
-    },
-    {
-      "code": "copy.headline_long",
-      "message": "Headline has 14 words; target is 12 or fewer",
-      "slide_id": "slide-08"
-    },
-    {
-      "code": "copy.subhead_long",
-      "message": "Subhead has 25 words; target is 20 or fewer",
-      "slide_id": "slide-08"
-    },
-    {
-      "code": "copy.body_long",
-      "message": "Body has 49 words; target is 28 or fewer",
-      "slide_id": "slide-08"
-    },
-    {
-      "code": "copy.bullet_long",
-      "message": "Bullet has 15 words; target is 10 or fewer",
-      "slide_id": "slide-08"
-    },
-    {
-      "code": "copy.bullet_long",
-      "message": "Bullet has 17 words; target is 10 or fewer",
-      "slide_id": "slide-08"
-    },
-    {
-      "code": "copy.bullet_long",
-      "message": "Bullet has 17 words; target is 10 or fewer",
-      "slide_id": "slide-08"
-    },
-    {
-      "code": "copy.subhead_long",
-      "message": "Subhead has 27 words; target is 20 or fewer",
-      "slide_id": "slide-09"
-    },
-    {
-      "code": "copy.body_long",
-      "message": "Body has 32 words; target is 28 or fewer",
-      "slide_id": "slide-09"
-    },
-    {
-      "code": "copy.bullet_long",
-      "message": "Bullet has 14 words; target is 10 or fewer",
-      "slide_id": "slide-09"
     }
   ],
+  "warnings": [],
   "info": [
     {
       "code": "contrast.pass",
@@ -226,8 +96,8 @@
     }
   ],
   "summary": {
-    "error_count": 0,
-    "warning_count": 33,
+    "error_count": 7,
+    "warning_count": 0,
     "info_count": 3
   }
 }

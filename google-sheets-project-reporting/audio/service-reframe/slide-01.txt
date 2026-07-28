@@ -1,0 +1,1 @@
+Your Google Sheet may already hold the right facts. The manual work around it is the bottleneck: rebuilding filters, counts, and explanations for each recurring decision, with more opportunity for the numbers and narrative to drift.
