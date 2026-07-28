@@ -1,7 +1,7 @@
 {
   "qa": {
     "profile": "technical-editorial-v1",
-    "as_of": "2026-07-25",
+    "as_of": "2026-07-27",
     "deterministic_required": true,
     "fail_on_warnings": false
   },
@@ -25,14 +25,5 @@
     "mode": "cached_single",
     "timeout_seconds": 180
   },
-  "waivers": [
-    {
-      "rule_id": "STYLE_002",
-      "scope": "deck",
-      "reason": "The user explicitly required reuse of the latest financial-metrics public deck style and shared runtime, which intentionally uses restrained gradients.",
-      "approved_by": "Mike Lottridge",
-      "approved_on": "2026-07-25",
-      "expires_on": "2027-07-25"
-    }
-  ]
+  "waivers": []
 }

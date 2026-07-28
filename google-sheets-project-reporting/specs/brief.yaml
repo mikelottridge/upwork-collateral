@@ -1,10 +1,10 @@
 {
   "deck": {
     "id": "google-sheets-project-reporting",
-    "mode": "create",
+    "mode": "revise",
     "purpose": "portfolio-item",
-    "contract_status": "pre-contract",
-    "target_runtime_seconds": 179,
+    "contract_status": "approved",
+    "target_runtime_seconds": 165.6,
     "timing": {
       "extended_runtime_approved": true,
       "approval_record": "User explicitly approved relaxing the presentation ceiling to three minutes in this task."
@@ -117,5 +117,31 @@
     "logo_asset_id": null,
     "tone": "specific, factual, client-directed"
   },
-  "assumptions": []
+  "assumptions": [],
+  "outline_approval": {
+    "source": "revision-outline.md",
+    "sha256": "9ffe44bb10429e9ebc2e40740d3c1d93a4ed4fdcede71da98fba9272550553b5",
+    "approval_record": {
+      "approver": "Mike Lottridge",
+      "date": "2026-07-27",
+      "scope": [
+        "canonical-spec",
+        "assets",
+        "html",
+        "pdf",
+        "deploy"
+      ]
+    }
+  },
+  "channel": {
+    "active_profile": "base",
+    "intended_profiles": [
+      "base",
+      "upwork"
+    ],
+    "runtime_profiles": {
+      "base": "site/index.html",
+      "upwork": "site/index.html?upwork=1"
+    }
+  }
 }

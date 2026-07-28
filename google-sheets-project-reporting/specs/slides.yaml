@@ -3,12 +3,19 @@
     "id": "google-sheets-project-reporting",
     "title": "Google Sheets + Apps Script automation for daily priorities, workload planning, and AI stakeholder updates",
     "audience_platform": "Upwork",
-    "contract_status": "pre-contract",
+    "contract_status": "approved",
     "mode": "self-running",
     "target_total_seconds": 166,
     "timing": {
       "extended_runtime_approved": true,
-      "approval_record": "User explicitly approved relaxing the presentation ceiling to three minutes in this task."
+      "approval_record": {
+        "approver": "Mike Lottridge",
+        "date": "2026-07-27",
+        "reason": "Preserve the approved nine-clip Cedar narration at its measured 165.6-second runtime.",
+        "scope": [
+          "deck.timing.total_seconds"
+        ]
+      }
     },
     "pause_control_required": true,
     "static_alternative_required": true,
@@ -40,6 +47,26 @@
         {
           "category": "responsive_layout",
           "description": "Added a portrait mobile security fallback for legibility.",
+          "approved": true
+        },
+        {
+          "category": "runtime",
+          "description": "Replace the custom slide-state runtime with Reveal.js 6.0.1.",
+          "approved": true
+        },
+        {
+          "category": "visible_copy",
+          "description": "Give the hero and slide one distinct concise decision-making jobs without changing narration.",
+          "approved": true
+        },
+        {
+          "category": "keyboard",
+          "description": "Repair focused ArrowLeft and ArrowRight navigation.",
+          "approved": true
+        },
+        {
+          "category": "responsive_progression",
+          "description": "Use static manual progression on phones when the stage exceeds the viewport.",
           "approved": true
         }
       ]
@@ -80,7 +107,7 @@
       "role": "title",
       "template": "headline-hero",
       "seconds": 17.8,
-      "headline": "Google Sheets + Apps Script automation for daily priorities, workload planning, and AI stakeholder updates.",
+      "headline": "One governed workflow produces priorities, workload views, and stakeholder drafts",
       "subhead": "A project manager can move from the shared task table to a focused action view or stakeholder draft without rebuilding filters, counts, and summaries by hand.",
       "body": [
         "Keep Google Sheets as the familiar operating surface.",
@@ -101,10 +128,12 @@
         "script": "This proof uses Google Sheets and Apps Script to turn one project tracker into daily priorities, workload planning, and AI-assisted stakeholder updates. The project manager chooses the report and, when AI is useful, explicitly chooses Gemini, Claude, or OpenAI.",
         "transcript": "This proof uses Google Sheets and Apps Script to turn one project tracker into daily priorities, workload planning, and AI-assisted stakeholder updates. The project manager chooses the report and, when AI is useful, explicitly chooses Gemini, Claude, or OpenAI.",
         "audio": "audio/slide-01.mp3",
-        "duration_seconds": 17.3
+        "duration_seconds": 17.3,
+        "output_sha256": "5ffcfcf6c32153013dbf97822112df2a1dabecc345bc31ff40ed1d47890f1851"
       },
       "notes": [],
-      "eyebrow": "The client outcome"
+      "eyebrow": "The client outcome",
+      "audio": "audio/slide-01.mp3"
     },
     {
       "id": "slide-02",
@@ -132,10 +161,12 @@
         "script": "A task tracker can be current while the management view is stale. Daily review, workload planning, and stakeholder writing each require different filters and summaries. Rebuilding those views manually creates repeated effort and makes it easier for counts and narrative to diverge.",
         "transcript": "A task tracker can be current while the management view is stale. Daily review, workload planning, and stakeholder writing each require different filters and summaries. Rebuilding those views manually creates repeated effort and makes it easier for counts and narrative to diverge.",
         "audio": "audio/slide-02.mp3",
-        "duration_seconds": 16.2
+        "duration_seconds": 16.2,
+        "output_sha256": "9f31e780efc4023c5534b946a418611cd69ae640e1cd689d0c7257540d5d26fe"
       },
       "notes": [],
-      "eyebrow": "The reporting problem"
+      "eyebrow": "The reporting problem",
+      "audio": "audio/slide-02.mp3"
     },
     {
       "id": "slide-03",
@@ -165,10 +196,12 @@
         "script": "The foundation is still a normal Google Sheet. Projects, workers, priorities, statuses, and dates are controlled fields, while timing categories remain deterministic. Stable task IDs let every report trace back to the source. Notes and email addresses are excluded from AI requests.",
         "transcript": "The foundation is still a normal Google Sheet. Projects, workers, priorities, statuses, and dates are controlled fields, while timing categories remain deterministic. Stable task IDs let every report trace back to the source. Notes and email addresses are excluded from AI requests.",
         "audio": "audio/slide-03.mp3",
-        "duration_seconds": 18.86
+        "duration_seconds": 18.86,
+        "output_sha256": "78f31cb3f1226b41f8265cb91b7a2b2b5cdef9d40f74e6c75eb295cfbae73ae0"
       },
       "notes": [],
-      "eyebrow": "The structured foundation"
+      "eyebrow": "The structured foundation",
+      "audio": "audio/slide-03.mp3"
     },
     {
       "id": "slide-04",
@@ -196,10 +229,12 @@
         "script": "The PM Reports menu launches one Apps Script workflow. It validates the request, computes authoritative metrics, and then refreshes a stable report tab or creates an owner-private Google Doc. A document lock prevents overlapping writes, and every AI output records its source timestamp, provider, model, and source task IDs.",
         "transcript": "The PM Reports menu launches one Apps Script workflow. It validates the request, computes authoritative metrics, and then refreshes a stable report tab or creates an owner-private Google Doc. A document lock prevents overlapping writes, and every AI output records its source timestamp, provider, model, and source task IDs.",
         "audio": "audio/slide-04.mp3",
-        "duration_seconds": 20.95
+        "duration_seconds": 20.95,
+        "output_sha256": "cb4acc5c430816785c00ae1d6d46c35dd0a6071bc4d334d8eda7528dbd901c13"
       },
       "notes": [],
-      "eyebrow": "The automation flow"
+      "eyebrow": "The automation flow",
+      "audio": "audio/slide-04.mp3"
     },
     {
       "id": "slide-05",
@@ -227,10 +262,12 @@
         "script": "The Daily Actions report reduces the tracker to work that needs attention now. The project manager can combine project, worker, status, priority, and due horizon. Task ID, timing, due date, and recommended action remain together, and the report works even if no AI provider is configured.",
         "transcript": "The Daily Actions report reduces the tracker to work that needs attention now. The project manager can combine project, worker, status, priority, and due horizon. Task ID, timing, due date, and recommended action remain together, and the report works even if no AI provider is configured.",
         "audio": "audio/slide-05.mp3",
-        "duration_seconds": 18.46
+        "duration_seconds": 18.46,
+        "output_sha256": "c4a790dc0afcde7871e2a4e10dcd996c8b568fbd5a3563922727725a1ba5d67f"
       },
       "notes": [],
-      "eyebrow": "Daily priorities"
+      "eyebrow": "Daily priorities",
+      "audio": "audio/slide-05.mp3"
     },
     {
       "id": "slide-06",
@@ -260,10 +297,12 @@
         "script": "For workload planning, the user switches between grouping by worker and grouping by project. The report uses facts the Sheet actually contains: open, overdue, blocked, and due-soon counts. It deliberately avoids utilization percentages because this tracker does not contain hours or capacity.",
         "transcript": "For workload planning, the user switches between grouping by worker and grouping by project. The report uses facts the Sheet actually contains: open, overdue, blocked, and due-soon counts. It deliberately avoids utilization percentages because this tracker does not contain hours or capacity.",
         "audio": "audio/slide-06.mp3",
-        "duration_seconds": 16.75
+        "duration_seconds": 16.75,
+        "output_sha256": "2cd647507e4c8cfe855d54986ef4377f51ce1180699e63da2bcf1f9fde83161c"
       },
       "notes": [],
-      "eyebrow": "Workload planning"
+      "eyebrow": "Workload planning",
+      "audio": "audio/slide-06.mp3"
     },
     {
       "id": "slide-07",
@@ -293,10 +332,12 @@
         "script": "The custom Apps Script dialog makes the reporting logic approachable. It reveals only the controls needed for the selected workflow, supports a preview before writes, and requires one project plus an explicit provider for stakeholder updates. Configuration checks stay server-side, so keys and OAuth tokens never return to the dialog.",
         "transcript": "The custom Apps Script dialog makes the reporting logic approachable. It reveals only the controls needed for the selected workflow, supports a preview before writes, and requires one project plus an explicit provider for stakeholder updates. Configuration checks stay server-side, so keys and OAuth tokens never return to the dialog.",
         "audio": "audio/slide-07.mp3",
-        "duration_seconds": 20.86
+        "duration_seconds": 20.86,
+        "output_sha256": "41badd6df8f4418781fbe1bac9139eeeae7ce5a40a9742dba0dea5326293d750"
       },
       "notes": [],
-      "eyebrow": "Custom Apps Script dialog"
+      "eyebrow": "Custom Apps Script dialog",
+      "audio": "audio/slide-07.mp3"
     },
     {
       "id": "slide-08",
@@ -328,10 +369,12 @@
         "script": "Gemini uses the owner’s Google authorization; Claude and OpenAI use separate Secret Manager secrets. Only selected-project facts and aggregates are sent—never Notes or emails. Responses must match source task IDs and supported figures. If validation fails, the private Doc keeps verified metrics and marks the AI narrative unavailable. Gemini’s built-in Sheets AI remains a separate playground; this dialog is the governed reporting path.",
         "transcript": "Gemini uses the owner’s Google authorization; Claude and OpenAI use separate Secret Manager secrets. Only selected-project facts and aggregates are sent—never Notes or emails. Responses must match source task IDs and supported figures. If validation fails, the private Doc keeps verified metrics and marks the AI narrative unavailable. Gemini’s built-in Sheets AI remains a separate playground; this dialog is the governed reporting path.",
         "audio": "audio/slide-08.mp3",
-        "duration_seconds": 25.7
+        "duration_seconds": 25.7,
+        "output_sha256": "6f010f52d24f49147ac5011310c32ad263bf5e29ab72af80f214a0d988324711"
       },
       "notes": [],
-      "eyebrow": "Secure AI-assisted reporting"
+      "eyebrow": "Secure AI-assisted reporting",
+      "audio": "audio/slide-08.mp3"
     },
     {
       "id": "slide-09",
@@ -359,7 +402,8 @@
         "script": "Use the contact option shown to tell me which Sheet process you want simplified.",
         "transcript": "Use the contact option shown to tell me which Sheet process you want simplified.",
         "audio": "audio/slide-09.mp3",
-        "duration_seconds": 5.52
+        "duration_seconds": 5.52,
+        "output_sha256": "66fd66156ecf1c897aa104b47c1723d63d3684f1449f9cfa6e18555cb94d5c95"
       },
       "notes": [],
       "eyebrow": "Client delivery",
@@ -367,7 +411,8 @@
         "type": "url-selected-contact",
         "label": "Use the contact option shown",
         "destination": "upwork"
-      }
+      },
+      "audio": "audio/slide-09.mp3"
     }
   ],
   "qa": {
