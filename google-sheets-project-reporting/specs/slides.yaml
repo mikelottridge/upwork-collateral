@@ -106,7 +106,7 @@
       "id": "slide-01",
       "role": "title",
       "template": "headline-hero",
-      "seconds": 17.8,
+      "seconds": 18.3,
       "headline": "One governed workflow produces priorities, workload views, and stakeholder drafts",
       "subhead": "A project manager can move from the shared task table to a focused action view or stakeholder draft without rebuilding filters, counts, and summaries by hand.",
       "body": [
@@ -139,7 +139,7 @@
       "id": "slide-02",
       "role": "problem",
       "template": "pain-points",
-      "seconds": 16.7,
+      "seconds": 17.2,
       "headline": "The task table may be current while the management view is already stale.",
       "subhead": "Project managers often repeat the same filtering, regrouping, and status-writing work because a flexible Sheet does not automatically create every decision view.",
       "body": [
@@ -172,7 +172,7 @@
       "id": "slide-03",
       "role": "proof",
       "template": "case-study",
-      "seconds": 19.36,
+      "seconds": 19.86,
       "headline": "The Google Sheet supplies controlled task facts, calculated timing, and stable task IDs.",
       "subhead": "Apps Script reads a frozen owner-only copy of the public tracker. It does not depend on screenshots, free-form notes, or a second database.",
       "body": [
@@ -207,7 +207,7 @@
       "id": "slide-04",
       "role": "process",
       "template": "process-strip",
-      "seconds": 21.45,
+      "seconds": 21.95,
       "headline": "One Apps Script menu turns report choices into validated, repeatable outputs.",
       "subhead": "The bound script reads the Sheet, validates the request, calculates metrics, refreshes report tabs, and creates a private Google Doc only when the user asks.",
       "body": [
@@ -240,7 +240,7 @@
       "id": "slide-05",
       "role": "proof",
       "template": "case-study",
-      "seconds": 18.96,
+      "seconds": 19.46,
       "headline": "Daily review reduces the tracker to the work that needs attention now.",
       "subhead": "The same dialog can combine project, worker, status, priority, and due-horizon filters, then sort the result into an action-ready Sheet tab.",
       "body": [
@@ -273,7 +273,7 @@
       "id": "slide-06",
       "role": "proof",
       "template": "case-study",
-      "seconds": 17.25,
+      "seconds": 17.75,
       "headline": "Workload can be grouped by worker or project without inventing utilization percentages.",
       "subhead": "The report uses counts the Sheet can support: open, overdue, blocked, and due soon. It avoids false precision when hours or capacity data do not exist.",
       "body": [
@@ -308,7 +308,7 @@
       "id": "slide-07",
       "role": "solution",
       "template": "solution-map",
-      "seconds": 21.36,
+      "seconds": 21.86,
       "headline": "The dialog makes complex reporting choices usable without exposing implementation details.",
       "subhead": "One interface supports daily review, workload planning, and stakeholder updates while showing only the controls relevant to the selected report.",
       "body": [
@@ -343,7 +343,7 @@
       "id": "slide-08",
       "role": "differentiator",
       "template": "case-study",
-      "seconds": 26.2,
+      "seconds": 26.7,
       "headline": "Gemini, Claude, and OpenAI share one validated output contract—not one shared secret path.",
       "subhead": "The provider is chosen explicitly. Gemini runs on Vertex AI under the owner’s Google authorization; Claude and OpenAI each use their own Secret Manager secret.",
       "body": [

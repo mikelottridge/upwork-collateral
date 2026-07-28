@@ -5,3 +5,5 @@ __pycache__/
 psychologist-project/screenshots/openai-candidates/
 psychologist-project/screenshots/openai-candidates-round2/
 psychologist-project/screenshots/openai-candidates-round3/
+node_modules/
+.playwright-cli/

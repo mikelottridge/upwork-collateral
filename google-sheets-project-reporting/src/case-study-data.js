@@ -1,7 +1,7 @@
 window.CASE_STUDY = {
   "presentationId": "google-sheets",
   "eyebrow": "Working product proof: Google Sheets project reporting",
-  "title": "Google Sheets + Apps Script automation for daily priorities, workload planning, and AI stakeholder updates",
+  "title": "Google Sheets reporting that turns live task data into decisions",
   "lead": "This working proof turns a structured Google Sheet into three project-management workflows: a daily action review, workload planning by worker or project, and a private stakeholder draft routed to Gemini, Claude, or OpenAI.",
   "about": "A private, end-to-end proof built from a frozen copy of a public Google Sheets project tracker.",
   "approach": "Keep deterministic counts and task references authoritative, use Apps Script for workflows that exceed cell formulas, and treat AI as a selected, validated drafting layer rather than an autonomous decision-maker.",
@@ -46,9 +46,9 @@ window.CASE_STUDY = {
   "slides": [
     {
       "eyebrow": "The client outcome",
-      "title": "Google Sheets + Apps Script automation for daily priorities, workload planning, and AI stakeholder updates.",
+      "title": "One governed workflow produces priorities, workload views, and stakeholder drafts.",
       "lead": "A project manager can move from the shared task table to a focused action view or stakeholder draft without rebuilding filters, counts, and summaries by hand.",
-      "durationMs": 17800,
+      "durationMs": 18300,
       "bullets": [
         "Keep Google Sheets as the familiar operating surface.",
         "Use Apps Script for repeatable reporting logic and document creation.",
@@ -86,7 +86,7 @@ window.CASE_STUDY = {
       "eyebrow": "The reporting problem",
       "title": "The task table may be current while the management view is already stale.",
       "lead": "Project managers often repeat the same filtering, regrouping, and status-writing work because a flexible Sheet does not automatically create every decision view.",
-      "durationMs": 16700,
+      "durationMs": 17200,
       "bullets": [
         "Daily review needs the right project, worker, priority, status, and due horizon.",
         "Workload planning needs consistent open, overdue, blocked, and due-soon counts.",
@@ -129,7 +129,7 @@ window.CASE_STUDY = {
       "eyebrow": "The structured foundation",
       "title": "The Google Sheet supplies controlled task facts, calculated timing, and stable task IDs.",
       "lead": "Apps Script reads a frozen owner-only copy of the public tracker. It does not depend on screenshots, free-form notes, or a second database.",
-      "durationMs": 19360,
+      "durationMs": 19860,
       "bullets": [
         "Project, worker, priority, status, and dates remain normal Sheet fields.",
         "Timing categories and recommended actions stay deterministic.",
@@ -160,7 +160,7 @@ window.CASE_STUDY = {
       "eyebrow": "The automation flow",
       "title": "One Apps Script menu turns report choices into validated, repeatable outputs.",
       "lead": "The bound script reads the Sheet, validates the request, calculates metrics, refreshes report tabs, and creates a private Google Doc only when the user asks.",
-      "durationMs": 21450,
+      "durationMs": 21950,
       "bullets": [
         "A document lock prevents overlapping report writes.",
         "Daily Actions and Workload tabs refresh in place instead of multiplying copies.",
@@ -203,7 +203,7 @@ window.CASE_STUDY = {
       "eyebrow": "Daily priorities",
       "title": "Daily review reduces the tracker to the work that needs attention now.",
       "lead": "The same dialog can combine project, worker, status, priority, and due-horizon filters, then sort the result into an action-ready Sheet tab.",
-      "durationMs": 18960,
+      "durationMs": 19460,
       "bullets": [
         "Overdue and blocked work remains visible instead of being averaged into a dashboard.",
         "Task IDs, due dates, timing categories, and recommended actions stay together.",
@@ -257,7 +257,7 @@ window.CASE_STUDY = {
       "eyebrow": "Workload planning",
       "title": "Workload can be grouped by worker or project without inventing utilization percentages.",
       "lead": "The report uses counts the Sheet can support: open, overdue, blocked, and due soon. It avoids false precision when hours or capacity data do not exist.",
-      "durationMs": 17250,
+      "durationMs": 17750,
       "bullets": [
         "Switch grouping between worker and project in the same dialog.",
         "Compare real task counts and timing risk instead of guessed capacity.",
@@ -290,7 +290,7 @@ window.CASE_STUDY = {
       "eyebrow": "Custom Apps Script dialog",
       "title": "The dialog makes complex reporting choices usable without exposing implementation details.",
       "lead": "One interface supports daily review, workload planning, and stakeholder updates while showing only the controls relevant to the selected report.",
-      "durationMs": 21360,
+      "durationMs": 21860,
       "bullets": [
         "Show only the controls relevant to the selected report type.",
         "Require one project and an explicit provider before a stakeholder update can run.",
@@ -322,7 +322,7 @@ window.CASE_STUDY = {
       "eyebrow": "Secure AI-assisted reporting",
       "title": "Gemini, Claude, and OpenAI share one validated output contract—not one shared secret path.",
       "lead": "The provider is chosen explicitly. Gemini runs on Vertex AI under the owner’s Google authorization; Claude and OpenAI each use their own Secret Manager secret.",
-      "durationMs": 26200,
+      "durationMs": 26700,
       "bullets": [
         "Only selected-project task facts and deterministic aggregates are sent; Notes and email addresses are excluded.",
         "The draft is checked against source task IDs and supported figures before it becomes Google Doc text.",
