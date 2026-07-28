@@ -2,7 +2,7 @@
 
 Date: 2026-07-28
 Approved outline SHA-256: `b57a2e085c753521e6f58f1f6583781fb9a2380742482e9de5f34b86236519a2`
-Status: local implementation complete except for seven externally generated narration files; not deployed.
+Status: local implementation and certification complete; deployment pending.
 
 ## Story and advisory review
 
@@ -13,10 +13,11 @@ Status: local implementation complete except for seven externally generated narr
 
 ## Deterministic and browser checks
 
-- `npm test`: 26 of 26 tests pass, including exact script-to-spec parity and byte verification for the reused CTA clip.
-- Canonical spec: 8 stages, 119.52 seconds, approved `technical-editorial-v1` style, and no unapproved material changes.
-- Copy/style validator: zero warnings and no non-audio errors.
-- The remaining seven errors are exactly the pending SHA-256 values for narration stages 1 through 7.
+- `npm test`: 26 of 26 tests pass, including exact script-to-spec and recorded-byte parity.
+- Canonical spec: 8 stages, 122.82 seconds, approved `technical-editorial-v1` style, and no unapproved material changes.
+- Copy/style validator: zero errors and zero warnings.
+- Required SWI-Prolog certification passed accessibility, narration, policy, structure, and style.
+- Four reviewed render warnings identify only Reveal's intentionally clipped one-pixel `.aria-status` accessibility node; the five-viewport deck inspection found no content clipping.
 - Browser matrix: all 8 stages at 1440x900, 1366x768, 1024x768, 768x1024, and 390x844.
 - Browser results: zero console errors and zero horizontal overflow at every viewport.
 - Phone behavior: the three taller stages scroll in manual-progression mode; no content is clipped.
@@ -25,11 +26,13 @@ Status: local implementation complete except for seven externally generated narr
 - Channel routing: base exposes the email CTA; `?upwork=1` exposes only the Upwork CTA and no visible email action; UTM-only attribution remains base mode.
 - Analytics: exactly `view`, `final_slide`, and `cta_click`, with only approved fields.
 
-## Narration gate
+## Narration
 
 - Stage 8 reuses the existing, story-identical Cedar CTA narration byte-for-byte.
-- Exact scripts for stages 1 through 7 are approved and staged under `audio/service-reframe/`.
-- Generation is paused because sending those scripts to the OpenAI Audio API requires explicit destination authorization.
+- Stages 1 through 7 use newly generated Cedar MP3s from `gpt-4o-mini-tts-2025-12-15`.
+- All eight clips are 24 kHz mono MP3 at 128 kbps; measured durations and SHA-256 hashes match the canonical spec.
+- Local runtime QA confirms idle-before-gesture, current first-clip playback, audio-ended advancement, current second-clip playback, and successful MP3 requests.
+- Audible subjective quality remains unverified because this environment cannot listen.
 - No incomplete build has been deployed.
 
 ## Static PDF

@@ -1,7 +1,7 @@
 {
-  "status": "fail",
+  "status": "pass",
   "slide_count": 8,
-  "runtime_seconds": 119.52,
+  "runtime_seconds": 122.82,
   "contract_status": "approved",
   "style": {
     "profile": "technical-editorial-v1",
@@ -43,43 +43,7 @@
     "first_transition_checked": false,
     "asset_resolution_checked": false
   },
-  "errors": [
-    {
-      "code": "narration.output_sha256",
-      "message": "Audio-mode decks require the exact lowercase SHA-256 of each stored output",
-      "slide_id": "slide-01"
-    },
-    {
-      "code": "narration.output_sha256",
-      "message": "Audio-mode decks require the exact lowercase SHA-256 of each stored output",
-      "slide_id": "slide-02"
-    },
-    {
-      "code": "narration.output_sha256",
-      "message": "Audio-mode decks require the exact lowercase SHA-256 of each stored output",
-      "slide_id": "slide-03"
-    },
-    {
-      "code": "narration.output_sha256",
-      "message": "Audio-mode decks require the exact lowercase SHA-256 of each stored output",
-      "slide_id": "slide-04"
-    },
-    {
-      "code": "narration.output_sha256",
-      "message": "Audio-mode decks require the exact lowercase SHA-256 of each stored output",
-      "slide_id": "slide-05"
-    },
-    {
-      "code": "narration.output_sha256",
-      "message": "Audio-mode decks require the exact lowercase SHA-256 of each stored output",
-      "slide_id": "slide-06"
-    },
-    {
-      "code": "narration.output_sha256",
-      "message": "Audio-mode decks require the exact lowercase SHA-256 of each stored output",
-      "slide_id": "slide-07"
-    }
-  ],
+  "errors": [],
   "warnings": [],
   "info": [
     {
@@ -96,7 +60,7 @@
     }
   ],
   "summary": {
-    "error_count": 7,
+    "error_count": 0,
     "warning_count": 0,
     "info_count": 3
   }

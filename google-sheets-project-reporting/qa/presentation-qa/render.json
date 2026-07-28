@@ -8,8 +8,8 @@
           "clientHeight": 1,
           "clientWidth": 1,
           "id": null,
-          "scrollHeight": 2306,
-          "scrollWidth": 95,
+          "scrollHeight": 2274,
+          "scrollWidth": 113,
           "tag": "DIV"
         }
       ],
@@ -441,24 +441,6 @@
           "tag": "SPAN"
         },
         {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "BUTTON"
-        },
-        {
-          "color": "rgb(138, 147, 140)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "10px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "10px",
-          "tag": "SPAN"
-        },
-        {
           "color": "rgb(22, 33, 29)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
           "fontSize": "16px",
@@ -523,210 +505,6 @@
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
           "fontSize": "16px",
           "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "SECTION"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "Newsreader, Georgia, serif",
-          "fontSize": "38px",
-          "tag": "H2"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "10px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "10px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "10px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "11px",
-          "tag": "DETAILS"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "11px",
-          "tag": "SUMMARY"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "FIGURE"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "9px",
-          "tag": "FIGCAPTION"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "H3"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "H3"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "H3"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
@@ -1209,12 +987,6 @@
           "tag": "SUMMARY"
         },
         {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "11px",
-          "tag": "P"
-        },
-        {
           "color": "rgb(22, 33, 29)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
           "fontSize": "16px",
@@ -1227,10 +999,16 @@
           "tag": "FIGURE"
         },
         {
-          "color": "rgb(74, 84, 78)",
+          "color": "rgba(238, 240, 234, 0.72)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
           "fontSize": "9px",
           "tag": "FIGCAPTION"
+        },
+        {
+          "color": "rgba(238, 240, 234, 0.68)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "10px",
+          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
@@ -1239,100 +1017,22 @@
           "tag": "DIV"
         },
         {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
+          "color": "rgb(99, 201, 177)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
+          "fontSize": "9px",
           "tag": "SPAN"
         },
         {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "H3"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
+          "color": "rgb(99, 201, 177)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
+          "fontSize": "9px",
           "tag": "SPAN"
         },
         {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "H3"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
+          "color": "rgb(99, 201, 177)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
+          "fontSize": "9px",
           "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "H3"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "H3"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
@@ -1467,18 +1167,6 @@
           "tag": "FIGCAPTION"
         },
         {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "9px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "9px",
-          "tag": "SMALL"
-        },
-        {
           "color": "rgb(22, 33, 29)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
           "fontSize": "16px",
@@ -1488,43 +1176,7 @@
           "color": "rgb(22, 33, 29)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
           "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "9px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "9px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "9px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "11px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "11px",
-          "tag": "DIV"
+          "tag": "ARTICLE"
         },
         {
           "color": "rgb(14, 107, 92)",
@@ -1533,28 +1185,22 @@
           "tag": "SPAN"
         },
         {
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "14px",
+          "tag": "H3"
+        },
+        {
           "color": "rgb(74, 84, 78)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "11px",
-          "tag": "DIV"
+          "fontSize": "12px",
+          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
           "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "11px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "11px",
-          "tag": "DIV"
+          "tag": "ARTICLE"
         },
         {
           "color": "rgb(14, 107, 92)",
@@ -1563,28 +1209,22 @@
           "tag": "SPAN"
         },
         {
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "14px",
+          "tag": "H3"
+        },
+        {
           "color": "rgb(74, 84, 78)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "11px",
-          "tag": "DIV"
+          "fontSize": "12px",
+          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
           "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "11px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "11px",
-          "tag": "DIV"
+          "tag": "ARTICLE"
         },
         {
           "color": "rgb(14, 107, 92)",
@@ -1593,10 +1233,16 @@
           "tag": "SPAN"
         },
         {
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "14px",
+          "tag": "H3"
+        },
+        {
           "color": "rgb(74, 84, 78)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "11px",
-          "tag": "DIV"
+          "fontSize": "12px",
+          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
@@ -2049,16 +1695,10 @@
           "tag": "FIGURE"
         },
         {
-          "color": "rgba(238, 240, 234, 0.72)",
+          "color": "rgb(74, 84, 78)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
           "fontSize": "9px",
           "tag": "FIGCAPTION"
-        },
-        {
-          "color": "rgba(238, 240, 234, 0.68)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "10px",
-          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
@@ -2067,22 +1707,100 @@
           "tag": "DIV"
         },
         {
-          "color": "rgb(99, 201, 177)",
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "16px",
+          "tag": "ARTICLE"
+        },
+        {
+          "color": "rgb(14, 107, 92)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "9px",
+          "fontSize": "11px",
           "tag": "SPAN"
         },
         {
-          "color": "rgb(99, 201, 177)",
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "14px",
+          "tag": "H3"
+        },
+        {
+          "color": "rgb(74, 84, 78)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "12px",
+          "tag": "P"
+        },
+        {
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "16px",
+          "tag": "ARTICLE"
+        },
+        {
+          "color": "rgb(14, 107, 92)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "9px",
+          "fontSize": "11px",
           "tag": "SPAN"
         },
         {
-          "color": "rgb(99, 201, 177)",
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "14px",
+          "tag": "H3"
+        },
+        {
+          "color": "rgb(74, 84, 78)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "12px",
+          "tag": "P"
+        },
+        {
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "16px",
+          "tag": "ARTICLE"
+        },
+        {
+          "color": "rgb(14, 107, 92)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "9px",
+          "fontSize": "11px",
           "tag": "SPAN"
+        },
+        {
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "14px",
+          "tag": "H3"
+        },
+        {
+          "color": "rgb(74, 84, 78)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "12px",
+          "tag": "P"
+        },
+        {
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "16px",
+          "tag": "ARTICLE"
+        },
+        {
+          "color": "rgb(14, 107, 92)",
+          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+          "fontSize": "11px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "14px",
+          "tag": "H3"
+        },
+        {
+          "color": "rgb(74, 84, 78)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "12px",
+          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
@@ -2334,30 +2052,6 @@
           "color": "rgb(22, 33, 29)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
           "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "H3"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
           "tag": "DIV"
         },
         {
@@ -2402,8 +2096,8 @@
           "clientHeight": 1,
           "clientWidth": 1,
           "id": null,
-          "scrollHeight": 2306,
-          "scrollWidth": 95,
+          "scrollHeight": 2274,
+          "scrollWidth": 113,
           "tag": "DIV"
         }
       ],
@@ -2835,24 +2529,6 @@
           "tag": "SPAN"
         },
         {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "BUTTON"
-        },
-        {
-          "color": "rgb(138, 147, 140)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "10px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "10px",
-          "tag": "SPAN"
-        },
-        {
           "color": "rgb(22, 33, 29)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
           "fontSize": "16px",
@@ -2917,210 +2593,6 @@
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
           "fontSize": "16px",
           "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "SECTION"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "Newsreader, Georgia, serif",
-          "fontSize": "28.672px",
-          "tag": "H2"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "10px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "10px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "10px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "11px",
-          "tag": "DETAILS"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "11px",
-          "tag": "SUMMARY"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "FIGURE"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "9px",
-          "tag": "FIGCAPTION"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "H3"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "H3"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "H3"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
@@ -3603,12 +3075,6 @@
           "tag": "SUMMARY"
         },
         {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "11px",
-          "tag": "P"
-        },
-        {
           "color": "rgb(22, 33, 29)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
           "fontSize": "16px",
@@ -3621,10 +3087,16 @@
           "tag": "FIGURE"
         },
         {
-          "color": "rgb(74, 84, 78)",
+          "color": "rgba(238, 240, 234, 0.72)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
           "fontSize": "9px",
           "tag": "FIGCAPTION"
+        },
+        {
+          "color": "rgba(238, 240, 234, 0.68)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "10px",
+          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
@@ -3633,100 +3105,22 @@
           "tag": "DIV"
         },
         {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
+          "color": "rgb(99, 201, 177)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
+          "fontSize": "9px",
           "tag": "SPAN"
         },
         {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "H3"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
+          "color": "rgb(99, 201, 177)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
+          "fontSize": "9px",
           "tag": "SPAN"
         },
         {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "H3"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
+          "color": "rgb(99, 201, 177)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
+          "fontSize": "9px",
           "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "H3"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "H3"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
@@ -3861,18 +3255,6 @@
           "tag": "FIGCAPTION"
         },
         {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "9px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "9px",
-          "tag": "SMALL"
-        },
-        {
           "color": "rgb(22, 33, 29)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
           "fontSize": "16px",
@@ -3882,43 +3264,7 @@
           "color": "rgb(22, 33, 29)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
           "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "9px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "9px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "9px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "11px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "11px",
-          "tag": "DIV"
+          "tag": "ARTICLE"
         },
         {
           "color": "rgb(14, 107, 92)",
@@ -3927,28 +3273,22 @@
           "tag": "SPAN"
         },
         {
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "14px",
+          "tag": "H3"
+        },
+        {
           "color": "rgb(74, 84, 78)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "11px",
-          "tag": "DIV"
+          "fontSize": "12px",
+          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
           "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "11px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "11px",
-          "tag": "DIV"
+          "tag": "ARTICLE"
         },
         {
           "color": "rgb(14, 107, 92)",
@@ -3957,28 +3297,22 @@
           "tag": "SPAN"
         },
         {
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "14px",
+          "tag": "H3"
+        },
+        {
           "color": "rgb(74, 84, 78)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "11px",
-          "tag": "DIV"
+          "fontSize": "12px",
+          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
           "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "11px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "11px",
-          "tag": "DIV"
+          "tag": "ARTICLE"
         },
         {
           "color": "rgb(14, 107, 92)",
@@ -3987,10 +3321,16 @@
           "tag": "SPAN"
         },
         {
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "14px",
+          "tag": "H3"
+        },
+        {
           "color": "rgb(74, 84, 78)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "11px",
-          "tag": "DIV"
+          "fontSize": "12px",
+          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
@@ -4443,16 +3783,10 @@
           "tag": "FIGURE"
         },
         {
-          "color": "rgba(238, 240, 234, 0.72)",
+          "color": "rgb(74, 84, 78)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
           "fontSize": "9px",
           "tag": "FIGCAPTION"
-        },
-        {
-          "color": "rgba(238, 240, 234, 0.68)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "10px",
-          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
@@ -4461,22 +3795,100 @@
           "tag": "DIV"
         },
         {
-          "color": "rgb(99, 201, 177)",
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "16px",
+          "tag": "ARTICLE"
+        },
+        {
+          "color": "rgb(14, 107, 92)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "9px",
+          "fontSize": "11px",
           "tag": "SPAN"
         },
         {
-          "color": "rgb(99, 201, 177)",
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "14px",
+          "tag": "H3"
+        },
+        {
+          "color": "rgb(74, 84, 78)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "12px",
+          "tag": "P"
+        },
+        {
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "16px",
+          "tag": "ARTICLE"
+        },
+        {
+          "color": "rgb(14, 107, 92)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "9px",
+          "fontSize": "11px",
           "tag": "SPAN"
         },
         {
-          "color": "rgb(99, 201, 177)",
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "14px",
+          "tag": "H3"
+        },
+        {
+          "color": "rgb(74, 84, 78)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "12px",
+          "tag": "P"
+        },
+        {
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "16px",
+          "tag": "ARTICLE"
+        },
+        {
+          "color": "rgb(14, 107, 92)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "9px",
+          "fontSize": "11px",
           "tag": "SPAN"
+        },
+        {
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "14px",
+          "tag": "H3"
+        },
+        {
+          "color": "rgb(74, 84, 78)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "12px",
+          "tag": "P"
+        },
+        {
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "16px",
+          "tag": "ARTICLE"
+        },
+        {
+          "color": "rgb(14, 107, 92)",
+          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+          "fontSize": "11px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "14px",
+          "tag": "H3"
+        },
+        {
+          "color": "rgb(74, 84, 78)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "12px",
+          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
@@ -4728,30 +4140,6 @@
           "color": "rgb(22, 33, 29)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
           "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "H3"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
           "tag": "DIV"
         },
         {
@@ -4819,27 +4207,6 @@
           "left": 1107,
           "right": 1185,
           "tag": "SPAN"
-        },
-        {
-          "className": "",
-          "id": null,
-          "left": 1200,
-          "right": 1342,
-          "tag": "BUTTON"
-        },
-        {
-          "className": "",
-          "id": null,
-          "left": 1212,
-          "right": 1244,
-          "tag": "SPAN"
-        },
-        {
-          "className": "",
-          "id": null,
-          "left": 1252,
-          "right": 1330,
-          "tag": "SPAN"
         }
       ],
       "screenshot": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\qa\\presentation-qa\\renders\\render-1024x768.png",
@@ -4853,8 +4220,8 @@
           "clientHeight": 1,
           "clientWidth": 1,
           "id": null,
-          "scrollHeight": 2306,
-          "scrollWidth": 95,
+          "scrollHeight": 2274,
+          "scrollWidth": 113,
           "tag": "DIV"
         }
       ],
@@ -5286,24 +4653,6 @@
           "tag": "SPAN"
         },
         {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "BUTTON"
-        },
-        {
-          "color": "rgb(138, 147, 140)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "10px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "10px",
-          "tag": "SPAN"
-        },
-        {
           "color": "rgb(22, 33, 29)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
           "fontSize": "16px",
@@ -5368,210 +4717,6 @@
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
           "fontSize": "16px",
           "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "SECTION"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "Newsreader, Georgia, serif",
-          "fontSize": "31px",
-          "tag": "H2"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "10px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "10px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "10px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "11px",
-          "tag": "DETAILS"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "11px",
-          "tag": "SUMMARY"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "FIGURE"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "9px",
-          "tag": "FIGCAPTION"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "H3"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "H3"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "H3"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
@@ -6054,12 +5199,6 @@
           "tag": "SUMMARY"
         },
         {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "11px",
-          "tag": "P"
-        },
-        {
           "color": "rgb(22, 33, 29)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
           "fontSize": "16px",
@@ -6072,10 +5211,16 @@
           "tag": "FIGURE"
         },
         {
-          "color": "rgb(74, 84, 78)",
+          "color": "rgba(238, 240, 234, 0.72)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
           "fontSize": "9px",
           "tag": "FIGCAPTION"
+        },
+        {
+          "color": "rgba(238, 240, 234, 0.68)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "10px",
+          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
@@ -6084,100 +5229,22 @@
           "tag": "DIV"
         },
         {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
+          "color": "rgb(99, 201, 177)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
+          "fontSize": "9px",
           "tag": "SPAN"
         },
         {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "H3"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
+          "color": "rgb(99, 201, 177)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
+          "fontSize": "9px",
           "tag": "SPAN"
         },
         {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "H3"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
+          "color": "rgb(99, 201, 177)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
+          "fontSize": "9px",
           "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "H3"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "H3"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
@@ -6312,136 +5379,82 @@
           "tag": "FIGCAPTION"
         },
         {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "9px",
-          "tag": "SPAN"
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "16px",
+          "tag": "ARTICLE"
         },
         {
           "color": "rgb(14, 107, 92)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "9px",
-          "tag": "SMALL"
+          "fontSize": "11px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "14px",
+          "tag": "H3"
+        },
+        {
+          "color": "rgb(74, 84, 78)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "12px",
+          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
           "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "10px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "10px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "10px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "10px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "10px",
-          "tag": "DIV"
+          "tag": "ARTICLE"
         },
         {
           "color": "rgb(14, 107, 92)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "10px",
+          "fontSize": "11px",
           "tag": "SPAN"
+        },
+        {
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "14px",
+          "tag": "H3"
         },
         {
           "color": "rgb(74, 84, 78)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "10px",
-          "tag": "DIV"
+          "fontSize": "12px",
+          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
           "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "10px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "10px",
-          "tag": "DIV"
+          "tag": "ARTICLE"
         },
         {
           "color": "rgb(14, 107, 92)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "10px",
+          "fontSize": "11px",
           "tag": "SPAN"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "10px",
-          "tag": "DIV"
         },
         {
           "color": "rgb(22, 33, 29)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "10px",
-          "tag": "DIV"
+          "fontSize": "14px",
+          "tag": "H3"
         },
         {
           "color": "rgb(74, 84, 78)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "10px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "10px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "10px",
-          "tag": "DIV"
+          "fontSize": "12px",
+          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
@@ -6894,16 +5907,10 @@
           "tag": "FIGURE"
         },
         {
-          "color": "rgba(238, 240, 234, 0.72)",
+          "color": "rgb(74, 84, 78)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
           "fontSize": "9px",
           "tag": "FIGCAPTION"
-        },
-        {
-          "color": "rgba(238, 240, 234, 0.68)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "10px",
-          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
@@ -6912,22 +5919,100 @@
           "tag": "DIV"
         },
         {
-          "color": "rgb(99, 201, 177)",
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "16px",
+          "tag": "ARTICLE"
+        },
+        {
+          "color": "rgb(14, 107, 92)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "9px",
+          "fontSize": "11px",
           "tag": "SPAN"
         },
         {
-          "color": "rgb(99, 201, 177)",
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "14px",
+          "tag": "H3"
+        },
+        {
+          "color": "rgb(74, 84, 78)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "12px",
+          "tag": "P"
+        },
+        {
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "16px",
+          "tag": "ARTICLE"
+        },
+        {
+          "color": "rgb(14, 107, 92)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "9px",
+          "fontSize": "11px",
           "tag": "SPAN"
         },
         {
-          "color": "rgb(99, 201, 177)",
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "14px",
+          "tag": "H3"
+        },
+        {
+          "color": "rgb(74, 84, 78)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "12px",
+          "tag": "P"
+        },
+        {
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "16px",
+          "tag": "ARTICLE"
+        },
+        {
+          "color": "rgb(14, 107, 92)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "9px",
+          "fontSize": "11px",
           "tag": "SPAN"
+        },
+        {
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "14px",
+          "tag": "H3"
+        },
+        {
+          "color": "rgb(74, 84, 78)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "12px",
+          "tag": "P"
+        },
+        {
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "16px",
+          "tag": "ARTICLE"
+        },
+        {
+          "color": "rgb(14, 107, 92)",
+          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+          "fontSize": "11px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "14px",
+          "tag": "H3"
+        },
+        {
+          "color": "rgb(74, 84, 78)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "12px",
+          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
@@ -7102,30 +6187,6 @@
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
           "fontSize": "16px",
           "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "H3"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
@@ -7298,27 +6359,6 @@
           "left": 1087,
           "right": 1165,
           "tag": "SPAN"
-        },
-        {
-          "className": "",
-          "id": null,
-          "left": 1180,
-          "right": 1322,
-          "tag": "BUTTON"
-        },
-        {
-          "className": "",
-          "id": null,
-          "left": 1192,
-          "right": 1224,
-          "tag": "SPAN"
-        },
-        {
-          "className": "",
-          "id": null,
-          "left": 1232,
-          "right": 1310,
-          "tag": "SPAN"
         }
       ],
       "screenshot": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\qa\\presentation-qa\\renders\\render-768x1024.png",
@@ -7332,8 +6372,8 @@
           "clientHeight": 1,
           "clientWidth": 1,
           "id": null,
-          "scrollHeight": 2306,
-          "scrollWidth": 95,
+          "scrollHeight": 2274,
+          "scrollWidth": 113,
           "tag": "DIV"
         }
       ],
@@ -7765,24 +6805,6 @@
           "tag": "SPAN"
         },
         {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "BUTTON"
-        },
-        {
-          "color": "rgb(138, 147, 140)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "10px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "10px",
-          "tag": "SPAN"
-        },
-        {
           "color": "rgb(22, 33, 29)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
           "fontSize": "16px",
@@ -7853,210 +6875,6 @@
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
           "fontSize": "16px",
           "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "SECTION"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "Newsreader, Georgia, serif",
-          "fontSize": "31px",
-          "tag": "H2"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "10px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "10px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "10px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "11px",
-          "tag": "DETAILS"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "11px",
-          "tag": "SUMMARY"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "FIGURE"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "9px",
-          "tag": "FIGCAPTION"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "H3"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "H3"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "H3"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
@@ -8539,12 +7357,6 @@
           "tag": "SUMMARY"
         },
         {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "11px",
-          "tag": "P"
-        },
-        {
           "color": "rgb(22, 33, 29)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
           "fontSize": "16px",
@@ -8557,10 +7369,16 @@
           "tag": "FIGURE"
         },
         {
-          "color": "rgb(74, 84, 78)",
+          "color": "rgba(238, 240, 234, 0.72)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
           "fontSize": "9px",
           "tag": "FIGCAPTION"
+        },
+        {
+          "color": "rgba(238, 240, 234, 0.68)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "10px",
+          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
@@ -8569,100 +7387,22 @@
           "tag": "DIV"
         },
         {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
+          "color": "rgb(99, 201, 177)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
+          "fontSize": "9px",
           "tag": "SPAN"
         },
         {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "H3"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
+          "color": "rgb(99, 201, 177)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
+          "fontSize": "9px",
           "tag": "SPAN"
         },
         {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "H3"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
+          "color": "rgb(99, 201, 177)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
+          "fontSize": "9px",
           "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "H3"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "H3"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
@@ -8797,136 +7537,82 @@
           "tag": "FIGCAPTION"
         },
         {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "9px",
-          "tag": "SPAN"
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "16px",
+          "tag": "DIV"
+        },
+        {
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "16px",
+          "tag": "ARTICLE"
         },
         {
           "color": "rgb(14, 107, 92)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "9px",
-          "tag": "SMALL"
+          "fontSize": "11px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "14px",
+          "tag": "H3"
+        },
+        {
+          "color": "rgb(74, 84, 78)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "12px",
+          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
           "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "10px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "10px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "10px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "10px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "10px",
-          "tag": "DIV"
+          "tag": "ARTICLE"
         },
         {
           "color": "rgb(14, 107, 92)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "10px",
+          "fontSize": "11px",
           "tag": "SPAN"
+        },
+        {
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "14px",
+          "tag": "H3"
         },
         {
           "color": "rgb(74, 84, 78)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "10px",
-          "tag": "DIV"
+          "fontSize": "12px",
+          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
           "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "10px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "10px",
-          "tag": "DIV"
+          "tag": "ARTICLE"
         },
         {
           "color": "rgb(14, 107, 92)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "10px",
+          "fontSize": "11px",
           "tag": "SPAN"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "10px",
-          "tag": "DIV"
         },
         {
           "color": "rgb(22, 33, 29)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "10px",
-          "tag": "DIV"
+          "fontSize": "14px",
+          "tag": "H3"
         },
         {
           "color": "rgb(74, 84, 78)",
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "10px",
-          "tag": "DIV"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "10px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "10px",
-          "tag": "DIV"
+          "fontSize": "12px",
+          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
@@ -9379,16 +8065,10 @@
           "tag": "FIGURE"
         },
         {
-          "color": "rgba(238, 240, 234, 0.72)",
+          "color": "rgb(74, 84, 78)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
           "fontSize": "9px",
           "tag": "FIGCAPTION"
-        },
-        {
-          "color": "rgba(238, 240, 234, 0.68)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "10px",
-          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
@@ -9397,22 +8077,100 @@
           "tag": "DIV"
         },
         {
-          "color": "rgb(99, 201, 177)",
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "16px",
+          "tag": "ARTICLE"
+        },
+        {
+          "color": "rgb(14, 107, 92)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "9px",
+          "fontSize": "11px",
           "tag": "SPAN"
         },
         {
-          "color": "rgb(99, 201, 177)",
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "14px",
+          "tag": "H3"
+        },
+        {
+          "color": "rgb(74, 84, 78)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "12px",
+          "tag": "P"
+        },
+        {
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "16px",
+          "tag": "ARTICLE"
+        },
+        {
+          "color": "rgb(14, 107, 92)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "9px",
+          "fontSize": "11px",
           "tag": "SPAN"
         },
         {
-          "color": "rgb(99, 201, 177)",
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "14px",
+          "tag": "H3"
+        },
+        {
+          "color": "rgb(74, 84, 78)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "12px",
+          "tag": "P"
+        },
+        {
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "16px",
+          "tag": "ARTICLE"
+        },
+        {
+          "color": "rgb(14, 107, 92)",
           "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "9px",
+          "fontSize": "11px",
           "tag": "SPAN"
+        },
+        {
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "14px",
+          "tag": "H3"
+        },
+        {
+          "color": "rgb(74, 84, 78)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "12px",
+          "tag": "P"
+        },
+        {
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "16px",
+          "tag": "ARTICLE"
+        },
+        {
+          "color": "rgb(14, 107, 92)",
+          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
+          "fontSize": "11px",
+          "tag": "SPAN"
+        },
+        {
+          "color": "rgb(22, 33, 29)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "14px",
+          "tag": "H3"
+        },
+        {
+          "color": "rgb(74, 84, 78)",
+          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
+          "fontSize": "12px",
+          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
@@ -9587,30 +8345,6 @@
           "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
           "fontSize": "16px",
           "tag": "DIV"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "16px",
-          "tag": "ARTICLE"
-        },
-        {
-          "color": "rgb(14, 107, 92)",
-          "fontFamily": "\"IBM Plex Mono\", ui-monospace, monospace",
-          "fontSize": "11px",
-          "tag": "SPAN"
-        },
-        {
-          "color": "rgb(22, 33, 29)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "14px",
-          "tag": "H3"
-        },
-        {
-          "color": "rgb(74, 84, 78)",
-          "fontFamily": "\"IBM Plex Sans\", system-ui, sans-serif",
-          "fontSize": "12px",
-          "tag": "P"
         },
         {
           "color": "rgb(22, 33, 29)",
@@ -9838,27 +8572,6 @@
           "id": null,
           "left": 1087,
           "right": 1165,
-          "tag": "SPAN"
-        },
-        {
-          "className": "",
-          "id": null,
-          "left": 1180,
-          "right": 1322,
-          "tag": "BUTTON"
-        },
-        {
-          "className": "",
-          "id": null,
-          "left": 1192,
-          "right": 1224,
-          "tag": "SPAN"
-        },
-        {
-          "className": "",
-          "id": null,
-          "left": 1232,
-          "right": 1310,
           "tag": "SPAN"
         }
       ],

@@ -23,10 +23,10 @@
     }
   ],
   "narration": {
-    "audio_files": 9,
+    "audio_files": 8,
     "audio_required": true,
     "generation_endpoint": "/v1/audio/speech",
-    "generation_model": "gpt-4o-mini-tts",
+    "generation_model": "gpt-4o-mini-tts-2025-12-15",
     "generation_provider": "openai_api",
     "mode": "audio",
     "prior_source_type": "recorded_mp3",
@@ -34,15 +34,15 @@
     "recorded_audio_required": true,
     "required": true,
     "response_format": "mp3",
-    "scripts": 9,
+    "scripts": 8,
     "source_change_approved": true,
     "source_type": "recorded_mp3",
     "voice_change_approved": true,
     "voice_profile": "cedar"
   },
-  "runtime_seconds": 169.6,
-  "slide_count": 9,
-  "status": "pass_with_warnings",
+  "runtime_seconds": 122.82,
+  "slide_count": 8,
+  "status": "pass",
   "style": {
     "artifact_types": [
       "compare",
@@ -56,178 +56,12 @@
   "summary": {
     "error_count": 0,
     "info_count": 3,
-    "warning_count": 33
+    "warning_count": 0
   },
   "ux_change_control": {
     "all_changes_approved": true,
     "material_change_count": 6,
     "unapproved_material_change_count": 0
   },
-  "warnings": [
-    {
-      "code": "copy.subhead_long",
-      "message": "Subhead has 26 words; target is 20 or fewer",
-      "slide_id": "slide-01"
-    },
-    {
-      "code": "copy.headline_long",
-      "message": "Headline has 13 words; target is 12 or fewer",
-      "slide_id": "slide-02"
-    },
-    {
-      "code": "copy.subhead_long",
-      "message": "Subhead has 22 words; target is 20 or fewer",
-      "slide_id": "slide-02"
-    },
-    {
-      "code": "copy.body_long",
-      "message": "Body has 33 words; target is 28 or fewer",
-      "slide_id": "slide-02"
-    },
-    {
-      "code": "copy.bullet_long",
-      "message": "Bullet has 12 words; target is 10 or fewer",
-      "slide_id": "slide-02"
-    },
-    {
-      "code": "copy.bullet_long",
-      "message": "Bullet has 11 words; target is 10 or fewer",
-      "slide_id": "slide-02"
-    },
-    {
-      "code": "copy.headline_long",
-      "message": "Headline has 13 words; target is 12 or fewer",
-      "slide_id": "slide-03"
-    },
-    {
-      "code": "copy.subhead_long",
-      "message": "Subhead has 23 words; target is 20 or fewer",
-      "slide_id": "slide-03"
-    },
-    {
-      "code": "copy.body_long",
-      "message": "Body has 30 words; target is 28 or fewer",
-      "slide_id": "slide-03"
-    },
-    {
-      "code": "copy.bullet_long",
-      "message": "Bullet has 13 words; target is 10 or fewer",
-      "slide_id": "slide-03"
-    },
-    {
-      "code": "copy.subhead_long",
-      "message": "Subhead has 25 words; target is 20 or fewer",
-      "slide_id": "slide-04"
-    },
-    {
-      "code": "copy.body_long",
-      "message": "Body has 31 words; target is 28 or fewer",
-      "slide_id": "slide-04"
-    },
-    {
-      "code": "copy.bullet_long",
-      "message": "Bullet has 12 words; target is 10 or fewer",
-      "slide_id": "slide-04"
-    },
-    {
-      "code": "copy.bullet_long",
-      "message": "Bullet has 12 words; target is 10 or fewer",
-      "slide_id": "slide-04"
-    },
-    {
-      "code": "copy.subhead_long",
-      "message": "Subhead has 21 words; target is 20 or fewer",
-      "slide_id": "slide-05"
-    },
-    {
-      "code": "copy.body_long",
-      "message": "Body has 37 words; target is 28 or fewer",
-      "slide_id": "slide-05"
-    },
-    {
-      "code": "copy.bullet_long",
-      "message": "Bullet has 13 words; target is 10 or fewer",
-      "slide_id": "slide-05"
-    },
-    {
-      "code": "copy.bullet_long",
-      "message": "Bullet has 11 words; target is 10 or fewer",
-      "slide_id": "slide-05"
-    },
-    {
-      "code": "copy.bullet_long",
-      "message": "Bullet has 13 words; target is 10 or fewer",
-      "slide_id": "slide-05"
-    },
-    {
-      "code": "copy.subhead_long",
-      "message": "Subhead has 26 words; target is 20 or fewer",
-      "slide_id": "slide-06"
-    },
-    {
-      "code": "copy.body_long",
-      "message": "Body has 31 words; target is 28 or fewer",
-      "slide_id": "slide-06"
-    },
-    {
-      "code": "copy.bullet_long",
-      "message": "Bullet has 11 words; target is 10 or fewer",
-      "slide_id": "slide-06"
-    },
-    {
-      "code": "copy.body_long",
-      "message": "Body has 33 words; target is 28 or fewer",
-      "slide_id": "slide-07"
-    },
-    {
-      "code": "copy.bullet_long",
-      "message": "Bullet has 13 words; target is 10 or fewer",
-      "slide_id": "slide-07"
-    },
-    {
-      "code": "copy.headline_long",
-      "message": "Headline has 14 words; target is 12 or fewer",
-      "slide_id": "slide-08"
-    },
-    {
-      "code": "copy.subhead_long",
-      "message": "Subhead has 25 words; target is 20 or fewer",
-      "slide_id": "slide-08"
-    },
-    {
-      "code": "copy.body_long",
-      "message": "Body has 49 words; target is 28 or fewer",
-      "slide_id": "slide-08"
-    },
-    {
-      "code": "copy.bullet_long",
-      "message": "Bullet has 15 words; target is 10 or fewer",
-      "slide_id": "slide-08"
-    },
-    {
-      "code": "copy.bullet_long",
-      "message": "Bullet has 17 words; target is 10 or fewer",
-      "slide_id": "slide-08"
-    },
-    {
-      "code": "copy.bullet_long",
-      "message": "Bullet has 17 words; target is 10 or fewer",
-      "slide_id": "slide-08"
-    },
-    {
-      "code": "copy.subhead_long",
-      "message": "Subhead has 27 words; target is 20 or fewer",
-      "slide_id": "slide-09"
-    },
-    {
-      "code": "copy.body_long",
-      "message": "Body has 32 words; target is 28 or fewer",
-      "slide_id": "slide-09"
-    },
-    {
-      "code": "copy.bullet_long",
-      "message": "Bullet has 14 words; target is 10 or fewer",
-      "slide_id": "slide-09"
-    }
-  ]
+  "warnings": []
 }

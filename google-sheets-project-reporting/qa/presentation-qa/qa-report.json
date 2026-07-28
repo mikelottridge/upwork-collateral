@@ -42,12 +42,12 @@
           "clientHeight": 1,
           "clientWidth": 1,
           "id": null,
-          "scrollHeight": 2306,
-          "scrollWidth": 95,
+          "scrollHeight": 2274,
+          "scrollWidth": 113,
           "tag": "DIV"
         }
       ],
-      "finding_id": "048f17051fa05adf",
+      "finding_id": "ee7c423f6d69c85f",
       "message": "Potential clipped content was detected.",
       "rule_id": "RENDER_004",
       "severity": "warning",
@@ -61,12 +61,12 @@
           "clientHeight": 1,
           "clientWidth": 1,
           "id": null,
-          "scrollHeight": 2306,
-          "scrollWidth": 95,
+          "scrollHeight": 2274,
+          "scrollWidth": 113,
           "tag": "DIV"
         }
       ],
-      "finding_id": "10352bcb88ecc458",
+      "finding_id": "e499bb6e301aaa7c",
       "message": "Potential clipped content was detected.",
       "rule_id": "RENDER_004",
       "severity": "warning",
@@ -80,12 +80,12 @@
           "clientHeight": 1,
           "clientWidth": 1,
           "id": null,
-          "scrollHeight": 2306,
-          "scrollWidth": 95,
+          "scrollHeight": 2274,
+          "scrollWidth": 113,
           "tag": "DIV"
         }
       ],
-      "finding_id": "1f9b67126e7430a7",
+      "finding_id": "0c9e699e6519f521",
       "message": "Potential clipped content was detected.",
       "rule_id": "RENDER_004",
       "severity": "warning",
@@ -99,446 +99,17 @@
           "clientHeight": 1,
           "clientWidth": 1,
           "id": null,
-          "scrollHeight": 2306,
-          "scrollWidth": 95,
+          "scrollHeight": 2274,
+          "scrollWidth": 113,
           "tag": "DIV"
         }
       ],
-      "finding_id": "b2574b804393eef3",
+      "finding_id": "be7b6a40b200c264",
       "message": "Potential clipped content was detected.",
       "rule_id": "RENDER_004",
       "severity": "warning",
       "slide_id": "768x1024",
       "source": "python-render"
-    },
-    {
-      "evidence": {
-        "code": "copy.body_long",
-        "message": "Body has 33 words; target is 28 or fewer",
-        "slide_id": "slide-02"
-      },
-      "finding_id": "982488d56db9ef4c",
-      "message": "Body has 33 words; target is 28 or fewer",
-      "rule_id": "copy.body_long",
-      "severity": "warning",
-      "slide_id": "slide-02",
-      "source": "python-validator"
-    },
-    {
-      "evidence": {
-        "code": "copy.body_long",
-        "message": "Body has 30 words; target is 28 or fewer",
-        "slide_id": "slide-03"
-      },
-      "finding_id": "b9f69fd1cdfd9103",
-      "message": "Body has 30 words; target is 28 or fewer",
-      "rule_id": "copy.body_long",
-      "severity": "warning",
-      "slide_id": "slide-03",
-      "source": "python-validator"
-    },
-    {
-      "evidence": {
-        "code": "copy.body_long",
-        "message": "Body has 31 words; target is 28 or fewer",
-        "slide_id": "slide-04"
-      },
-      "finding_id": "3d141de0af442390",
-      "message": "Body has 31 words; target is 28 or fewer",
-      "rule_id": "copy.body_long",
-      "severity": "warning",
-      "slide_id": "slide-04",
-      "source": "python-validator"
-    },
-    {
-      "evidence": {
-        "code": "copy.body_long",
-        "message": "Body has 37 words; target is 28 or fewer",
-        "slide_id": "slide-05"
-      },
-      "finding_id": "ee66f89b1cfbf739",
-      "message": "Body has 37 words; target is 28 or fewer",
-      "rule_id": "copy.body_long",
-      "severity": "warning",
-      "slide_id": "slide-05",
-      "source": "python-validator"
-    },
-    {
-      "evidence": {
-        "code": "copy.body_long",
-        "message": "Body has 31 words; target is 28 or fewer",
-        "slide_id": "slide-06"
-      },
-      "finding_id": "f1762406c1efd751",
-      "message": "Body has 31 words; target is 28 or fewer",
-      "rule_id": "copy.body_long",
-      "severity": "warning",
-      "slide_id": "slide-06",
-      "source": "python-validator"
-    },
-    {
-      "evidence": {
-        "code": "copy.body_long",
-        "message": "Body has 33 words; target is 28 or fewer",
-        "slide_id": "slide-07"
-      },
-      "finding_id": "138bbac8859f6247",
-      "message": "Body has 33 words; target is 28 or fewer",
-      "rule_id": "copy.body_long",
-      "severity": "warning",
-      "slide_id": "slide-07",
-      "source": "python-validator"
-    },
-    {
-      "evidence": {
-        "code": "copy.body_long",
-        "message": "Body has 49 words; target is 28 or fewer",
-        "slide_id": "slide-08"
-      },
-      "finding_id": "2b3a22be094847ca",
-      "message": "Body has 49 words; target is 28 or fewer",
-      "rule_id": "copy.body_long",
-      "severity": "warning",
-      "slide_id": "slide-08",
-      "source": "python-validator"
-    },
-    {
-      "evidence": {
-        "code": "copy.body_long",
-        "message": "Body has 32 words; target is 28 or fewer",
-        "slide_id": "slide-09"
-      },
-      "finding_id": "9c00d1c5873c132e",
-      "message": "Body has 32 words; target is 28 or fewer",
-      "rule_id": "copy.body_long",
-      "severity": "warning",
-      "slide_id": "slide-09",
-      "source": "python-validator"
-    },
-    {
-      "evidence": {
-        "code": "copy.bullet_long",
-        "message": "Bullet has 12 words; target is 10 or fewer",
-        "slide_id": "slide-02"
-      },
-      "finding_id": "8a37e986bb650bdb",
-      "message": "Bullet has 12 words; target is 10 or fewer",
-      "rule_id": "copy.bullet_long",
-      "severity": "warning",
-      "slide_id": "slide-02",
-      "source": "python-validator"
-    },
-    {
-      "evidence": {
-        "code": "copy.bullet_long",
-        "message": "Bullet has 11 words; target is 10 or fewer",
-        "slide_id": "slide-02"
-      },
-      "finding_id": "f2eecfc475ae9bc2",
-      "message": "Bullet has 11 words; target is 10 or fewer",
-      "rule_id": "copy.bullet_long",
-      "severity": "warning",
-      "slide_id": "slide-02",
-      "source": "python-validator"
-    },
-    {
-      "evidence": {
-        "code": "copy.bullet_long",
-        "message": "Bullet has 13 words; target is 10 or fewer",
-        "slide_id": "slide-03"
-      },
-      "finding_id": "ecced8184b2af554",
-      "message": "Bullet has 13 words; target is 10 or fewer",
-      "rule_id": "copy.bullet_long",
-      "severity": "warning",
-      "slide_id": "slide-03",
-      "source": "python-validator"
-    },
-    {
-      "evidence": {
-        "code": "copy.bullet_long",
-        "message": "Bullet has 12 words; target is 10 or fewer",
-        "slide_id": "slide-04"
-      },
-      "finding_id": "644bc8be9f5153f8",
-      "message": "Bullet has 12 words; target is 10 or fewer",
-      "rule_id": "copy.bullet_long",
-      "severity": "warning",
-      "slide_id": "slide-04",
-      "source": "python-validator"
-    },
-    {
-      "evidence": {
-        "code": "copy.bullet_long",
-        "message": "Bullet has 12 words; target is 10 or fewer",
-        "slide_id": "slide-04"
-      },
-      "finding_id": "644bc8be9f5153f8",
-      "message": "Bullet has 12 words; target is 10 or fewer",
-      "rule_id": "copy.bullet_long",
-      "severity": "warning",
-      "slide_id": "slide-04",
-      "source": "python-validator"
-    },
-    {
-      "evidence": {
-        "code": "copy.bullet_long",
-        "message": "Bullet has 13 words; target is 10 or fewer",
-        "slide_id": "slide-05"
-      },
-      "finding_id": "0ae63bf0371e3ab6",
-      "message": "Bullet has 13 words; target is 10 or fewer",
-      "rule_id": "copy.bullet_long",
-      "severity": "warning",
-      "slide_id": "slide-05",
-      "source": "python-validator"
-    },
-    {
-      "evidence": {
-        "code": "copy.bullet_long",
-        "message": "Bullet has 13 words; target is 10 or fewer",
-        "slide_id": "slide-05"
-      },
-      "finding_id": "0ae63bf0371e3ab6",
-      "message": "Bullet has 13 words; target is 10 or fewer",
-      "rule_id": "copy.bullet_long",
-      "severity": "warning",
-      "slide_id": "slide-05",
-      "source": "python-validator"
-    },
-    {
-      "evidence": {
-        "code": "copy.bullet_long",
-        "message": "Bullet has 11 words; target is 10 or fewer",
-        "slide_id": "slide-05"
-      },
-      "finding_id": "1e93695aff4ab633",
-      "message": "Bullet has 11 words; target is 10 or fewer",
-      "rule_id": "copy.bullet_long",
-      "severity": "warning",
-      "slide_id": "slide-05",
-      "source": "python-validator"
-    },
-    {
-      "evidence": {
-        "code": "copy.bullet_long",
-        "message": "Bullet has 11 words; target is 10 or fewer",
-        "slide_id": "slide-06"
-      },
-      "finding_id": "706706f3a2f19e83",
-      "message": "Bullet has 11 words; target is 10 or fewer",
-      "rule_id": "copy.bullet_long",
-      "severity": "warning",
-      "slide_id": "slide-06",
-      "source": "python-validator"
-    },
-    {
-      "evidence": {
-        "code": "copy.bullet_long",
-        "message": "Bullet has 13 words; target is 10 or fewer",
-        "slide_id": "slide-07"
-      },
-      "finding_id": "485c5aea0b57a231",
-      "message": "Bullet has 13 words; target is 10 or fewer",
-      "rule_id": "copy.bullet_long",
-      "severity": "warning",
-      "slide_id": "slide-07",
-      "source": "python-validator"
-    },
-    {
-      "evidence": {
-        "code": "copy.bullet_long",
-        "message": "Bullet has 15 words; target is 10 or fewer",
-        "slide_id": "slide-08"
-      },
-      "finding_id": "3fdb0c8b6ca4456d",
-      "message": "Bullet has 15 words; target is 10 or fewer",
-      "rule_id": "copy.bullet_long",
-      "severity": "warning",
-      "slide_id": "slide-08",
-      "source": "python-validator"
-    },
-    {
-      "evidence": {
-        "code": "copy.bullet_long",
-        "message": "Bullet has 17 words; target is 10 or fewer",
-        "slide_id": "slide-08"
-      },
-      "finding_id": "d3346c5ecbdc6c3f",
-      "message": "Bullet has 17 words; target is 10 or fewer",
-      "rule_id": "copy.bullet_long",
-      "severity": "warning",
-      "slide_id": "slide-08",
-      "source": "python-validator"
-    },
-    {
-      "evidence": {
-        "code": "copy.bullet_long",
-        "message": "Bullet has 17 words; target is 10 or fewer",
-        "slide_id": "slide-08"
-      },
-      "finding_id": "d3346c5ecbdc6c3f",
-      "message": "Bullet has 17 words; target is 10 or fewer",
-      "rule_id": "copy.bullet_long",
-      "severity": "warning",
-      "slide_id": "slide-08",
-      "source": "python-validator"
-    },
-    {
-      "evidence": {
-        "code": "copy.bullet_long",
-        "message": "Bullet has 14 words; target is 10 or fewer",
-        "slide_id": "slide-09"
-      },
-      "finding_id": "095f4e3feedf4503",
-      "message": "Bullet has 14 words; target is 10 or fewer",
-      "rule_id": "copy.bullet_long",
-      "severity": "warning",
-      "slide_id": "slide-09",
-      "source": "python-validator"
-    },
-    {
-      "evidence": {
-        "code": "copy.headline_long",
-        "message": "Headline has 13 words; target is 12 or fewer",
-        "slide_id": "slide-02"
-      },
-      "finding_id": "c370e698440fc7e0",
-      "message": "Headline has 13 words; target is 12 or fewer",
-      "rule_id": "copy.headline_long",
-      "severity": "warning",
-      "slide_id": "slide-02",
-      "source": "python-validator"
-    },
-    {
-      "evidence": {
-        "code": "copy.headline_long",
-        "message": "Headline has 13 words; target is 12 or fewer",
-        "slide_id": "slide-03"
-      },
-      "finding_id": "c40d886d84e7f681",
-      "message": "Headline has 13 words; target is 12 or fewer",
-      "rule_id": "copy.headline_long",
-      "severity": "warning",
-      "slide_id": "slide-03",
-      "source": "python-validator"
-    },
-    {
-      "evidence": {
-        "code": "copy.headline_long",
-        "message": "Headline has 14 words; target is 12 or fewer",
-        "slide_id": "slide-08"
-      },
-      "finding_id": "390d9910000be7bb",
-      "message": "Headline has 14 words; target is 12 or fewer",
-      "rule_id": "copy.headline_long",
-      "severity": "warning",
-      "slide_id": "slide-08",
-      "source": "python-validator"
-    },
-    {
-      "evidence": {
-        "code": "copy.subhead_long",
-        "message": "Subhead has 26 words; target is 20 or fewer",
-        "slide_id": "slide-01"
-      },
-      "finding_id": "757d2a1d9047437d",
-      "message": "Subhead has 26 words; target is 20 or fewer",
-      "rule_id": "copy.subhead_long",
-      "severity": "warning",
-      "slide_id": "slide-01",
-      "source": "python-validator"
-    },
-    {
-      "evidence": {
-        "code": "copy.subhead_long",
-        "message": "Subhead has 22 words; target is 20 or fewer",
-        "slide_id": "slide-02"
-      },
-      "finding_id": "f4bc3764fe67dcf4",
-      "message": "Subhead has 22 words; target is 20 or fewer",
-      "rule_id": "copy.subhead_long",
-      "severity": "warning",
-      "slide_id": "slide-02",
-      "source": "python-validator"
-    },
-    {
-      "evidence": {
-        "code": "copy.subhead_long",
-        "message": "Subhead has 23 words; target is 20 or fewer",
-        "slide_id": "slide-03"
-      },
-      "finding_id": "8c734dc7fa27c0df",
-      "message": "Subhead has 23 words; target is 20 or fewer",
-      "rule_id": "copy.subhead_long",
-      "severity": "warning",
-      "slide_id": "slide-03",
-      "source": "python-validator"
-    },
-    {
-      "evidence": {
-        "code": "copy.subhead_long",
-        "message": "Subhead has 25 words; target is 20 or fewer",
-        "slide_id": "slide-04"
-      },
-      "finding_id": "20f5b906d10c45d6",
-      "message": "Subhead has 25 words; target is 20 or fewer",
-      "rule_id": "copy.subhead_long",
-      "severity": "warning",
-      "slide_id": "slide-04",
-      "source": "python-validator"
-    },
-    {
-      "evidence": {
-        "code": "copy.subhead_long",
-        "message": "Subhead has 21 words; target is 20 or fewer",
-        "slide_id": "slide-05"
-      },
-      "finding_id": "d9b2f0336e22db4c",
-      "message": "Subhead has 21 words; target is 20 or fewer",
-      "rule_id": "copy.subhead_long",
-      "severity": "warning",
-      "slide_id": "slide-05",
-      "source": "python-validator"
-    },
-    {
-      "evidence": {
-        "code": "copy.subhead_long",
-        "message": "Subhead has 26 words; target is 20 or fewer",
-        "slide_id": "slide-06"
-      },
-      "finding_id": "85740cb751f3112e",
-      "message": "Subhead has 26 words; target is 20 or fewer",
-      "rule_id": "copy.subhead_long",
-      "severity": "warning",
-      "slide_id": "slide-06",
-      "source": "python-validator"
-    },
-    {
-      "evidence": {
-        "code": "copy.subhead_long",
-        "message": "Subhead has 25 words; target is 20 or fewer",
-        "slide_id": "slide-08"
-      },
-      "finding_id": "ada4af36a4043455",
-      "message": "Subhead has 25 words; target is 20 or fewer",
-      "rule_id": "copy.subhead_long",
-      "severity": "warning",
-      "slide_id": "slide-08",
-      "source": "python-validator"
-    },
-    {
-      "evidence": {
-        "code": "copy.subhead_long",
-        "message": "Subhead has 27 words; target is 20 or fewer",
-        "slide_id": "slide-09"
-      },
-      "finding_id": "482c7a75f4a4a152",
-      "message": "Subhead has 27 words; target is 20 or fewer",
-      "rule_id": "copy.subhead_long",
-      "severity": "warning",
-      "slide_id": "slide-09",
-      "source": "python-validator"
     },
     {
       "evidence": {
@@ -576,44 +147,39 @@
   ],
   "input_manifest": [
     {
-      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-01.mp3",
-      "sha256": "5ffcfcf6c32153013dbf97822112df2a1dabecc345bc31ff40ed1d47890f1851",
-      "size_bytes": 276864
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\service-reframe\\slide-01.mp3",
+      "sha256": "9275315069e4a31b0ccdc384526b15b686c0b0ab99621d90d28d419eab48eddd",
+      "size_bytes": 213888
     },
     {
-      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-02.mp3",
-      "sha256": "9f31e780efc4023c5534b946a418611cd69ae640e1cd689d0c7257540d5d26fe",
-      "size_bytes": 259200
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\service-reframe\\slide-02.mp3",
+      "sha256": "ef2d27b04d14f6be0477c40c2115b4ef4211f9424249ebc6282c1b6db0f24e11",
+      "size_bytes": 301056
     },
     {
-      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-03.mp3",
-      "sha256": "78f31cb3f1226b41f8265cb91b7a2b2b5cdef9d40f74e6c75eb295cfbae73ae0",
-      "size_bytes": 301824
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\service-reframe\\slide-03.mp3",
+      "sha256": "02919a3c59de269b1c351004744d97e21f9815ea212be9f3e255aaef0434055f",
+      "size_bytes": 254592
     },
     {
-      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-04.mp3",
-      "sha256": "cb4acc5c430816785c00ae1d6d46c35dd0a6071bc4d334d8eda7528dbd901c13",
-      "size_bytes": 335232
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\service-reframe\\slide-04.mp3",
+      "sha256": "f1fb52615d035fb0bfa3c7317d5240ebe91048617c876d206fbc0904d2f1e542",
+      "size_bytes": 199296
     },
     {
-      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-05.mp3",
-      "sha256": "c4a790dc0afcde7871e2a4e10dcd996c8b568fbd5a3563922727725a1ba5d67f",
-      "size_bytes": 295296
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\service-reframe\\slide-05.mp3",
+      "sha256": "88d139f89b71d888519dce84541170a6baafeecc735196475c2d587d1ed528e5",
+      "size_bytes": 255360
     },
     {
-      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-06.mp3",
-      "sha256": "2cd647507e4c8cfe855d54986ef4377f51ce1180699e63da2bcf1f9fde83161c",
-      "size_bytes": 268032
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\service-reframe\\slide-06.mp3",
+      "sha256": "883bf54e7b9b4898f381585962177b613bd4adc2cec8ac0bcd0e4d3c2291c331",
+      "size_bytes": 320256
     },
     {
-      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-07.mp3",
-      "sha256": "41badd6df8f4418781fbe1bac9139eeeae7ce5a40a9742dba0dea5326293d750",
-      "size_bytes": 333696
-    },
-    {
-      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-08.mp3",
-      "sha256": "6f010f52d24f49147ac5011310c32ad263bf5e29ab72af80f214a0d988324711",
-      "size_bytes": 411264
+      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\service-reframe\\slide-07.mp3",
+      "sha256": "bd8d64b52d921e61bb9a57e00d7a80a0890b377dd87ec134249d5c329666f84d",
+      "size_bytes": 204288
     },
     {
       "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\audio\\slide-09.mp3",
@@ -622,8 +188,8 @@
     },
     {
       "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\site\\index.html",
-      "sha256": "88ff25770960c8049400f9ce3457b384fd581d757f0c80430eda78911a1ad015",
-      "size_bytes": 4622
+      "sha256": "9186e44eac98bdc20f3440955e59b409b077363803c73d4b12e4de9325875e33",
+      "size_bytes": 4368
     },
     {
       "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\specs\\asset-manifest.yaml",
@@ -637,13 +203,13 @@
     },
     {
       "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\specs\\brief.yaml",
-      "sha256": "fd184b356b1d73b4f92c4a043a49384788982ec0b876f305db50f7e63ba9ebd2",
-      "size_bytes": 4812
+      "sha256": "7932d500c5308c00adf66f92854faef3c6c019a4a5e1702f59753f02e5fcc431",
+      "size_bytes": 5081
     },
     {
       "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\specs\\slides.yaml",
-      "sha256": "3c6bc62b52399f0374b65fbfbd7690621389bdf1fdcab0632a93fa861cd62417",
-      "size_bytes": 21469
+      "sha256": "1d2bb2f922cd82e1808c8c9eb4b3f058581342410fedcdfcfe14f020c1fc4d88",
+      "size_bytes": 16135
     }
   ],
   "passed_checks": [
@@ -668,7 +234,7 @@
   "summary": {
     "error_count": 0,
     "info_count": 3,
-    "warning_count": 37
+    "warning_count": 4
   },
   "unstable_findings": [],
   "waivers": []

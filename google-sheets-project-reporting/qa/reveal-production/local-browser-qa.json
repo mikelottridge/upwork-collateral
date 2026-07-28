@@ -410,21 +410,21 @@
         "schema_version": "1",
         "event": "view",
         "presentation": "google-sheets",
-        "session_id": "317d901c-a76d-47a5-a676-92dff78c5e0b",
+        "session_id": "0e8ed600-f59e-4c3a-a7d3-3d365f700c33",
         "source": "qa"
       },
       {
         "schema_version": "1",
         "event": "final_slide",
         "presentation": "google-sheets",
-        "session_id": "317d901c-a76d-47a5-a676-92dff78c5e0b",
+        "session_id": "0e8ed600-f59e-4c3a-a7d3-3d365f700c33",
         "source": "qa"
       },
       {
         "schema_version": "1",
         "event": "cta_click",
         "presentation": "google-sheets",
-        "session_id": "317d901c-a76d-47a5-a676-92dff78c5e0b",
+        "session_id": "0e8ed600-f59e-4c3a-a7d3-3d365f700c33",
         "source": "qa"
       }
     ],
