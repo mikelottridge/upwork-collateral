@@ -1,4 +1,20 @@
 {
+  "approval": {
+    "approved_scopes": [
+      "assets",
+      "canonical-spec",
+      "deploy",
+      "html",
+      "pdf"
+    ],
+    "errors": [],
+    "outline_approved": true,
+    "outline_binding_matches": true,
+    "outline_sha256": "9ffe44bb10429e9ebc2e40740d3c1d93a4ed4fdcede71da98fba9272550553b5",
+    "requested_scopes": [
+      "canonical-spec"
+    ]
+  },
   "asset_count": 6,
   "audio": [
     {
@@ -182,20 +198,82 @@
       "versioned": false
     }
   ],
+  "channel": {
+    "active_profile": "base",
+    "intended_profiles": [
+      "base",
+      "upwork"
+    ],
+    "runtime_qa": {
+      "active_profile": "base",
+      "checked": true,
+      "intended_profiles": [
+        "base",
+        "upwork"
+      ],
+      "passed": true,
+      "profile_reports": {
+        "base": {
+          "active_profile": "base",
+          "contact_targets": [],
+          "content_hashes": {
+            "evidence": "9bf4884b82a5dac87657480dd990cebf85c02701bb01264147f937befda558e0",
+            "narration": "9bf4884b82a5dac87657480dd990cebf85c02701bb01264147f937befda558e0",
+            "story": "9bf4884b82a5dac87657480dd990cebf85c02701bb01264147f937befda558e0",
+            "visual": "9bf4884b82a5dac87657480dd990cebf85c02701bb01264147f937befda558e0"
+          },
+          "leaks": [],
+          "navigation_edges": [],
+          "passed": true,
+          "profile": "base",
+          "source": "file:///C:/Users/mikel/OneDrive/Documents/Consulting%20Collateral/worktrees/upwork-collateral/google-sheets-project-reporting/site/index.html",
+          "visited_urls": [
+            "file:///C:/Users/mikel/OneDrive/Documents/Consulting%20Collateral/worktrees/upwork-collateral/google-sheets-project-reporting/site/index.html"
+          ]
+        },
+        "upwork": {
+          "active_profile": "upwork",
+          "contact_targets": [],
+          "content_hashes": {
+            "evidence": "9bf4884b82a5dac87657480dd990cebf85c02701bb01264147f937befda558e0",
+            "narration": "9bf4884b82a5dac87657480dd990cebf85c02701bb01264147f937befda558e0",
+            "story": "9bf4884b82a5dac87657480dd990cebf85c02701bb01264147f937befda558e0",
+            "visual": "9bf4884b82a5dac87657480dd990cebf85c02701bb01264147f937befda558e0"
+          },
+          "leaks": [],
+          "navigation_edges": [],
+          "passed": true,
+          "profile": "upwork",
+          "source": "file:///C:/Users/mikel/OneDrive/Documents/Consulting%20Collateral/worktrees/upwork-collateral/google-sheets-project-reporting/site/index.html?upwork=1",
+          "visited_urls": [
+            "file:///C:/Users/mikel/OneDrive/Documents/Consulting%20Collateral/worktrees/upwork-collateral/google-sheets-project-reporting/site/index.html?upwork=1"
+          ]
+        }
+      },
+      "story_evidence_visual_narration_parity": true,
+      "upwork_checked": true,
+      "upwork_leak_count": 0,
+      "upwork_passed": true
+    }
+  },
   "deck": {
     "audio_generation_endpoint": "/v1/audio/speech",
     "audio_generation_model": "gpt-4o-mini-tts",
     "audio_generation_provider": "openai_api",
     "audio_response_format": "mp3",
-    "contract_status": "pre-contract",
+    "contract_status": "approved",
+    "extended_runtime_approval_complete": true,
+    "extended_runtime_approved": true,
     "id": "google-sheets-project-reporting",
     "narration_mode": "audio",
     "narration_source_type": "recorded_mp3",
+    "narration_voice_profile": "cedar",
     "outputs": [
       "html",
       "pdf"
     ],
     "recorded_audio_required": true,
+    "runtime_seconds": 169.6,
     "slide_count": 9,
     "style_profile": "technical-editorial-v1"
   },
@@ -247,19 +325,14 @@
       "size_bytes": 88320
     },
     {
-      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\site\\case-study-data.js",
-      "sha256": "5940b82548a98d49a97c54ba5289f77d9bb8b9da2c89079daf674d03ae30cf56",
-      "size_bytes": 19748
-    },
-    {
       "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\site\\index.html",
-      "sha256": "d95d26ac95fc5bce6306768625a5fcfad720c6b778bb96c7f2ce0fe29810623d",
-      "size_bytes": 4707
+      "sha256": "88ff25770960c8049400f9ce3457b384fd581d757f0c80430eda78911a1ad015",
+      "size_bytes": 4622
     },
     {
       "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\specs\\asset-manifest.yaml",
-      "sha256": "c9bec9e44ec40ffc0f2f8ac4730f9ad23c0e39aa748b1f71c144d12df46fd52d",
-      "size_bytes": 4912
+      "sha256": "126f29bbccfe1774f089197e262914de0e4424d1493705973965c0b93d4a0f37",
+      "size_bytes": 5030
     },
     {
       "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\specs\\brand-tokens.yaml",
@@ -268,13 +341,13 @@
     },
     {
       "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\specs\\brief.yaml",
-      "sha256": "92cb24cd4ae5fe01c1222fe6d88c0b211ecc6bcb32336c1a8ebf6c86cd8fb50a",
-      "size_bytes": 4088
+      "sha256": "fd184b356b1d73b4f92c4a043a49384788982ec0b876f305db50f7e63ba9ebd2",
+      "size_bytes": 4812
     },
     {
       "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\specs\\slides.yaml",
-      "sha256": "49ddf3d07a87f28c71a4cb93bb90f1256952e51faed62351fd9f61af77bbdd08",
-      "size_bytes": 19817
+      "sha256": "3c6bc62b52399f0374b65fbfbd7690621389bdf1fdcab0632a93fa861cd62417",
+      "size_bytes": 21469
     }
   ],
   "interaction": {
@@ -295,31 +368,35 @@
   },
   "outputs": [],
   "project": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting",
+  "qa": {
+    "prolog_engine": "real_swipl"
+  },
   "site": {
     "arrow_navigation": true,
-    "audio_ended_listener": true,
+    "audio_ended_listener": false,
     "canonical_slide_count": 9,
     "canonical_slide_titles_missing": [],
-    "css_box_shadow_count": 21,
+    "css_box_shadow_count": 2,
     "css_font_families": [
-      "Georgia, serif",
-      "var(--font-body)",
-      "var(--font-display)"
+      "Helvetica,sans-serif",
+      "sans-serif",
+      "ui-sans-serif,system-ui,-apple-system,Helvetica,sans-serif",
+      "var(--mono)",
+      "var(--sans)",
+      "var(--serif)"
     ],
     "css_glow_detected": false,
-    "css_gradient_detected": true,
+    "css_gradient_detected": false,
     "index": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\site\\index.html",
     "present": true,
     "scripts": [
-      "../../shared/case-study.js?v=7",
-      "../../shared/presentation-analytics.js?v=1",
-      "../../shared/presentation-context.js?v=1",
-      "./case-study-data.js?v=6"
+      "./assets/index-M3w36swQ.js"
     ],
     "scroll_into_view": false,
-    "source_hash": "d95d26ac95fc5bce6306768625a5fcfad720c6b778bb96c7f2ce0fe29810623d",
+    "source_hash": "88ff25770960c8049400f9ce3457b384fd581d757f0c80430eda78911a1ad015",
     "stylesheets": [
-      "../../shared/case-study.css?v=7"
+      "./assets/index-8inmnRYR.css",
+      "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap"
     ],
     "timed_fallback": true,
     "tts_detected": false
@@ -331,14 +408,19 @@
       "audio_reference": "audio/slide-01.mp3",
       "cta_destination": "",
       "cta_type": "",
-      "duration_ms": 17800,
+      "duration_ms": 18300,
       "evidence_source": "private proof implementation and public-safe browser render",
       "evidence_type": "verified",
       "eyebrow": "The client outcome",
-      "headline": "Google Sheets + Apps Script automation for daily priorities, workload planning, and AI stakeholder updates.",
+      "headline": "One governed workflow produces priorities, workload views, and stakeholder drafts",
       "id": "slide-01",
       "index": 1,
+      "narration_audio_reference": "audio/slide-01.mp3",
+      "narration_certification_ready": true,
+      "narration_duration_seconds": 17.3,
+      "narration_output_sha256": "5ffcfcf6c32153013dbf97822112df2a1dabecc345bc31ff40ed1d47890f1851",
       "narration_script": "This proof uses Google Sheets and Apps Script to turn one project tracker into daily priorities, workload planning, and AI-assisted stakeholder updates. The project manager chooses the report and, when AI is useful, explicitly chooses Gemini, Claude, or OpenAI.",
+      "narration_transcript": "This proof uses Google Sheets and Apps Script to turn one project tracker into daily priorities, workload planning, and AI-assisted stakeholder updates. The project manager chooses the report and, when AI is useful, explicitly chooses Gemini, Claude, or OpenAI.",
       "point_count": 3,
       "points": [
         "Keep Google Sheets as the familiar operating surface.",
@@ -346,7 +428,7 @@
         "Choose Gemini, Claude, or OpenAI without changing the PM workflow."
       ],
       "role": "title",
-      "seconds": 17.8,
+      "seconds": 18.3,
       "subhead": "A project manager can move from the shared task table to a focused action view or stakeholder draft without rebuilding filters, counts, and summaries by hand."
     },
     {
@@ -355,14 +437,19 @@
       "audio_reference": "audio/slide-02.mp3",
       "cta_destination": "",
       "cta_type": "",
-      "duration_ms": 16700,
+      "duration_ms": 17200,
       "evidence_source": "existing public tracker and implemented report workflows",
       "evidence_type": "verified",
       "eyebrow": "The reporting problem",
       "headline": "The task table may be current while the management view is already stale.",
       "id": "slide-02",
       "index": 2,
+      "narration_audio_reference": "audio/slide-02.mp3",
+      "narration_certification_ready": true,
+      "narration_duration_seconds": 16.2,
+      "narration_output_sha256": "9f31e780efc4023c5534b946a418611cd69ae640e1cd689d0c7257540d5d26fe",
       "narration_script": "A task tracker can be current while the management view is stale. Daily review, workload planning, and stakeholder writing each require different filters and summaries. Rebuilding those views manually creates repeated effort and makes it easier for counts and narrative to diverge.",
+      "narration_transcript": "A task tracker can be current while the management view is stale. Daily review, workload planning, and stakeholder writing each require different filters and summaries. Rebuilding those views manually creates repeated effort and makes it easier for counts and narrative to diverge.",
       "point_count": 3,
       "points": [
         "Daily review needs the right project, worker, priority, status, and due horizon.",
@@ -370,7 +457,7 @@
         "Stakeholder updates need concise language without detaching claims from source tasks."
       ],
       "role": "problem",
-      "seconds": 16.7,
+      "seconds": 17.2,
       "subhead": "Project managers often repeat the same filtering, regrouping, and status-writing work because a flexible Sheet does not automatically create every decision view."
     },
     {
@@ -379,14 +466,19 @@
       "audio_reference": "audio/slide-03.mp3",
       "cta_destination": "",
       "cta_type": "",
-      "duration_ms": 19360,
+      "duration_ms": 19860,
       "evidence_source": "screenshots/task-tracker-focused-v2.png",
       "evidence_type": "verified",
       "eyebrow": "The structured foundation",
       "headline": "The Google Sheet supplies controlled task facts, calculated timing, and stable task IDs.",
       "id": "slide-03",
       "index": 3,
+      "narration_audio_reference": "audio/slide-03.mp3",
+      "narration_certification_ready": true,
+      "narration_duration_seconds": 18.86,
+      "narration_output_sha256": "78f31cb3f1226b41f8265cb91b7a2b2b5cdef9d40f74e6c75eb295cfbae73ae0",
       "narration_script": "The foundation is still a normal Google Sheet. Projects, workers, priorities, statuses, and dates are controlled fields, while timing categories remain deterministic. Stable task IDs let every report trace back to the source. Notes and email addresses are excluded from AI requests.",
+      "narration_transcript": "The foundation is still a normal Google Sheet. Projects, workers, priorities, statuses, and dates are controlled fields, while timing categories remain deterministic. Stable task IDs let every report trace back to the source. Notes and email addresses are excluded from AI requests.",
       "point_count": 3,
       "points": [
         "Project, worker, priority, status, and dates remain normal Sheet fields.",
@@ -394,7 +486,7 @@
         "Notes and email addresses are excluded from every AI request in version one."
       ],
       "role": "proof",
-      "seconds": 19.36,
+      "seconds": 19.86,
       "subhead": "Apps Script reads a frozen owner-only copy of the public tracker. It does not depend on screenshots, free-form notes, or a second database."
     },
     {
@@ -403,14 +495,19 @@
       "audio_reference": "audio/slide-04.mp3",
       "cta_destination": "",
       "cta_type": "",
-      "duration_ms": 21450,
+      "duration_ms": 21950,
       "evidence_source": "src/apps-script report workflow implementation",
       "evidence_type": "verified",
       "eyebrow": "The automation flow",
       "headline": "One Apps Script menu turns report choices into validated, repeatable outputs.",
       "id": "slide-04",
       "index": 4,
+      "narration_audio_reference": "audio/slide-04.mp3",
+      "narration_certification_ready": true,
+      "narration_duration_seconds": 20.95,
+      "narration_output_sha256": "cb4acc5c430816785c00ae1d6d46c35dd0a6071bc4d334d8eda7528dbd901c13",
       "narration_script": "The PM Reports menu launches one Apps Script workflow. It validates the request, computes authoritative metrics, and then refreshes a stable report tab or creates an owner-private Google Doc. A document lock prevents overlapping writes, and every AI output records its source timestamp, provider, model, and source task IDs.",
+      "narration_transcript": "The PM Reports menu launches one Apps Script workflow. It validates the request, computes authoritative metrics, and then refreshes a stable report tab or creates an owner-private Google Doc. A document lock prevents overlapping writes, and every AI output records its source timestamp, provider, model, and source task IDs.",
       "point_count": 3,
       "points": [
         "A document lock prevents overlapping report writes.",
@@ -418,7 +515,7 @@
         "Every stakeholder output records its source timestamp, provider, model, and task IDs."
       ],
       "role": "process",
-      "seconds": 21.45,
+      "seconds": 21.95,
       "subhead": "The bound script reads the Sheet, validates the request, calculates metrics, refreshes report tabs, and creates a private Google Doc only when the user asks."
     },
     {
@@ -427,14 +524,19 @@
       "audio_reference": "audio/slide-05.mp3",
       "cta_destination": "",
       "cta_type": "",
-      "duration_ms": 18960,
+      "duration_ms": 19460,
       "evidence_source": "implemented deterministic Daily Actions report",
       "evidence_type": "verified",
       "eyebrow": "Daily priorities",
       "headline": "Daily review reduces the tracker to the work that needs attention now.",
       "id": "slide-05",
       "index": 5,
+      "narration_audio_reference": "audio/slide-05.mp3",
+      "narration_certification_ready": true,
+      "narration_duration_seconds": 18.46,
+      "narration_output_sha256": "c4a790dc0afcde7871e2a4e10dcd996c8b568fbd5a3563922727725a1ba5d67f",
       "narration_script": "The Daily Actions report reduces the tracker to work that needs attention now. The project manager can combine project, worker, status, priority, and due horizon. Task ID, timing, due date, and recommended action remain together, and the report works even if no AI provider is configured.",
+      "narration_transcript": "The Daily Actions report reduces the tracker to work that needs attention now. The project manager can combine project, worker, status, priority, and due horizon. Task ID, timing, due date, and recommended action remain together, and the report works even if no AI provider is configured.",
       "point_count": 3,
       "points": [
         "Overdue and blocked work remains visible instead of being averaged into a dashboard.",
@@ -442,7 +544,7 @@
         "The output is deterministic and usable even when every AI provider is unavailable."
       ],
       "role": "proof",
-      "seconds": 18.96,
+      "seconds": 19.46,
       "subhead": "The same dialog can combine project, worker, status, priority, and due-horizon filters, then sort the result into an action-ready Sheet tab."
     },
     {
@@ -451,14 +553,19 @@
       "audio_reference": "audio/slide-06.mp3",
       "cta_destination": "",
       "cta_type": "",
-      "duration_ms": 17250,
+      "duration_ms": 17750,
       "evidence_source": "screenshots/workload-focused-v3.png",
       "evidence_type": "verified",
       "eyebrow": "Workload planning",
       "headline": "Workload can be grouped by worker or project without inventing utilization percentages.",
       "id": "slide-06",
       "index": 6,
+      "narration_audio_reference": "audio/slide-06.mp3",
+      "narration_certification_ready": true,
+      "narration_duration_seconds": 16.75,
+      "narration_output_sha256": "2cd647507e4c8cfe855d54986ef4377f51ce1180699e63da2bcf1f9fde83161c",
       "narration_script": "For workload planning, the user switches between grouping by worker and grouping by project. The report uses facts the Sheet actually contains: open, overdue, blocked, and due-soon counts. It deliberately avoids utilization percentages because this tracker does not contain hours or capacity.",
+      "narration_transcript": "For workload planning, the user switches between grouping by worker and grouping by project. The report uses facts the Sheet actually contains: open, overdue, blocked, and due-soon counts. It deliberately avoids utilization percentages because this tracker does not contain hours or capacity.",
       "point_count": 3,
       "points": [
         "Switch grouping between worker and project in the same dialog.",
@@ -466,7 +573,7 @@
         "Refresh the stable Workload tab whenever the source Sheet changes."
       ],
       "role": "proof",
-      "seconds": 17.25,
+      "seconds": 17.75,
       "subhead": "The report uses counts the Sheet can support: open, overdue, blocked, and due soon. It avoids false precision when hours or capacity data do not exist."
     },
     {
@@ -475,14 +582,19 @@
       "audio_reference": "audio/slide-07.mp3",
       "cta_destination": "",
       "cta_type": "",
-      "duration_ms": 21360,
+      "duration_ms": 21860,
       "evidence_source": "screenshots/dialog-stakeholder-v1.png",
       "evidence_type": "verified",
       "eyebrow": "Custom Apps Script dialog",
       "headline": "The dialog makes complex reporting choices usable without exposing implementation details.",
       "id": "slide-07",
       "index": 7,
+      "narration_audio_reference": "audio/slide-07.mp3",
+      "narration_certification_ready": true,
+      "narration_duration_seconds": 20.86,
+      "narration_output_sha256": "41badd6df8f4418781fbe1bac9139eeeae7ce5a40a9742dba0dea5326293d750",
       "narration_script": "The custom Apps Script dialog makes the reporting logic approachable. It reveals only the controls needed for the selected workflow, supports a preview before writes, and requires one project plus an explicit provider for stakeholder updates. Configuration checks stay server-side, so keys and OAuth tokens never return to the dialog.",
+      "narration_transcript": "The custom Apps Script dialog makes the reporting logic approachable. It reveals only the controls needed for the selected workflow, supports a preview before writes, and requires one project plus an explicit provider for stakeholder updates. Configuration checks stay server-side, so keys and OAuth tokens never return to the dialog.",
       "point_count": 3,
       "points": [
         "Show only the controls relevant to the selected report type.",
@@ -490,7 +602,7 @@
         "Keep one interface across daily review, workload, and stakeholder work."
       ],
       "role": "solution",
-      "seconds": 21.36,
+      "seconds": 21.86,
       "subhead": "One interface supports daily review, workload planning, and stakeholder updates while showing only the controls relevant to the selected report."
     },
     {
@@ -499,14 +611,19 @@
       "audio_reference": "audio/slide-08.mp3",
       "cta_destination": "",
       "cta_type": "",
-      "duration_ms": 26200,
+      "duration_ms": 26700,
       "evidence_source": "video/workflow-report-proof.webm and redacted security proof",
       "evidence_type": "verified",
       "eyebrow": "Secure AI-assisted reporting",
       "headline": "Gemini, Claude, and OpenAI share one validated output contract—not one shared secret path.",
       "id": "slide-08",
       "index": 8,
+      "narration_audio_reference": "audio/slide-08.mp3",
+      "narration_certification_ready": true,
+      "narration_duration_seconds": 25.7,
+      "narration_output_sha256": "6f010f52d24f49147ac5011310c32ad263bf5e29ab72af80f214a0d988324711",
       "narration_script": "Gemini uses the owner’s Google authorization; Claude and OpenAI use separate Secret Manager secrets. Only selected-project facts and aggregates are sent—never Notes or emails. Responses must match source task IDs and supported figures. If validation fails, the private Doc keeps verified metrics and marks the AI narrative unavailable. Gemini’s built-in Sheets AI remains a separate playground; this dialog is the governed reporting path.",
+      "narration_transcript": "Gemini uses the owner’s Google authorization; Claude and OpenAI use separate Secret Manager secrets. Only selected-project facts and aggregates are sent—never Notes or emails. Responses must match source task IDs and supported figures. If validation fails, the private Doc keeps verified metrics and marks the AI narrative unavailable. Gemini’s built-in Sheets AI remains a separate playground; this dialog is the governed reporting path.",
       "point_count": 3,
       "points": [
         "Only selected-project task facts and deterministic aggregates are sent; Notes and email addresses are excluded.",
@@ -514,7 +631,7 @@
         "A refusal, malformed response, invented reference, or figure mismatch produces a deterministic Doc marked “AI narrative unavailable.”"
       ],
       "role": "differentiator",
-      "seconds": 26.2,
+      "seconds": 26.7,
       "subhead": "The provider is chosen explicitly. Gemini runs on Vertex AI under the owner’s Google authorization; Claude and OpenAI each use their own Secret Manager secret."
     },
     {
@@ -530,7 +647,12 @@
       "headline": "Bring the Google Sheet your team still turns into reports by hand.",
       "id": "slide-09",
       "index": 9,
+      "narration_audio_reference": "audio/slide-09.mp3",
+      "narration_certification_ready": true,
+      "narration_duration_seconds": 5.52,
+      "narration_output_sha256": "66fd66156ecf1c897aa104b47c1723d63d3684f1449f9cfa6e18555cb94d5c95",
       "narration_script": "Use the contact option shown to tell me which Sheet process you want simplified.",
+      "narration_transcript": "Use the contact option shown to tell me which Sheet process you want simplified.",
       "point_count": 3,
       "points": [
         "Choose one daily review, workload, or stakeholder-reporting workflow.",
@@ -562,6 +684,7 @@
       "gradients": false,
       "maximum_light_background_tones": 2,
       "stacked_shadows": false
-    }
+    },
+    "waivers": []
   }
 }

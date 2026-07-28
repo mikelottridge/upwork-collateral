@@ -1,5 +1,5 @@
 {
-  "contract_status": "pre-contract",
+  "contract_status": "approved",
   "deployment": {
     "asset_resolution_checked": false,
     "audible_playback_checked": false,
@@ -40,7 +40,7 @@
     "voice_change_approved": true,
     "voice_profile": "cedar"
   },
-  "runtime_seconds": 165.6,
+  "runtime_seconds": 169.6,
   "slide_count": 9,
   "status": "pass_with_warnings",
   "style": {
@@ -56,19 +56,14 @@
   "summary": {
     "error_count": 0,
     "info_count": 3,
-    "warning_count": 34
+    "warning_count": 33
   },
   "ux_change_control": {
     "all_changes_approved": true,
-    "material_change_count": 2,
+    "material_change_count": 6,
     "unapproved_material_change_count": 0
   },
   "warnings": [
-    {
-      "code": "copy.headline_long",
-      "message": "Headline has 14 words; target is 12 or fewer",
-      "slide_id": "slide-01"
-    },
     {
       "code": "copy.subhead_long",
       "message": "Subhead has 26 words; target is 20 or fewer",

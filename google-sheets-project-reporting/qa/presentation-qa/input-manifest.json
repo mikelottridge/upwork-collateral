@@ -45,19 +45,14 @@
     "size_bytes": 88320
   },
   {
-    "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\site\\case-study-data.js",
-    "sha256": "5940b82548a98d49a97c54ba5289f77d9bb8b9da2c89079daf674d03ae30cf56",
-    "size_bytes": 19748
-  },
-  {
     "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\site\\index.html",
-    "sha256": "d95d26ac95fc5bce6306768625a5fcfad720c6b778bb96c7f2ce0fe29810623d",
-    "size_bytes": 4707
+    "sha256": "88ff25770960c8049400f9ce3457b384fd581d757f0c80430eda78911a1ad015",
+    "size_bytes": 4622
   },
   {
     "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\specs\\asset-manifest.yaml",
-    "sha256": "c9bec9e44ec40ffc0f2f8ac4730f9ad23c0e39aa748b1f71c144d12df46fd52d",
-    "size_bytes": 4912
+    "sha256": "126f29bbccfe1774f089197e262914de0e4424d1493705973965c0b93d4a0f37",
+    "size_bytes": 5030
   },
   {
     "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\specs\\brand-tokens.yaml",
@@ -66,12 +61,12 @@
   },
   {
     "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\specs\\brief.yaml",
-    "sha256": "92cb24cd4ae5fe01c1222fe6d88c0b211ecc6bcb32336c1a8ebf6c86cd8fb50a",
-    "size_bytes": 4088
+    "sha256": "fd184b356b1d73b4f92c4a043a49384788982ec0b876f305db50f7e63ba9ebd2",
+    "size_bytes": 4812
   },
   {
     "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\specs\\slides.yaml",
-    "sha256": "49ddf3d07a87f28c71a4cb93bb90f1256952e51faed62351fd9f61af77bbdd08",
-    "size_bytes": 19817
+    "sha256": "3c6bc62b52399f0374b65fbfbd7690621389bdf1fdcab0632a93fa861cd62417",
+    "size_bytes": 21469
   }
 ]

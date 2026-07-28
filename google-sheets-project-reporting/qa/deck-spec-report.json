@@ -1,8 +1,8 @@
 {
   "status": "pass_with_warnings",
   "slide_count": 9,
-  "runtime_seconds": 178.23,
-  "contract_status": "pre-contract",
+  "runtime_seconds": 169.6,
+  "contract_status": "approved",
   "style": {
     "profile": "technical-editorial-v1",
     "expected_profile": "technical-editorial-v1",
@@ -32,7 +32,7 @@
     "voice_change_approved": true
   },
   "ux_change_control": {
-    "material_change_count": 2,
+    "material_change_count": 6,
     "unapproved_material_change_count": 0,
     "all_changes_approved": true
   },
@@ -45,11 +45,6 @@
   },
   "errors": [],
   "warnings": [
-    {
-      "code": "copy.headline_long",
-      "message": "Headline has 14 words; target is 12 or fewer",
-      "slide_id": "slide-01"
-    },
     {
       "code": "copy.subhead_long",
       "message": "Subhead has 26 words; target is 20 or fewer",
@@ -204,6 +199,16 @@
       "code": "copy.subhead_long",
       "message": "Subhead has 27 words; target is 20 or fewer",
       "slide_id": "slide-09"
+    },
+    {
+      "code": "copy.body_long",
+      "message": "Body has 32 words; target is 28 or fewer",
+      "slide_id": "slide-09"
+    },
+    {
+      "code": "copy.bullet_long",
+      "message": "Bullet has 14 words; target is 10 or fewer",
+      "slide_id": "slide-09"
     }
   ],
   "info": [
@@ -222,7 +227,7 @@
   ],
   "summary": {
     "error_count": 0,
-    "warning_count": 32,
+    "warning_count": 33,
     "info_count": 3
   }
 }

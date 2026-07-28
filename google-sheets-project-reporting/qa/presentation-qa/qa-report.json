@@ -1,15 +1,115 @@
 {
+  "certification": {
+    "binary": "C:\\Program Files\\swipl\\bin\\swipl.exe",
+    "engine": "swi-prolog",
+    "manifest_complete": true,
+    "rule_entry": "C:\\Users\\mikel\\.codex\\plugins\\cache\\personal\\self-running-presentations\\0.1.1+codex.20260727044814\\scripts\\prolog\\presentation_rules.pl",
+    "rule_manifest": [
+      {
+        "path": "presentation_rules.pl",
+        "sha256": "a125fe7ebe59d9b48498287b0ca073f01d938e2a71336e859fa3869c201fcb78"
+      },
+      {
+        "path": "accessibility_rules.pl",
+        "sha256": "e91d56ad8708d30802e8867543d2834e285f2f89c9f59cfd962a55c8fad1ce96"
+      },
+      {
+        "path": "narration_rules.pl",
+        "sha256": "d217c6757271ec06be36fe65ff7c586cdfc25dc8fc8598ca2aacd34a93b77d54"
+      },
+      {
+        "path": "policy_rules.pl",
+        "sha256": "e55436bdb814905b6c4b655a7e6de573b06bbe8bfb597603b658a6ec3e89fb12"
+      },
+      {
+        "path": "structure_rules.pl",
+        "sha256": "1fcf7335146b5a88b29503817a60f11c340f06ce5021d6df6fc1846bc74ffdd4"
+      },
+      {
+        "path": "style_rules.pl",
+        "sha256": "60b0dece6b1248644fdd50576946f0325bc873f379f581ef8d155807a3f82143"
+      }
+    ],
+    "status": "certifying",
+    "version": "SWI-Prolog version 10.0.2 for x64-win64"
+  },
   "certifying": true,
   "findings": [
     {
-      "actual": 21,
-      "expected": "at most 2 box-shadow declarations",
-      "finding_id": "59e0a700ada5cb8d",
-      "message": "Rendered site declares more than the allowed minimal shadow system.",
-      "rule_id": "STYLE_004",
+      "evidence": [
+        {
+          "className": "aria-status",
+          "clientHeight": 1,
+          "clientWidth": 1,
+          "id": null,
+          "scrollHeight": 2306,
+          "scrollWidth": 95,
+          "tag": "DIV"
+        }
+      ],
+      "finding_id": "048f17051fa05adf",
+      "message": "Potential clipped content was detected.",
+      "rule_id": "RENDER_004",
       "severity": "warning",
-      "slide_id": "google-sheets-project-reporting",
-      "source": "prolog"
+      "slide_id": "1024x768",
+      "source": "python-render"
+    },
+    {
+      "evidence": [
+        {
+          "className": "aria-status",
+          "clientHeight": 1,
+          "clientWidth": 1,
+          "id": null,
+          "scrollHeight": 2306,
+          "scrollWidth": 95,
+          "tag": "DIV"
+        }
+      ],
+      "finding_id": "10352bcb88ecc458",
+      "message": "Potential clipped content was detected.",
+      "rule_id": "RENDER_004",
+      "severity": "warning",
+      "slide_id": "1440x1000",
+      "source": "python-render"
+    },
+    {
+      "evidence": [
+        {
+          "className": "aria-status",
+          "clientHeight": 1,
+          "clientWidth": 1,
+          "id": null,
+          "scrollHeight": 2306,
+          "scrollWidth": 95,
+          "tag": "DIV"
+        }
+      ],
+      "finding_id": "1f9b67126e7430a7",
+      "message": "Potential clipped content was detected.",
+      "rule_id": "RENDER_004",
+      "severity": "warning",
+      "slide_id": "390x844",
+      "source": "python-render"
+    },
+    {
+      "evidence": [
+        {
+          "className": "aria-status",
+          "clientHeight": 1,
+          "clientWidth": 1,
+          "id": null,
+          "scrollHeight": 2306,
+          "scrollWidth": 95,
+          "tag": "DIV"
+        }
+      ],
+      "finding_id": "b2574b804393eef3",
+      "message": "Potential clipped content was detected.",
+      "rule_id": "RENDER_004",
+      "severity": "warning",
+      "slide_id": "768x1024",
+      "source": "python-render"
     },
     {
       "evidence": {
@@ -300,19 +400,6 @@
     {
       "evidence": {
         "code": "copy.headline_long",
-        "message": "Headline has 14 words; target is 12 or fewer",
-        "slide_id": "slide-01"
-      },
-      "finding_id": "c5fd28d49eb7fa66",
-      "message": "Headline has 14 words; target is 12 or fewer",
-      "rule_id": "copy.headline_long",
-      "severity": "warning",
-      "slide_id": "slide-01",
-      "source": "python-validator"
-    },
-    {
-      "evidence": {
-        "code": "copy.headline_long",
         "message": "Headline has 13 words; target is 12 or fewer",
         "slide_id": "slide-02"
       },
@@ -534,19 +621,14 @@
       "size_bytes": 88320
     },
     {
-      "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\site\\case-study-data.js",
-      "sha256": "5940b82548a98d49a97c54ba5289f77d9bb8b9da2c89079daf674d03ae30cf56",
-      "size_bytes": 19748
-    },
-    {
       "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\site\\index.html",
-      "sha256": "d95d26ac95fc5bce6306768625a5fcfad720c6b778bb96c7f2ce0fe29810623d",
-      "size_bytes": 4707
+      "sha256": "88ff25770960c8049400f9ce3457b384fd581d757f0c80430eda78911a1ad015",
+      "size_bytes": 4622
     },
     {
       "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\specs\\asset-manifest.yaml",
-      "sha256": "c9bec9e44ec40ffc0f2f8ac4730f9ad23c0e39aa748b1f71c144d12df46fd52d",
-      "size_bytes": 4912
+      "sha256": "126f29bbccfe1774f089197e262914de0e4424d1493705973965c0b93d4a0f37",
+      "size_bytes": 5030
     },
     {
       "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\specs\\brand-tokens.yaml",
@@ -555,57 +637,39 @@
     },
     {
       "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\specs\\brief.yaml",
-      "sha256": "92cb24cd4ae5fe01c1222fe6d88c0b211ecc6bcb32336c1a8ebf6c86cd8fb50a",
-      "size_bytes": 4088
+      "sha256": "fd184b356b1d73b4f92c4a043a49384788982ec0b876f305db50f7e63ba9ebd2",
+      "size_bytes": 4812
     },
     {
       "path": "C:\\Users\\mikel\\OneDrive\\Documents\\Consulting Collateral\\worktrees\\upwork-collateral\\google-sheets-project-reporting\\specs\\slides.yaml",
-      "sha256": "49ddf3d07a87f28c71a4cb93bb90f1256952e51faed62351fd9f61af77bbdd08",
-      "size_bytes": 19817
+      "sha256": "3c6bc62b52399f0374b65fbfbd7690621389bdf1fdcab0632a93fa861cd62417",
+      "size_bytes": 21469
     }
   ],
   "passed_checks": [
     "accessibility",
     "narration",
     "policy",
-    "structure"
+    "structure",
+    "style"
   ],
   "provenance": {
-    "openai_cli": "C:\\Users\\mikel\\anaconda3\\Scripts\\openai.EXE",
+    "openai_cli": "C:\\Python312\\Scripts\\openai.EXE",
     "openai_sdk": "2.3.0",
     "platform": "Windows-11-10.0.26200-SP0",
     "python": "3.12.10",
     "qa_runner": "1.0",
     "style_profile": "technical-editorial-v1",
-    "swipl": "C:\\Program Files\\swipl\\bin\\swipl.EXE"
+    "swipl": "C:\\Program Files\\swipl\\bin\\swipl.exe",
+    "swipl_version": "SWI-Prolog version 10.0.2 for x64-win64"
   },
   "qa_version": "1.0",
   "status": "pass_with_warnings",
   "summary": {
     "error_count": 0,
     "info_count": 3,
-    "warning_count": 35
+    "warning_count": 37
   },
   "unstable_findings": [],
-  "waivers": [
-    {
-      "actual": true,
-      "expected": false,
-      "finding_id": "4ebb6eb70235f6d7",
-      "message": "CSS gradients are prohibited by the canonical house style.",
-      "rule_id": "STYLE_002",
-      "severity": "error",
-      "slide_id": "google-sheets-project-reporting",
-      "source": "prolog",
-      "waived": true,
-      "waiver": {
-        "approved_by": "Mike Lottridge",
-        "approved_on": "2026-07-25",
-        "expires_on": "2027-07-25",
-        "reason": "The user explicitly required reuse of the latest financial-metrics public deck style and shared runtime, which intentionally uses restrained gradients.",
-        "rule_id": "STYLE_002",
-        "scope": "deck"
-      }
-    }
-  ]
+  "waivers": []
 }

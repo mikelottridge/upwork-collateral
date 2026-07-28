@@ -1,0 +1,483 @@
+{
+  "render_matrix": [
+    {
+      "viewport": "1440x900",
+      "slides": [
+        {
+          "clientWidth": 930,
+          "scrollWidth": 930,
+          "clientHeight": 720,
+          "scrollHeight": 720,
+          "headline": "One governed workflow produces priorities, workload views, and stakeholder drafts.",
+          "slide": 1,
+          "hash": "#/0"
+        },
+        {
+          "clientWidth": 930,
+          "scrollWidth": 930,
+          "clientHeight": 720,
+          "scrollHeight": 720,
+          "headline": "The task table may be current while the management view is already stale.",
+          "slide": 2,
+          "hash": "#/1"
+        },
+        {
+          "clientWidth": 930,
+          "scrollWidth": 930,
+          "clientHeight": 720,
+          "scrollHeight": 720,
+          "headline": "The Google Sheet supplies controlled task facts, calculated timing, and stable task IDs.",
+          "slide": 3,
+          "hash": "#/2"
+        },
+        {
+          "clientWidth": 930,
+          "scrollWidth": 930,
+          "clientHeight": 720,
+          "scrollHeight": 720,
+          "headline": "One Apps Script menu turns report choices into validated, repeatable outputs.",
+          "slide": 4,
+          "hash": "#/3"
+        },
+        {
+          "clientWidth": 930,
+          "scrollWidth": 930,
+          "clientHeight": 720,
+          "scrollHeight": 720,
+          "headline": "Daily review reduces the tracker to the work that needs attention now.",
+          "slide": 5,
+          "hash": "#/4"
+        },
+        {
+          "clientWidth": 930,
+          "scrollWidth": 930,
+          "clientHeight": 720,
+          "scrollHeight": 720,
+          "headline": "Workload can be grouped by worker or project without inventing utilization percentages.",
+          "slide": 6,
+          "hash": "#/5"
+        },
+        {
+          "clientWidth": 930,
+          "scrollWidth": 930,
+          "clientHeight": 720,
+          "scrollHeight": 720,
+          "headline": "The dialog makes complex reporting choices usable without exposing implementation details.",
+          "slide": 7,
+          "hash": "#/6"
+        },
+        {
+          "clientWidth": 930,
+          "scrollWidth": 930,
+          "clientHeight": 720,
+          "scrollHeight": 720,
+          "headline": "Gemini, Claude, and OpenAI share one validated output contract\u2014not one shared secret path.",
+          "slide": 8,
+          "hash": "#/7"
+        },
+        {
+          "clientWidth": 930,
+          "scrollWidth": 930,
+          "clientHeight": 720,
+          "scrollHeight": 720,
+          "headline": "Bring the Google Sheet your team still turns into reports by hand.",
+          "slide": 9,
+          "hash": "#/8"
+        }
+      ],
+      "console_errors": []
+    },
+    {
+      "viewport": "1366x768",
+      "slides": [
+        {
+          "clientWidth": 930,
+          "scrollWidth": 930,
+          "clientHeight": 720,
+          "scrollHeight": 720,
+          "headline": "One governed workflow produces priorities, workload views, and stakeholder drafts.",
+          "slide": 1,
+          "hash": "#/0"
+        },
+        {
+          "clientWidth": 930,
+          "scrollWidth": 930,
+          "clientHeight": 720,
+          "scrollHeight": 720,
+          "headline": "The task table may be current while the management view is already stale.",
+          "slide": 2,
+          "hash": "#/1"
+        },
+        {
+          "clientWidth": 930,
+          "scrollWidth": 930,
+          "clientHeight": 720,
+          "scrollHeight": 720,
+          "headline": "The Google Sheet supplies controlled task facts, calculated timing, and stable task IDs.",
+          "slide": 3,
+          "hash": "#/2"
+        },
+        {
+          "clientWidth": 930,
+          "scrollWidth": 930,
+          "clientHeight": 720,
+          "scrollHeight": 720,
+          "headline": "One Apps Script menu turns report choices into validated, repeatable outputs.",
+          "slide": 4,
+          "hash": "#/3"
+        },
+        {
+          "clientWidth": 930,
+          "scrollWidth": 930,
+          "clientHeight": 720,
+          "scrollHeight": 720,
+          "headline": "Daily review reduces the tracker to the work that needs attention now.",
+          "slide": 5,
+          "hash": "#/4"
+        },
+        {
+          "clientWidth": 930,
+          "scrollWidth": 930,
+          "clientHeight": 720,
+          "scrollHeight": 720,
+          "headline": "Workload can be grouped by worker or project without inventing utilization percentages.",
+          "slide": 6,
+          "hash": "#/5"
+        },
+        {
+          "clientWidth": 930,
+          "scrollWidth": 930,
+          "clientHeight": 720,
+          "scrollHeight": 720,
+          "headline": "The dialog makes complex reporting choices usable without exposing implementation details.",
+          "slide": 7,
+          "hash": "#/6"
+        },
+        {
+          "clientWidth": 930,
+          "scrollWidth": 930,
+          "clientHeight": 720,
+          "scrollHeight": 720,
+          "headline": "Gemini, Claude, and OpenAI share one validated output contract\u2014not one shared secret path.",
+          "slide": 8,
+          "hash": "#/7"
+        },
+        {
+          "clientWidth": 930,
+          "scrollWidth": 930,
+          "clientHeight": 720,
+          "scrollHeight": 720,
+          "headline": "Bring the Google Sheet your team still turns into reports by hand.",
+          "slide": 9,
+          "hash": "#/8"
+        }
+      ],
+      "console_errors": []
+    },
+    {
+      "viewport": "1024x768",
+      "slides": [
+        {
+          "clientWidth": 942,
+          "scrollWidth": 942,
+          "clientHeight": 720,
+          "scrollHeight": 720,
+          "headline": "One governed workflow produces priorities, workload views, and stakeholder drafts.",
+          "slide": 1,
+          "hash": "#/0"
+        },
+        {
+          "clientWidth": 942,
+          "scrollWidth": 942,
+          "clientHeight": 720,
+          "scrollHeight": 720,
+          "headline": "The task table may be current while the management view is already stale.",
+          "slide": 2,
+          "hash": "#/1"
+        },
+        {
+          "clientWidth": 942,
+          "scrollWidth": 942,
+          "clientHeight": 720,
+          "scrollHeight": 720,
+          "headline": "The Google Sheet supplies controlled task facts, calculated timing, and stable task IDs.",
+          "slide": 3,
+          "hash": "#/2"
+        },
+        {
+          "clientWidth": 942,
+          "scrollWidth": 942,
+          "clientHeight": 720,
+          "scrollHeight": 720,
+          "headline": "One Apps Script menu turns report choices into validated, repeatable outputs.",
+          "slide": 4,
+          "hash": "#/3"
+        },
+        {
+          "clientWidth": 942,
+          "scrollWidth": 942,
+          "clientHeight": 720,
+          "scrollHeight": 720,
+          "headline": "Daily review reduces the tracker to the work that needs attention now.",
+          "slide": 5,
+          "hash": "#/4"
+        },
+        {
+          "clientWidth": 942,
+          "scrollWidth": 942,
+          "clientHeight": 720,
+          "scrollHeight": 720,
+          "headline": "Workload can be grouped by worker or project without inventing utilization percentages.",
+          "slide": 6,
+          "hash": "#/5"
+        },
+        {
+          "clientWidth": 942,
+          "scrollWidth": 942,
+          "clientHeight": 720,
+          "scrollHeight": 720,
+          "headline": "The dialog makes complex reporting choices usable without exposing implementation details.",
+          "slide": 7,
+          "hash": "#/6"
+        },
+        {
+          "clientWidth": 942,
+          "scrollWidth": 942,
+          "clientHeight": 720,
+          "scrollHeight": 720,
+          "headline": "Gemini, Claude, and OpenAI share one validated output contract\u2014not one shared secret path.",
+          "slide": 8,
+          "hash": "#/7"
+        },
+        {
+          "clientWidth": 942,
+          "scrollWidth": 942,
+          "clientHeight": 720,
+          "scrollHeight": 720,
+          "headline": "Bring the Google Sheet your team still turns into reports by hand.",
+          "slide": 9,
+          "hash": "#/8"
+        }
+      ],
+      "console_errors": []
+    },
+    {
+      "viewport": "768x1024",
+      "slides": [
+        {
+          "clientWidth": 726,
+          "scrollWidth": 726,
+          "clientHeight": 980,
+          "scrollHeight": 980,
+          "headline": "One governed workflow produces priorities, workload views, and stakeholder drafts.",
+          "slide": 1,
+          "hash": "#/0"
+        },
+        {
+          "clientWidth": 726,
+          "scrollWidth": 726,
+          "clientHeight": 980,
+          "scrollHeight": 980,
+          "headline": "The task table may be current while the management view is already stale.",
+          "slide": 2,
+          "hash": "#/1"
+        },
+        {
+          "clientWidth": 726,
+          "scrollWidth": 726,
+          "clientHeight": 980,
+          "scrollHeight": 980,
+          "headline": "The Google Sheet supplies controlled task facts, calculated timing, and stable task IDs.",
+          "slide": 3,
+          "hash": "#/2"
+        },
+        {
+          "clientWidth": 726,
+          "scrollWidth": 726,
+          "clientHeight": 980,
+          "scrollHeight": 980,
+          "headline": "One Apps Script menu turns report choices into validated, repeatable outputs.",
+          "slide": 4,
+          "hash": "#/3"
+        },
+        {
+          "clientWidth": 726,
+          "scrollWidth": 726,
+          "clientHeight": 980,
+          "scrollHeight": 980,
+          "headline": "Daily review reduces the tracker to the work that needs attention now.",
+          "slide": 5,
+          "hash": "#/4"
+        },
+        {
+          "clientWidth": 726,
+          "scrollWidth": 726,
+          "clientHeight": 980,
+          "scrollHeight": 980,
+          "headline": "Workload can be grouped by worker or project without inventing utilization percentages.",
+          "slide": 6,
+          "hash": "#/5"
+        },
+        {
+          "clientWidth": 726,
+          "scrollWidth": 726,
+          "clientHeight": 980,
+          "scrollHeight": 1010,
+          "headline": "The dialog makes complex reporting choices usable without exposing implementation details.",
+          "slide": 7,
+          "hash": "#/6"
+        },
+        {
+          "clientWidth": 726,
+          "scrollWidth": 726,
+          "clientHeight": 980,
+          "scrollHeight": 980,
+          "headline": "Gemini, Claude, and OpenAI share one validated output contract\u2014not one shared secret path.",
+          "slide": 8,
+          "hash": "#/7"
+        },
+        {
+          "clientWidth": 726,
+          "scrollWidth": 726,
+          "clientHeight": 980,
+          "scrollHeight": 980,
+          "headline": "Bring the Google Sheet your team still turns into reports by hand.",
+          "slide": 9,
+          "hash": "#/8"
+        }
+      ],
+      "console_errors": []
+    },
+    {
+      "viewport": "390x844",
+      "slides": [
+        {
+          "clientWidth": 348,
+          "scrollWidth": 348,
+          "clientHeight": 980,
+          "scrollHeight": 980,
+          "headline": "One governed workflow produces priorities, workload views, and stakeholder drafts.",
+          "slide": 1,
+          "hash": "#/0"
+        },
+        {
+          "clientWidth": 348,
+          "scrollWidth": 348,
+          "clientHeight": 980,
+          "scrollHeight": 1104,
+          "headline": "The task table may be current while the management view is already stale.",
+          "slide": 2,
+          "hash": "#/1"
+        },
+        {
+          "clientWidth": 348,
+          "scrollWidth": 348,
+          "clientHeight": 980,
+          "scrollHeight": 1031,
+          "headline": "The Google Sheet supplies controlled task facts, calculated timing, and stable task IDs.",
+          "slide": 3,
+          "hash": "#/2"
+        },
+        {
+          "clientWidth": 348,
+          "scrollWidth": 348,
+          "clientHeight": 980,
+          "scrollHeight": 980,
+          "headline": "One Apps Script menu turns report choices into validated, repeatable outputs.",
+          "slide": 4,
+          "hash": "#/3"
+        },
+        {
+          "clientWidth": 348,
+          "scrollWidth": 348,
+          "clientHeight": 980,
+          "scrollHeight": 980,
+          "headline": "Daily review reduces the tracker to the work that needs attention now.",
+          "slide": 5,
+          "hash": "#/4"
+        },
+        {
+          "clientWidth": 348,
+          "scrollWidth": 348,
+          "clientHeight": 980,
+          "scrollHeight": 1064,
+          "headline": "Workload can be grouped by worker or project without inventing utilization percentages.",
+          "slide": 6,
+          "hash": "#/5"
+        },
+        {
+          "clientWidth": 348,
+          "scrollWidth": 348,
+          "clientHeight": 980,
+          "scrollHeight": 1064,
+          "headline": "The dialog makes complex reporting choices usable without exposing implementation details.",
+          "slide": 7,
+          "hash": "#/6"
+        },
+        {
+          "clientWidth": 348,
+          "scrollWidth": 348,
+          "clientHeight": 980,
+          "scrollHeight": 1220,
+          "headline": "Gemini, Claude, and OpenAI share one validated output contract\u2014not one shared secret path.",
+          "slide": 8,
+          "hash": "#/7"
+        },
+        {
+          "clientWidth": 348,
+          "scrollWidth": 348,
+          "clientHeight": 980,
+          "scrollHeight": 1095,
+          "headline": "Bring the Google Sheet your team still turns into reports by hand.",
+          "slide": 9,
+          "hash": "#/8"
+        }
+      ],
+      "console_errors": []
+    }
+  ],
+  "runtime": {
+    "focused_arrow_right_hash": "#/1",
+    "previous_button_hash": "#/",
+    "final_slide_hash": "#/8",
+    "hash_after_reload": "#/8",
+    "base_contact_href": "mailto:mikelottridge@productmanagementresources.pro",
+    "upwork_contact_href": "https://www.upwork.com/freelancers/mikelottridge",
+    "upwork_visible_email_actions": 0,
+    "utm_only_contact_href": "mailto:mikelottridge@productmanagementresources.pro",
+    "phone_progression_label": "Manual progression on this screen",
+    "reduced_motion_matches": true,
+    "reduced_motion_transition_duration": "1e-05s"
+  },
+  "analytics": {
+    "payloads": [
+      {
+        "schema_version": "1",
+        "event": "view",
+        "presentation": "google-sheets",
+        "session_id": "b641c363-f298-46d7-93b1-1a40ddbe1764",
+        "source": "qa"
+      },
+      {
+        "schema_version": "1",
+        "event": "final_slide",
+        "presentation": "google-sheets",
+        "session_id": "b641c363-f298-46d7-93b1-1a40ddbe1764",
+        "source": "qa"
+      },
+      {
+        "schema_version": "1",
+        "event": "cta_click",
+        "presentation": "google-sheets",
+        "session_id": "b641c363-f298-46d7-93b1-1a40ddbe1764",
+        "source": "qa"
+      }
+    ],
+    "events": [
+      "view",
+      "final_slide",
+      "cta_click"
+    ],
+    "field_sets_valid": true
+  }
+}

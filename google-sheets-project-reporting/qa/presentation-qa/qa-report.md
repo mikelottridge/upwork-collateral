@@ -3,16 +3,33 @@
 **Status:** `pass_with_warnings`
 **Certifying:** `true`
 
-Errors: 0 · Warnings: 35 · Info: 3
+Errors: 0 · Warnings: 37 · Info: 3
 
 ## Findings
 
-### WARNING — STYLE_004 — `google-sheets-project-reporting`
+### WARNING — RENDER_004 — `1024x768`
 
-Rendered site declares more than the allowed minimal shadow system.
+Potential clipped content was detected.
 
-- Expected: `at most 2 box-shadow declarations`
-- Actual: `21`
+- Evidence: `[{"tag": "DIV", "id": null, "className": "aria-status", "scrollWidth": 95, "clientWidth": 1, "scrollHeight": 2306, "clientHeight": 1}]`
+
+### WARNING — RENDER_004 — `1440x1000`
+
+Potential clipped content was detected.
+
+- Evidence: `[{"tag": "DIV", "id": null, "className": "aria-status", "scrollWidth": 95, "clientWidth": 1, "scrollHeight": 2306, "clientHeight": 1}]`
+
+### WARNING — RENDER_004 — `390x844`
+
+Potential clipped content was detected.
+
+- Evidence: `[{"tag": "DIV", "id": null, "className": "aria-status", "scrollWidth": 95, "clientWidth": 1, "scrollHeight": 2306, "clientHeight": 1}]`
+
+### WARNING — RENDER_004 — `768x1024`
+
+Potential clipped content was detected.
+
+- Evidence: `[{"tag": "DIV", "id": null, "className": "aria-status", "scrollWidth": 95, "clientWidth": 1, "scrollHeight": 2306, "clientHeight": 1}]`
 
 ### WARNING — copy.body_long — `slide-02`
 
@@ -145,12 +162,6 @@ Bullet has 17 words; target is 10 or fewer
 Bullet has 14 words; target is 10 or fewer
 
 - Evidence: `{"code": "copy.bullet_long", "message": "Bullet has 14 words; target is 10 or fewer", "slide_id": "slide-09"}`
-
-### WARNING — copy.headline_long — `slide-01`
-
-Headline has 14 words; target is 12 or fewer
-
-- Evidence: `{"code": "copy.headline_long", "message": "Headline has 14 words; target is 12 or fewer", "slide_id": "slide-01"}`
 
 ### WARNING — copy.headline_long — `slide-02`
 

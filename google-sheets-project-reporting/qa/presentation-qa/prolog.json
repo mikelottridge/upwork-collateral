@@ -1,1 +1,36 @@
-{"engine":"swi-prolog","findings": [ {"actual":21,"expected":"at most 2 box-shadow declarations","message":"Rendered site declares more than the allowed minimal shadow system.","rule_id":"STYLE_004","severity":"warning","slide_id":"google-sheets-project-reporting","source":"prolog"},  {"actual":true,"expected":false,"message":"CSS gradients are prohibited by the canonical house style.","rule_id":"STYLE_002","severity":"error","slide_id":"google-sheets-project-reporting","source":"prolog"} ]}
+{
+  "binary": "C:\\Program Files\\swipl\\bin\\swipl.exe",
+  "certifying": true,
+  "engine": "swi-prolog",
+  "findings": [],
+  "manifest_complete": true,
+  "rule_entry": "C:\\Users\\mikel\\.codex\\plugins\\cache\\personal\\self-running-presentations\\0.1.1+codex.20260727044814\\scripts\\prolog\\presentation_rules.pl",
+  "rule_manifest": [
+    {
+      "path": "presentation_rules.pl",
+      "sha256": "a125fe7ebe59d9b48498287b0ca073f01d938e2a71336e859fa3869c201fcb78"
+    },
+    {
+      "path": "accessibility_rules.pl",
+      "sha256": "e91d56ad8708d30802e8867543d2834e285f2f89c9f59cfd962a55c8fad1ce96"
+    },
+    {
+      "path": "narration_rules.pl",
+      "sha256": "d217c6757271ec06be36fe65ff7c586cdfc25dc8fc8598ca2aacd34a93b77d54"
+    },
+    {
+      "path": "policy_rules.pl",
+      "sha256": "e55436bdb814905b6c4b655a7e6de573b06bbe8bfb597603b658a6ec3e89fb12"
+    },
+    {
+      "path": "structure_rules.pl",
+      "sha256": "1fcf7335146b5a88b29503817a60f11c340f06ce5021d6df6fc1846bc74ffdd4"
+    },
+    {
+      "path": "style_rules.pl",
+      "sha256": "60b0dece6b1248644fdd50576946f0325bc873f379f581ef8d155807a3f82143"
+    }
+  ],
+  "status": "certifying",
+  "version": "SWI-Prolog version 10.0.2 for x64-win64"
+}

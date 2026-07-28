@@ -22,3 +22,19 @@ test("Reveal vendor shadows are stripped by the production build", async () => {
   assert.match(config, /box-shadow/);
   assert.match(config, /reveal\.js\/dist\/reveal\.css/);
 });
+
+test("runtime honors reduced motion and permits explicit local analytics QA", async () => {
+  const source = await readFile(new URL("../src/main.js", import.meta.url), "utf8");
+  assert.match(source, /prefers-reduced-motion: reduce/);
+  assert.match(source, /params\.get\("analytics"\) === "1"/);
+});
+
+test("skip link remains fully off-screen until focused", async () => {
+  const css = await readFile(new URL("../src/styles.css", import.meta.url), "utf8");
+  assert.match(css, /\.skip-link[\s\S]*translateY\(-220%\)/);
+});
+
+test("tablet breakpoint prevents the desktop grid from clipping at 768px", async () => {
+  const css = await readFile(new URL("../src/styles.css", import.meta.url), "utf8");
+  assert.match(css, /@media \(max-width: 820px\)/);
+});

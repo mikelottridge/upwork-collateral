@@ -20,8 +20,11 @@ if (!sourceDeck?.slides?.length) {
 }
 
 const context = window.PresentationContext;
+const params = new URLSearchParams(window.location.search);
 const isLocalPreview = ["localhost", "127.0.0.1"].includes(window.location.hostname);
-const analytics = !isLocalPreview && window.PresentationAnalytics
+const analyticsEnabled = !isLocalPreview || params.get("analytics") === "1";
+const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+const analytics = analyticsEnabled && window.PresentationAnalytics
   ? window.PresentationAnalytics.start(sourceDeck.presentationId)
   : { track: async () => false };
 
@@ -119,7 +122,7 @@ const revealDeck = new Reveal(revealRoot, {
   history: true,
   center: false,
   disableLayout: true,
-  transition: "fade",
+  transition: prefersReducedMotion ? "none" : "fade",
   transitionSpeed: "fast",
   backgroundTransition: "none",
   touch: true,
