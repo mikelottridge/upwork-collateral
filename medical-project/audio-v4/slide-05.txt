@@ -1,0 +1,1 @@
+Physician approval is the final gate. The audit trail records the reviewer, time, rulebook version, and state changes before report and data exports are enabled.

@@ -1,0 +1,1 @@
+I built the private Python and Flask application and handled the DigitalOcean server setup. It used OpenAI, Claude, and Perplexity APIs to extract labs, apply physician-editable rules, support review, and export reports.

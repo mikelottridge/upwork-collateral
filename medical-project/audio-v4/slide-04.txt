@@ -1,0 +1,1 @@
+The physician can edit the if/then rulebook without changing application code. Each rule shows its condition, action, and source. Version history preserves changes and earlier rulebooks.
