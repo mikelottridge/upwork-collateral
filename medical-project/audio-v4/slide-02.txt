@@ -1,0 +1,1 @@
+The source stays beside every extracted value, unit, location, and confidence score. The reviewer can inspect the evidence before any rule runs.
