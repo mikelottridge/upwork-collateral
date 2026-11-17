@@ -1,5 +1,11 @@
 ---
-approval_status: pending
+outline:
+  supplied_by_user: false
+  approved: true
+  approval_record:
+    approver: Mike
+    date: "2026-11-17"
+    scope: [canonical-spec, html]
 ---
 
 # Psychology case study revision outline
