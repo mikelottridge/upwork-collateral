@@ -1,0 +1,27 @@
+#report-pages { margin-top:1.25rem; }
+.report-page { background:#fffefa; border:1px solid #cbd4cc; border-top:4px solid #285b55; box-shadow:0 4px 12px #173e3012; padding:clamp(15px,4vw,42px); margin:18px 0; }
+.report-page .folio { display:block; padding-bottom:10px; border-bottom:1px solid #d5dad5; color:#375a55; text-transform:uppercase; letter-spacing:.1em; font-size:.73rem; }
+.report-dialog .report-page h3 { font:normal clamp(1.6rem,3.2vw,2.2rem)/1.15 Georgia,serif; color:#153e39; margin:18px 0; }
+.report-dialog .report-page h4 { margin:1.25rem 0 .3rem; font-size:1.05rem; }
+.gain { display:block; font:normal 1.65rem/1.2 Georgia,serif; color:#235e51; }
+.report-note { padding-top:12px; border-top:1px solid #d5dad5; color:#4e6060; font-size:.88rem; }
+.trend-figure { margin:1rem 0; }
+.trend-figure svg { max-height:245px; }
+.pair-skill { padding:8px 0; border-bottom:1px solid #d5dad5; }
+.pair-row { display:grid; grid-template-columns:4.2em minmax(32px,1fr) 3em 4.7em; align-items:center; gap:6px; margin:4px 0; font-size:.86em; }
+.pair-track { height:8px; background:#e4eae5; }
+.pair-track i { display:block; height:100%; }
+.report-dialog a.btn { display:inline-block; text-decoration:none; }
+#print-report { display:none; }
+@page { size:Letter; margin:.65in .7in; }
+@media print {
+  body:has(#print-report) > :not(#print-report) { display:none!important; }
+  body:has(#print-report) { background:white; padding:0; margin:0; }
+  #print-report { display:block; color:#20333a; font:11pt/1.45 Arial,sans-serif; width:auto; max-width:none; max-height:none; margin:0; padding:0; border:0; overflow:visible; box-shadow:none; }
+  #print-report * { print-color-adjust:exact; -webkit-print-color-adjust:exact; }
+  #print-report .report-page { margin:0; padding:12pt 5pt; border:0; border-top:3pt solid #285b55; box-shadow:none; break-after:page; }
+  #print-report .report-page:last-child { break-after:auto; }
+  #print-report .report-page h3 { font-size:24pt; }
+  #print-report .report-page h4 { margin:12pt 0 4pt; }
+  #print-report .report-page p { margin:6pt 0; }
+}

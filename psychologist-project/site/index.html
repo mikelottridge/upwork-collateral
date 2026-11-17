@@ -45,6 +45,7 @@
       #sample-narrative { border-left:3px solid #cb9b53; background:#f6f3eb; padding:12px 16px; }
       @media(max-width:480px){.report-dialog {padding:12px}.report-dialog table {font-size:.8rem}}
     </style>
+    <link rel="stylesheet" href="./sample-report.css">
   </head>
   <body>
     <main class="app-shell">
@@ -55,7 +56,7 @@
           <p data-project-lead></p>
           <div class="opening-choices">
             <button class="btn story" type="button" data-start-story>Play the narrated case study</button>
-            <button class="btn" type="button" data-open-report aria-haspopup="dialog">See a sample report</button>
+            <button class="btn" type="button" data-open-report aria-haspopup="dialog">See a sample client report</button>
           </div>
           <figure class="hero-visual" data-project-hero-visual hidden>
             <img data-project-hero-image src="" alt="">
@@ -114,29 +115,47 @@
 
     <dialog class="report-dialog" data-report-dialog aria-labelledby="report-heading">
       <form method="dialog"><button class="btn" autofocus>Close report</button></form>
-      <small>Illustrative assessment · Fictional data</small>
-      <h2 id="report-heading">From assessment to training plan</h2>
-      <p>One learner, four visits, three skills. Each task has 20 opportunities for a correct response.</p>
-      <label>Referral scenario <select id="sample-case"></select></label>
-      <p class="scope-note">The condition is background supplied for each fictional referral. Scores describe performance on invented tasks. The difficulty bands are illustrative and have no diagnostic meaning.</p>
-      <section><h3>What changed across visits?</h3>
-      <label>Skill <select id="sample-skill"></select></label>
-      <div class="sample-plots"><figure><figcaption>Correct responses across visits</figcaption><div id="sample-trend"></div><small>Solid green · listening &nbsp; Dashed amber · visual</small></figure>
-      <figure><figcaption>Paired scores at visit 4</figcaption><div id="sample-pair"></div><small>Above the diagonal, the visual score is higher. Numbers identify the skills below.</small></figure></div>
-      <table><caption>Score history for the selected skill</caption><thead><tr><th>Cue</th><th>V1</th><th>V2</th><th>V3</th><th>V4</th><th>Change</th></tr></thead><tbody id="sample-history"></tbody></table></section>
-      <section><h3>Where was the task hardest?</h3><table><caption>Visit 4 · correct responses and difficulty</caption><thead><tr><th>Skill</th><th>Listening</th><th>Visual</th></tr></thead><tbody id="sample-profile"></tbody></table>
-      <p id="sample-bands"></p><small>Six measures. Marked difficulty: 0–9 correct. Moderate: 10–13. Mild: 14–16. Minimal: 17–20.</small></section>
-      <section><h3>Suggested training for practitioner review</h3><p id="sample-target"></p><h4 id="sample-practice"></h4><p id="sample-exercise"></p></section>
-      <section><h3>How would you explain this to the family?</h3><p>Compare AI-drafted explanations of the practice target. Each version uses the same findings.</p>
-      <div class="sample-options"><label>Language <select id="sample-language"><option value="en">English</option><option value="es">Español</option></select></label>
-      <label>Reading level <select id="sample-level"><option value="0">Simple words · short sentences</option><option value="1">Detailed · adult reader</option></select></label></div>
-      <p id="sample-narrative" aria-live="polite"></p></section>
-      <button type="button" class="btn" id="sample-download">Download all three cases (CSV)</button>
+      <small>Practitioner demo</small>
+      <h2 id="report-heading">Preview a three-page client report</h2>
+      <p>The family receives a finished document. Open the sample PDF, or change the options here to see how the practitioner prepares a different version.</p>
+      <p><a class="btn" href="./sample-client-report.pdf" target="_blank" rel="noopener">Open finished sample PDF</a></p>
+      <div class="sample-options"><label>Referral scenario <select id="sample-case"></select></label>
+      <label>Skill to graph <select id="sample-skill"></select></label>
+      <label>Family narrative language <select id="sample-language"><option value="en">English</option><option value="es">Español</option></select></label>
+      <label>Family narrative reading level <select id="sample-level"><option value="0">Simple words · short sentences</option><option value="1">Detailed · adult reader</option></select></label></div>
+      <p><button class="btn" id="sample-print">Print or save this version</button> <button class="btn" id="sample-download">Download dataset (CSV)</button></p>
+      <div id="report-pages">
+      <article class="report-page">
+        <small class="folio">Assessment progress report · 1 of 3</small>
+        <h3>Progress at a glance</h3><p class="report-byline"><b id="sample-scenario"></b> · March 17, 2026</p>
+        <h4>Change since September</h4><strong class="gain" id="sample-gain"></strong><p id="sample-summary"></p>
+        <h4>What this means for the family</h4><p id="sample-narrative" aria-live="polite"></p>
+        <h4>About the assessments</h4><p>At four appointments the learner practiced three skills, first with sounds and then with pictures. Each score counts correct responses in 20 opportunities. A higher score means more correct responses on that task.</p>
+        <p class="report-note">Illustrative case with invented tasks, dates and scores. These examples show how a practitioner can track progress during therapy. They cannot establish what caused a change.</p>
+      </article>
+      <article class="report-page">
+        <small class="folio">Assessment progress report · 2 of 3</small>
+        <h3>Progress across four assessments</h3><h4 id="sample-skill-name"></h4>
+        <p>Read from left to right. Each point is one dated assessment. A rising line means the learner answered more items correctly.</p>
+        <figure class="trend-figure"><figcaption>Correct responses out of 20</figcaption><div id="sample-trend"></div><small>Solid green · listening cues &nbsp; Dashed amber · visual cues</small></figure>
+        <table><caption>Scores by assessment month</caption><thead><tr id="sample-dates"></tr></thead><tbody id="sample-history"></tbody></table>
+        <p class="report-note">The gain is the March 2026 score minus the September 2025 score for the same task.</p>
+      </article>
+      <article class="report-page">
+        <small class="folio">Assessment progress report · 3 of 3</small>
+        <h3>Current skills and next practice</h3><h4>Listening and visual cues · March 17, 2026</h4>
+        <p>Compare the two bars within each skill. Both use the same 20-item scale. The longer bar shows which kind of cue was easier for this learner.</p>
+        <div id="sample-profile"></div><p id="sample-comparison"></p>
+        <p><b>Difficulty across six tasks</b><br><span id="sample-bands"></span></p>
+        <small>Illustrative difficulty by number correct: marked 0–9, moderate 10–13, mild 14–16, minimal 17–20.</small>
+        <h4 id="sample-practice"></h4><p id="sample-target"></p><p id="sample-exercise"></p>
+      </article>
+      </div>
     </dialog>
     <script src="../../shared/presentation-context.js?v=1"></script>
     <script src="../../shared/presentation-analytics.js?v=1"></script>
     <script src="./case-study-data.js?v=report-2"></script>
     <script src="../../shared/case-study.js?v=9"></script>
-    <script src="./sample-report.js?v=1"></script>
+    <script src="./sample-report.js?v=2"></script>
   </body>
 </html>
