@@ -3,7 +3,7 @@ window.CASE_STUDY = {
   eyebrow: "Client project: clinical reporting system",
   title: "From Assessment Data to Patient-Ready Reports",
   lead:
-    "I built a reporting system that helps a psychologist turn repeated assessments into charts and multilingual summaries patients can understand.",
+    "I built a system that turns assessment results into charts, training suggestions, and patient explanations. Drafting those explanations in plain language and translating them saved the practitioner considerable writing time.",
   heroVisual: {
     src: "../screenshots/upwork-thumbnail-final.png",
     alt: "Psychologist explaining a report to a patient at a table.",

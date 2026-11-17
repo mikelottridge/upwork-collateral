@@ -26,6 +26,24 @@
         .slide-canvas, .slide-copy, .slide-artifact { min-width:0; }
         .slide-artifact { overflow-x:auto; }
       }
+      .report-dialog { width:min(54rem,95vw); line-height:1.5; }
+      .report-dialog label { display:inline-grid; gap:4px; font-weight:650; }
+      .report-dialog select { font:inherit; padding:7px; max-width:100%; }
+      .report-dialog section { border-top:1px solid #c9d6d5; margin:22px 0; padding-top:6px; }
+      .report-dialog h3 { margin:13px 0 8px; font-size:1.15rem; }
+      .report-dialog h4 { margin:10px 0 0; }
+      .report-dialog p { margin:8px 0 13px; }
+      .report-dialog small,.scope-note { color:#4e6060; }
+      .sample-plots,.sample-options { display:flex; flex-wrap:wrap; gap:12px; margin:12px 0; }
+      .sample-plots figure { flex:1 1 230px; margin:0; padding:10px; border:1px solid #c9d6d5; border-radius:8px; }
+      .sample-plots figcaption,.report-dialog caption { font-weight:650; text-align:left; }
+      .report-dialog svg text { font:12px system-ui; fill:#28454b; }
+      .report-dialog table { width:100%; border-collapse:collapse; font-size:.9rem; }
+      .report-dialog td,.report-dialog th { text-align:left; padding:5px 3px; border-bottom:1px solid #ccd8d5; }
+      .score-track { display:block; height:5px; background:#e3eae7; max-width:130px; }
+      .score-track i { display:block; background:#357264; height:100%; }
+      #sample-narrative { border-left:3px solid #cb9b53; background:#f6f3eb; padding:12px 16px; }
+      @media(max-width:480px){.report-dialog {padding:12px}.report-dialog table {font-size:.8rem}}
     </style>
   </head>
   <body>
@@ -47,7 +65,7 @@
         <aside class="meta-panel">
           <section class="meta-block">
             <h2>Report preview</h2>
-            <div class="report-preview"><strong>Assessment history</strong><p data-report-summary></p><small>Synthetic example</small></div>
+            <div class="report-preview"><strong>Why was it easier to wait for a picture than a sound?</strong><p>See the score gap, a suggested practice activity, and the same explanation written for different readers.</p><small>Fictional assessment example</small></div>
           </section>
           <section class="meta-block">
             <h2>Project signals</h2>
@@ -96,16 +114,29 @@
 
     <dialog class="report-dialog" data-report-dialog aria-labelledby="report-heading">
       <form method="dialog"><button class="btn" autofocus>Close report</button></form>
-      <small>Sample patient report · Synthetic assessment data</small>
-      <h2 id="report-heading">Assessment history</h2>
-      <div data-report-chart></div>
-      <h3>What changed</h3>
-      <p data-report-summary></p>
-      <p data-report-scores></p>
+      <small>Illustrative assessment · Fictional data</small>
+      <h2 id="report-heading">From assessment to training plan</h2>
+      <p>One learner, four visits, three skills. Each task has 20 opportunities for a correct response.</p>
+      <label>Referral scenario <select id="sample-case"></select></label>
+      <p class="scope-note">The condition is background supplied for each fictional referral. Scores describe performance on invented tasks. The difficulty bands are illustrative and have no diagnostic meaning.</p>
+      <section><h3>What changed across visits?</h3>
+      <label>Skill <select id="sample-skill"></select></label>
+      <div class="sample-plots"><figure><figcaption>Correct responses across visits</figcaption><div id="sample-trend"></div><small>Solid green · listening &nbsp; Dashed amber · visual</small></figure>
+      <figure><figcaption>Paired scores at visit 4</figcaption><div id="sample-pair"></div><small>Above the diagonal, the visual score is higher. Numbers identify the skills below.</small></figure></div>
+      <table><caption>Score history for the selected skill</caption><thead><tr><th>Cue</th><th>V1</th><th>V2</th><th>V3</th><th>V4</th><th>Change</th></tr></thead><tbody id="sample-history"></tbody></table></section>
+      <section><h3>Where was the task hardest?</h3><table><caption>Visit 4 · correct responses and difficulty</caption><thead><tr><th>Skill</th><th>Listening</th><th>Visual</th></tr></thead><tbody id="sample-profile"></tbody></table>
+      <p id="sample-bands"></p><small>Six measures. Marked difficulty: 0–9 correct. Moderate: 10–13. Mild: 14–16. Minimal: 17–20.</small></section>
+      <section><h3>Suggested training for practitioner review</h3><p id="sample-target"></p><h4 id="sample-practice"></h4><p id="sample-exercise"></p></section>
+      <section><h3>How would you explain this to the family?</h3><p>Compare AI-drafted explanations of the practice target. Each version uses the same findings.</p>
+      <div class="sample-options"><label>Language <select id="sample-language"><option value="en">English</option><option value="es">Español</option></select></label>
+      <label>Reading level <select id="sample-level"><option value="0">Simple words · short sentences</option><option value="1">Detailed · adult reader</option></select></label></div>
+      <p id="sample-narrative" aria-live="polite"></p></section>
+      <button type="button" class="btn" id="sample-download">Download all three cases (CSV)</button>
     </dialog>
     <script src="../../shared/presentation-context.js?v=1"></script>
     <script src="../../shared/presentation-analytics.js?v=1"></script>
-    <script src="./case-study-data.js?v=cedar-1"></script>
-    <script src="../../shared/case-study.js?v=8"></script>
+    <script src="./case-study-data.js?v=report-2"></script>
+    <script src="../../shared/case-study.js?v=9"></script>
+    <script src="./sample-report.js?v=1"></script>
   </body>
 </html>
