@@ -887,6 +887,33 @@
     }
   });
 
+  const storyButton = document.querySelector("[data-start-story]");
+  const reportDialog = document.querySelector("[data-report-dialog]");
+  if (storyButton && reportDialog) {
+    const trend = deck.slides.find(slide => slide.artifact?.type === "line-chart").artifact;
+    reportDialog.querySelector("[data-report-chart]").append(renderLineChart({
+      ...trend, label: "Composite score by assessment", caption: "",
+    }));
+    const values = trend.values;
+    const summary = `Across ${values.length} assessments, the composite score rose from ${values[0]} to ${values[values.length - 1]}.`;
+    document.querySelectorAll("[data-report-summary]").forEach(node => { node.textContent = summary; });
+    reportDialog.querySelector("[data-report-scores]").textContent = trend.labels
+      .map((label, i) => `${label}: ${values[i]}`).join(" · ");
+
+    document.querySelector("[data-open-report]").addEventListener("click", () => {
+      if (state.autoplay) toggleAutoplay();
+      reportDialog.showModal();
+    });
+    reportDialog.addEventListener("keydown", event => event.stopPropagation());
+    storyButton.addEventListener("click", () => {
+      state.autoplay = false;
+      goTo(0);
+      startGuidedMode();
+      els.autoplayButton.focus({ preventScroll: true });
+      els.autoplayButton.closest(".slide-canvas").scrollIntoView({ block: "start" });
+    });
+  }
+
   renderHeader();
   renderMetricGrid();
   renderSlideIndex();

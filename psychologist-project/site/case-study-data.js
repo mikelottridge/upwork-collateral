@@ -3,7 +3,7 @@ window.CASE_STUDY = {
   eyebrow: "Client project: clinical reporting system",
   title: "From Assessment Data to Patient-Ready Reports",
   lead:
-    "The system helps practitioners explain complex assessment results and helps patients understand them. It turns repeated measurements into longitudinal views, multilingual summaries, and delivery-ready reports.",
+    "I built a reporting system that helps a psychologist turn repeated assessments into charts and multilingual summaries patients can understand.",
   heroVisual: {
     src: "../screenshots/upwork-thumbnail-final.png",
     alt: "Psychologist explaining a report to a patient at a table.",
@@ -29,6 +29,7 @@ window.CASE_STUDY = {
   footerNote:
     "Demonstrated with synthetic data. The focus is workflow structure and reporting output, not confidential client content.",
   defaultDurationMs: 7200,
+  startMode: "idle",
   audioRate: 1.1,
   slides: [
     {

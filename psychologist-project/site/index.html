@@ -9,6 +9,24 @@
     <meta property="og:description" content="Clinical reporting workflow collateral focused on analysis, charts, multilingual output, and delivery-ready documents.">
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'%3E%3Crect width='96' height='96' rx='22' fill='%2346527d'/%3E%3Cpath d='M24 28h21c14 0 24 8 24 20S59 68 45 68H24V28zm14 28h8c7 0 12-3 12-8s-5-8-12-8h-8v16z' fill='%23f6f3ff'/%3E%3C/svg%3E">
     <link rel="stylesheet" href="../../shared/case-study.css?v=7">
+    <style>
+      .opening-choices { display:flex; flex-wrap:wrap; gap:10px; margin:16px 0; }
+      .opening-choices .btn { min-height:44px; background:white; color:#20363a; }
+      .opening-choices .story { background:#f2ca79; color:#202c36; }
+      .report-preview { border-left:3px solid #bb8d3b; padding-left:12px; }
+      .hero .report-preview p { color:#364956; font-size:1rem; }
+      .report-dialog { width:min(38rem,94vw); max-height:89vh; overflow:auto; padding:clamp(18px,4vw,36px); border:1px solid #b8c8c5; border-radius:14px; background:#fffefa; color:#20333a; }
+      .report-dialog::backdrop { background:rgba(13,28,51,.67); }
+      .report-dialog form { float:right; }
+      .report-dialog h2 { clear:both; margin:12px 0; }
+      .report-dialog svg { display:block; width:100%; height:auto; }
+      @media(max-width:480px) {
+        .presentation-shell { grid-template-columns:minmax(0,1fr); }
+        .control-buttons { flex-wrap:wrap; }
+        .slide-canvas, .slide-copy, .slide-artifact { min-width:0; }
+        .slide-artifact { overflow-x:auto; }
+      }
+    </style>
   </head>
   <body>
     <main class="app-shell">
@@ -17,13 +35,20 @@
           <div class="eyebrow" data-project-eyebrow></div>
           <h1 data-project-title></h1>
           <p data-project-lead></p>
+          <div class="opening-choices">
+            <button class="btn story" type="button" data-start-story>Play the narrated case study</button>
+            <button class="btn" type="button" data-open-report aria-haspopup="dialog">See a sample report</button>
+          </div>
           <figure class="hero-visual" data-project-hero-visual hidden>
             <img data-project-hero-image src="" alt="">
-            <figcaption data-project-hero-caption></figcaption>
           </figure>
           <div class="hero-tags" data-project-tags></div>
         </article>
         <aside class="meta-panel">
+          <section class="meta-block">
+            <h2>Report preview</h2>
+            <div class="report-preview"><strong>Assessment history</strong><p data-report-summary></p><small>Synthetic example</small></div>
+          </section>
           <section class="meta-block">
             <h2>Project signals</h2>
             <div class="signal-list" data-project-signals></div>
@@ -68,9 +93,18 @@
       </footer>
     </main>
 
+    <dialog class="report-dialog" data-report-dialog aria-labelledby="report-heading">
+      <form method="dialog"><button class="btn" autofocus>Close report</button></form>
+      <small>Sample patient report · Synthetic assessment data</small>
+      <h2 id="report-heading">Assessment history</h2>
+      <div data-report-chart></div>
+      <h3>What changed</h3>
+      <p data-report-summary></p>
+      <p data-report-scores></p>
+    </dialog>
     <script src="../../shared/presentation-context.js?v=1"></script>
     <script src="../../shared/presentation-analytics.js?v=1"></script>
     <script src="./case-study-data.js"></script>
-    <script src="../../shared/case-study.js?v=7"></script>
+    <script src="../../shared/case-study.js?v=8"></script>
   </body>
 </html>

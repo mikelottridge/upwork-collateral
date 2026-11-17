@@ -1,18 +1,14 @@
-# Voiceover Script - Psychologist Project
+# Psychology case study narration
 
-These scripts map to the current 8-slide guided deck.
+The viewer starts the full story with **Play the narrated case study**. The photo, opening sentence, and optional sample report are available before playback. The walkthrough starts at slide one and plays the six original tracks in order.
 
-- `slide-01.txt`: overview / orientation
-- `slide-02.txt`: raw-assessment problem
-- `slide-03.txt`: reporting workflow
-- `slide-04.txt`: longitudinal analysis
-- `slide-05.txt`: chart-in-report framing
-- `slide-06.txt`: multilingual output
-- `slide-07.txt`: report delivery surfaces
-- `slide-08.txt`: closing value slide
+| Slide | Topic | Narration source | Audio |
+| --- | --- | --- | --- |
+| 1 | The raw assessment data | [Script](../audio/slide-01.txt) | [Audio](../audio/slide-01.mp3) |
+| 2 | Intake through report assembly | [Script](../audio/slide-02.txt) | [Audio](../audio/slide-02.mp3) |
+| 3 | Trends across assessments | [Script](../audio/slide-03.txt) | [Audio](../audio/slide-03.mp3) |
+| 4 | Charts inside the patient report | [Script](../audio/slide-04.txt) | [Audio](../audio/slide-04.mp3) |
+| 5 | Engagement history and client rating | [Script](../audio/slide-05.txt) | [Audio](../audio/slide-05.mp3) |
+| 6 | Fit for other reporting projects | [Script](../audio/slide-06.txt) | [Audio](../audio/slide-06.mp3) |
 
-Delivery notes:
-
-1. Use a measured, confident tone without hype.
-2. The deck now defaults to `1.1x` playback in the browser.
-3. You can override speed via URL, for example `?rate=1.0` or `?rate=1.2`.
+The opening revision changes how viewers enter the walkthrough. Each narrated slide still covers the same material, so the existing scripts and recordings remain paired. Playback defaults to 1.1×, with an optional URL override such as `?rate=1.0`.

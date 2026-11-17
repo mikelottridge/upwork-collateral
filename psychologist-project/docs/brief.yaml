@@ -1,0 +1,11 @@
+outline_approval:
+  source: revision-outline.md
+  sha256: 6be2999ece1961c648f4a07bcd8bcbccf6afe126b4b53199e3802cc2e99a0b1b
+  approval_record:
+    approver: Mike
+    date: "2026-11-17"
+    scope: [canonical-spec, html]
+deck:
+  id: psychologist
+  start_mode: idle
+  narration: existing six audio tracks at the original playback rate
