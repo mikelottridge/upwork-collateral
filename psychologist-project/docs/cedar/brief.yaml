@@ -1,0 +1,11 @@
+outline_approval:
+  source: revision-outline.md
+  sha256: 5a9258425fdcf8b27aae5d8d1ffc73fffdf3830ea046c608930ba83b79d83b4d
+  approval_record:
+    approver: Mike
+    date: "2026-11-17"
+    scope: [canonical-spec, audio, html]
+deck:
+  id: psychologist
+  start_mode: idle
+  narration: One Cedar take, six slide clips at natural speed.

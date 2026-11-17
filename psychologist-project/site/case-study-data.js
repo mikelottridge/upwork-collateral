@@ -30,14 +30,14 @@ window.CASE_STUDY = {
     "Demonstrated with synthetic data. The focus is workflow structure and reporting output, not confidential client content.",
   defaultDurationMs: 7200,
   startMode: "idle",
-  audioRate: 1.1,
+  audioRate: 1.0,
   slides: [
     {
       eyebrow: "The challenge",
       title: "Raw assessment data does not explain itself.",
       lead:
         "The core problem is not capturing assessment data. It is carrying that data forward into something a practitioner and patient can meaningfully use and discuss: trend views, readable summaries, and finished reports.",
-      audio: "../audio/slide-01.mp3",
+      audio: "../audio/slide-01.mp3?v=cedar-1",
       bullets: [
         "Large volumes of repeated assessments are hard to interpret when they are in raw tables.",
         "The value comes not from analysis alone, but from turning that analysis into communication a patient can understand.",
@@ -60,7 +60,7 @@ window.CASE_STUDY = {
       title: "One path from intake to delivery.",
       lead:
         "The system links intake, longitudinal analysis, chart generation, and report assembly into one repeatable workflow. That reduces manual handoffs and makes the reporting process usable in practice.",
-      audio: "../audio/slide-02.mp3",
+      audio: "../audio/slide-02.mp3?v=cedar-1",
       bullets: [
         "The workflow matters as much as the calculations inside it.",
         "Each stage exists to move the client closer to a finished deliverable.",
@@ -81,7 +81,7 @@ window.CASE_STUDY = {
       title: "Longitudinal trends become easier to explain.",
       lead:
         "One of the biggest gains comes from charting time series. The workflow turns repeated measurements into chartable trajectories that are easier to interpret and easier to communicate.",
-      audio: "../audio/slide-03.mp3",
+      audio: "../audio/slide-03.mp3?v=cedar-1",
       bullets: [
         "The system emphasizes trajectory and comparison instead of isolated scores.",
         "That makes the output more useful in real clinical conversations.",
@@ -100,7 +100,7 @@ window.CASE_STUDY = {
       title: "Analysis lives inside the report.",
       lead:
         "The system does not stop at charts. It carries those outputs into structured, patient-facing reports that can be used directly in communication.",
-      audio: "../audio/slide-04.mp3",
+      audio: "../audio/slide-04.mp3?v=cedar-1",
       bullets: [
         "Charts, interpretation, and report structure stay together in one output path.",
       ],
@@ -125,7 +125,7 @@ window.CASE_STUDY = {
       title: "A long-running engagement with durable trust.",
       lead:
         "The strongest proof here is a long-running engagement with a five-star rating and hundreds of logged hours around a high-trust, document-heavy workflow.",
-      audio: "../audio/slide-05.mp3",
+      audio: "../audio/slide-05.mp3?v=cedar-1",
       bullets: [
         "This project combines analytics, reporting, and workflow design in one operational system.",
         "The engagement itself is evidence that the work holds up in real use.",
@@ -147,7 +147,7 @@ window.CASE_STUDY = {
       title: "Built for data-to-report workflows.",
       lead:
         "If your project involves data that has to become something a client, patient, or stakeholder can actually read and use, Mike is a strong fit for that kind of data-to-report workflow.",
-      audio: "../audio/slide-06.mp3",
+      audio: "../audio/slide-06.mp3?v=cedar-1",
       bullets: [
         "Strongest where document output matters as much as the underlying logic.",
         "Use the contact option shown to describe the data-to-report workflow you need.",

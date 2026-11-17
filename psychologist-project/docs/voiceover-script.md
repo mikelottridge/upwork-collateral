@@ -1,6 +1,6 @@
 # Psychology case study narration
 
-The viewer starts the full story with **Play the narrated case study**. The photo, opening sentence, and optional sample report are available before playback. The walkthrough starts at slide one and plays the six original tracks in order.
+The viewer starts the full story with **Play the narrated case study**. The photo, opening sentence, and optional sample report are available before playback. The walkthrough starts at slide one and plays the six clips from the approved Cedar voice in order.
 
 | Slide | Topic | Narration source | Audio |
 | --- | --- | --- | --- |
@@ -11,4 +11,6 @@ The viewer starts the full story with **Play the narrated case study**. The phot
 | 5 | Engagement history and client rating | [Script](../audio/slide-05.txt) | [Audio](../audio/slide-05.mp3) |
 | 6 | Fit for other reporting projects | [Script](../audio/slide-06.txt) | [Audio](../audio/slide-06.mp3) |
 
-The opening revision changes how viewers enter the walkthrough. Each narrated slide still covers the same material, so the existing scripts and recordings remain paired. Playback defaults to 1.1×, with an optional URL override such as `?rate=1.0`.
+The six paragraphs were recorded together with OpenAI's gpt-realtime-2.1-mini and Cedar after Mike approved the two-slide voice audition. The [continuous recording](../audio/cedar-master.wav) is 99.75 seconds. Each slide plays its portion at the recorded speed (1.0×). The player also supports a speed override such as `?rate=1.1`.
+
+The clips begin at 0.000, 19.250, 36.865, 53.310, 69.005 and 85.470 seconds. Word timestamps located each transition and low-energy points in the pauses set the cuts.
