@@ -1,76 +1,42 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>From Assessment Data to Patient-Ready Reports</title>
-    <meta name="description" content="Public case study showing how assessment data was turned into longitudinal analysis, multilingual summaries, and patient-ready reports.">
-    <meta property="og:title" content="From Assessment Data to Patient-Ready Reports">
-    <meta property="og:description" content="Clinical reporting workflow collateral focused on analysis, charts, multilingual output, and delivery-ready documents.">
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'%3E%3Crect width='96' height='96' rx='22' fill='%2346527d'/%3E%3Cpath d='M24 28h21c14 0 24 8 24 20S59 68 45 68H24V28zm14 28h8c7 0 12-3 12-8s-5-8-12-8h-8v16z' fill='%23f6f3ff'/%3E%3C/svg%3E">
-    <link rel="stylesheet" href="../../shared/case-study.css?v=7">
-  </head>
-  <body>
-    <main class="app-shell">
-      <section class="hero">
-        <article class="hero-panel">
-          <div class="eyebrow" data-project-eyebrow></div>
-          <h1 data-project-title></h1>
-          <p data-project-lead></p>
-          <figure class="hero-visual" data-project-hero-visual hidden>
-            <img data-project-hero-image src="" alt="">
-            <figcaption data-project-hero-caption></figcaption>
-          </figure>
-          <div class="hero-tags" data-project-tags></div>
-        </article>
-        <aside class="meta-panel">
-          <section class="meta-block">
-            <h2>Project signals</h2>
-            <div class="signal-list" data-project-signals></div>
-          </section>
-          <section class="meta-block">
-            <h2>At a glance</h2>
-            <div class="metric-grid" data-metric-grid></div>
-          </section>
-          <section class="meta-block">
-            <h2>Client voice</h2>
-            <div data-project-quote></div>
-          </section>
-        </aside>
-      </section>
-
-      <section class="presentation-shell">
-        <aside class="slide-nav">
-          <h3>Presentation flow</h3>
-          <div class="slide-index" data-slide-index></div>
-        </aside>
-
-        <section class="slide-canvas">
-          <div class="controls">
-            <div class="control-buttons">
-              <button class="btn btn-accent" type="button" data-action="autoplay">Start audio/guided mode</button>
-              <button class="btn" type="button" data-action="prev">Previous</button>
-              <button class="btn" type="button" data-action="next">Next</button>
-            </div>
-            <div class="progress-meta">
-              <div class="progress-rail"><div class="progress-fill" data-progress-fill></div></div>
-              <div class="progress-copy" data-progress-copy></div>
-            </div>
-          </div>
-
-          <div data-slide-canvas></div>
-        </section>
-      </section>
-
-      <footer class="footer-panel">
-        <div><strong>Workflow pattern:</strong> assessment data to patient-ready reporting</div>
-        <div data-footer-note></div>
-      </footer>
-    </main>
-
-    <script src="../../shared/presentation-context.js?v=1"></script>
-    <script src="../../shared/presentation-analytics.js?v=1"></script>
-    <script src="./case-study-data.js"></script>
-    <script src="../../shared/case-study.js?v=7"></script>
-  </body>
-</html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Assessment reporting · Mike Lottridge</title>
+<style>
+:root{color-scheme:light;--ink:#182f31;--green:#216859;--rule:#c8d5ce;--paper:#fffefa}*{box-sizing:border-box}body{margin:0;color:var(--ink);background:#eef2ec;font:16px/1.5 "Segoe UI",Arial,sans-serif}main,header,footer{width:min(1140px,92%);margin:auto}header,footer{display:flex;align-items:center;justify-content:space-between;padding:20px 0;border-bottom:1px solid var(--rule)}header strong{font:600 22px Georgia,serif}header span,small,.label{font-size:13px;color:#455e58}.hero{display:grid;grid-template-columns:.92fr 1.08fr;gap:5%;align-items:center;padding:clamp(38px,7vw,110px) 0}.label{font-weight:700;letter-spacing:.12em;text-transform:uppercase}h1,h2,h3,p,figure{margin:0}h1,h2,h3{font-family:Georgia,serif;font-weight:normal;line-height:1.08}h1{font-size:clamp(42px,4.8vw,72px);letter-spacing:-.055em;margin:14px 0 22px}h2{font-size:clamp(30px,4vw,45px);letter-spacing:-.035em}h3{font-size:24px}.stats{margin-top:22px;font-size:15px}.actions,.controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:24px}button{border:1px solid #849c91;background:transparent;color:var(--ink);padding:11px 16px;border-radius:5px;font:600 15px "Segoe UI",sans-serif;cursor:pointer}button.primary{background:var(--green);color:white;border-color:var(--green)}button:hover{filter:brightness(.90)}button:disabled{opacity:.5;cursor:default}button:focus-visible{outline:3px solid #ab641b;outline-offset:3px}.sheet{background:var(--paper);border:1px solid var(--rule);border-top:5px solid var(--green);padding:clamp(16px,3vw,40px);box-shadow:0 12px 32px #23393312}.sheet-top{display:flex;justify-content:space-between;align-items:baseline;gap:12px;border-bottom:1px solid var(--rule);padding-bottom:12px;margin-bottom:16px}.sheet-top small{white-space:nowrap}svg{display:block;width:100%;height:auto;margin:10px 0}svg text{font:14px "Segoe UI",sans-serif;fill:var(--ink)}.note{border-left:3px solid #d4a053;padding-left:13px}.endorse{border-top:1px solid var(--rule);padding:24px 0}.endorse blockquote{margin:0 0 6px;font:italic 23px/1.3 Georgia,serif}footer{border-top:1px solid var(--rule);border-bottom:0}dialog{color:var(--ink);background:var(--paper);border:1px solid var(--rule);width:min(620px,94vw);max-height:90dvh;padding:clamp(18px,4vw,34px);border-radius:8px}dialog::backdrop{background:#0e2827aa}.dialogbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}.detail{margin:14px 0}table{width:100%;border-collapse:collapse;margin:12px 0}td,th{text-align:left;border-bottom:1px solid var(--rule);padding:5px 9px}th{color:var(--green)}[hidden]{display:none!important}@media(max-width:760px){.hero{display:flex;flex-direction:column;align-items:stretch;gap:24px;padding:26px 0}h1{margin:8px 0 12px;font-size:40px}.actions,.stats{margin-top:14px}header,footer{padding:12px 0}.sheet{padding:15px}.sheet-top{margin-bottom:10px}.endorse blockquote{font-size:20px}}
+</style></head><body><header><strong>Mike Lottridge</strong><span>Selected client work</span></header><main><section class="hero"><div><p class="label">Psychological assessment reporting</p><h1>From assessment scores to a report a psychologist can explain.</h1><p>I built a reporting system that brings repeated measurements, a trend chart, and a patient-facing summary onto one page.</p><p class="stats"><b>470 hours</b> on the engagement &nbsp;·&nbsp; <b>5.0/5</b> client rating</p><div class="actions"><button class="primary" id="inspect">Inspect the report</button><button id="watch">See how it works · 36s</button></div></div>
+<article class="sheet"><div class="sheet-top"><span class="label">Report excerpt</span><small>Synthetic data</small></div><h2>Assessment history</h2><p>Composite score across six visits</p><div id="preview"></div><p class="note">The score rose at each visit, from 42 at the first assessment to 108 at the sixth.</p></article></section>
+<section class="endorse"><blockquote>“Michael has been consistent in delivering quality work.”</blockquote><small>Upwork client review</small></section></main><footer><small>Mike Lottridge · Assessment reporting</small></footer>
+<dialog id="viewer" aria-labelledby="heading"><div class="dialogbar"><span class="label" id="mode"></span><button id="closeView" aria-label="Close and return to overview">Close</button></div><div aria-live="polite"><h2 id="heading"></h2><p class="detail" id="description"></p></div><div id="evidence"></div><small>Synthetic data · Reconstructed report example</small><div class="controls" id="controls"><button id="prev">Previous</button><button id="pause">Pause</button><button class="primary" id="next">Next</button></div></dialog>
+<script>
+const scores=[42,55,68,74,93,108];
+const $=id=>document.getElementById(id);
+function chart(){
+ const x=i=>32+i*63,y=v=>135-(v-40)*1.35;
+ const points=scores.map((v,i)=>x(i)+','+y(v)).join(' ');
+ const marks=scores.map((v,i)=>'<circle cx="'+x(i)+'" cy="'+y(v)+'" r="4" fill="#216859"/><text text-anchor="middle" x="'+x(i)+'" y="'+(y(v)-12)+'">'+v+'</text><text text-anchor="middle" x="'+x(i)+'" y="163">V'+(i+1)+'</text>').join('');
+ return '<svg viewBox="0 0 380 177" role="img" aria-label="Composite scores by visit: 42, 55, 68, 74, 93, 108."><path d="M24 138H358 M24 96H358 M24 54H358" fill="none" stroke="#dde5df"/><polyline points="'+points+'" fill="none" stroke="#216859" stroke-width="3"/>'+marks+'</svg>';
+}
+function table(){return '<table><thead><tr><th>Assessment visit</th><th>Composite score</th></tr></thead><tbody>'+scores.map((v,i)=>'<tr><td>Visit '+(i+1)+'</td><td>'+v+'</td></tr>').join('')+'</tbody></table>'}
+const observation='The composite score increased by 66 points across six visits. The smallest change was between visits three and four, from 68 to 74.';
+const stages=[
+ ['Collect the scores','Each assessment contributes one score to the visit history.',table],
+ ['Plot the six visits','The chart makes the smaller change between visits three and four easy to see.',chart],
+ ['Put the trend into words','The finished report pairs the chart with a plain-language observation.',()=>chart()+'<p class="note detail">'+observation+'</p>']
+];
+let step=0,timer=null,playing=false;
+function stop(){clearTimeout(timer);playing=false}
+function render(){
+ const [title,copy,visual]=stages[step];$('mode').textContent='Workflow tour · '+(step+1)+' of 3';$('heading').textContent=title;$('description').textContent=copy;$('evidence').innerHTML=visual();
+ $('prev').disabled=step===0;$('pause').textContent=playing?'Pause':'Resume';$('next').textContent=step===2?'Finish':'Next';
+}
+function finish(){stop();report();$('heading').focus()}
+function schedule(){clearTimeout(timer);if(playing)timer=setTimeout(()=>{if(step===2){finish();return}step++;render();schedule()},12000)}
+function report(){stop();$('controls').hidden=true;$('mode').textContent='Report example';$('heading').textContent='Assessment history';$('description').textContent=observation;$('evidence').innerHTML=chart()+table();$('viewer').scrollTop=0}
+$('heading').tabIndex=-1;$('preview').innerHTML=chart();
+$('inspect').onclick=()=>{report();$('viewer').showModal()};
+$('watch').onclick=()=>{step=0;playing=true;$('controls').hidden=false;render();$('viewer').showModal();schedule()};
+$('pause').onclick=()=>{playing=!playing;render();schedule()};
+function move(by){stop();step+=by;render()}
+$('prev').onclick=()=>move(-1);$('next').onclick=()=>step===2?finish():move(1);
+$('closeView').onclick=()=>$('viewer').close();$('viewer').addEventListener('close',stop);
+document.addEventListener('visibilitychange',()=>{if(document.hidden&&playing){stop();render()}});
+</script></body></html>
