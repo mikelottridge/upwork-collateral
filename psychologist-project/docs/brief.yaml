@@ -1,0 +1,13 @@
+outline_approval:
+  source: revision-outline.md
+  sha256: bf250d503c0ba1abda79f439c9f8d1373c40978f260507a90039d9c9fa73338f
+  approval_record:
+    approver: Mike
+    date: "2026-11-17"
+    scope: [canonical-spec, html]
+deck:
+  id: psychology-report-first
+  audience: Prospective clients
+  runtime_seconds: 36
+  mode: timed visual tour with manual controls
+  evidence: Original synthetic scores, engagement metrics and public client review.
