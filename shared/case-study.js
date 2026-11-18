@@ -147,9 +147,11 @@
   function trySlideAudio(slide) {
     if (!state.autoplay || !slide.audio) return false;
     try {
-      state.audio = new Audio(slide.audio);
-      state.audio.playbackRate = slide.audioRate || defaultAudioRate;
-      state.audio.addEventListener("ended", () => {
+      const audio = new Audio(slide.audio);
+      state.audio = audio;
+      audio.playbackRate = slide.audioRate || defaultAudioRate;
+      audio.addEventListener("ended", () => {
+        if (state.audio !== audio || !state.autoplay) return;
         if (state.index < deck.slides.length - 1) {
           goTo(state.index + 1);
         } else {
@@ -157,7 +159,8 @@
           syncControls();
         }
       }, { once: true });
-      state.audio.play().catch((error) => {
+      audio.play().catch((error) => {
+        if (state.audio !== audio) return;
         state.audio = null;
         if (isAutoplayBlockedError(error)) {
           state.autoplay = false;
@@ -240,7 +243,7 @@
       button.append(document.createTextNode(slide.title));
       button.append(el("small", "", slide.eyebrow || `Slide ${index + 1}`));
       button.addEventListener("click", () => {
-        state.autoplay = false;
+        clearGuidedFlash();
         goTo(index);
       });
       els.slideIndex.append(button);
@@ -848,14 +851,12 @@
 
   function next() {
     clearGuidedFlash();
-    state.autoplay = false;
-    goTo(state.index + 1);
+    if (state.index < deck.slides.length - 1) goTo(state.index + 1);
   }
 
   function prev() {
     clearGuidedFlash();
-    state.autoplay = false;
-    goTo(state.index - 1);
+    if (state.index > 0) goTo(state.index - 1);
   }
 
   function toggleAutoplay() {
@@ -874,7 +875,8 @@
   els.autoplayButton.addEventListener("click", toggleAutoplay);
   document.addEventListener("keydown", (event) => {
     const tag = document.activeElement && document.activeElement.tagName;
-    if (tag && /INPUT|TEXTAREA|SELECT|BUTTON|A/.test(tag)) return;
+    if (document.activeElement?.isContentEditable || ["INPUT", "TEXTAREA", "SELECT"].includes(tag)) return;
+    if (["BUTTON", "A"].includes(tag) && (event.key === " " || !document.activeElement.closest(".presentation-shell"))) return;
     if (event.key === "ArrowRight") {
       event.preventDefault();
       next();

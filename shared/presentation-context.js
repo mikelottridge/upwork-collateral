@@ -154,6 +154,34 @@
       link.addEventListener("click", () => settings.onClick(contact));
     }
     wrapper.append(eyebrow, heading, description, link);
+    if (contact.mode === "general") {
+      const address = document.createElement("p");
+      address.textContent = EMAIL;
+      address.style.overflowWrap = "anywhere";
+      const copy = document.createElement("button");
+      copy.type = "button";
+      copy.className = "btn";
+      copy.textContent = "Copy email address";
+      const status = document.createElement("p");
+      status.setAttribute("role", "status");
+      link.addEventListener("click", () => {
+        status.textContent = "If your email app didn’t open, copy the address into a new message.";
+      });
+      copy.addEventListener("click", async () => {
+        try {
+          await navigator.clipboard.writeText(EMAIL);
+          status.textContent = "Email address copied.";
+        } catch {
+          const range = document.createRange();
+          range.selectNodeContents(address);
+          const selection = window.getSelection();
+          selection.removeAllRanges();
+          selection.addRange(range);
+          status.textContent = "Address selected. Use your device’s Copy command.";
+        }
+      });
+      wrapper.append(address, copy, status);
+    }
     container.append(wrapper);
     return wrapper;
   }
