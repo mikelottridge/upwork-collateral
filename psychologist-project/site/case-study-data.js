@@ -45,7 +45,8 @@ window.CASE_STUDY = {
           }
         ]
       },
-      "transcript": "A parent wants to know what changed since the last visit. My client could answer that question, but writing it out for each family took time. I built a tool that drafts the explanation from the assessment results. She reviews it before the family takes it home."
+      "transcript": "A parent wants to know what changed since the last visit. My client could answer that question, but writing it out for each family took time. I built a tool that drafts the explanation from the assessment results. She reviews it before the family takes it home.",
+      "audio": "../audio/slide-01.mp3?v=cedar-humanized-1"
     },
     {
       "eyebrow": "The public example",
@@ -65,7 +66,8 @@ window.CASE_STUDY = {
           }
         ]
       },
-      "transcript": "My client asked me to keep her evaluation system private. I chose a published visual attention test to show how the reporting works. The learner pressed a button when a target appeared. When a different shape appeared, she was supposed to wait."
+      "transcript": "My client asked me to keep her evaluation system private. I chose a published visual attention test to show how the reporting works. The learner pressed a button when a target appeared. When a different shape appeared, she was supposed to wait.",
+      "audio": "../audio/slide-02.mp3?v=cedar-humanized-1"
     },
     {
       "eyebrow": "Two visits",
@@ -78,7 +80,8 @@ window.CASE_STUDY = {
         "alt": "Missed targets fell from 15 to 0. Extra presses fell from 8 to 6. Both charts count mistakes.",
         "caption": "Source: T.O.V.A. publisher example. One retest tells us how she performed that day. It can’t establish why she improved."
       },
-      "transcript": "In July, the learner missed fifteen targets. In September, she responded to every one. Waiting was still hard. She pressed when she should have waited eight times in July and six times in September. That's a change you can explain to a parent. One follow-up test can't tell you what caused it."
+      "transcript": "In July, the learner missed fifteen targets. In September, she responded to every one. Waiting was still hard. She pressed when she should have waited eight times in July and six times in September. That's a change you can explain to a parent. One follow-up test can't tell you what caused it.",
+      "audio": "../audio/slide-03.mp3?v=cedar-humanized-1"
     },
     {
       "eyebrow": "The take-home report",
@@ -102,7 +105,8 @@ window.CASE_STUDY = {
           }
         ]
       },
-      "transcript": "A family can take home a report and read it again after the visit. In a separate practice example, you can see a chart, a suggested exercise, and what to watch for next time. Choose a shorter explanation or a more detailed one. You can also read the same findings in Spanish."
+      "transcript": "A family can take home a report and read it again after the visit. In a separate practice example, you can see a chart, a suggested exercise, and what to watch for next time. Choose a shorter explanation or a more detailed one. You can also read the same findings in Spanish.",
+      "audio": "../audio/slide-04.mp3?v=cedar-humanized-1"
     },
     {
       "eyebrow": "The client project",
@@ -122,7 +126,8 @@ window.CASE_STUDY = {
           }
         ]
       },
-      "transcript": "My client spent less time explaining difficult concepts in writing and translating them for families. She could start with a draft and use her time to check the wording and decide what mattered for this patient. I logged four hundred seventy hours on the project. She rated the work five out of five."
+      "transcript": "My client spent less time explaining difficult concepts in writing and translating them for families. She could start with a draft and use her time to check the wording and decide what mattered for this patient. I logged four hundred seventy hours on the project. She rated the work five out of five.",
+      "audio": "../audio/slide-05.mp3?v=cedar-humanized-1"
     },
     {
       "eyebrow": "Working together",
@@ -134,7 +139,8 @@ window.CASE_STUDY = {
         "text": "I can highly recommend Michael for your software development needs. Michael has been consistent in delivering quality work.",
         "attribution": "Verified Upwork client review"
       },
-      "transcript": "If you write reports like these, think about one explanation you find yourself writing over and over. Who needs to read it? What do they need to understand before the next visit? Tell me about that part of your work, and we can discuss where a draft would help."
+      "transcript": "If you write reports like these, think about one explanation you find yourself writing over and over. Who needs to read it? What do they need to understand before the next visit? Tell me about that part of your work, and we can discuss where a draft would help.",
+      "audio": "../audio/slide-06.mp3?v=cedar-humanized-1"
     }
   ]
 };
