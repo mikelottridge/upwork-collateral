@@ -805,6 +805,13 @@
     head.append(el("p", "slide-lead", slide.lead));
     copyCol.append(head);
 
+    if (slide.transcript) {
+      const transcript = el("details", "slide-transcript");
+      transcript.append(el("summary", "", "Read the narration"));
+      transcript.append(el("p", "", slide.transcript));
+      copyCol.append(transcript);
+    }
+
     if (slide.bullets && slide.bullets.length) {
       const list = el("ul", "slide-list");
       slide.bullets.forEach((item) => {
@@ -900,7 +907,7 @@
     storyButton.addEventListener("click", () => {
       state.autoplay = false;
       goTo(0);
-      startGuidedMode();
+      if (!storyButton.hasAttribute("data-manual-start")) startGuidedMode();
       els.autoplayButton.focus({ preventScroll: true });
       els.autoplayButton.closest(".slide-canvas").scrollIntoView({ block: "start" });
     });

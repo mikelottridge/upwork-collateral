@@ -1,1 +1,1 @@
-The system solves that by linking intake, longitudinal analysis, chart generation, and report assembly into one workflow. That is what makes the project valuable. It reduces manual handoffs and carries the work all the way from assessment data to a deliverable a client can actually review and use.
+My client asked me to keep her evaluation system private. I chose a published visual attention test to show how the reporting works. The learner pressed a button when a target appeared. When a different shape appeared, she was supposed to wait.

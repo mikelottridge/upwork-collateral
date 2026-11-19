@@ -1,165 +1,140 @@
 window.CASE_STUDY = {
-  presentationId: "psychologist",
-  eyebrow: "Client project: clinical reporting system",
-  title: "From Assessment Data to Patient-Ready Reports",
-  lead:
-    "I built a system that turns assessment results into charts, training suggestions, and patient explanations. Drafting those explanations in plain language and translating them saved the practitioner considerable writing time.",
-  heroVisual: {
-    src: "../screenshots/upwork-thumbnail-final.png",
-    alt: "Psychologist explaining a report to a patient at a table.",
-    caption:
-      "The value of the system is not just analysis. It makes results clear enough that a practitioner can explain them and a patient can understand them.",
+  "presentationId": "psychologist",
+  "eyebrow": "A psychologist’s reporting tool",
+  "title": "Assessment reports families can use",
+  "lead": "I built an AI tool that helps a psychologist turn scores from repeat visits into a report families can take home. It drafts the chart explanation and translates it for her review.",
+  "heroVisual": {
+    "src": "../screenshots/upwork-thumbnail-final.png",
+    "alt": "A psychologist and patient look at a report together."
   },
-  quote: {
-    text: "\"I can highly recommend Michael for your software development needs. Michael has been consistent in delivering quality work.\"",
-    attribution: "Verified Upwork client review",
-  },
-  tags: [
-    "Longitudinal analysis",
-    "Patient-ready reports",
-    "Multilingual summaries",
+  "signals": [
+    "Expert-Vetted",
+    "100% Job Success",
+    "1,900+ Upwork hours"
   ],
-  signals: ["Expert-Vetted", "100% Job Success", "1,900+ Upwork hours"],
-  metrics: [
-    { value: "470 hrs", label: "Long-running engagement" },
-    { value: "5.0 / 5.0", label: "Client rating" },
-    { value: "End-to-end", label: "Intake to report" },
-    { value: "Report-ready", label: "Final output" },
+  "metrics": [
+    {
+      "value": "470 hrs",
+      "label": "Project hours"
+    },
+    {
+      "value": "5.0 / 5.0",
+      "label": "Client rating"
+    }
   ],
-  footerNote:
-    "Demonstrated with synthetic data. The focus is workflow structure and reporting output, not confidential client content.",
-  defaultDurationMs: 7200,
-  startMode: "idle",
-  audioRate: 1.0,
-  slides: [
+  "footerNote": "The examples use published test results and fictional practice records.",
+  "defaultDurationMs": 7200,
+  "startMode": "idle",
+  "audioRate": 1,
+  "slides": [
     {
-      eyebrow: "The challenge",
-      title: "Raw assessment data does not explain itself.",
-      lead:
-        "The core problem is not capturing assessment data. It is carrying that data forward into something a practitioner and patient can meaningfully use and discuss: trend views, readable summaries, and finished reports.",
-      audio: "../audio/slide-01.mp3?v=cedar-1",
-      bullets: [
-        "Large volumes of repeated assessments are hard to interpret when they are in raw tables.",
-        "The value comes not from analysis alone, but from turning that analysis into communication a patient can understand.",
-      ],
-      artifact: {
-        type: "table",
-        label: "Synthetic assessment dataset snapshot",
-        toolbar: "Assessment dataset snapshot",
-        columns: ["Client batch", "Period", "Status"],
-        rows: [
-          ["Batch A", "T1", { type: "status", value: "captured" }],
-          ["Batch A", "T2", { type: "status", value: "compared" }],
-          ["Batch B", "T1", { type: "status", value: "queued" }],
-          ["Batch B", "T3", { type: "status", value: "translated" }],
-        ],
-      },
-    },
-    {
-      eyebrow: "Workflow",
-      title: "One path from intake to delivery.",
-      lead:
-        "The system links intake, longitudinal analysis, chart generation, and report assembly into one repeatable workflow. That reduces manual handoffs and makes the reporting process usable in practice.",
-      audio: "../audio/slide-02.mp3?v=cedar-1",
-      bullets: [
-        "The workflow matters as much as the calculations inside it.",
-        "Each stage exists to move the client closer to a finished deliverable.",
-      ],
-      artifact: {
-        type: "pipeline",
-        label: "Reporting workflow",
-        steps: [
-          { icon: "1", title: "Intake", copy: "Load assessment datasets and repeated-measure records." },
-          { icon: "2", title: "Analyze", copy: "Compute longitudinal views, comparisons, and trend signals." },
-          { icon: "3", title: "Chart", copy: "Render visual outputs suitable for clinical interpretation." },
-          { icon: "4", title: "Report", copy: "Assemble patient-facing summaries and final deliverables." },
-        ],
-      },
-    },
-    {
-      eyebrow: "Analysis",
-      title: "Longitudinal trends become easier to explain.",
-      lead:
-        "One of the biggest gains comes from charting time series. The workflow turns repeated measurements into chartable trajectories that are easier to interpret and easier to communicate.",
-      audio: "../audio/slide-03.mp3?v=cedar-1",
-      bullets: [
-        "The system emphasizes trajectory and comparison instead of isolated scores.",
-        "That makes the output more useful in real clinical conversations.",
-      ],
-      artifact: {
-        type: "line-chart",
-        label: "Synthetic longitudinal trend",
-        axis: { x: "assessment period", y: "composite score" },
-        labels: ["T1", "T2", "T3", "T4", "T5", "T6"],
-        values: [42, 55, 68, 74, 93, 108],
-        caption: "Illustrative trend shape only. The point is the workflow pattern: repeated inputs turned into a clear trajectory.",
-      },
-    },
-    {
-      eyebrow: "Report output",
-      title: "Analysis lives inside the report.",
-      lead:
-        "The system does not stop at charts. It carries those outputs into structured, patient-facing reports that can be used directly in communication.",
-      audio: "../audio/slide-04.mp3?v=cedar-1",
-      bullets: [
-        "Charts, interpretation, and report structure stay together in one output path.",
-      ],
-      artifact: {
-        type: "document",
-        label: "Synthetic report output",
-        pages: [
+      "eyebrow": "The family’s question",
+      "title": "What changed since the last visit?",
+      "lead": "I built a reporting tool for a psychologist who often had to explain the same kinds of scores in different ways.",
+      "artifact": {
+        "type": "report",
+        "label": "From the clinician’s desk",
+        "blocks": [
           {
-            label: "Report page",
-            title: "Clinician-ready review",
-            sections: [
-              { title: "Trend graphic", copy: "The visual trajectory is embedded directly in the report instead of being exported as a separate artifact.", lines: ["", "short"] },
-              { title: "Interpretation notes", copy: "Readable context is placed beside the chart so the output can be used immediately.", lines: ["", "mid"] },
-            ],
+            "title": "Before the visit",
+            "copy": "The tool compares results across visits and drafts a chart and explanation."
           },
-        ],
+          {
+            "title": "With the family",
+            "copy": "The psychologist checks the draft and explains what she recommends next."
+          }
+        ]
       },
+      "transcript": "A parent wants to know what changed since the last visit. My client could answer that question, but writing it out for each family took time. I built a tool that drafts the explanation from the assessment results. She reviews it before the family takes it home."
     },
     {
-      eyebrow: "Project results",
-      tone: "dark",
-      title: "A long-running engagement with durable trust.",
-      lead:
-        "The strongest proof here is a long-running engagement with a five-star rating and hundreds of logged hours around a high-trust, document-heavy workflow.",
-      audio: "../audio/slide-05.mp3?v=cedar-1",
-      bullets: [
-        "This project combines analytics, reporting, and workflow design in one operational system.",
-        "The engagement itself is evidence that the work holds up in real use.",
-      ],
-      artifact: {
-        type: "metrics",
-        label: "Signals that matter to a prospective client",
-        items: [
-          { label: "Logged on engagement", value: "470 hrs" },
-          { label: "Client rating", value: "5.0 / 5.0" },
-          { label: "Workflow pattern", value: "Data to report" },
-          { label: "Environment", value: "High-trust reporting" },
-        ],
+      "eyebrow": "The public example",
+      "title": "When to press and when to wait",
+      "lead": "My client keeps her evaluation system private. I chose a published T.O.V.A. case to illustrate how I compare visits.",
+      "artifact": {
+        "type": "report",
+        "label": "Visual attention task · 2017",
+        "blocks": [
+          {
+            "title": "When a target appeared",
+            "copy": "The learner had to press a button. A missed target means she didn’t press."
+          },
+          {
+            "title": "When another shape appeared",
+            "copy": "She had to wait. An extra press means she pressed anyway."
+          }
+        ]
       },
+      "transcript": "My client asked me to keep her evaluation system private. I chose a published visual attention test to show how the reporting works. The learner pressed a button when a target appeared. When a different shape appeared, she was supposed to wait."
     },
     {
-      eyebrow: "Client fit",
-      tone: "dark",
-      title: "Built for data-to-report workflows.",
-      lead:
-        "If your project involves data that has to become something a client, patient, or stakeholder can actually read and use, Mike is a strong fit for that kind of data-to-report workflow.",
-      audio: "../audio/slide-06.mp3?v=cedar-1",
-      bullets: [
-        "Strongest where document output matters as much as the underlying logic.",
-        "Use the contact option shown to describe the data-to-report workflow you need.",
-      ],
-      tags: ["High-trust", "Data to report", "Client-facing output", "Code-first"],
-      artifact: {
-        type: "quote",
-        label: "Client signal",
-        text: "I can highly recommend Michael for your software development needs. Michael has been consistent in delivering quality work.",
-        attribution: "Verified Upwork client review",
-        pills: ["Code-first system", "Report generation", "Longitudinal analysis"],
+      "eyebrow": "Two visits",
+      "title": "She caught every target in September",
+      "lead": "In July she missed 15. Extra presses also fell, from eight to six. Ask the family whether they’ve seen a similar change at home.",
+      "artifact": {
+        "type": "media",
+        "src": "./visual-task-counts.png",
+        "label": "Visual test · July 1 and September 1, 2017",
+        "alt": "Missed targets fell from 15 to 0. Extra presses fell from 8 to 6. Both charts count mistakes.",
+        "caption": "Source: T.O.V.A. publisher example. One retest tells us how she performed that day. It can’t establish why she improved."
       },
+      "transcript": "In July, the learner missed fifteen targets. In September, she responded to every one. Waiting was still hard. She pressed when she should have waited eight times in July and six times in September. That's a change you can explain to a parent. One follow-up test can't tell you what caused it."
     },
-  ],
+    {
+      "eyebrow": "The take-home report",
+      "title": "A plan the family can use at home",
+      "lead": "This separate, fictional example shows the three-page report a family receives. The clinician can adjust the reading level and choose English or Spanish.",
+      "artifact": {
+        "type": "report",
+        "label": "Inside the practice report",
+        "blocks": [
+          {
+            "title": "Page 1 · What changed",
+            "copy": "The learner waited for a sound cue 10 times out of 20, up from 5."
+          },
+          {
+            "title": "Page 2 · Results by date",
+            "copy": "Compare listening and picture cues across four visits."
+          },
+          {
+            "title": "Page 3 · What to practice",
+            "copy": "Agree on a turn-taking signal. At the next visit, discuss whether it helped."
+          }
+        ]
+      },
+      "transcript": "A family can take home a report and read it again after the visit. In a separate practice example, you can see a chart, a suggested exercise, and what to watch for next time. Choose a shorter explanation or a more detailed one. You can also read the same findings in Spanish."
+    },
+    {
+      "eyebrow": "The client project",
+      "title": "Less time writing the same explanation",
+      "lead": "Drafting and translating reports saved the psychologist considerable time. She still decided what the results meant and what to share with each family.",
+      "artifact": {
+        "type": "metrics",
+        "label": "Upwork project record",
+        "items": [
+          {
+            "label": "Hours logged on the project",
+            "value": "470"
+          },
+          {
+            "label": "Client rating",
+            "value": "5.0 / 5.0"
+          }
+        ]
+      },
+      "transcript": "My client spent less time explaining difficult concepts in writing and translating them for families. She could start with a draft and use her time to check the wording and decide what mattered for this patient. I logged four hundred seventy hours on the project. She rated the work five out of five."
+    },
+    {
+      "eyebrow": "Working together",
+      "title": "Which part of your report takes the most writing?",
+      "lead": "Tell me who reads it and which results take the longest to explain. We can start with a single report.",
+      "artifact": {
+        "type": "quote",
+        "label": "Client review",
+        "text": "I can highly recommend Michael for your software development needs. Michael has been consistent in delivering quality work.",
+        "attribution": "Verified Upwork client review"
+      },
+      "transcript": "If you write reports like these, think about one explanation you find yourself writing over and over. Who needs to read it? What do they need to understand before the next visit? Tell me about that part of your work, and we can discuss where a draft would help."
+    }
+  ]
 };

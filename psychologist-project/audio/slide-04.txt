@@ -1,1 +1,1 @@
-The project does not stop at charts. It carries those outputs into structured, patient-facing reports that can be used directly in communication. That matters because many systems produce analysis, but fewer carry the work all the way through to a report someone can actually review and use.
+A family can take home a report and read it again after the visit. In a separate practice example, you can see a chart, a suggested exercise, and what to watch for next time. Choose a shorter explanation or a more detailed one. You can also read the same findings in Spanish.
