@@ -1,1 +1,1 @@
-My client asked me to keep her evaluation system private. I chose a published visual attention test to show how the reporting works. The learner pressed a button when a target appeared. When a different shape appeared, she was supposed to wait.
+My client asked me to keep her evaluation system private. I chose a published visual attention test to show how the comparison works. The learner pressed a button for a target and waited when a different shape appeared.

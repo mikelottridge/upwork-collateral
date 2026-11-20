@@ -1,1 +1,1 @@
-A parent wants to know what changed since the last visit. My client could answer that question, but writing it out for each family took time. I built a tool that drafts the explanation from the assessment results. She reviews it before the family takes it home.
+A parent asks what changed since the last visit. I built a custom app that drafts an explanation from the scores. The psychologist checks it against the original results and decides what to tell the family.

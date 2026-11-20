@@ -2,7 +2,7 @@ window.CASE_STUDY = {
   "presentationId": "psychologist",
   "eyebrow": "A psychologist’s reporting tool",
   "title": "Assessment reports families can use",
-  "lead": "I built an AI tool that helps a psychologist turn scores from repeat visits into a report families can take home. It drafts the chart explanation and translates it for her review.",
+  "lead": "I built a custom app that drafts family reports for a psychologist. I estimate her meeting prep fell from 1–2 hours of writing to about 5–10 minutes with a draft to review.",
   "heroVisual": {
     "src": "../screenshots/upwork-thumbnail-final.png",
     "alt": "A psychologist and patient look at a report together."
@@ -41,16 +41,16 @@ window.CASE_STUDY = {
           },
           {
             "title": "With the family",
-            "copy": "The psychologist checks the draft and explains what she recommends next."
+            "copy": "The psychologist checks the draft against the scores and decides what to recommend."
           }
         ]
       },
-      "transcript": "A parent wants to know what changed since the last visit. My client could answer that question, but writing it out for each family took time. I built a tool that drafts the explanation from the assessment results. She reviews it before the family takes it home.",
-      "audio": "../audio/slide-01.mp3?v=cedar-humanized-1"
+      "transcript": "A parent asks what changed since the last visit. I built a custom app that drafts an explanation from the scores. The psychologist checks it against the original results and decides what to tell the family.",
+      "audio": "../audio/slide-01.mp3?v=prep-1"
     },
     {
       "eyebrow": "The public example",
-      "title": "When to press and when to wait",
+      "title": "One visual test measured two kinds of mistakes",
       "lead": "My client keeps her evaluation system private. I chose a published T.O.V.A. case to illustrate how I compare visits.",
       "artifact": {
         "type": "report",
@@ -66,13 +66,13 @@ window.CASE_STUDY = {
           }
         ]
       },
-      "transcript": "My client asked me to keep her evaluation system private. I chose a published visual attention test to show how the reporting works. The learner pressed a button when a target appeared. When a different shape appeared, she was supposed to wait.",
-      "audio": "../audio/slide-02.mp3?v=cedar-humanized-1"
+      "transcript": "My client asked me to keep her evaluation system private. I chose a published visual attention test to show how the comparison works. The learner pressed a button for a target and waited when a different shape appeared.",
+      "audio": "../audio/slide-02.mp3?v=prep-1"
     },
     {
       "eyebrow": "Two visits",
       "title": "She caught every target in September",
-      "lead": "In July she missed 15. Extra presses also fell, from eight to six. Ask the family whether they’ve seen a similar change at home.",
+      "lead": "She missed 15 targets in July and none in September. Extra presses fell from eight to six. The September record lists medication before testing. The psychologist checks those conditions before interpreting the change.",
       "artifact": {
         "type": "media",
         "src": "./visual-task-counts.png",
@@ -80,41 +80,51 @@ window.CASE_STUDY = {
         "alt": "Missed targets fell from 15 to 0. Extra presses fell from 8 to 6. Both charts count mistakes.",
         "caption": "Source: T.O.V.A. publisher example. One retest tells us how she performed that day. It can’t establish why she improved."
       },
-      "transcript": "In July, the learner missed fifteen targets. In September, she responded to every one. Waiting was still hard. She pressed when she should have waited eight times in July and six times in September. That's a change you can explain to a parent. One follow-up test can't tell you what caused it.",
-      "audio": "../audio/slide-03.mp3?v=cedar-humanized-1"
+      "transcript": "In July, she missed fifteen targets. In September, she missed none. Extra presses fell from eight to six. The September record mentions medication before the test. I'd flag that for the psychologist before she discusses what might explain the change.",
+      "audio": "../audio/slide-03.mp3?v=prep-1"
     },
     {
       "eyebrow": "The take-home report",
-      "title": "A plan the family can use at home",
-      "lead": "This separate, fictional example shows the three-page report a family receives. The clinician can adjust the reading level and choose English or Spanish.",
+      "title": "Here’s how I’d explain the September results to her parents",
+      "lead": "The app can draft the same findings at different reading levels and in any language its OpenAI model supports. This example includes a Spanish draft for bilingual review.",
       "artifact": {
         "type": "report",
-        "label": "Inside the practice report",
+        "label": "From page one of the published-case example",
         "blocks": [
           {
-            "title": "Page 1 · What changed",
-            "copy": "The learner waited for a sound cue 10 times out of 20, up from 5."
+            "title": "What changed",
+            "copy": "Every target received a response in September."
           },
           {
-            "title": "Page 2 · Results by date",
-            "copy": "Compare listening and picture cues across four visits."
+            "title": "What still needs attention",
+            "copy": "Six extra presses still occurred."
           },
           {
-            "title": "Page 3 · What to practice",
-            "copy": "Agree on a turn-taking signal. At the next visit, discuss whether it helped."
+            "title": "At the next conversation",
+            "copy": "What, if anything, has the family noticed at home or at school?"
           }
         ]
       },
-      "transcript": "A family can take home a report and read it again after the visit. In a separate practice example, you can see a chart, a suggested exercise, and what to watch for next time. Choose a shorter explanation or a more detailed one. You can also read the same findings in Spanish.",
-      "audio": "../audio/slide-04.mp3?v=cedar-humanized-1"
+      "transcript": "Here's how I'd put it for her parents. This time, she caught every target. She still pressed six times when she needed to wait. Have you noticed anything similar at home or at school? The app can draft that explanation at different reading levels and in the languages the OpenAI model supports. Spanish is one example.",
+      "audio": "../audio/slide-04.mp3?v=prep-1",
+      "links": [
+        {
+          "label": "Read the family explanation (PDF)",
+          "href": "./attention-source-review.pdf"
+        },
+        {
+          "label": "See a fictional three-page practice report (PDF)",
+          "href": "./sample-client-report.pdf"
+        }
+      ]
     },
     {
       "eyebrow": "The client project",
-      "title": "Less time writing the same explanation",
-      "lead": "Drafting and translating reports saved the psychologist considerable time. She still decided what the results meant and what to share with each family.",
+      "title": "Meeting prep fell from hours to minutes",
+      "lead": "I estimate this psychologist spent 1–2 hours writing before a family meeting. With the custom app, she spent about 5–10 minutes preparing. She checked the draft and chose what to discuss.",
       "artifact": {
         "type": "metrics",
-        "label": "Upwork project record",
+        "label": "Upwork engagement record",
         "items": [
           {
             "label": "Hours logged on the project",
@@ -126,21 +136,25 @@ window.CASE_STUDY = {
           }
         ]
       },
-      "transcript": "My client spent less time explaining difficult concepts in writing and translating them for families. She could start with a draft and use her time to check the wording and decide what mattered for this patient. I logged four hundred seventy hours on the project. She rated the work five out of five.",
-      "audio": "../audio/slide-05.mp3?v=cedar-humanized-1"
+      "transcript": "My estimate for this practice is that writing before a family meeting used to take one to two hours. With the custom app, prep took about five to ten minutes. The psychologist started with a draft and spent that time checking what the family would take home.",
+      "audio": "../audio/slide-05.mp3?v=prep-1"
     },
     {
       "eyebrow": "Working together",
       "title": "Which part of your report takes the most writing?",
-      "lead": "Tell me who reads it and which results take the longest to explain. We can start with a single report.",
+      "lead": "Think of one section you explain differently depending on who will read it.",
       "artifact": {
         "type": "quote",
         "label": "Client review",
         "text": "I can highly recommend Michael for your software development needs. Michael has been consistent in delivering quality work.",
         "attribution": "Verified Upwork client review"
       },
-      "transcript": "If you write reports like these, think about one explanation you find yourself writing over and over. Who needs to read it? What do they need to understand before the next visit? Tell me about that part of your work, and we can discuss where a draft would help.",
-      "audio": "../audio/slide-06.mp3?v=cedar-humanized-1"
+      "transcript": "Which part of your report takes the most writing? Describe that section and who reads it. A fictional example is enough for us to discuss what a first draft could look like.",
+      "audio": "../audio/slide-06.mp3?v=prep-1"
     }
-  ]
+  ],
+  "contact": {
+    "heading": "Start with one section",
+    "description": "Describe the section that takes the most writing and who reads it. A fictional example is enough."
+  }
 };

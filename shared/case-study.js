@@ -805,6 +805,19 @@
     head.append(el("p", "slide-lead", slide.lead));
     copyCol.append(head);
 
+    if (slide.links) {
+      const links = el("div", "opening-choices");
+      for (const item of slide.links) {
+        const link = el("a", "btn", item.label);
+        link.href = item.href;
+        link.target = "_blank";
+        link.rel = "noopener";
+        link.addEventListener("click", () => { if (state.autoplay) toggleAutoplay(); });
+        links.append(link);
+      }
+      copyCol.append(links);
+    }
+
     if (slide.transcript) {
       const transcript = el("details", "slide-transcript");
       transcript.append(el("summary", "", "Read the narration"));
@@ -830,6 +843,7 @@
 
     if (state.index === deck.slides.length - 1 && presentationContext) {
       presentationContext.renderCta(copyCol, {
+        ...deck.contact,
         search: window.location.search,
         onClick: () => analyticsClient.track("cta_click"),
       });

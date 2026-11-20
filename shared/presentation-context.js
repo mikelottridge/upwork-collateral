@@ -139,9 +139,9 @@
     eyebrow.className = "eyebrow";
     eyebrow.textContent = "Next step";
     const heading = document.createElement("h2");
-    heading.textContent = "Have a similar workflow?";
+    heading.textContent = settings.heading || "Have a similar workflow?";
     const description = document.createElement("p");
-    description.textContent = contact.description;
+    description.textContent = settings.description || contact.description;
     const link = document.createElement("a");
     link.className = "btn btn-accent presentation-cta-link";
     link.href = contact.href;
