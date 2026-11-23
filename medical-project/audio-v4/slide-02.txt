@@ -1,1 +1,1 @@
-Start with the kidney result. The extraction points to page one, row six. You can compare the value and its unit with the lab panel, then check the urine result on the next row.
+Here are all six results in this fictional panel. Three are low: hemoglobin, average red cell size, and ferritin. The other three stay in view so the physician can check the whole panel.

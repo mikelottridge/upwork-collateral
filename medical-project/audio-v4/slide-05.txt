@@ -1,1 +1,1 @@
-Here's the distinction I want the report to preserve. We have results from this panel. We don't have earlier results to compare. The sample PDF shows that wording. The demo records who approved the case before enabling export.
+Now keep the panel and the patient history fixed. The physician has confirmed that oral iron is appropriate. Change one branch from daily to alternate days, and the draft recommendation changes with it. You can compare both versions on this slide.

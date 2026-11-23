@@ -718,6 +718,27 @@
     return frame;
   }
 
+  const branchSelections = new WeakMap();
+
+  function renderBranchPreview(artifact) {
+    const panel = el("div", "report-sheet");
+    panel.append(el("strong", "", artifact.label), el("p", "", artifact.condition));
+    const label = el("label", "branch-choice", artifact.field);
+    const select = el("select");
+    artifact.choices.forEach(choice => select.add(new Option(choice.label)));
+    select.selectedIndex = branchSelections.get(artifact) || 0;
+    label.append(select);
+    const draft = el("p", "report-card", artifact.choices[select.selectedIndex].draft);
+    draft.setAttribute("aria-live", "polite");
+    select.addEventListener("change", () => {
+      branchSelections.set(artifact, select.selectedIndex);
+      draft.textContent = artifact.choices[select.selectedIndex].draft;
+      if (state.autoplay) toggleAutoplay();
+    });
+    panel.append(label, el("strong", "", "Draft recommendation"), draft, el("p", "", artifact.note));
+    return panel;
+  }
+
   function renderArtifact(artifact) {
     const frame = el("div", "artifact-frame");
     if (!artifact) {
@@ -729,6 +750,7 @@
     let content;
     if (artifact.type === "workflow") content = renderWorkflow(artifact);
     else if (artifact.type === "pipeline") content = renderPipeline(artifact);
+    else if (artifact.type === "branch-preview") content = renderBranchPreview(artifact);
     else if (artifact.type === "report") content = renderReport(artifact);
     else if (artifact.type === "table") content = renderTable(artifact);
     else if (artifact.type === "cluster-map") content = renderClusterMap(artifact);

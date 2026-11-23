@@ -1,8 +1,8 @@
 window.CASE_STUDY = {
   "presentationId": "medical-guideline-demo-v2",
   "eyebrow": "Client project · physician-controlled lab review",
-  "title": "From a flagged lab value to a report you can sign",
-  "lead": "I built a custom application that keeps lab results beside their source, flags missing context, and records the physician’s approval before export. Follow one synthetic case or open the sample report.",
+  "title": "From abnormal labs to a physician-guided treatment plan",
+  "lead": "I built a custom lab-review application for a physician. See how a cluster of abnormal results leads to a differential, how published evidence informs the review, and how editing one treatment rule changes the recommendation.",
   "heroVisual": {
     "src": "../screenshots/hero-image.png",
     "alt": "Physician reviewing lab results at a monitor."
@@ -12,8 +12,8 @@ window.CASE_STUDY = {
     "attribution": "Verified Upwork review for the private lab-analysis project"
   },
   "contact": {
-    "heading": "Start with one review task",
-    "description": "Describe the result you need to check and what you want beside it. A fictional example is enough."
+    "heading": "Start with one treatment decision",
+    "description": "Describe one branch you would want to edit in your practice. A fictional example is enough."
   },
   "startMode": "idle",
   "audioRate": 1,
@@ -21,103 +21,191 @@ window.CASE_STUDY = {
   "slides": [
     {
       "eyebrow": "The physician’s question",
-      "title": "Can I trace a flagged result before I sign?",
-      "lead": "I built a lab-review application for a physician. This independent demo follows one synthetic record through the same review steps.",
+      "title": "Which abnormal results belong together?",
+      "lead": "I built an application that flags abnormal labs, compares possible diagnoses with published evidence, and drafts treatment using rules the physician can edit.",
       "artifact": {
         "type": "report",
-        "label": "Preventive laboratory panel · DEMO-LAB-0042",
+        "label": "Two decisions in one review",
         "blocks": [
           {
-            "title": "Available",
-            "copy": "One panel with four extracted values."
+            "title": "What fits the panel?",
+            "copy": "AI groups related findings and proposes explanations for the physician to check."
           },
           {
-            "title": "Missing",
-            "copy": "Earlier kidney results for comparison."
+            "title": "What should the report recommend?",
+            "copy": "The physician’s decision tree sets the treatment branch. The physician reviews the draft."
           }
         ]
       },
-      "transcript": "Before I sign a lab report, can I trace a flagged result back to the source? That question shaped the workflow I built for a physician. I'll show you how it works with one synthetic record.",
-      "audio": "../audio-v4/slide-01.mp3?v=physician-review-1"
+      "transcript": "A physician gets a panel back with several flags. Which ones belong together? I built an application to help answer that question. It checks possible explanations against published research, then uses the physician's own decision tree to draft a treatment recommendation.",
+      "audio": "../audio-v4/slide-01.mp3?v=iron-1"
     },
     {
-      "eyebrow": "Source check",
-      "title": "Both kidney values trace back to the same lab panel.",
-      "lead": "On page 1, row 6, the eGFR is 72 mL/min/1.73 m². Row 7 gives a urine albumin-to-creatinine ratio (ACR) of 18 mg/g. Compare both entries with the source before reviewing the flag.",
+      "eyebrow": "The full panel",
+      "title": "Three of six results fall below the lab’s range.",
+      "lead": "Synthetic case IRON-01: a nonpregnant adult woman. Every result is shown against this fictional lab’s reference interval. Low hemoglobin, small red cells and low ferritin form the cluster.",
       "artifact": {
-        "type": "media",
-        "label": "Source panel · DEMO-LAB-0042",
-        "src": "../screenshots/demo-01-source-extraction.png",
-        "alt": "Source table showing eGFR 72 mL/min/1.73 m² and urine ACR 18 mg/g."
+        "type": "table",
+        "label": "IRON-01 · illustrative reference intervals",
+        "toolbar": "Lab panel",
+        "toolbarChip": "Synthetic",
+        "columns": [
+          "Test",
+          "Result",
+          "Lab range"
+        ],
+        "rows": [
+          [
+            "Hemoglobin",
+            "10.6 g/dL · Low",
+            "12–16"
+          ],
+          [
+            "MCV",
+            "74 fL · Low",
+            "80–100"
+          ],
+          [
+            "Ferritin",
+            "8 ng/mL · Low",
+            "15–150"
+          ],
+          [
+            "WBC",
+            "6.2 × 10⁹/L",
+            "4–11"
+          ],
+          [
+            "Platelets",
+            "280 × 10⁹/L",
+            "150–400"
+          ],
+          [
+            "CRP",
+            "2 mg/L",
+            "0–5"
+          ]
+        ]
       },
-      "transcript": "Start with the kidney result. The extraction points to page one, row six. You can compare the value and its unit with the lab panel, then check the urine result on the next row.",
-      "audio": "../audio-v4/slide-02.mp3?v=physician-review-1"
+      "transcript": "Here are all six results in this fictional panel. Three are low: hemoglobin, average red cell size, and ferritin. The other three stay in view so the physician can check the whole panel.",
+      "audio": "../audio-v4/slide-02.mp3?v=iron-1"
     },
     {
-      "eyebrow": "Clinical review",
-      "title": "The panel gives today’s values. What came before?",
-      "lead": "The demo classifies the kidney results as G2/A1. With no prior result or other marker of kidney damage supplied, the physician reviews the missing context before deciding what to document.",
+      "eyebrow": "Differential diagnosis",
+      "title": "Low iron stores help explain the anemia.",
+      "lead": "Small red cells alone have several explanations. Ferritin of 8 ng/mL shifts the differential toward iron deficiency.",
       "artifact": {
-        "type": "media",
-        "label": "The review flag for this record",
-        "src": "../screenshots/demo-02-guideline-review.png",
-        "alt": "Chronicity check warns against inferring CKD from the single result."
+        "type": "report",
+        "label": "AI draft for physician review",
+        "blocks": [
+          {
+            "title": "Iron deficiency · leading explanation",
+            "copy": "Low ferritin supports depleted iron stores. Low hemoglobin and MCV fit that pattern."
+          },
+          {
+            "title": "Inflammation · possible contributor",
+            "copy": "Inflammation alone is a weaker explanation for depleted stores. A mixed anemia remains possible."
+          },
+          {
+            "title": "Cause still open",
+            "copy": "Ask about blood loss, dietary intake and impaired absorption. The panel cannot distinguish among them."
+          }
+        ]
       },
-      "transcript": "Both values are here. What's missing is a prior kidney result. The software flags that gap for the physician, who decides what the record supports before the report goes out.",
-      "audio": "../audio-v4/slide-03.mp3?v=physician-review-1"
+      "transcript": "Taken together, the small red cells and low iron stores point toward iron deficiency. Inflammation can also contribute to anemia. The panel tells us little about why iron is low, so the physician still asks about bleeding, intake, and absorption.",
+      "audio": "../audio-v4/slide-03.mp3?v=iron-1"
     },
     {
-      "eyebrow": "Rule history",
-      "title": "The physician can change what gets flagged.",
-      "lead": "Version 1.3 added a check for prior kidney results. The rule history lets the reviewer see what changed and return to an earlier version.",
+      "eyebrow": "Evidence check",
+      "title": "Does published evidence support the leading explanation?",
+      "lead": "The American Gastroenterological Association uses a ferritin cutoff of 45 ng/mL to identify iron deficiency in patients with anemia. This patient’s ferritin is 8 ng/mL.",
       "artifact": {
-        "type": "media",
-        "label": "Demo rulebook · version history",
-        "src": "../screenshots/demo-03-physician-rulebook.png",
-        "alt": "Version 1.3 added the chronicity safeguard. Previous versions remain available."
+        "type": "report",
+        "label": "What the source supports",
+        "blocks": [
+          {
+            "title": "Supported",
+            "copy": "Iron deficiency is a plausible explanation for this pattern."
+          },
+          {
+            "title": "Unresolved",
+            "copy": "The ferritin result cannot identify the source of iron loss. The physician reviews the history and decides what evaluation is needed."
+          }
+        ]
       },
-      "transcript": "The physician can change the review rule without waiting for a software release. In this demo, version one point three added a check for prior results. The review screen shows that check for this record.",
-      "audio": "../audio-v4/slide-04.mp3?v=physician-review-1"
-    },
-    {
-      "eyebrow": "Report approval",
-      "title": "The report can be exported after physician approval.",
-      "lead": "Illustrative report wording: “This panel shows an eGFR of 72 mL/min/1.73 m² and a urine ACR of 18 mg/g. No earlier kidney results were supplied for comparison. This record alone does not establish chronic kidney disease.”",
-      "artifact": {
-        "type": "media",
-        "label": "Actual demo approval record · synthetic case",
-        "src": "../screenshots/demo-04-approval-audit.png",
-        "alt": "The audit records Dr. Demo Reviewer’s approval and then enables PDF and structured-data export."
-      },
-      "transcript": "Here's the distinction I want the report to preserve. We have results from this panel. We don't have earlier results to compare. The sample PDF shows that wording. The demo records who approved the case before enabling export.",
-      "audio": "../audio-v4/slide-05.mp3?v=physician-review-1",
       "links": [
         {
-          "label": "Read the illustrative report (PDF)",
-          "href": "./sample-lab-review.pdf"
+          "label": "Read the AGA diagnostic guideline",
+          "href": "https://gastro.org/clinical-guidance/gastrointestinal-evaluation-of-iron-deficiency-anemia/"
         }
-      ]
+      ],
+      "transcript": "What supports that interpretation? The gastroenterology guideline uses a ferritin threshold of forty-five in patients with anemia. This example has a ferritin of eight. That supports iron deficiency. It still doesn't identify the cause.",
+      "audio": "../audio-v4/slide-04.mp3?v=iron-1"
     },
     {
-      "eyebrow": "Your practice",
-      "title": "Which result do you look up again before signing?",
-      "lead": "Think of one section that sends you back to the original lab report.",
+      "eyebrow": "Physician-editable tree",
+      "title": "Change one treatment branch and the draft changes.",
+      "lead": "Assume the physician confirms iron deficiency and selects oral iron. Keep the patient, lab values and route fixed. Edit the schedule in the treatment tree.",
       "artifact": {
-        "type": "report",
-        "label": "What the reviewer has in one place",
-        "blocks": [
+        "type": "branch-preview",
+        "label": "Illustrative decision tree · IRON-01",
+        "condition": "IF iron deficiency is confirmed AND oral iron is appropriate",
+        "field": "THEN propose oral iron",
+        "choices": [
           {
-            "title": "Evidence",
-            "copy": "The source value and the rule that raised the flag."
+            "label": "Once daily",
+            "draft": "Consider oral iron once daily. Evaluate the cause of iron deficiency."
           },
           {
-            "title": "Sign-off",
-            "copy": "The physician’s decision and the rule version used for the report."
+            "label": "Every other day",
+            "draft": "Consider oral iron every other day. Evaluate the cause of iron deficiency."
+          }
+        ],
+        "note": "AGA guidance allows alternate-day dosing for tolerability. A randomized trial in iron-depleted women found fewer gastrointestinal side effects with alternate-day use at equal total iron doses. Individual tolerance still needs review."
+      },
+      "links": [
+        {
+          "label": "Treatment guidance",
+          "href": "https://gastro.org/clinical-guidance/management-of-iron-deficiency-anemia/"
+        },
+        {
+          "label": "Read the randomized trial",
+          "href": "https://pubmed.ncbi.nlm.nih.gov/38021373/"
+        }
+      ],
+      "transcript": "Now keep the panel and the patient history fixed. The physician has confirmed that oral iron is appropriate. Change one branch from daily to alternate days, and the draft recommendation changes with it. You can compare both versions on this slide.",
+      "audio": "../audio-v4/slide-05.mp3?v=iron-1"
+    },
+    {
+      "eyebrow": "Physician review",
+      "title": "Which treatment branch would you want to control?",
+      "lead": "Read the report for the alternate-day version. It keeps the lab findings, differential, sources and proposed treatment together for physician review.",
+      "artifact": {
+        "type": "report",
+        "label": "Illustrative report · edited branch",
+        "blocks": [
+          {
+            "title": "Finding",
+            "copy": "Three low results support iron deficiency. The cause remains open."
+          },
+          {
+            "title": "Draft recommendation",
+            "copy": "Consider oral iron every other day. Evaluate the cause of iron deficiency."
+          },
+          {
+            "title": "Review status",
+            "copy": "Awaiting physician review. The sample contains no patient record or physician signature."
           }
         ]
       },
-      "transcript": "Which result do you have to look up again before you sign a report? Describe one example, using fictional details. We can use it to discuss what your reviewer needs on screen.",
-      "audio": "../audio-v4/slide-06.mp3?v=physician-review-1"
+      "links": [
+        {
+          "label": "Read the alternate-day sample report (PDF)",
+          "href": "./sample-lab-review.pdf"
+        }
+      ],
+      "transcript": "The sample report brings the findings, the evidence, and the selected recommendation together for physician review. Which branch of your own treatment protocol would you want to edit yourself? A fictional example is enough to start.",
+      "audio": "../audio-v4/slide-06.mp3?v=iron-1"
     }
   ]
 };

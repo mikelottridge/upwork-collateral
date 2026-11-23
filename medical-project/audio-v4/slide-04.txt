@@ -1,1 +1,1 @@
-The physician can change the review rule without waiting for a software release. In this demo, version one point three added a check for prior results. The review screen shows that check for this record.
+What supports that interpretation? The gastroenterology guideline uses a ferritin threshold of forty-five in patients with anemia. This example has a ferritin of eight. That supports iron deficiency. It still doesn't identify the cause.

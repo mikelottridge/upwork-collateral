@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>From a flagged lab value to a report you can sign · Mike Lottridge</title>
+    <title>From abnormal labs to a physician-guided treatment plan · Mike Lottridge</title>
     <meta name="description" content="Working-software case study: a Python and Flask physician-review workflow demonstrated with synthetic lab data, public clinical guidance, and DigitalOcean server setup.">
-    <meta property="og:title" content="From a flagged lab value to a report you can sign · Mike Lottridge">
+    <meta property="og:title" content="From abnormal labs to a physician-guided treatment plan · Mike Lottridge">
     <meta property="og:description" content="Working proof of a source-linked, physician-controlled lab-review workflow built with Python and Flask.">
     <meta property="og:type" content="website">
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'%3E%3Crect width='96' height='96' rx='22' fill='%2393412f'/%3E%3Cpath d='M26 24h28c10 0 18 7 18 18 0 10-8 18-18 18H40v12H26V24zm14 24h13c4 0 7-3 7-6s-3-6-7-6H40v12z' fill='%23fff7f0'/%3E%3C/svg%3E">
@@ -17,16 +17,9 @@
       .slide-copy,.slide-artifact {min-width:0}
       .slide-transcript {margin:1rem 0;line-height:1.5}
       summary {cursor:pointer}
-      .media-shell {position:relative;overflow:hidden;margin:0;padding:0}
-      .media-shell .media-proof {position:absolute;max-width:none;height:auto;max-height:none;object-fit:fill}
-      .media-shell:has([src$="extraction.png"]) {aspect-ratio:460/260}
-      .media-shell [src$="extraction.png"] {width:313.04%;left:-64.13%;top:-192.31%}
-      .media-shell:has([src$="guideline-review.png"]) {aspect-ratio:740/170}
-      .media-shell [src$="guideline-review.png"] {width:194.6%;left:-39.2%;top:-402%}
-      .media-shell:has([src$="physician-rulebook.png"]) {aspect-ratio:292/380}
-      .media-shell [src$="physician-rulebook.png"] {width:493.15%;left:-385%;top:-71%}
-      .media-shell:has([src$="approval-audit.png"]) {aspect-ratio:507/365}
-      .media-shell [src$="approval-audit.png"] {width:284.02%;left:-180.2%;top:-69.5%}
+      .branch-choice {display:grid;gap:.5rem;margin:.8rem 0;font-weight:600}
+      .branch-choice select {font:inherit;padding:.5rem;max-width:100%}
+      .table-grid {grid-template-columns:1fr 1.2fr .9fr}
       @media(max-width:600px){.presentation-shell,.slide {grid-template-columns:minmax(0,1fr)}.slide-canvas {min-width:0}.control-buttons{flex-wrap:wrap}}
     </style>
   </head>
@@ -45,7 +38,7 @@
           <div class="hero-tags" data-project-tags></div>
         </article>
         <aside class="meta-panel">
-          <section class="meta-block"><h2>Inside the demo</h2><p>One lab panel, one missing piece of history, and the record of who approved the case.</p><details><summary>Implementation details</summary><p>The private application used Python and Flask with OpenAI, Claude, and Perplexity APIs. I also set up the DigitalOcean server.</p></details><div hidden data-project-signals></div><div hidden data-metric-grid></div></section>
+          <section class="meta-block"><h2>Inside the demo</h2><p>Follow all six results from one synthetic panel. Compare the differential with published evidence, then edit one branch of the physician’s treatment tree.</p><details><summary>Implementation details</summary><p>The private application used Python and Flask with OpenAI, Claude, and Perplexity APIs. I also set up the DigitalOcean server.</p></details><div hidden data-project-signals></div><div hidden data-metric-grid></div></section>
           <section class="meta-block"><h2>Client voice</h2><div data-project-quote></div></section>
         </aside>
       </section>
@@ -61,7 +54,7 @@
             </div>
             <div class="progress-meta"><div class="progress-rail"><div class="progress-fill" data-progress-fill></div></div><div class="progress-copy" data-progress-copy></div></div>
           </div>
-          <p class="ai-voice-note">Cedar narration · AI-generated voice · 68 seconds</p>
+          <p class="ai-voice-note">Cedar narration · AI-generated voice · 78 seconds</p>
           <div data-slide-canvas></div>
         </section>
       </section>
@@ -73,7 +66,7 @@
     </main>
     <script src="../../shared/presentation-context.js?v=3"></script>
     <script src="../../shared/presentation-analytics.js?v=1"></script>
-    <script src="./case-study-data-v4.js?v=physician-review-1"></script>
-    <script src="../../shared/case-study.js?v=13"></script>
+    <script src="./case-study-data-v4.js?v=iron-1"></script>
+    <script src="../../shared/case-study.js?v=14"></script>
   </body>
 </html>
