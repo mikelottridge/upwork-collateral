@@ -1,1 +1,1 @@
-Physician approval is the final gate. The audit trail records the reviewer, time, rulebook version, and state changes before report and data exports are enabled.
+Here's the distinction I want the report to preserve. We have results from this panel. We don't have earlier results to compare. The sample PDF shows that wording. The demo records who approved the case before enabling export.

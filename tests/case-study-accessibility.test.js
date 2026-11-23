@@ -14,5 +14,13 @@ test("final CTA keeps explicit readable text color inside dark slides", () => {
 });
 
 test("spacebar preserves native activation for focused links and buttons", () => {
-  assert.match(renderer, /INPUT\|TEXTAREA\|SELECT\|BUTTON\|A/);
+  const { runInNewContext } = require("node:vm");
+  const listener = renderer.match(/document\.addEventListener\("keydown", \(event\) => \{[\s\S]*?\n  \}\);/)[0];
+  for (const tagName of ["INPUT", "TEXTAREA", "SELECT", "BUTTON", "A", "SUMMARY"]) {
+    const document = {
+      activeElement: { tagName, closest: () => true },
+      addEventListener: (_, handler) => handler({ key: " ", preventDefault: () => assert.fail(tagName) }),
+    };
+    runInNewContext(listener, { document });
+  }
 });

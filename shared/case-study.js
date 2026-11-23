@@ -896,7 +896,7 @@
   els.autoplayButton.addEventListener("click", toggleAutoplay);
   document.addEventListener("keydown", (event) => {
     const tag = document.activeElement && document.activeElement.tagName;
-    if (document.activeElement?.isContentEditable || ["INPUT", "TEXTAREA", "SELECT"].includes(tag)) return;
+    if (document.activeElement?.isContentEditable || ["INPUT", "TEXTAREA", "SELECT", "SUMMARY"].includes(tag)) return;
     if (["BUTTON", "A"].includes(tag) && (event.key === " " || !document.activeElement.closest(".presentation-shell"))) return;
     if (event.key === "ArrowRight") {
       event.preventDefault();
@@ -918,7 +918,10 @@
       reportDialog.showModal();
     });
     reportDialog.addEventListener("keydown", event => event.stopPropagation());
-    storyButton.addEventListener("click", () => {
+  }
+  if (storyButton) {
+    storyButton.addEventListener("click", (event) => {
+      event.preventDefault();
       state.autoplay = false;
       goTo(0);
       if (!storyButton.hasAttribute("data-manual-start")) startGuidedMode();

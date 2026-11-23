@@ -1,1 +1,1 @@
-The source stays beside every extracted value, unit, location, and confidence score. The reviewer can inspect the evidence before any rule runs.
+Start with the kidney result. The extraction points to page one, row six. You can compare the value and its unit with the lab panel, then check the urine result on the next row.
